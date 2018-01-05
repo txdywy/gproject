@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.recyclerview.PlayRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/recycler_view" android:layout_width="UNKNOWN_DATA_0x7f0e06cf" android:layout_height="match_parent" />

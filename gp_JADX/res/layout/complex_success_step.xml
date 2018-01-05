@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:paddingLeft="8dp" finsky:paddingTop="8dp" finsky:paddingRight="12dp" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/thumbnail_image" finsky:visibility="gone" finsky:layout_width="UNKNOWN_DATA_0x6401" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="4dp" />
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/title_wrapper" finsky:paddingLeft="8dp" finsky:paddingRight="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_toLeftOf="@id/check_mark" finsky:layout_toRightOf="@id/thumbnail_image" finsky:layout_alignWithParentIfMissing="true">
+        <com.google.android.play.layout.PlayTextView finsky:textSize="@dimen/play_purchase_primary_size" finsky:ellipsize="end" finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:maxLines="2" finsky:allowsCompactLineSpacing="true" style="@style/LightPurchase_TitleText" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/title_byline" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_PriceByline" />
+    </LinearLayout>
+    <ImageView finsky:id="@id/check_mark" finsky:paddingTop="4dp" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:src="@drawable/ic_check_badge_big" finsky:layout_alignParentRight="true" />
+    <TextView finsky:textColor="@color/play_apps_primary" finsky:id="@id/message" finsky:paddingLeft="8dp" finsky:paddingRight="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" finsky:layout_toRightOf="@id/thumbnail_image" finsky:layout_below="@id/title_wrapper" finsky:layout_alignWithParentIfMissing="true" style="@style/LightPurchase_Details" />
+</RelativeLayout>

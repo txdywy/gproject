@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/item_details_panel" finsky:background="@color/play_white" finsky:paddingLeft="16dp" finsky:paddingTop="16dp" finsky:paddingRight="16dp" finsky:paddingBottom="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:paddingStart="16dp" finsky:paddingEnd="16dp">
+    <RelativeLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <include finsky:layout_width="UNKNOWN_DATA_0x2801" finsky:layout_height="UNKNOWN_DATA_0x2801" layout="@layout/details_summary_thumbnail" />
+        <FrameLayout finsky:id="@id/buttons" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_alignParentRight="true" finsky:layout_alignParentEnd="true">
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/buy_button" finsky:visibility="gone" finsky:action_style="0" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/launch_button" finsky:visibility="gone" finsky:text="@string/open" finsky:action_style="2" finsky:local_priority="2" style="@style/Play_DetailsPage_ActionButton" />
+        </FrameLayout>
+        <com.google.android.finsky.layout.DetailsSummaryWishlistView finsky:id="@id/title_wishlist_button" finsky:background="@drawable/play_highlight_overlay_light" finsky:focusable="true" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="8dp" finsky:layout_toLeftOf="@id/buttons" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="8dp" finsky:layout_toStartOf="@id/buttons" />
+        <LinearLayout finsky:orientation="vertical" finsky:paddingLeft="16dp" finsky:paddingRight="0dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_toLeftOf="@id/title_wishlist_button" finsky:layout_toRightOf="@id/title_thumbnail_frame" finsky:paddingStart="16dp" finsky:paddingEnd="0dp" finsky:layout_toStartOf="@id/title_wishlist_button" finsky:layout_toEndOf="@id/title_thumbnail_frame">
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/title_title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@c6382j/PlayDetailTitle" />
+            <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_creator_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingBottom="2dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+                <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_creator" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:drawablePadding="4dp" style="@style/Play_DetailsPage_Subtitle" />
+            </LinearLayout>
+            <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_content_rating_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingBottom="2dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+                <com.google.android.play.image.FifeImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/title_content_rating_icon" finsky:layout_width="UNKNOWN_DATA_0x1001" finsky:layout_height="UNKNOWN_DATA_0x1001" />
+                <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_content_rating" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="6dp" finsky:layout_marginRight="0dp" finsky:layout_marginStart="6dp" finsky:layout_marginEnd="0dp" style="@style/Play_DetailsPage_Subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="horizontal" finsky:paddingTop="4dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+        <include layout="@layout/inline_app_star_rating" />
+        <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:id="@id/title_extra_label_install_notes" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="16dp" finsky:layout_marginRight="0dp" finsky:layout_marginStart="16dp" finsky:layout_marginEnd="0dp" style="@style/Play_DetailsPage_Subtitle" />
+        <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:id="@id/title_extra_label_in_app_purchase" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="16dp" finsky:layout_marginRight="0dp" finsky:layout_marginStart="16dp" finsky:layout_marginEnd="0dp" style="@style/Play_DetailsPage_Subtitle" />
+    </LinearLayout>
+</LinearLayout>

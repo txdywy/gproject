@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ຮ້ານຄ້າ Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">ຕ້ອງມີການອະນຸມັດ</string>
+    <string name="d">ການຄວບຄຸມຂອງພໍ່ແມ່</string>
+    <string name="e">ຄຳຕິຊົມ</string>
+    <string name="f">ແອັບພ້ອມໃຊ້</string>
+    <string name="g">ການຕັ້ງຄ່າສະມາຊິກ</string>
+    <string name="h">ການຕັ້ງຄ່າແອັບພ້ອມໃຊ້</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">ແອັບຯຂອງຂ້ອຍ</string>
+    <string name="n">ທາງເລືອກໃນການສັ່ງຊື້</string>
+    <string name="o">ວິທີການຈ່າຍເງິນ</string>
+    <string name="p">ອະນຸຍາດໃຫ້ຜູ້ໃຊ້ເບິ່ງແອັບທີ່ມີໃຫ້ນຳໃຊ້ຈາກພາຍໃນແອັບນີ້.</string>
+    <string name="q">ເຂົ້າໃຊ້ການບໍລິການຄົ້ນຫາແອັບ Google Play</string>
+    <string name="r">ອະນຸຍາດໃຫ້ຜູ່ໃຊ້ສັ່ງຊື້ເຄື່ອງຜ່ານ Google Play ຈາກແອັບຯນີ້ໄດ້.</string>
+    <string name="s">ບໍລິການຮຽກເກັບເງິນຂອງ Google Play</string>
+    <string name="t">ສາມາດກວດເບິ່ງວ່າທ່ານໄດ້ຮັບອະນຸຍາດຈາກ Google Play ໃນການໃຊ້ແອັບຯນີ້ບໍ.</string>
+    <string name="u">ກວດເບິ່ງການໃຫ້ອະນຸຍາດຂອງ Google Play</string>
+    <string name="v">ການກຳນົດສິດຂອງ ແອັບຯ</string>
+    <string name="x">ຕ້ອງການໃຫ້ມີການຮັບຮອງ</string>
+    <string name="y">ແລກໃຊ້ລະຫັດຂອງທ່ານ</string>
+    <string name="aa">ໃຫ້ຄະແນນມັນ!</string>
+    <string name="ba">ສົ່ງ​ຂອງ​ຂວັນ</string>
+    <string name="ca">ການຕັ້ງຄ່າ</string>
+    <string name="da">ການແຈ້ງເຕືອນ</string>
+    <string name="ea">ສຳເລັດການຕັ້ງຄ່າບັນຊີ</string>
+    <string name="fa">ແອັບຈະຖືກຕິດຕັ້ງ ຫຼັງຈາກທີ່ການຕັ້ງຄ່າສຳເລັດແລ້ວ</string>
+    <string name="ga">ປະເມີນແອັບເພີ່ມເຕີມ</string>
+    <string name="ha">ຈ່າຍເງິນໄດ້ຢ່າງວ່ອງໄວດ້ວຍຜະລິດຕະພັນຂອງ Google</string>
+    <string name="ia">ເພີ່ມວິທີການຈ່າຍເງິນ</string>
+    <string name="ja">​ຕັ້ງ​ຄ່າ​ຂໍ້​ມູນ​ການ​ຊໍາ​ລະ​</string>
+    <string name="ka">ກູ້ຄືນແອັບຈາກອຸປະກອນ</string>
+    <string name="la">ອຸ​ປະ​ກອນ​ໃດ?</string>
+    <string name="ma">ເລືອກວິ​ທີ​ການ​ຊຳ​ລະ​ຂອງ​ຄອບ​ຄົວ</string>
+    <string name="na">ເລືອກຈຳນວນ</string>
+    <string name="oa">ອັບເດດວິທີການຈ່າຍເງິນ</string>
+    <string name="pa">ກວດສອບ ແລະ ຕິດຕັ້ງ</string>
+    <string name="qa">ກຳລັງສະແກນຫາບັນຫາຄວາມປອດໄພ…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

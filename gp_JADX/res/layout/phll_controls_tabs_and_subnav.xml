@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e04d3">
+        <include layout="@layout/phll_pager_tab_strip" />
+        <include layout="@layout/phll_tab_bar_title" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/subnav_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

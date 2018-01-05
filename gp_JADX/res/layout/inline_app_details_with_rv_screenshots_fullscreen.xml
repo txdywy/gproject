@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/inline_app_dialog_fullscreen_minwidth">
+    <ScrollView finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:fillViewport="true">
+        <com.google.android.finsky.frameworkviews.HorizontalSeparatorContainer finsky:orientation="vertical" finsky:id="@id/details_stack" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:separator_inset="16dp">
+            <include layout="@layout/details_warning_message" />
+            <include finsky:id="@id/item_details_panel" finsky:background="0x106000d" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/inline_app_details_summary" />
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/short_description_panel" finsky:background="0x106000d" finsky:paddingLeft="24dp" finsky:paddingTop="12dp" finsky:paddingRight="24dp" finsky:paddingBottom="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:maxLines="4" finsky:lastLineOverdrawColor="@color/play_white" style="@style/PlayInlineDetailDescription" />
+            <include finsky:id="@id/screenshots_panel" finsky:background="0x106000d" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0xb401" layout="@layout/inline_app_details_rv_screenshots" />
+            <include finsky:id="@id/footer" finsky:background="0x106000d" layout="@layout/inline_app_details_footer" />
+        </com.google.android.finsky.frameworkviews.HorizontalSeparatorContainer>
+    </ScrollView>
+</FrameLayout>

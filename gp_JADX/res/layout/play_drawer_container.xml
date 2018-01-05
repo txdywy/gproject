@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/play_drawer_root" android:fitsSystemWindows="true" style="@c6382j/PlayDrawerRoot">
+    <ListView android:id="@id/play_drawer_list" style="@c6382j/PlayDrawerList" />
+    <TextView android:id="@id/play_drawer_docked_action" android:visibility="gone" style="@c6382j/PlayDrawerDockedAction" />
+</LinearLayout>

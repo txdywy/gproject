@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.ArtistSubscriptionUpsellModuleLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/artist_subscription_upsell_module" finsky:background="@drawable/play_white_with_highlight" finsky:padding="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minHeight="48dp">
+    <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/upsell_button" finsky:visibility="visible" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:action_style="0" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+</com.google.android.finsky.detailspage.ArtistSubscriptionUpsellModuleLayout>

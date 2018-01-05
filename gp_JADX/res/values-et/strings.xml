@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play pood</string>
+    <string name="b">Google Play</string>
+    <string name="c">Kinnitamine on nõutav</string>
+    <string name="d">Vanemlik järelevalve</string>
+    <string name="e">Arvustused</string>
+    <string name="f">Installimata avatav rak.</string>
+    <string name="g">Liikme seaded</string>
+    <string name="h">Installimata avat. rakenduste eelistused</string>
+    <string name="i">Play pood</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Minu rakendused</string>
+    <string name="n">Ostuvalikud</string>
+    <string name="o">Makseviisid</string>
+    <string name="p">Võimaldab kasutajal vaadata selles rakenduses saadaolevaid rakendusi.</string>
+    <string name="q">Juurdepääs: Google Play App Discovery Service</string>
+    <string name="r">Võimaldab kasutajal osta Google Playst üksusi selle rakenduse kaudu.</string>
+    <string name="s">Google Play arveldusteenus</string>
+    <string name="t">Võib kontrollida Google Playst, kas teil on selle rakenduse litsents.</string>
+    <string name="u">Google Play litsentsikontroll</string>
+    <string name="v">Rakenduse load</string>
+    <string name="w">Avatud lähtekoodi litsentsid</string>
+    <string name="x">Autentimise nõudmine</string>
+    <string name="y">Koodi lunastamine</string>
+    <string name="aa">Hinnake seda.</string>
+    <string name="ba">Kingituse saatmine</string>
+    <string name="ca">Seaded</string>
+    <string name="da">Märguanded</string>
+    <string name="ea">Konto seadistamise lõpuleviimine</string>
+    <string name="fa">Rakendused installitakse pärast seadistamist</string>
+    <string name="ga">Vaadake üle lisarakendused</string>
+    <string name="ha">Kiirem maksmine Google\'i toodetega</string>
+    <string name="ia">Lisage makseviis</string>
+    <string name="ja">Makseteabe määramine</string>
+    <string name="ka">Rakenduste taastamine seadmest</string>
+    <string name="la">Milline seade?</string>
+    <string name="ma">Pere makseviisi valimine</string>
+    <string name="na">Valige summa</string>
+    <string name="oa">Värskendage makseviisi</string>
+    <string name="pa">Kinnitamine ja installimine</string>
+    <string name="qa">Turvaprobleemide skannimine …</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

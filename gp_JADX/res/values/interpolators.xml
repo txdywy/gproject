@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="decelerate_quart">res/interpolator/decelerate_quart.xml</interpolator>
+    <interpolator name="decelerate_quint">res/interpolator/decelerate_quint.xml</interpolator>
+    <interpolator name="mtrl_fast_out_linear_in">res/interpolator/mtrl_fast_out_linear_in.xml</interpolator>
+    <interpolator name="mtrl_fast_out_linear_in">res/interpolator-v21/mtrl_fast_out_linear_in.xml</interpolator>
+    <interpolator name="mtrl_fast_out_slow_in">res/interpolator/mtrl_fast_out_slow_in.xml</interpolator>
+    <interpolator name="mtrl_fast_out_slow_in">res/interpolator-v21/mtrl_fast_out_slow_in.xml</interpolator>
+    <interpolator name="mtrl_linear">res/interpolator/mtrl_linear.xml</interpolator>
+    <interpolator name="mtrl_linear_out_slow_in">res/interpolator/mtrl_linear_out_slow_in.xml</interpolator>
+    <interpolator name="mtrl_linear_out_slow_in">res/interpolator-v21/mtrl_linear_out_slow_in.xml</interpolator>
+    <interpolator name="progress_indeterminate_horizontal_rect1_scalex">res/interpolator-v21/progress_indeterminate_horizontal_rect1_scalex.xml</interpolator>
+    <interpolator name="progress_indeterminate_horizontal_rect1_translatex">res/interpolator-v21/progress_indeterminate_horizontal_rect1_translatex.xml</interpolator>
+    <interpolator name="progress_indeterminate_horizontal_rect2_scalex">res/interpolator-v21/progress_indeterminate_horizontal_rect2_scalex.xml</interpolator>
+    <interpolator name="progress_indeterminate_horizontal_rect2_translatex">res/interpolator-v21/progress_indeterminate_horizontal_rect2_translatex.xml</interpolator>
+</resources>

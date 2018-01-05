@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play اسٹور</string>
+    <string name="b">Google Play</string>
+    <string name="c">منظوری درکار ہے</string>
+    <string name="d">پیرنٹل کنٹرولز</string>
+    <string name="e">جائزے</string>
+    <string name="f">فوری ایپ</string>
+    <string name="g">رکن کی ترتیبات</string>
+    <string name="h">فوری ایپس کی ترجیحات</string>
+    <string name="i">Play اسٹور</string>
+    <string name="l">Play Protect</string>
+    <string name="m">میری ایپس</string>
+    <string name="n">خریداری کے اختیارات</string>
+    <string name="o">ادائیگی کے طریقے</string>
+    <string name="p">صارف کو اس ایپ میں سے ہی موجود ایپس دیکھنے کی اجازت دیتا ہے۔</string>
+    <string name="q">Google Play ایپ دریافت کی سروس تک رسائی حاصل کریں</string>
+    <string name="r">صارف کو اس ایپ کے اندر سے Google Play کے ذریعے آئٹمز خریدنے کی اجازت دیتا ہے۔</string>
+    <string name="s">Google Play کی بلنگ سروس</string>
+    <string name="t">چیک کر سکتا ہے کہ آیا آپ کے پاس اس ایپ کیلئے Google Play کی جانب سے لائسنس ہے۔</string>
+    <string name="u">Google Play لائسنس چیک</string>
+    <string name="v">ایپ کی اجازتیں</string>
+    <string name="w">اوپن سورس لائسنس</string>
+    <string name="x">توثیق طلب کریں</string>
+    <string name="y">اپنا کوڈ بھنائیں</string>
+    <string name="aa">اس کی درجہ بندی کریں!</string>
+    <string name="ba">گفٹ بھیجیں</string>
+    <string name="ca">ترتیبات</string>
+    <string name="da">اطلاعات</string>
+    <string name="ea">اکاؤنٹ کو ترتیب دینا مکمل کریں</string>
+    <string name="fa">ایپس کو سیٹ اپ مکمل ہونے کے بعد انسٹال کیا جائے گا</string>
+    <string name="ga">اضافی ایپس کا جائزہ لیں</string>
+    <string name="ha">Google پروڈکٹس کے ساتھ جلد چیک آؤٹ کا لطف اٹھائیں</string>
+    <string name="ia">ادائیگی کا طریقہ شامل کریں</string>
+    <string name="ja">ادائیگی کی معلومات ترتیب دیں</string>
+    <string name="ka">آلہ سے ایپس بحال کریں</string>
+    <string name="la">کون سا آلہ؟</string>
+    <string name="ma">خاندان کا ادائیگی کا طریقہ منتخب کریں</string>
+    <string name="na">رقم منتخب کریں</string>
+    <string name="oa">ادائیگی کا طریقہ اپ ڈیٹ کریں</string>
+    <string name="pa">توثیق اور انسٹال کریں</string>
+    <string name="qa">سیکیورٹی مسائل کے مد نظر اسکین کیا جا رہا ہے…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

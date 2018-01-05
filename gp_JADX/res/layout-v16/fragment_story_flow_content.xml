@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pe__loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/pe__error_info" android:padding="@dimen/box_large_side_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_article_error" android:importantForAccessibility="no" />
+            <TextView android:textColor="0x106000b" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_marginBottom="32dp" android:text="@string/pe__error" style="@style/PEText" />
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/pe__panel_list" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

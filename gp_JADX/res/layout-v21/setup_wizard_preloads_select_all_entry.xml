@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/preloads_section_divider" android:background="?attr/setup_wizard_row_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="@dimen/setup_wizard_content_list_top_margin" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101004d" android:paddingStart="@dimen/setup_wizard_horizontal_padding">
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="?attr/setup_wizard_primary_text_color" android:ellipsize="end" android:id="@id/setup_wizard_preloads_select_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_all_apps" android:maxLines="1" android:layout_weight="1.0" android:alpha="0.87" android:fontFamily="sans-serif" android:paddingEnd="@dimen/setup_wizard_vpa_image_end_margin" />
+        <CheckBox android:id="@id/setup_wizard_preloads_select_all_checkable" android:padding="0dp" android:saveEnabled="false" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="0dp" android:layout_marginEnd="@dimen/setup_wizard_apps_row_xpadding" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.addresschallenge.AddressFieldsLayoutHoneycomb xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/address_inner_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/address_progress_bar" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+    <include android:id="@id/upper_right_progress_bar" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="6dp" layout="@layout/address_layout_progress_bar" />
+</com.google.android.finsky.billing.addresschallenge.AddressFieldsLayoutHoneycomb>

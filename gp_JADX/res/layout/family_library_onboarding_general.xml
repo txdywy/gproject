@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/onboarding_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.finsky.frameworkviews.ForegroundLinearLayout android:id="@id/try_again_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light" android:layout_weight="1.0">
+                <com.google.android.finsky.frameworkviews.AccessibleTextView android:id="@id/try_again_text" style="@style/FamilySignupButton" />
+            </com.google.android.finsky.frameworkviews.ForegroundLinearLayout>
+            <com.google.android.finsky.frameworkviews.ForegroundLinearLayout android:id="@id/continue_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light" android:layout_weight="1.0">
+                <com.google.android.finsky.frameworkviews.AccessibleTextView android:id="@id/continue_text" style="@style/FamilySignupButton" />
+            </com.google.android.finsky.frameworkviews.ForegroundLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/family_loading_indicator" layout="@layout/page_loading_indicator" />
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Áruház</string>
+    <string name="b">Google Play</string>
+    <string name="c">Jóváhagyás szükséges</string>
+    <string name="d">Szülői felügyelet</string>
+    <string name="e">Vélemények</string>
+    <string name="f">Azonnali alkalmazás</string>
+    <string name="g">Tagok beállításai</string>
+    <string name="h">Az azonnali alkalmazások beállításai</string>
+    <string name="i">Play Áruház</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Alkalmazásaim</string>
+    <string name="n">Vásárlási lehetőségek</string>
+    <string name="o">Fizetési módok</string>
+    <string name="p">Lehetővé teszi, hogy a felhasználó elérhető alkalmazásokat tekintsen meg az alkalmazáson belül.</string>
+    <string name="q">Hozzáférés a Google Play App Discovery Service-hez</string>
+    <string name="r">Lehetővé teszi a felhasználó számára, hogy ezen az alkalmazáson keresztül vásároljon a Google Playből.</string>
+    <string name="s">Google Play – Számlázási szolgáltatás</string>
+    <string name="t">Ellenőrizheti, hogy van-e licence ehhez a Google Playből származó alkalmazáshoz.</string>
+    <string name="u">Google Play – Licencellenőrzés</string>
+    <string name="v">Alkalmazás engedélyei</string>
+    <string name="w">Nyílt forráskódú licencek</string>
+    <string name="x">Hitelesítés kérése</string>
+    <string name="y">Váltsd be a kódot</string>
+    <string name="aa">Értékeld!</string>
+    <string name="ba">Ajándék küldése</string>
+    <string name="ca">Beállítások</string>
+    <string name="da">Értesítések</string>
+    <string name="ea">A fiók telepítésének befejezése</string>
+    <string name="fa">Az alkalmazások telepítése a sikeres beállítás után történik meg</string>
+    <string name="ga">További alkalmazások áttekintése</string>
+    <string name="ha">A Google-termékekben gyorsan fizethetsz.</string>
+    <string name="ia">Fizetési mód hozzáadása</string>
+    <string name="ja">Fizetési adatok beállítása</string>
+    <string name="ka">Alkalmazások visszaállítása másik eszközről</string>
+    <string name="la">Melyik eszköz?</string>
+    <string name="ma">Családi fizetőeszköz kiválasztása</string>
+    <string name="na">Válassz összeget</string>
+    <string name="oa">Frissítsd a fizetési módot</string>
+    <string name="pa">Ellenőrzés és telepítés</string>
+    <string name="qa">Biztonsági problémák keresése…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

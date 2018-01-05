@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/light_purchase_dialog_width" android:minHeight="@dimen/light_purchase_dialog_small_height">
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x102000d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/light_purchase_dialog_small_height">
+        <ScrollView android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:fillViewport="true" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/inner_content_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/content1" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <LinearLayout android:orientation="vertical" android:id="@id/content2" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </FrameLayout>
+        </ScrollView>
+        <FrameLayout android:id="@id/footer_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/footer1" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/footer2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </FrameLayout> />
+</FrameLayout>

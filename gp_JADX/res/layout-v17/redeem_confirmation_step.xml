@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:paddingLeft="16dp" finsky:paddingTop="12dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:paddingStart="16dp" finsky:paddingEnd="16dp">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/image" finsky:layout_width="UNKNOWN_DATA_0x4b01" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="4dp" finsky:layout_marginRight="12dp" finsky:scaleType="fitCenter" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="12dp" finsky:fixed_bounds="true" />
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/title_wrapper" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_toLeftOf="@id/price_wrapper" finsky:layout_toRightOf="@id/image" finsky:layout_alignWithParentIfMissing="true" finsky:layout_toStartOf="@id/price_wrapper" finsky:layout_toEndOf="@id/image">
+        <com.google.android.play.layout.PlayTextView finsky:textSize="@dimen/play_purchase_primary_size" finsky:ellipsize="end" finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:maxLines="2" finsky:allowsCompactLineSpacing="true" style="@style/LightPurchase_TitleText" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/title_byline" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_PriceByline" />
+    </LinearLayout>
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/price_wrapper" finsky:paddingLeft="6dp" finsky:paddingRight="0dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_alignParentRight="true" finsky:paddingStart="6dp" finsky:paddingEnd="0dp" finsky:layout_alignParentEnd="true">
+        <com.google.android.play.layout.PlayTextView finsky:textSize="@dimen/play_purchase_primary_size" finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/price" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxWidth="200dp" finsky:maxLines="1" style="@style/LightPurchase_Price" />
+        <com.google.android.play.layout.PlayTextView finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/price_byline" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxWidth="200dp" finsky:maxLines="1" style="@style/LightPurchase_PriceByline" />
+    </LinearLayout>
+    <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_toRightOf="@id/image" finsky:layout_below="@id/title_wrapper" finsky:layout_alignWithParentIfMissing="true" finsky:layout_toEndOf="@id/image">
+        <TextView finsky:id="@id/message" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" style="@style/LightPurchase_Details" />
+        <TextView finsky:id="@id/voucher_footer" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" style="@style/LightPurchase_Details" />
+        <TextView finsky:id="@id/tos_footer" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" style="@style/LightPurchase_Footer" />
+    </LinearLayout>
+</RelativeLayout>

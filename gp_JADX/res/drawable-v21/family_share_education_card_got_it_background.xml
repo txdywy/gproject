@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/play_ripple_light">
+    <item android:drawable="@drawable/play_highlight_overlay_selector" />
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+            <solid android:color="@color/play_ripple_light" />
+        </shape>
+    </item>
+    <item android:id="0x102002e" android:drawable="@drawable/play_highlight_overlay_mask_rect" />
+</ripple>

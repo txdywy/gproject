@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" class="android.support.design.widget.Snackbar$SnackbarLayout" style="@c0127i/Widget_Design_Snackbar">
+    <include layout="@c5811h/settings_reminder_include" />
+</view>

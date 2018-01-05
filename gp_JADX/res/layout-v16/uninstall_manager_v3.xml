@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.finsky.recyclerview.PlayRecyclerView android:id="@id/uninstall_recycler_view" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:cacheColorHint="@color/play_main_background" android:layout_weight="1.0" />
+    <com.google.android.finsky.frameworkviews.MarginBoxLayout android:id="@id/no_results_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_uninstall_wizard_secondary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/uninstall_manager_no_results" style="@c6382j/PlayLightText" />
+    </com.google.android.finsky.frameworkviews.MarginBoxLayout>
+    <Button android:textColor="@color/play_white" android:id="@id/positive_button" android:background="@drawable/uninstall_manager_v3_button_background" android:padding="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e066c" android:text="@string/submit" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

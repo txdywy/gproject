@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/backdrop_view" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.google.android.play.image.FifeImageView app:id="@id/blurred_backdrop_image" app:layout_width="match_parent" app:layout_height="match_parent" app:request_scale_factor="50%" />
+    <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/play_main_background" android:layout_width="UNKNOWN_DATA_0x7f0e06cf" android:layout_height="match_parent" />
+</FrameLayout>

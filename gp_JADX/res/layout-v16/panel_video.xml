@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.BackgroundPanelView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" app:gradientOverlayId="@id/image_overlay">
+    <com.google.android.libraries.play.entertainment.story.ParallaxContainer app:id="@id/parallax_container" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e03fd">
+        <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_blurred" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/PEImageBlurred" />
+    </com.google.android.libraries.play.entertainment.story.ParallaxContainer>
+    <View app:id="@id/image_overlay" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e03fc" app:layout_alignBottom="@id/parallax_container" />
+    <LinearLayout app:orientation="vertical" app:paddingTop="@dimen/box_vertical_margin" app:paddingBottom="@dimen/box_vertical_margin" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PETextContainer">
+        <TextView app:id="@id/panel_title" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEPanelTitleText" />
+        <FrameLayout app:id="@id/image_frame" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_large_padding" style="@style/PEImageFrame">
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_media" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEImageMedia" />
+            <com.caverock.androidsvg.SVGImageView app:id="@id/playback_button" app:layout_width="UNKNOWN_DATA_0x7f0e042f" app:layout_height="UNKNOWN_DATA_0x7f0e042f" app:contentDescription="@string/pe__content_description_play" app:svg="@c6095j/ic_play" style="@style/PEPlaybackButton" />
+        </FrameLayout>
+        <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PETitleText.Panel" />
+        <TextView app:id="@id/publisher" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PEText.Small" />
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:id="@id/creation_time" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" style="@style/PEText.Small" />
+            <TextView app:id="@id/duration" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PEText.Small" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.story.BackgroundPanelView>

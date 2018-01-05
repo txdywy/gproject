@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:scaleType="fitStart" finsky:fixed_bounds="true" finsky:is_avatar="true" />

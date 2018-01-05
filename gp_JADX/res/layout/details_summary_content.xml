@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.google.android.finsky.layout.DetailsSummaryWishlistView finsky:id="@id/title_wishlist_button" finsky:background="@drawable/play_highlight_overlay_light" finsky:focusable="true" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/title_title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@c6382j/PlayDetailTitle" />
+    <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_creator_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingBottom="2dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_creator" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:drawablePadding="4dp" style="@style/Play_DetailsPage_Subtitle" />
+    </LinearLayout>
+    <com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout finsky:id="@id/title_rating_size" finsky:paddingBottom="2dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:separator_gap_size="20dp" finsky:separator_bullet_size="4dp">
+        <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_content_rating_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+            <com.google.android.play.image.FifeImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/title_content_rating_icon" finsky:layout_width="UNKNOWN_DATA_0x1001" finsky:layout_height="UNKNOWN_DATA_0x1001" finsky:layout_marginTop="2dp" finsky:layout_marginBottom="2dp" />
+            <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_content_rating" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="6dp" finsky:layout_marginRight="0dp" style="@style/Play_DetailsPage_Subtitle" />
+        </LinearLayout>
+        <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_app_size_rating_line" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/Play_DetailsPage_Subtitle" />
+    </com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout>
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/title_app_size" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@style/Play_DetailsPage_Subtitle" />
+    <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:textSize="13sp" finsky:ellipsize="end" finsky:id="@id/title_tipper_sticker" finsky:paddingLeft="4dp" finsky:paddingRight="4dp" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="2dp" finsky:singleLine="true" />
+    <include layout="@layout/details_title_creator_block" />
+    <include layout="@layout/orson_title_creator_block" />
+    <com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout finsky:id="@id/title_bylines" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:separator_gap_size="6dp" />
+    <LinearLayout finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="vertical" finsky:id="@id/title_extra_labels" finsky:paddingLeft="6dp" finsky:paddingRight="0dp" finsky:paddingBottom="4dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+    <include layout="@layout/action_buttons_layout" />
+    <include finsky:id="@id/title_extra_labels_bottom" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/details_summary_extra_labels_section" />
+</merge>

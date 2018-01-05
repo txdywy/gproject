@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.expander.SummaryExpanderWrapper xmlns:android="http://schemas.android.com/apk/res-auto" im:id="@id/address_wrapper" im:clipChildren="false" im:layout_width="match_parent" im:layout_height="wrap_content">
+    <com.google.android.wallet.ui.common.SummaryTextLayout im:id="@id/address_summary_text" im:layout_width="match_parent" im:layout_height="wrap_content" im:layout_marginBottom="?attr/uicFormVerticalMargin" im:minHeight="?attr/uicFormItemHeight" />
+    <LinearLayout im:orientation="vertical" im:id="@id/container" im:layout_width="match_parent" im:layout_height="wrap_content">
+        <include im:id="@id/address_title" layout="@layout/view_form_title_text" />
+        <com.google.android.wallet.ui.common.CheckboxView im:id="@id/hide_address_checkbox" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" im:layout_marginTop="?attr/uicFormVerticalMargin" im:layout_marginBottom="?attr/uicFormVerticalMargin" />
+        <include im:id="@id/region_code_view" layout="@layout/view_region_code" />
+        <include im:id="@id/dynamic_address_fields_layout" layout="@layout/view_dynamic_address_fields" />
+        <LinearLayout im:gravity="top|bottom|center_vertical|fill_vertical|center|fill" im:orientation="horizontal" im:id="@id/address_read_only_container" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content">
+            <TextView im:id="@id/address_read_only_text" im:paddingLeft="?attr/internalUicFormNonEditableTextStartMargin" im:layout_width="UNKNOWN_DATA_0x1" im:layout_height="wrap_content" im:layout_marginTop="?attr/uicFormVerticalMargin" im:layout_marginBottom="?attr/uicFormVerticalMargin" im:minHeight="?attr/uicFormItemHeight" im:freezesText="true" im:layout_weight="1.0" style="?attr/uicFormReadOnlyTextAppearance" />
+            <ImageButton im:id="@id/edit_address_icon" im:background="?attr/uicClickableBackground" im:visibility="gone" im:layout_width="wrap_content" im:layout_height="wrap_content" im:layout_marginLeft="@dimen/wallet_uic_margin_touchable" im:minWidth="@dimen/wallet_uic_minimum_tappable_item_size" im:minHeight="@dimen/wallet_uic_minimum_tappable_item_size" im:contentDescription="@string/wallet_uic_content_description_edit_address" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.wallet.ui.expander.SummaryExpanderWrapper>

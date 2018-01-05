@@ -1,0 +1,32 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.android.vending_8.5.39.apk
+compressionType: false
+doNotCompress:
+- arsc
+- webp
+- so
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '126'
+  renameManifestPackage: com.android.vending
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles:
+  android-support-multidex.version.txt: '0'
+  build-data.properties: '0'
+  com/google/api/client/repackaged/org/apache/commons/codec/language/dmrules.txt: '0'
+  org/keyczar/i18n/messages.properties: '0'
+  org/keyczar/i18n/messages_hi.properties: '0'
+  org/keyczar/i18n/messages_jp.properties: '0'
+  org/keyczar/i18n/messages_pt.properties: '0'
+  third_party/brotli/common/dictionary.bin: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '80853900'
+  versionName: 8.5.39.W-all [0] [PR] 178322352

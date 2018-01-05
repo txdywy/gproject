@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/family_onboarding_row_margin">
+    <com.google.android.play.image.FifeImageView android:id="@id/family_benefit_row_image" android:layout_width="UNKNOWN_DATA_0x7f0e01aa" android:layout_height="UNKNOWN_DATA_0x7f0e01aa" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/family_onboarding_text" android:textColor="@color/play_fg_primary" android:id="@id/family_benefit_row_headline_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/family_benefit_side_headline_margin" android:layout_marginRight="0dp" android:layout_toRightOf="@id/family_benefit_row_image" />
+    <TextView android:textSize="@dimen/family_onboarding_description_text" android:textColor="@color/play_fg_secondary" android:id="@id/family_benefit_row_summary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/family_benefit_description_margin" android:layout_below="@id/family_benefit_row_headline_text" android:layout_alignLeft="@id/family_benefit_row_headline_text" />
+</RelativeLayout>

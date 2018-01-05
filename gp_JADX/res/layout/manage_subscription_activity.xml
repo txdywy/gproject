@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:paddingTop="12dp" finsky:paddingBottom="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="8dp" finsky:layout_marginRight="8dp" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header" />
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/action_list" finsky:paddingLeft="16dp" finsky:paddingTop="12dp" finsky:paddingRight="16dp" finsky:paddingBottom="12dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

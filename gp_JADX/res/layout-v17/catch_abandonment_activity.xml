@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/LightPurchaseModalDialog">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog" android:paddingLeft="@dimen/light_purchase_dialog_footer_left_right_padding" android:paddingTop="@dimen/light_purchase_dialog_footer_top_bottom_padding" android:paddingRight="@dimen/light_purchase_dialog_footer_left_right_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/light_purchase_dialog_footer_left_right_padding" android:paddingEnd="@dimen/light_purchase_dialog_footer_left_right_padding">
+        <com.google.android.play.layout.PlayTextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CatchAbandonmentDialog_TitleText" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/LightPurchase_SubtitleText" />
+        <com.google.android.play.image.FifeImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/illustration" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x6401" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <include layout="@layout/light_purchase_button_bar" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

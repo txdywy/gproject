@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.OrsonTitleCreatorBlock xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/orson_title_creator_block" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingLeft="0dp" finsky:paddingRight="@dimen/details_new_content_margin" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_centerVertical="true">
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="marquee" finsky:id="@id/orson_creator_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" finsky:drawablePadding="4dp" style="@c6382j/PlayPlainText" />
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="marquee" finsky:id="@id/orson_title_line" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" style="@c6382j/PlayPlainText" />
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="marquee" finsky:id="@id/orson_book_duration" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" style="@c6382j/PlayPlainText" />
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="marquee" finsky:id="@id/orson_creator_date" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" style="@c6382j/PlayPlainText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.OrsonTitleCreatorBlock>

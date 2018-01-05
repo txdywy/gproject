@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/story_fragment" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/status_bar_underlay" android:background="@c6071d/pe__status_bar_underlay_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+    <com.google.android.libraries.play.entertainment.story.StoryFlowLayout android:id="@id/pe__story_flow_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/pe__text_media_fragment_container" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.libraries.play.entertainment.story.MediaPlayerOverlayView android:id="@id/pe__media_player_overlay" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

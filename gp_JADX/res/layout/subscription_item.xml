@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailsmodules.modules.subscriptions.view.SubscriptionView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/subscription_item" android:background="@drawable/play_highlight_overlay_light" android:padding="@dimen/details_new_content_margin" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/subscription_item_content" />
+</com.google.android.finsky.detailsmodules.modules.subscriptions.view.SubscriptionView>

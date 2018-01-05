@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/container" app:background="@color/loading_ia_background" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ProgressBar app:id="@id/progress_bar" app:visibility="visible" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e036f" app:indeterminate="true" app:minHeight="@c5809f/loading_ia_progressbar_height" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" style="@style/Widget.ProgressBar.Horizontal" />
+</RelativeLayout>

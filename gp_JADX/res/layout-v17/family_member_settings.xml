@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/family_member_settings_header" />
+    <include layout="@layout/account_separator" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/purchase_approval_view" android:background="@drawable/play_highlight_overlay_light" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <ImageView android:id="@id/purchase_approval_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="0dp">
+            <TextView android:textStyle="bold" android:id="@id/purchase_approval_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/purchase_approval_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/content_filter_setting" android:background="@drawable/play_highlight_overlay_light" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <ImageView android:id="@id/content_filter_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="0dp">
+            <TextView android:textStyle="bold" android:id="@id/content_filter_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/content_filter_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

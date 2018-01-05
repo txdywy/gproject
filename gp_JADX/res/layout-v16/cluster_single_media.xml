@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:paddingLeft="@dimen/box_small_padding" app:paddingTop="@dimen/box_large_padding" app:paddingRight="@dimen/box_small_padding" app:paddingBottom="@dimen/box_large_padding" app:clipToPadding="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="@dimen/pe__cluster_media_item_min_width">
+    <FrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/image_frame" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PEImageFrame">
+        <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/image_media" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1" style="@style/PEImageMedia" />
+        <com.caverock.androidsvg.SVGImageView app:id="@id/playback_button" app:layout_width="UNKNOWN_DATA_0x7f0e042d" app:layout_height="UNKNOWN_DATA_0x7f0e042d" app:contentDescription="@string/pe__content_description_play" app:svg="@c6095j/ic_play" style="@style/PEPlaybackButton" />
+    </FrameLayout>
+    <LinearLayout app:orientation="vertical" app:id="@id/text_container" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginTop="@dimen/box_small_padding">
+        <TextView app:ellipsize="end" app:id="@id/title" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="2" style="@style/PEText.ClusterItemLabel" />
+        <TextView app:textSize="@dimen/pe_medium_small_text_size" app:ellipsize="end" app:id="@id/subtitle" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__acquisition_text_margin" app:maxLines="1" style="@style/PEText" />
+        <TextView app:textSize="@dimen/pe_medium_small_text_size" app:ellipsize="end" app:id="@id/acquisition_text" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__acquisition_text_margin" app:maxLines="1" app:textAllCaps="true" style="@style/PEText" />
+    </LinearLayout>
+</LinearLayout>

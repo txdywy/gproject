@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/rate_review_container" finsky:background="@drawable/rate_review_bg" finsky:paddingTop="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/review_user_profile_header" />
+    <include layout="@layout/rate_review_dialog_content" />
+    <include layout="@layout/button_bar" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

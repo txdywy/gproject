@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.headerlistlayout.FinskyTabStrip xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pager_tab_strip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />

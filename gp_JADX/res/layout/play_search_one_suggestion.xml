@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.search.PlaySearchOneSuggestion xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e051d">
+    <com.google.android.play.image.FifeImageView android:id="@id/icon" android:padding="8dp" android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="match_parent" android:layout_marginRight="8dp" android:src="@drawable/ic_search" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_frame" android:paddingRight="16dp" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:animateLayoutChanges="true">
+        <TextView android:id="@id/suggest_text" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@c6382j/PlaySearchSuggestionText" />
+        <TextView android:id="@id/suggest_subtext" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" style="@c6382j/PlaySearchSuggestionText_SubText" />
+    </LinearLayout>
+</com.google.android.play.search.PlaySearchOneSuggestion>

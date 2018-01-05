@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" im:orientation="vertical" im:layout_width="match_parent" im:layout_height="wrap_content">
+    <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageView im:id="@id/required_message_text" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" im:layout_marginLeft="?attr/internalUicNonFormFieldTextStartMargin" im:layout_marginStart="?attr/internalUicNonFormFieldTextStartMargin" im:internalUicInlineExpandLabel="false" im:internalUicInfoMessageTextAppearance="?attr/uicLegalMessagesTextAppearance" />
+</LinearLayout>

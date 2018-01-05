@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Obchod Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">Vyžaduje schválení</string>
+    <string name="d">Rodičovská kontrola</string>
+    <string name="e">Recenze</string>
+    <string name="f">Okamžitá aplikace</string>
+    <string name="g">Nastavení členů</string>
+    <string name="h">Předvolby okamžitých aplikací</string>
+    <string name="i">Obchod Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Moje aplikace</string>
+    <string name="n">Možnosti nákupu</string>
+    <string name="o">Platební metody</string>
+    <string name="p">Umožňuje uživateli zobrazit dostupné aplikace přímo z této aplikace.</string>
+    <string name="q">Přístup do služby Google Play App Discovery</string>
+    <string name="r">Umožňuje uživateli této aplikace nakupovat prostřednictvím služby Google Play.</string>
+    <string name="s">Fakturační služba Google Play</string>
+    <string name="t">Může zkontrolovat, zda pro tuto aplikaci ze služby Google Play máte licenci.</string>
+    <string name="u">Kontrola licence ve službě Google Play</string>
+    <string name="v">Oprávnění aplikací</string>
+    <string name="w">Licence open source</string>
+    <string name="x">Požadovat ověření</string>
+    <string name="y">Uplatnění kódu</string>
+    <string name="aa">Hodnotit</string>
+    <string name="ba">Odeslání daru</string>
+    <string name="ca">Nastavení</string>
+    <string name="da">Oznámení</string>
+    <string name="ea">Dokončení nastavení účtu</string>
+    <string name="fa">Aplikace se nainstalují, až bude dokončeno nastavení</string>
+    <string name="ga">Prohlédněte si další aplikace</string>
+    <string name="ha">Rychlé nákupy ve službách Google</string>
+    <string name="ia">Přidat platební metodu</string>
+    <string name="ja">Nastavení platebních údajů</string>
+    <string name="ka">Obnovení aplikací ze zařízení</string>
+    <string name="la">Které zařízení?</string>
+    <string name="ma">Vybrat rodinnou platební metodu</string>
+    <string name="na">Vyberte částku</string>
+    <string name="oa">Aktualizujte platební metodu</string>
+    <string name="pa">Ověření a instalace</string>
+    <string name="qa">Vyhledávání chyb v zabezpečení…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

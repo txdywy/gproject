@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Потребно е одобрување</string>
+    <string name="d">Родителски надзор</string>
+    <string name="e">Рецензии</string>
+    <string name="f">Инстант апликација</string>
+    <string name="g">Поставки за член</string>
+    <string name="h">Поставки за инстант апликации</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Мои апликации</string>
+    <string name="n">Опции за купување</string>
+    <string name="o">Начини на плаќање</string>
+    <string name="p">Дозволува корисникот да прегледува достапни апликации од апликацијава</string>
+    <string name="q">Пристап. до услуг. за откр. аплик. на Google Play</string>
+    <string name="r">Дозволува корисникот да купува ставки преку Google Play од оваа апликација.</string>
+    <string name="s">Услуга за наплата на Google Play</string>
+    <string name="t">Може да проверува дали имате лиценца за оваа апликација од Google Play.</string>
+    <string name="u">Проверка на лиценцата на Google Play</string>
+    <string name="v">Дозволи за апликацијата</string>
+    <string name="x">Барање за проверка</string>
+    <string name="y">Активирајте го кодот</string>
+    <string name="aa">Оценете!</string>
+    <string name="ba">Испрати подарок</string>
+    <string name="ca">Поставки</string>
+    <string name="da">Известувања</string>
+    <string name="ea">Завршете го поставувањето на сметка</string>
+    <string name="fa">Апликациите ќе се инсталираат откако ќе заврши поставувањето</string>
+    <string name="ga">Прегледајте ги дополнителните апликации</string>
+    <string name="ha">Уживајте во брза наплата со производите на Google</string>
+    <string name="ia">Додај начин на плаќање</string>
+    <string name="ja">Постави информации за плаќање</string>
+    <string name="ka">Обновување на апликациите од уредот</string>
+    <string name="la">Кој уред?</string>
+    <string name="ma">Изберете семеен начин на плаќање</string>
+    <string name="na">Изберете сума</string>
+    <string name="oa">Ажурирајте го начинот на плаќање</string>
+    <string name="pa">Потврди и инсталирај</string>
+    <string name="qa">Скенира за безбедносни проблеми…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

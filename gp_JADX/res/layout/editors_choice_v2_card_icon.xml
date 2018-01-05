@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/banner" android:layout_width="UNKNOWN_DATA_0x7f0e01a0" android:layout_height="UNKNOWN_DATA_0x7f0e01a0" android:layout_marginLeft="0dp" android:layout_marginRight="@dimen/editors_choice_v2_card_icon_margin_right" />

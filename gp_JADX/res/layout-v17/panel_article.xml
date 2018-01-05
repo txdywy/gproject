@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.ArticlePanelView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/background_panel" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.google.android.libraries.play.entertainment.story.ParallaxContainer app:id="@id/parallax_container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@id/text_container" app:layout_alignParentTop="true">
+        <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_main" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:fadesInImage="true" />
+    </com.google.android.libraries.play.entertainment.story.ParallaxContainer>
+    <LinearLayout app:orientation="vertical" app:id="@id/text_container" app:paddingTop="@dimen/box_vertical_margin" app:paddingBottom="@dimen/box_vertical_margin" app:clipChildren="false" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true" style="@style/PETextContainer">
+        <include layout="@layout/pe__panel_title_in_slanted_style" />
+        <TextView app:id="@id/title" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PETitleText" />
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/publisher_row" app:paddingTop="@dimen/box_large_padding" app:paddingBottom="@dimen/box_large_padding" app:layout_width="match_parent" app:layout_height="wrap_content" app:baselineAligned="false">
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/publisher_icon" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:layout_marginRight="@dimen/default_half_padding" app:layout_marginEnd="@dimen/default_half_padding" />
+            <TextView app:id="@id/publisher_name" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" style="@style/PEText.Small" />
+            <com.caverock.androidsvg.SVGImageView app:id="@id/amp_icon_view" app:layout_width="UNKNOWN_DATA_0x1001" app:layout_height="UNKNOWN_DATA_0x1001" app:alpha="0.8" app:svg="@c6095j/ic_amp" />
+            <TextView app:textStyle="bold" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/amp_label_view" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/default_half_padding" app:text="@string/pe__amp" app:layout_marginStart="@dimen/default_half_padding" style="@style/PEText.Small" />
+        </LinearLayout>
+        <com.google.android.libraries.play.entertainment.story.SnippetView app:id="@id/snippet" app:focusable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="4" app:moreHintText="@string/pe__more" app:moreHintContentDescription="@string/pe__content_description_more" style="@style/PEText.BodyText" />
+        <TextView app:id="@id/attribution" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PEText.Attribution" />
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.story.ArticlePanelView>

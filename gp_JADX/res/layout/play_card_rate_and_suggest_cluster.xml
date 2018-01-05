@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.PlayCardRateAndSuggestClusterView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:paddingTop="@dimen/play_cluster_vpadding" finsky:paddingBottom="@dimen/play_cluster_vpadding" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <include layout="@layout/play_card_cluster_header" />
+    <TextView finsky:id="@id/empty_sadface" finsky:visibility="invisible" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/quick_suggestions_skipped" finsky:drawableTop="@drawable/ic_empty_rate" finsky:drawablePadding="12dp" style="@c6382j/PlayEmptyTitle" />
+    <com.google.android.finsky.stream.controllers.view.PlayCardRateAndSuggestContentScroller finsky:id="@id/content_scroller" finsky:scrollbars="UNKNOWN_DATA_0x0" finsky:fadingEdgeLength="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.finsky.stream.controllers.view.PlayCardRateAndSuggestClusterViewContent finsky:id="@id/cluster_content" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+    </com.google.android.finsky.stream.controllers.view.PlayCardRateAndSuggestContentScroller>
+</com.google.android.finsky.stream.controllers.view.PlayCardRateAndSuggestClusterView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Market</string>
+    <string name="b">Google Play</string>
+    <string name="c">Ma’qullanishi zarur</string>
+    <string name="d">Ota-ona nazorati</string>
+    <string name="e">Sharhlar</string>
+    <string name="f">Darhol ochiladigan ilova</string>
+    <string name="g">Foydalanuvchi sozlamalari</string>
+    <string name="h">Darhol ochiladigan ilovalar parametrlari</string>
+    <string name="i">Play Market</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mening ilovalarim</string>
+    <string name="n">Xarid variantlari</string>
+    <string name="o">To‘lov usullari</string>
+    <string name="p">Foydalanuvchiga ilova ichidan turib mavjud ilovalarni ko‘rish imkonini beradi</string>
+    <string name="q">Google Play ilovalarni qidirish xizmatiga ruxsat</string>
+    <string name="r">Foydalanuvchi bu ilova yordamida Google Play orqali xaridlarni amalga oshirishi mumkin.</string>
+    <string name="s">Google Play to‘lov tizimi</string>
+    <string name="t">Sizda ushbu ilova uchun Google Play litsenziyasi bor-yo‘qligini tekshiradi.</string>
+    <string name="u">Google Play litsenziyasini tekshirish</string>
+    <string name="v">Ilova uchun ruxsatlar</string>
+    <string name="x">Majburiy tekshiruv</string>
+    <string name="y">Promokodni ishlatish</string>
+    <string name="aa">Baholang!</string>
+    <string name="ba">Sovg‘a yuborish</string>
+    <string name="ca">Sozlamalar</string>
+    <string name="da">Bildirishnomalar</string>
+    <string name="ea">Sozlashni tugallang</string>
+    <string name="fa">Bu ilovalar sozlash tugaganidan keyin o‘rnatiladi</string>
+    <string name="ga">Boshqa ilovalarni ham qarab chiqing</string>
+    <string name="ha">Google xizmatlarida xaridlarni qulay amalga oshiring</string>
+    <string name="ia">To‘lov usulini qo‘shish</string>
+    <string name="ja">To‘lov ma’lumotlarini ko‘rsating</string>
+    <string name="ka">Boshqa qurilmadan ilovalarni qayta tiklang</string>
+    <string name="la">Qurilmani tanlang</string>
+    <string name="ma">Oilaviy to‘lov usulini tanlang</string>
+    <string name="na">Summani tanlang</string>
+    <string name="oa">To‘lov usulini yangilang</string>
+    <string name="pa">Tekshirish va o‘rnatish</string>
+    <string name="qa">Xavfsizlik muammolari qidirilmoqda…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

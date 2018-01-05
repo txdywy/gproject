@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.FlatCardViewListingSmall xmlns:android="http://schemas.android.com/apk/res-auto" playcommon:id="@id/play_card" playcommon:focusable="true" playcommon:nextFocusRight="@id/li_overflow" playcommon:layout_width="match_parent" playcommon:layout_height="wrap_content" playcommon:foreground="@drawable/play_highlight_round_overlay_light" playcommon:card_show_inline_creator_badge="true" playcommon:card_supports_subtitle_and_rating="true" playcommon:card_text_only_snippet_margin_left="0dp" playcommon:card_owned_status_rendering_type="3">
+    <include layout="@layout/flat_card_listing_base_content" />
+    <include layout="@layout/flat_card_listing_content" />
+</com.google.android.finsky.playcard.FlatCardViewListingSmall>

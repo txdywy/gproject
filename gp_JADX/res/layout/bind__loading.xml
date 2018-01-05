@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.bind.widget.TransparentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</com.google.android.libraries.bind.widget.TransparentFrameLayout>

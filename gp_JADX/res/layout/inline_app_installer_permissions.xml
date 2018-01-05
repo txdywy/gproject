@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/contents" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0"
+        <LinearLayout finsky:orientation="horizontal" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingLeft="14dp" finsky:paddingTop="14dp" finsky:paddingRight="14dp" finsky:paddingBottom="@dimen/permissions_header_padding" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <com.google.android.play.image.FifeImageView finsky:id="@id/application_icon" finsky:layout_width="UNKNOWN_DATA_0x3201" finsky:layout_height="UNKNOWN_DATA_0x3201" />
+            <LinearLayout finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:paddingLeft="10dp" finsky:paddingRight="0dp" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="wrap_content" finsky:layout_marginTop="-2dp" finsky:layout_weight="1.0">
+                <com.google.android.play.layout.PlayTextView finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_TitleText" />
+                <TextView finsky:id="@id/subheader" finsky:paddingLeft="0dp" finsky:paddingRight="16dp" finsky:paddingBottom="8dp" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_SubtitleText" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.finsky.layout.ObservableScrollView finsky:paddingLeft="14dp" finsky:paddingRight="14dp" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+            <com.google.android.finsky.permissionui.AppSecurityPermissions finsky:orientation="vertical" finsky:id="@id/app_permissions" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+        </com.google.android.finsky.layout.ObservableScrollView>
+    </LinearLayout>
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

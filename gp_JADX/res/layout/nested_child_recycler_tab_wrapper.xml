@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/list_tab_wrapper" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/data_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.finsky.nestedrecyclerviews.NestedChildRecyclerView android:id="@id/tab_recycler_view" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/play_main_background" android:overScrollMode="never" />
+    </FrameLayout>
+    <include layout="@layout/list_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+</FrameLayout>

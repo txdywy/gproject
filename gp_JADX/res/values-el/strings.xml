@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Απαιτείται έγκριση</string>
+    <string name="d">Γονικοί έλεγχοι</string>
+    <string name="e">Κριτικές</string>
+    <string name="f">Instant Εφαρμογή</string>
+    <string name="g">Ρυθμίσεις μελών</string>
+    <string name="h">Προτιμήσεις Instant Εφαρμογών</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Οι εφαρμογές μου</string>
+    <string name="n">Επιλογές αγοράς</string>
+    <string name="o">Τρόποι πληρωμής</string>
+    <string name="p">Επιτρέπει στον χρήστη να βλέπει τις διαθέσιμες εφαρμογές μέσα από αυτήν την εφαρμογή</string>
+    <string name="q">Πρόσβαση στο Google Play App Discovery Service</string>
+    <string name="r">Επιτρέπει στον χρήστη να αγοράζει στοιχεία από το Google Play μέσω αυτής της εφαρμογής.</string>
+    <string name="s">Υπηρεσία χρέωσης του Google Play</string>
+    <string name="t">Μπορεί να πραγματοποιηθεί έλεγχος εάν διαθέτετε άδεια γι\' αυτήν την εφαρμογή από το Google Play.</string>
+    <string name="u">Έλεγχος άδειας του Google Play</string>
+    <string name="v">Δικαιώματα εφαρμογών</string>
+    <string name="w">Άδειες λογισμικού ανοικτού κώδικα</string>
+    <string name="x">Απαίτηση ελέγχου ταυτότητας</string>
+    <string name="y">Εξαργυρώστε τον κωδικό σας</string>
+    <string name="aa">Αξιολογήστε το!</string>
+    <string name="ba">Αποστολή δώρου</string>
+    <string name="ca">Ρυθμίσεις</string>
+    <string name="da">Ειδοποιήσεις</string>
+    <string name="ea">Ολοκλήρωση ρύθμισης λογαριασμού</string>
+    <string name="fa">Οι εφαρμογές θα εγκατασταθούν μόλις ολοκληρωθεί η ρύθμιση</string>
+    <string name="ga">Έλεγχος πρόσθετων εφαρμογών</string>
+    <string name="ha">Απολαύστε γρήγορες πληρωμές με τα προϊόντα Google</string>
+    <string name="ia">Προσθήκη τρόπου πληρωμής</string>
+    <string name="ja">Ρύθμιση στοιχείων πληρωμής</string>
+    <string name="ka">Επαναφορά εφαρμογών από συσκευή</string>
+    <string name="la">Ποια συσκευή;</string>
+    <string name="ma">Επιλέξτε οικογεν. τρόπο πληρωμής</string>
+    <string name="na">Επιλογή ποσού</string>
+    <string name="oa">Ενημερώστε τον τρόπο πληρωμής</string>
+    <string name="pa">Επαλήθευση και εγκατάσταση</string>
+    <string name="qa">Γίνεται σάρωση για ζητήματα ασφάλειας…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

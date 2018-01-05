@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/family_member_settings_header" />
+        <include layout="@layout/account_separator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/purchase_setting" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/play_fg_primary" android:id="@id/purchase_setting_title" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="14sp" android:id="@id/purchase_setting_learn_more" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+            <TextView android:textSize="14sp" android:id="@id/purchase_setting_subtitle" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" />
+            <RadioGroup android:orientation="vertical" android:id="@id/purchase_options" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/purchase_setting_option_disabled_help" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

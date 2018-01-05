@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/suw_play_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.finsky.layout.SetupWizardStickyHeaderScrollView android:id="@id/bottom_scroll_view" android:background="?attr/setup_wizard_background_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.finsky.layout.SetupWizardIllustration android:id="@id/illustration" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_header_graphic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_wizard_header_graphic_top_padding" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/setup_wizard_header_graphic_start_padding" />
+                    <TextView android:id="@id/title" android:layout_below="@id/setup_wizard_header_graphic" style="@style/SetupWizardHeaderTitle" />
+                </com.google.android.finsky.layout.SetupWizardIllustration>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                    <include layout="@layout/setup_wizard_divider_and_progress" />
+                    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+                    <FrameLayout android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardContentFrame" /> />
+                <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/suw_pai_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_wizard_restore_item_top_padding" android:layout_marginBottom="@dimen/setup_wizard_restore_item_bottom_padding" android:layout_marginEnd="@dimen/setup_wizard_horizontal_padding" style="@style/SetupWizardPaiButton" />
+            </LinearLayout>
+        </com.google.android.finsky.layout.SetupWizardStickyHeaderScrollView>
+        <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/details_overlay_placeholder" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" /> />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:name="spinner_white" android:height="24dp" android:width="24dp" android:viewportWidth="24.0" android:viewportHeight="24.0">
+    <group android:name="bg_1" android:translateX="12.0" android:translateY="12.0"
+        <group android:name="rectangle_3" android:translateX="-0.01465" android:translateY="-0.01172">
+            <path android:name="rectangle_path_3" android:fillColor="#ffffffff" android:pathData="M -11.997085,-12.0 l 23.99417,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,24.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l -23.99417,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,-24.0 c 0.0,0.0 0.0,0.0 0.0,0.0 Z" android:strokeColor="#ffffffff" android:strokeWidth="0.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" />
+        </group>
+    </group>
+    <group android:name="icon_1" android:scaleX="-1.0" android:translateX="12.0" android:translateY="12.0"
+        <group android:name="icon_pivot_1" android:translateX="-12.0" android:translateY="-12.0"
+            <group android:name="group_3" android:translateX="12.0" android:translateY="11.8665">
+                <path android:name="path_3" android:pathData="M 0.0,-9.86650085449 c 0.0,0.0 -4.41499328613,0.552001953125 -8.59599304199,2.62699890137 c -0.265014648438,1.1070098877 -0.404006958008,2.26200866699 -0.404006958008,3.44999694824 c 0.0,1.22100830078 0.147994995117,2.40901184082 0.427993774414,3.54699707031 c 0.594009399414,2.42001342773 1.78500366211,4.6070098877 3.40701293945,6.40200805664 c 1.42399597168,1.57800292969 3.18299865723,2.85000610352 5.16499328613,3.70700073242 c 1.98100280762,-0.856994628906 3.74099731445,-2.12899780273 5.16600036621,-3.70700073242 c 1.62100219727,-1.79499816895 2.81199645996,-3.98199462891 3.40699768066,-6.40200805664 c 0.279006958008,-1.13798522949 0.427001953125,-2.32598876953 0.427001953125,-3.54699707031 c 0.0,-1.18798828125 -0.13899230957,-2.34298706055 -0.40299987793,-3.44999694824 c -4.18299865723,-2.07499694824 -8.59700012207,-2.62699890137 -8.59700012207,-2.62699890137 Z" android:strokeColor="#ffffffff" android:strokeWidth="2.0" android:trimPathStart="0.1" android:trimPathEnd="0.9" />
+            </group>
+        </group>
+    </group>
+</vector>

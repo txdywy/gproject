@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayCardViewSmall xmlns:android="http://schemas.android.com/apk/res-auto" playcommon:id="@id/play_card" playcommon:focusable="true" playcommon:nextFocusRight="@id/li_overflow" playcommon:layout_width="match_parent" playcommon:layout_height="UNKNOWN_DATA_0x1" playcommon:foreground="@drawable/play_highlight_round_overlay_light" playcommon:paddingStart="0dp" playcommon:playCardClipToOutline="false" style="@c6382j/PlayCardViewGroup">
+    <include layout="@layout/play_card_small_content" />
+</com.google.android.play.layout.PlayCardViewSmall>

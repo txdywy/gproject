@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/uninstall_row" app:paddingLeft="0dp" app:paddingRight="32dp" app:paddingBottom="@dimen/uninstall_wizard_selector_row_vpadding" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.google.android.finsky.detailscomponents.DocImageView app:id="@id/uninstall_row_icon" app:focusable="false" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" />
+    <LinearLayout app:textColor="@color/play_uninstall_wizard_secondary" app:orientation="vertical" app:paddingLeft="14dp" app:paddingRight="12dp" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+        <TextView app:textSize="16sp" app:textColor="@color/play_uninstall_wizard_title_color" app:ellipsize="end" app:id="@id/uninstall_row_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        <TextView app:textSize="14sp" app:ellipsize="end" app:id="@id/uninstall_row_size" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        <TextView app:textSize="14sp" app:ellipsize="end" app:id="@id/uninstall_row_last_used_timestamp" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+    </LinearLayout>
+    <CheckBox app:id="@id/uninstall_row_checkbox" app:focusable="false" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:buttonTint="@color/play_uninstall_wizard_background_color" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/always" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/purchase_auth_value_always" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/session" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/purchase_auth_value_session" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/never" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/purchase_auth_value_never" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/purchase_auth_underage_disclaimer" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cancel" android:background="@drawable/play_highlight_overlay_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="?attr/buttonBarPositiveButtonStyle" />
+    </FrameLayout>
+</LinearLayout>

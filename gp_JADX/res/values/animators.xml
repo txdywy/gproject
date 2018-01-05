@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="design_appbar_state_list_animator">res/animator-v21/design_appbar_state_list_animator.xml</animator>
+    <animator name="design_fab_hide_motion_spec">res/animator/design_fab_hide_motion_spec.xml</animator>
+    <animator name="design_fab_show_motion_spec">res/animator/design_fab_show_motion_spec.xml</animator>
+    <animator name="mtrl_chip_state_list_anim">res/animator/mtrl_chip_state_list_anim.xml</animator>
+    <animator name="mtrl_fab_hide_motion_spec">res/animator/mtrl_fab_hide_motion_spec.xml</animator>
+    <animator name="mtrl_fab_show_motion_spec">res/animator/mtrl_fab_show_motion_spec.xml</animator>
+    <animator name="mtrl_fab_transformation_sheet_collapse_spec">res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml</animator>
+    <animator name="mtrl_fab_transformation_sheet_expand_spec">res/animator/mtrl_fab_transformation_sheet_expand_spec.xml</animator>
+</resources>

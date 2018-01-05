@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Spinner android:id="@id/birthday_month" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="0dp" android:layout_marginRight="12dp" android:layout_weight="1.0" style="@style/Widget.AppCompat.Spinner.Underlined" />
+    <Spinner android:id="@id/birthday_day" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="0dp" android:layout_marginRight="12dp" android:layout_weight="1.0" style="@style/Widget.AppCompat.Spinner.Underlined" />
+    <Spinner android:id="@id/birthday_year" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_weight="1.0" style="@style/Widget.AppCompat.Spinner.Underlined" />
+</LinearLayout>

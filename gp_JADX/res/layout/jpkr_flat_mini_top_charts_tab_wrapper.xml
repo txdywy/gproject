@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/list_tab_wrapper" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@id/data_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/tab_content_view" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/play_main_background" android:divider="@drawable/jpkr_flat_mini_top_charts_tab_item_divider" android:showDividers="middle|end" />
+        <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/no_results_view" />
+    </FrameLayout>
+    <include layout="@layout/jpkr_mini_top_charts_list_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+</FrameLayout>

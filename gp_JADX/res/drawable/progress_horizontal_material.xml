@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020000">
+        <shape android:shape="rectangle">
+            <size android:height="2dp" />
+            <solid android:color="@color/loading_progressbar_background" />
+        </shape>
+    </item>
+    <item android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x102000f">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <size android:height="2dp" />
+                <solid android:color="#77ffffff" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x102000d">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <size android:height="2dp" />
+                <solid android:color="@color/loading_progressbar" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

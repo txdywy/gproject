@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/item_content" app:focusable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/pe__card_v2_margin_bottom" app:foreground="@drawable/play_highlight_round_overlay_dark" app:widthRatio="@integer/pe__card_width_ratio_v2" app:heightRatio="@integer/pe__card_height_ratio_v2">
+    <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" />
+    <LinearLayout app:orientation="vertical" app:background="@c6087f/pe__card_story_fg" app:paddingTop="@dimen/box_small_padding" app:paddingBottom="@dimen/box_small_padding" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+        <TextView app:id="@id/title" app:background="@c6087f/pe__card_story_tag_bg" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PECardText.Title" />
+        <TextView app:id="@id/subtitle" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__card_title_subtitle_margin" app:maxLines="2" style="@style/PECardText" />
+        <TextView app:id="@id/source" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__card_subtitle_source_margin" style="@style/PECardText.Source" />
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout>

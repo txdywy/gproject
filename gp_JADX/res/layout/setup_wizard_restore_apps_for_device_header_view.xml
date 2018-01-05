@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/black" android:id="@id/instructions" android:paddingLeft="0dp" android:paddingTop="@dimen/setup_wizard_restore_description_top_padding" android:paddingRight="@dimen/setup_wizard_content_xpadding" android:paddingBottom="@dimen/setup_wizard_content_ypadding" android:layout_width="match_parent" android:layout_height="wrap_content" />

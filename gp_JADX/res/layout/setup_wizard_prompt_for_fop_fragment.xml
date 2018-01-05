@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/profile" android:background="@color/setupwizard_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@id/account" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardPlainText" />
+        <TextView android:id="@id/primer" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardLightText" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/actions_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="vertical" android:id="@id/actions" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+        </ScrollView>
+        <include layout="@layout/setup_wizard_continue_button_bar" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

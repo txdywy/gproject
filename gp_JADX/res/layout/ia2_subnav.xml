@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.ia2.Ia2SubNavView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ia2_subnav_parent" android:background="@color/play_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:id="@id/ia2_subnav_items_container" android:paddingLeft="@dimen/card_look_edge_margins" android:paddingRight="@dimen/card_look_edge_margins" android:scrollbars="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never" />
+</com.google.android.finsky.ia2.Ia2SubNavView>

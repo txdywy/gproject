@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/li_category" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/FlatCardSubtitle.Listing" />
+    <ImageView finsky:id="@id/li_prereg_rewards_gift_box" finsky:visibility="gone" style="@style/PreregRewardsGiftBox" />
+    <com.google.android.finsky.playcard.Tooltip finsky:id="@id/tooltip" finsky:background="@drawable/play_highlight_overlay_action_button" finsky:padding="@dimen/preregistrable_games_rewards_tooltip_padding" finsky:visibility="gone" finsky:clickable="true" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:contentDescription="@string/preregistration_rewards_tooltip_description" finsky:playCardBubbleSize="@dimen/preregistrable_games_rewards_tooltip_bubble_size" finsky:playCardBubbleOffset="0dp" finsky:playCardBubbleGravity="8388613" finsky:playCardBackgroundColor="@color/preregistrable_games_rewards_tooltip_color" finsky:playCardCornerRadius="@dimen/play_card_default_radius" finsky:playCardElevation="@dimen/preregistrable_games_rewards_tooltip_elevation" finsky:playCardInset="@dimen/play_card_default_inset" finsky:playCardClipToOutline="false" finsky:duration="@integer/preregistrable_games_rewards_tooltip_duration">
+        <TextView finsky:textColor="@color/play_white" finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/tooltip_text" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+        <ImageView finsky:id="@id/tooltip_close_button" finsky:visibility="gone" style="@style/PreregRewardsCloseButton" />
+    </com.google.android.finsky.playcard.Tooltip>
+</merge>

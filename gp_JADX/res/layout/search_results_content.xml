@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.recyclerview.PlayRecyclerView android:id="@id/search_results_list" android:paddingBottom="@dimen/card_list_vpadding" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/play_main_background" android:divider="0x0" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/no_results_view" />
+    <Button android:textSize="14sp" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/clear_family_search_filter" android:background="@color/play_multi_primary" android:text="@string/show_all_search_results_title" style="@style/ClearFamilySafeSearchButton" />
+</merge>

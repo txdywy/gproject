@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.warmwelcome.view.WarmWelcomeCard xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:supports_dynamic_title_top_padding="true">
+    <com.google.android.play.layout.CardLinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@c6382j/PlayCardViewGroup">
+        <FrameLayout finsky:id="@id/warm_welcome_graphic_box" finsky:padding="8dp" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0xc801">
+            <com.google.android.play.image.FifeImageView finsky:id="@id/warm_welcome_graphic" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:scaleType="centerInside" />
+        </FrameLayout>
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/warm_welcome_title" finsky:paddingTop="@dimen/warm_welcome_title_top_padding" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@c6382j/PlayEduCardTitle" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/warm_welcome_body" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@c6382j/PlayEduCardDescription" />
+        <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/warm_welcome_card_buttons" />
+    </com.google.android.play.layout.CardLinearLayout>
+</com.google.android.finsky.stream.controllers.warmwelcome.view.WarmWelcomeCard>

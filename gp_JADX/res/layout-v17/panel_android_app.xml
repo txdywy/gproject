@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.BackgroundPanelView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/background_panel" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.google.android.libraries.play.entertainment.story.ParallaxContainer app:id="@id/parallax_container" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e0425">
+        <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_main" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:fadesInImage="true" />
+    </com.google.android.libraries.play.entertainment.story.ParallaxContainer>
+    <LinearLayout app:orientation="vertical" app:id="@id/text_container" app:paddingTop="@dimen/box_vertical_margin" app:paddingBottom="@dimen/box_vertical_margin" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/parallax_container" style="@style/PETextContainer">
+        <include layout="@layout/pe__panel_title_in_slanted_style" />
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/default_half_padding">
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/app_icon" app:layout_width="UNKNOWN_DATA_0x7f0e03fa" app:layout_height="UNKNOWN_DATA_0x7f0e03fa" app:scaleType="fitCenter" app:layout_alignParentTop="true" app:layout_marginEnd="@dimen/default_half_padding" app:layout_alignParentStart="true" app:fadesInImage="true" />
+            <TextView app:id="@id/app_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignTop="@id/app_icon" app:layout_toEndOf="@id/app_icon" style="@style/PETitleText" />
+            <TextView app:id="@id/app_developer_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/app_name" app:layout_toEndOf="@id/app_icon" style="@style/PEText.Small" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@id/app_developer_name" app:layout_toEndOf="@id/app_icon">
+                <TextView app:textColor="@color/play_apps_primary" app:id="@id/app_numerical_rating" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PEText.Small" />
+                <com.google.android.play.layout.StarRatingBar playcommon:id="@id/app_star_rating" playcommon:layout_width="wrap_content" playcommon:layout_height="wrap_content" playcommon:layout_marginStart="@dimen/default_quarter_padding" playcommon:rating="2.5" playcommon:range="5" playcommon:star_height="@dimen/pe_small_text_size" playcommon:star_color="@color/play_apps_primary" playcommon:star_bg_color="@c6071d/pe__game_rating_star_bg_color" playcommon:gap="2dp" style="?unknown_attr_ref: 101007d" />
+                <TextView android:id="@id/app_rating_count_left" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(" android:layout_marginStart="@dimen/default_quarter_padding" style="@style/PEText.Small" />
+                <TextView android:id="@id/app_rating_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/default_quarter_padding" style="@style/PEText.Small" />
+                <TextView android:id="@id/app_rating_count_right" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=")" style="@style/PEText.Small" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:id="@id/app_snippet" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PEText.BodyText" />
+        <include layout="@layout/pe__panel_dc_actions" />
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.story.BackgroundPanelView>

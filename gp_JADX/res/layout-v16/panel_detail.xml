@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.BackgroundPanelView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/background_panel" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.google.android.libraries.play.entertainment.story.ParallaxContainer app:id="@id/parallax_container" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e0425">
+        <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_main" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:fadesInImage="true" />
+    </com.google.android.libraries.play.entertainment.story.ParallaxContainer>
+    <LinearLayout app:orientation="vertical" app:id="@id/text_container" app:paddingTop="@dimen/box_vertical_margin" app:paddingBottom="@dimen/box_vertical_margin" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/parallax_container" style="@style/PETextContainer">
+        <include layout="@layout/pe__panel_title_in_slanted_style" />
+        <TextView app:id="@id/detail_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/box_small_padding" style="@style/PETitleText" />
+        <com.google.android.libraries.play.entertainment.story.SnippetView app:id="@id/detail_description" app:focusable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxLines="4" app:moreHintText="@string/pe__more" app:moreHintContentDescription="@string/pe__content_description_more" style="@style/PEText.BodyText" />
+        <TextView app:id="@id/attribution" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PEText.Attribution" />
+        <ViewStub app:id="@id/stub_row" app:layout="@layout/pe__panel_dc_actions" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.story.BackgroundPanelView>

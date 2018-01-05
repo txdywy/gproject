@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/play_highlight_overlay_light" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.play.image.FifeImageView android:id="@id/icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/edit_button" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <com.google.android.play.layout.PlayTextView android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/edit_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/standard_button_touch_target_minsize" android:layout_toLeftOf="@id/check_mark" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+    <com.google.android.play.image.FifeImageView android:id="@id/check_mark" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

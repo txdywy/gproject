@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_primary_text" finsky:ellipsize="end" finsky:id="@id/subscription_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" finsky:layout_alignParentLeft="true" finsky:layout_alignParentTop="true" finsky:layout_alignParentStart="true" />
+    <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:textColor="@color/play_fg_secondary" finsky:id="@id/subscription_price" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="true" finsky:layout_below="@id/subscription_title" finsky:layout_alignParentLeft="true" finsky:layout_alignParentStart="true" />
+    <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:textColor="@color/play_fg_secondary" finsky:id="@id/subscription_renewal" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:singleLine="false" finsky:layout_below="@id/subscription_price" finsky:layout_alignParentLeft="true" finsky:layout_alignParentStart="true" />
+    <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/account_button" finsky:visibility="gone" finsky:layout_below="@id/subscription_renewal" style="@style/FullWidthLabelButton" />
+</merge>

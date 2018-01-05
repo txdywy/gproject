@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Trgovina Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">Potrebna je odobritev</string>
+    <string name="d">Nastavitve starševskega nadzora</string>
+    <string name="e">Ocene</string>
+    <string name="f">Nenamestljiva aplikacija</string>
+    <string name="g">Nastavitve člana</string>
+    <string name="h">Nastavitve za nenamestljive aplikacije</string>
+    <string name="i">Trgovina Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Moji programi</string>
+    <string name="n">Možnosti nakupa</string>
+    <string name="o">Plačilna sredstva</string>
+    <string name="p">Uporabniku dovoli ogled razpoložljivih aplikacij v tej aplikaciji.</string>
+    <string name="q">Dostop do storitve odkrivanja aplik. v Googlu Play</string>
+    <string name="r">Uporabniku omogoča nakupovanje v trgovini Google Play iz te aplikacije.</string>
+    <string name="s">Storitev zaračunavanja trgovine Google Play</string>
+    <string name="t">Lahko preveri, ali imate za to aplikacijo licenco trgovine Google Play.</string>
+    <string name="u">Preverjanje licence trgovine Google Play</string>
+    <string name="v">Dovoljenja za aplikacijo</string>
+    <string name="w">Odprtokodne licence</string>
+    <string name="x">Obvezno preverjanje pristnosti</string>
+    <string name="y">Unovčite kodo</string>
+    <string name="aa">Ocenite</string>
+    <string name="ba">Pošljite darilo</string>
+    <string name="ca">Nastavitve</string>
+    <string name="da">Obvestila</string>
+    <string name="ea">Dokončajte nastavitev računa</string>
+    <string name="fa">Aplikacije bodo nameščene, ko je namestitev končana</string>
+    <string name="ga">Pregled dodatnih aplikacij</string>
+    <string name="ha">Hitri nakupi v Googlovih izdelkih</string>
+    <string name="ia">Dodajanje plačilnega sredstva</string>
+    <string name="ja">Nastavitev podatkov za plačevanje</string>
+    <string name="ka">Obnovitev aplikacij iz naprave</string>
+    <string name="la">Katera naprava?</string>
+    <string name="ma">Izbira družinskega plač. sredstva</string>
+    <string name="na">Izberite znesek</string>
+    <string name="oa">Posodobite plačilno sredstvo</string>
+    <string name="pa">Preverjanje in namestitev</string>
+    <string name="qa">Iskanje varnostnih težav …</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

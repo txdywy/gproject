@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.card.CardImagesView xmlns:android="http://schemas.android.com/apk/res-auto" im:gravity="top|bottom|center_vertical|fill_vertical|center|fill" im:layout_width="match_parent" im:layout_height="wrap_content" im:layoutDirection="ltr" im:internalUicCardImagesWidth="@dimen/wallet_uic_credit_card_icon_width" im:internalUicCardImagesHeight="@dimen/wallet_uic_credit_card_icon_height" im:internalUicSpacingBetweenCardImages="@dimen/wallet_uic_spacing_between_credit_card_images">
+    <ImageView im:id="@id/unresolved_logo" im:visibility="invisible" im:layout_width="wrap_content" im:layout_height="wrap_content" im:src="?attr/uicCardUnresolvedDrawable" im:contentDescription="0x0" im:layerType="hardware" />
+</com.google.android.wallet.ui.card.CardImagesView>

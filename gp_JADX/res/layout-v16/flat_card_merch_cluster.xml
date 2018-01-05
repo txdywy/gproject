@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.FlatCardMerchClusterView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/flat_card_cluster_container" finsky:clipToPadding="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/FlatCardCluster">
+    <com.google.android.finsky.frameworkviews.FadingEdgeImageView finsky:id="@id/merch_image" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:scaleType="centerCrop" finsky:importantForAccessibility="no" finsky:fixed_bounds="true" />
+    <View finsky:id="@id/gradient_overlay" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+    <include layout="@layout/flat_card_cluster_header" />
+    <com.google.android.finsky.layout.play.FlatCardLeadingGapClusterViewContent finsky:id="@id/cluster_content" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+</com.google.android.finsky.stream.controllers.view.FlatCardMerchClusterView>

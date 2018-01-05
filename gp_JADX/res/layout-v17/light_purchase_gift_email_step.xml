@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="match_parent"
+    <LinearLayout finsky:orientation="horizontal" finsky:id="@id/gift_dialog_header" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/GiftEmailHeaderPadding">
+        <ImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:src="@drawable/ic_gifting_white_36" />
+        <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="@dimen/gift_email_horizontal_padding" finsky:layout_marginRight="0dp" finsky:layout_marginStart="@dimen/gift_email_horizontal_padding" finsky:layout_marginEnd="0dp">
+            <TextView finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/send_gift" style="@style/GiftEmailTitleText" />
+            <LinearLayout finsky:orientation="vertical" finsky:id="@id/item_title_container" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+                <TextView finsky:id="@id/item_title" finsky:paddingLeft="0dp" finsky:paddingRight="4sp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:paddingStart="0dp" finsky:paddingEnd="4sp" style="@style/GiftEmailItemText" />
+                <TextView finsky:id="@id/item_offer_title" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/GiftEmailItemText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView finsky:id="@id/scroll_view" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <LinearLayout finsky:orientation="vertical" finsky:paddingTop="8dp" finsky:focusable="true" finsky:focusableInTouchMode="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/GiftEmailPadding">
+            <com.google.android.finsky.frameworkviews.LabelEditText finsky:id="@id/to_email_text" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:hint="@string/to_email_hint_short" finsky:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time" finsky:labelFormat="@string/to_email_output" />
+            <com.google.android.finsky.frameworkviews.LabelEditText finsky:id="@id/from_name_text" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:hint="@string/from_name_hint_short" finsky:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberDecimal|phone|time" finsky:labelFormat="@string/from_name_output" />
+            <include finsky:id="@id/gift_message_text" layout="@layout/input_with_character_counter" />
+            <TextView finsky:textSize="@dimen/play_purchase_small_size" finsky:id="@id/gift_email_copy" finsky:paddingTop="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+            <TextView finsky:textSize="@dimen/play_purchase_small_size" finsky:paddingTop="4dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/gift_send_to_another" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/play_medium_size" android:textColor="@color/play_fg_secondary" android:id="@id/li_app_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/play_card_content_horizontal_inset" android:layout_marginRight="@dimen/play_card_content_horizontal_inset" android:maxLines="1" android:singleLine="true" />

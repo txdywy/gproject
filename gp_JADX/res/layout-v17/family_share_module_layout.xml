@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.FamilyShareLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/play_white" android:padding="@dimen/details_new_content_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/share_controls" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/family_icon" android:layout_width="UNKNOWN_DATA_0x7f0e0174" android:layout_height="UNKNOWN_DATA_0x7f0e0174" android:scaleType="fitStart" android:alpha="0.54" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_primary_text" android:ellipsize="end" android:id="@id/family_library_text" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="0dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="@dimen/details_content_margin" android:paddingEnd="0dp" />
+        <android.support.v7.widget.SwitchCompat android:id="@id/switch_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" />
+    </LinearLayout>
+    <ViewStub android:id="@id/family_share_education_card_stub" android:layout="@layout/family_share_education_bubble_card" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/family_share_paused_education_card_stub" android:layout="@layout/family_education_card" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.detailspage.FamilyShareLayout>

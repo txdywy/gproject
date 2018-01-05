@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.JpkrFlatMiniTopChartsClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FlatNoBottomPaddingCardCluster">
+    <include android:id="@id/cluster_header" layout="@layout/flat_card_cluster_header" />
+    <include android:id="@id/cluster_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/cluster_header" layout="@layout/jpkr_flat_mini_top_charts_cluster_content" />
+    <include android:id="@id/toggle_tooltip" android:visibility="invisible" layout="@layout/jpkr_mini_top_charts_toggle_tooltip" />
+</com.google.android.finsky.stream.controllers.view.JpkrFlatMiniTopChartsClusterView>

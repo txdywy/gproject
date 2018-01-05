@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <transition name="details_transition">res/transition-v22/details_transition.xml</transition>
+</resources>

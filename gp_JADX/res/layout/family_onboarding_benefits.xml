@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/family_benefits_hero" layout="@layout/hero_graphic" />
+    <TextView android:id="@id/family_benefits_title" style="@style/FamilyBenefitsTitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/benefits_list" android:layout_marginTop="0dp" style="@style/FamilyBenefitsElement" />
+    <TextView android:id="@id/family_benefits_footer" android:layout_marginBottom="@dimen/family_onboarding_row_margin" style="@style/FamilyBenefitsFooter" />
+</LinearLayout>

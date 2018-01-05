@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/play_protect_spinner_white">
+    <target android:name="path_3" android:animation="@anim/play_protect_spinner_white_path_animation" />
+</animated-vector>

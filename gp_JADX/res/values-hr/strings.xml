@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Trgovina Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">Potrebno je odobrenje</string>
+    <string name="d">Roditeljski nadzor</string>
+    <string name="e">Recenzije</string>
+    <string name="f">Instant aplikacija</string>
+    <string name="g">Postavke članova</string>
+    <string name="h">Postavke za Instant aplikacije</string>
+    <string name="i">Trgovina Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Moje aplikacije</string>
+    <string name="n">Opcije kupnje</string>
+    <string name="o">Načini plaćanja</string>
+    <string name="p">Korisniku omogućuje pregled dostupnih aplikacija putem te aplikacije.</string>
+    <string name="q">Pristup Google Play usluzi otkrivanja aplikacija</string>
+    <string name="r">Omogućuje korisniku da na Google Playu kupuje putem ove aplikacije.</string>
+    <string name="s">Naplata usluge Google Play</string>
+    <string name="t">Može provjeriti imate li licencu za ovu aplikaciju s usluge Google Play.</string>
+    <string name="u">Provjera licence usluge Google Play</string>
+    <string name="v">Dozvole aplikacija</string>
+    <string name="w">Licence otvorenog koda</string>
+    <string name="x">Zahtjev za provjeru autent.</string>
+    <string name="y">Iskoristite svoj kôd</string>
+    <string name="aa">Ocijenite!</string>
+    <string name="ba">Pošaljite dar</string>
+    <string name="ca">Postavke</string>
+    <string name="da">Obavijesti</string>
+    <string name="ea">Dovršavanje izrade računa</string>
+    <string name="fa">Aplikacije će se instalirati nakon što završi postavljanje</string>
+    <string name="ga">Pregledajte dodatne aplikacije</string>
+    <string name="ha">Brza naplata uz Googleove proizvode</string>
+    <string name="ia">Dodajte način plaćanja</string>
+    <string name="ja">Postavljanje podataka o plaćanju</string>
+    <string name="ka">Vraćanje aplikacija s uređaja</string>
+    <string name="la">Koji uređaj?</string>
+    <string name="ma">Odaberite obiteljski način plaćanja</string>
+    <string name="na">Odaberite iznos</string>
+    <string name="oa">Ažurirajte način plaćanja</string>
+    <string name="pa">Potvrdi i instaliraj</string>
+    <string name="qa">Traženje sigurnosnih poteškoća…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

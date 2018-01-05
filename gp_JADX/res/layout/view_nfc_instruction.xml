@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" im:layout_width="match_parent" im:layout_height="match_parent">
+    <LinearLayout im:orientation="vertical" im:id="@id/nfc_instruction_layout" im:layout_width="match_parent" im:layout_height="wrap_content">
+        <TextView im:id="@id/nfc_popup_message" im:paddingLeft="?attr/uicDialogBodyStartEndMargin" im:paddingTop="?attr/uicDialogBodyTopBottomMargin" im:paddingRight="?attr/uicDialogBodyStartEndMargin" im:paddingBottom="?attr/uicDialogBodyTopBottomMargin" im:layout_width="match_parent" im:layout_height="wrap_content" style="?attr/uicInfoDialogTextAppearance" />
+        <com.google.android.wallet.ui.common.FifeNetworkImageView im:id="@id/nfc_instruction_image" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" im:scaleType="centerInside" im:internalUicAspectRatio="1.2218411" im:internalUicDominantDimension="1" />
+    </LinearLayout>
+    <ProgressBar im:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" im:id="@id/nfc_instruction_spinner" im:visibility="gone" im:layout_width="wrap_content" im:layout_height="wrap_content" style="?unknown_attr_ref: 1010077" />
+</FrameLayout>

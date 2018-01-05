@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" im:layout_width="match_parent" im:layout_height="match_parent" im:minWidth="?attr/imDialogWindowMinWidth" im:maxWidth="?attr/imMaxWidth">
+    <com.google.android.wallet.ui.common.FifeNetworkImageView im:id="@c6634c/title_image" im:background="?attr/imTitleImageBackground" im:visibility="gone" im:layout_width="match_parent" im:layout_height="UNKNOWN_DATA_0x1" />
+    <LinearLayout im:orientation="vertical" im:layout_width="match_parent" im:layout_height="match_parent" im:minHeight="200dp">
+        <FrameLayout im:id="@c6634c/top_bar_container" im:background="?attr/imTitleTextBackground" im:paddingLeft="?attr/imTitleStartMargin" im:paddingTop="?attr/imTitleTopMargin" im:paddingRight="?attr/imTitleEndMargin" im:paddingBottom="?attr/imTitleBottomMargin" im:layout_width="match_parent" im:layout_height="wrap_content">
+            <include im:id="@c6634c/top_bar" im:visibility="invisible" layout="@c6641d/view_top_bar" />
+            <include im:id="@c6634c/progress_top_bar" im:visibility="invisible" layout="@c6641d/view_top_bar" />
+        </FrameLayout>
+        <View im:id="@c6634c/title_separator" im:background="?attr/imTitleSeparatorBackground" im:visibility="invisible" im:layout_width="match_parent" im:layout_height="UNKNOWN_DATA_0x7f010025" />
+        <FrameLayout im:layout_width="match_parent" im:layout_height="UNKNOWN_DATA_0x1" im:layout_marginLeft="?attr/uicFormStartEndMargin" im:layout_marginTop="?attr/uicFormTopMargin" im:layout_marginRight="?attr/uicFormStartEndMargin" im:layout_marginBottom="?attr/uicFormBottomMargin" im:layout_weight="1.0">
+            <com.google.android.wallet.ui.common.FocusedViewToTopScrollView im:id="@c6634c/main_content" im:visibility="invisible" im:layout_width="match_parent" im:layout_height="match_parent">
+                <LinearLayout im:orientation="vertical" im:id="@c6634c/sub_form_holder" im:layout_width="match_parent" im:layout_height="wrap_content">
+                    <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageView im:id="@c6634c/top_info_text" im:layout_width="match_parent" im:layout_height="wrap_content" im:layout_marginLeft="?attr/internalUicNonFormFieldTextStartMargin" im:layout_marginBottom="@c6632b/wallet_im_info_message_bottom_margin" im:internalUicInfoMessageTextAppearance="?attr/imInfoMessageTextAppearance" />
+                    <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageView im:id="@id/info_message" im:visibility="gone" im:layout_width="wrap_content" im:layout_height="wrap_content" im:textIsSelectable="true" im:internalUicInfoMessageTextAppearance="?attr/uicDialogMessageTextAppearance" />
+                    <TextView im:id="@id/details" im:visibility="gone" im:layout_width="wrap_content" im:layout_height="wrap_content" im:layout_marginTop="4dp" im:textIsSelectable="true" style="?unknown_attr_ref: 1010042" />
+                </LinearLayout>
+            </com.google.android.wallet.ui.common.FocusedViewToTopScrollView>
+            <ProgressBar im:id="@id/progress_bar_horizontal" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" im:layout_marginTop="@dimen/wallet_uic_horizontal_progress_bar_top_margin" style="?unknown_attr_ref: 1010078" />
+        </FrameLayout>
+        <include im:id="@c6634c/button_bar" im:visibility="invisible" layout="@c6641d/view_button_bar" />
+        <View im:id="@c6634c/steal_focus_and_hide_keyboard" im:focusableInTouchMode="true" im:visibility="UNKNOWN_DATA_0x7f010010" im:layout_width="match_parent" im:layout_height="UNKNOWN_DATA_0x1" />
+        <View im:id="@id/focus_stealer" im:focusableInTouchMode="true" im:visibility="UNKNOWN_DATA_0x7f010010" im:layout_width="match_parent" im:layout_height="UNKNOWN_DATA_0x1" />
+    </LinearLayout>
+    <RelativeLayout im:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" im:paddingLeft="?attr/uicFormStartEndMargin" im:paddingRight="?attr/uicFormStartEndMargin" im:layout_width="match_parent" im:layout_height="wrap_content">
+        <ProgressBar im:id="@id/progress_bar" im:visibility="gone" im:layout_width="wrap_content" im:layout_height="wrap_content" im:layout_centerHorizontal="true" im:layout_centerVertical="true" style="?attr/uicProgressBarStyle" />
+        <TextView im:id="@c6634c/progress_text" im:visibility="gone" im:layout_width="UNKNOWN_DATA_0x1" im:layout_height="wrap_content" im:layout_marginLeft="@c6632b/wallet_im_progress_text_margin" im:maxLines="5" im:layout_toRightOf="@id/progress_bar" im:layout_alignParentRight="true" im:layout_centerVertical="true" style="?attr/imProgressBarTextAppearance" />
+    </RelativeLayout>
+</com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout>

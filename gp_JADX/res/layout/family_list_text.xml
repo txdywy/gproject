@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.OutlinedForegroundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PlayCardFlatList">
+    <TextView android:id="@id/text" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@c6382j/PlayMediumPlainText" />
+</com.google.android.finsky.frameworkviews.OutlinedForegroundLinearLayout>

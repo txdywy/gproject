@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <FrameLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <ProgressBar finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/approval_loading_indicator" finsky:padding="24dp" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:indeterminate="true" />
+        <LinearLayout finsky:orientation="vertical" finsky:id="@id/body" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <include finsky:id="@id/auth_challenge" layout="@layout/family_wallet_auth_challenge_step" />
+            <include layout="@layout/button_bar" />
+        </LinearLayout>
+    </FrameLayout>
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">„Google Play“ parduotuvė</string>
+    <string name="b">Google Play</string>
+    <string name="c">Reikalingas patvirtinimas</string>
+    <string name="d">Tėvų kontrolė</string>
+    <string name="e">Apžvalgos</string>
+    <string name="f">Akim. įkeliama programėlė</string>
+    <string name="g">Nario nustatymai</string>
+    <string name="h">Akimirksniu įkeliamų programėlių nuost.</string>
+    <string name="i">„Play“ parduotuvė</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mano programos</string>
+    <string name="n">Pirkimo parinktys</string>
+    <string name="o">Mokėjimo metodai</string>
+    <string name="p">Naudotojui leidžiama peržiūrėti pasiekiamas programas šioje programoje.</string>
+    <string name="q">Pasiekti „Google Play“ programų aptikimo paslaugą</string>
+    <string name="r">Leidžiama naudotojui įsigyti prekių iš „Google Play“ naudojant šią programą.</string>
+    <string name="s">„Google Play“ atsiskaitymo paslauga</string>
+    <string name="t">Gali patikrinti, ar turite šios programos licenciją iš „Google Play“.</string>
+    <string name="u">„Google Play“ licencijos patikrinimas</string>
+    <string name="v">Programos leidimai</string>
+    <string name="w">Atvirojo šaltinio licencijos</string>
+    <string name="x">Reikalaujama autentifikuoti</string>
+    <string name="y">Išpirkite kodą</string>
+    <string name="aa">Įvertinkite!</string>
+    <string name="ba">Dovanos siuntimas</string>
+    <string name="ca">Nustatymai</string>
+    <string name="da">Pranešimai</string>
+    <string name="ea">Užbaikite paskyros sąranką</string>
+    <string name="fa">Programos bus įdiegtos, kai sąranka bus baigta</string>
+    <string name="ga">Peržiūrėti papildomas programas</string>
+    <string name="ha">Mėgaukitės greita patikra naud. „Google“ produktus</string>
+    <string name="ia">Pridėti mokėjimo metodą</string>
+    <string name="ja">Mokėjimo informacijos nustatymas</string>
+    <string name="ka">Atkurti programas iš įrenginio</string>
+    <string name="la">Kuris įrenginys?</string>
+    <string name="ma">Pasirinkite šeimos mokėjimo metodą</string>
+    <string name="na">Pasirinkite sumą</string>
+    <string name="oa">Atnaujinti mokėjimo metodą</string>
+    <string name="pa">Patvirtinti ir įdiegti</string>
+    <string name="qa">Tikrinama, ar nėra saugos problemų…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

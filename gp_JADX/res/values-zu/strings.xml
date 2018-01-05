@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Isitolo</string>
+    <string name="b">play music</string>
+    <string name="c">Kudingeka ukuvunyelwa</string>
+    <string name="d">Izilawuli zomzali</string>
+    <string name="e">Izibuyekezi</string>
+    <string name="f">Uhlelo lokusebenza olusheshayo</string>
+    <string name="g">Izilungiselelo zelungu</string>
+    <string name="h">izinketho zama-App Asheshayo</string>
+    <string name="i">I-Play Store</string>
+    <string name="l">I-Google Play Protect</string>
+    <string name="m">Izinhlelo zami zokusebenza</string>
+    <string name="n">Izinketho zokuthenga</string>
+    <string name="o">Izindlela zokukhokha</string>
+    <string name="p">Ivumela umsebenzisi ukuthi abuke izinhlelo zokusebenza ezitholakalayo kusukela ngaphakathi kwalolu hlelo lokusebenza.</string>
+    <string name="q">Finyelela kusevisi yokutholakala kohlelo lokusebenza lwe-Google Play</string>
+    <string name="r">Vumela umsebenzisi ukuthi athenge izinto esebenzisa i-Google Play kule nsiza.</string>
+    <string name="s">Isevisi yokukhokhisa ye-Google Play</string>
+    <string name="t">Ingabheka ukuthi unaso yini ilayisensi yale nsiza evela ku-Google Play.</string>
+    <string name="u">Ukuhlolwa kwelayisensi ye-Google Play</string>
+    <string name="v">Izimvume zohlelo lokusebenza</string>
+    <string name="w">Amalayisensi womthombo ovulekile</string>
+    <string name="x">Idinga ukuqinisekiswa</string>
+    <string name="y">Khipha ikhodi yakho</string>
+    <string name="aa">Kala!</string>
+    <string name="ba">Thumela isipho</string>
+    <string name="ca">Izilungiselelo</string>
+    <string name="da">Izaziso</string>
+    <string name="ea">Qedela ukusethwa kwe-akhawunti</string>
+    <string name="fa">Izinhlelo zokusebenza zizofakwa ngemuva kokuthi kuqedwe ukusetha</string>
+    <string name="ga">Buyekeza izinhlelo zokusebenza ezingeziwe</string>
+    <string name="ha">Jabulela ukuphuma okusheshayo ngemikhiqizo ye-Google</string>
+    <string name="ia">Engeza indlela yokukhokha</string>
+    <string name="ja">Setha ulwazi lokukhokha</string>
+    <string name="ka">Buyisa izinhlelo zokusebenza kusuka kudivayisi</string>
+    <string name="la">Yiphi idivayisi?</string>
+    <string name="ma">Khetha indlela yokukokha yomndeni</string>
+    <string name="na">Khetha inani</string>
+    <string name="oa">Buyekeza indlela yokukhokha</string>
+    <string name="pa">Qinisekisa uphinde ufake</string>
+    <string name="qa">Iskena izinkinga zokuphepha…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

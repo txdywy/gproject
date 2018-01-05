@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.videowatchaction.WatchActionListViewItem xmlns:android="http://schemas.android.com/apk/res-auto" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="horizontal" finsky:paddingLeft="12dp" finsky:paddingTop="10dp" finsky:paddingRight="0dp" finsky:paddingBottom="10dp" finsky:focusable="false" finsky:focusableInTouchMode="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/thumbnail_image" finsky:layout_width="UNKNOWN_DATA_0x3001" finsky:layout_height="UNKNOWN_DATA_0x3001" finsky:layout_weight="0.0" finsky:fixed_bounds="true" finsky:is_avatar_no_ring="true" />
+    <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="horizontal" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_weight="1.0"
+        <LinearLayout finsky:orientation="vertical" finsky:paddingLeft="@dimen/details_content_margin" finsky:paddingRight="0dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_weight="1.0">
+            <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textStyle="bold" finsky:id="@id/title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+            <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_disabled_black" finsky:id="@id/subtitle" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_movies_secondary" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/offer_message" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_weight="0.0" />
+    </LinearLayout>
+    <ImageView finsky:id="@id/group_indicator" finsky:visibility="invisible" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="8dp" finsky:layout_weight="0.0" />
+</com.google.android.finsky.detailspage.videowatchaction.WatchActionListViewItem>

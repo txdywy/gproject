@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/play_protect_spinner_white_animation_interpolator" android:duration="1000" android:repeatCount="infinite" android:valueFrom="0.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="trimPathOffset" />
+</set>

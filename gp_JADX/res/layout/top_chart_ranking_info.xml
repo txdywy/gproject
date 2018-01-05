@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.TopChartRankingInfoModuleLayout xmlns:android="http://schemas.android.com/apk/res-auto" playcommon:id="@id/top_chart_ranking_info_module" style="@style/TopChartRankingInfoModule">
+    <include playcommon:id="@id/rounded_pill" layout="@layout/play_rounded_pill_item" />
+    <TextView playcommon:id="@id/li_top_charts_title_info" style="@style/TopChartRankingInfoTitleText" />
+    <com.google.android.finsky.playcard.FadingEdgeTextView playcommon:id="@id/li_fading_top_charts_title_info" playcommon:fading_edge_width="@dimen/flat_featured_card_thumbnail_size" style="@style/TopChartRankingInfoTitleText" />
+</com.google.android.finsky.detailspage.TopChartRankingInfoModuleLayout>

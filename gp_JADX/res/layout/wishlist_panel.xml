@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/wishlist_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.finsky.recyclerview.PlayRecyclerView android:id="@id/tab_recycler_view" android:paddingBottom="4dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/play_main_background" android:divider="0x0" android:overScrollMode="never" />
+    <com.google.android.finsky.frameworkviews.MarginBoxLayout android:id="@id/no_results_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_fg_secondary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/my_wishlist_empty" android:drawableTop="@drawable/ic_empty_wish" android:drawablePadding="10dp" style="@c6382j/PlayLightText" />
+    </com.google.android.finsky.frameworkviews.MarginBoxLayout>
+    <FrameLayout android:id="@id/loading_indicator" android:background="@color/play_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</FrameLayout>

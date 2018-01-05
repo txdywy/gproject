@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.myaccount.layout.RewardRowView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/reward_row" style="@style/AccountListPageRow">
+    <RelativeLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/li_thumbnail_frame" finsky:app_thumbnail_padding="0dp" style="@style/AccountThumbnail">
+            <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+        </com.google.android.play.layout.PlayCardThumbnail>
+        <TextView finsky:id="@id/title" finsky:layout_toRightOf="@id/li_thumbnail_frame" finsky:layout_alignWithParentIfMissing="true" finsky:layout_toEndOf="@id/li_thumbnail_frame" style="@style/AccountDfeListPrice" />
+        <TextView finsky:id="@id/expiration_description" finsky:layout_toRightOf="@id/li_thumbnail_frame" finsky:layout_below="@id/title" finsky:layout_alignWithParentIfMissing="true" finsky:layout_toEndOf="@id/li_thumbnail_frame" style="@style/AccountDfeListSubtitle" />
+        <TextView finsky:id="@id/remaining_description" finsky:layout_toRightOf="@id/li_thumbnail_frame" finsky:layout_below="@id/expiration_description" finsky:layout_alignWithParentIfMissing="true" finsky:layout_toEndOf="@id/li_thumbnail_frame" style="@style/AccountDfeListSubtitle" />
+        <TextView finsky:id="@id/reward_description" finsky:layout_toRightOf="@id/li_thumbnail_frame" finsky:layout_below="@id/remaining_description" finsky:layout_toEndOf="@id/li_thumbnail_frame" style="@style/AccountDfeListDetails" />
+        <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/redeem_button" finsky:layout_marginBottom="0dp" finsky:layout_alignParentRight="true" finsky:layout_alignParentBottom="true" finsky:layout_alignParentEnd="true" style="@style/AccountRowButton" />
+    </RelativeLayout>
+</com.google.android.finsky.billing.myaccount.layout.RewardRowView>

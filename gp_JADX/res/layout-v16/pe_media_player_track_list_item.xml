@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/selectableItemBackground" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingRight="@dimen/pe_page_side_padding" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4802" app:weightSum="1.0">
+        <FrameLayout app:layout_width="wrap_content" app:layout_height="match_parent" app:measureAllChildren="true">
+            <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/pe_track_list_item_loading_indicator" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:indeterminate="true" />
+            <com.caverock.androidsvg.SVGImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/pe_track_list_item_playing_indicator" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:contentDescription="@string/pe__content_description_pause" app:svg="@c6095j/ic_pause_white" />
+            <com.caverock.androidsvg.SVGImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/pe_track_list_item_paused_indicator" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:contentDescription="@string/pe__content_description_play" app:svg="@c6095j/ic_play_arrow_white" />
+            <TextView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/pe_track_list_item_track_number" app:paddingLeft="@dimen/pe_page_side_padding" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PETrackListItem" />
+        </FrameLayout>
+        <TextView app:id="@id/pe_track_list_item_track_name" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_marginLeft="@dimen/default_padding" app:layout_weight="1.0" style="@style/PETrackListItem.TrackName" />
+        <TextView app:id="@id/pe_track_list_item_track_duration" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_marginLeft="@dimen/default_padding" style="@style/PETrackListItem" />
+    </LinearLayout>
+    <View app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/pe_track_list_item_divider" app:background="#20ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+    <com.google.android.libraries.play.entertainment.media.TimeBar app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/pe_track_list_item_time_bar" app:background="#20ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e042b" />
+</FrameLayout>

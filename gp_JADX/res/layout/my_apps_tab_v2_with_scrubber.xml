@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.fastscroll.ScrubberView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/scrubber_view" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:fastScrollModel="0">
+    <include layout="@layout/my_apps_tab_content_v2" />
+</com.google.android.finsky.fastscroll.ScrubberView>

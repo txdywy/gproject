@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/override_phenotype_dialog_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@id/override_phenotype_search_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" />
+    <android.support.v7.widget.RecyclerView android:id="@id/override_phenotype_flags_container" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/override_phenotype_button_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/override_phenotype_button_reset" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/debug_reset" android:layout_weight="1.0" android:layout_marginStart="0dp" android:layout_marginEnd="5dp" />
+        <Button android:id="@id/override_phenotype_button_cancel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/cancel" android:layout_weight="1.0" android:layout_marginStart="0dp" android:layout_marginEnd="5dp" />
+        <Button android:id="@id/override_phenotype_button_ok" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/ok" android:layout_weight="1.0" android:layout_marginStart="0dp" android:layout_marginEnd="5dp" />
+    </LinearLayout>
+</LinearLayout>

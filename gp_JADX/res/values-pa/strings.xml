@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play ਸਟੋਰ</string>
+    <string name="b">Google Play</string>
+    <string name="c">ਪ੍ਰਵਾਨਗੀ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="d">ਮਾਪਿਆਂ ਦੇ ਕੰਟਰੋਲ</string>
+    <string name="e">ਸਮੀਖਿਆਵਾਂ</string>
+    <string name="f">ਤਤਕਾਲ ਐਪ</string>
+    <string name="g">ਸਦੱਸ ਸੈਟਿੰਗਜ਼</string>
+    <string name="h">ਤਤਕਾਲ ਐਪਾਂ ਸੰਬੰਧੀ ਤਰਜੀਹਾਂ</string>
+    <string name="i">Play ਸਟੋਰ</string>
+    <string name="l">Play ਢਾਲ</string>
+    <string name="m">ਮੇਰੇ ਐਪਸ</string>
+    <string name="n">ਖਰੀਦ ਚੋਣਾਂ</string>
+    <string name="o">ਭੁਗਤਾਨ ਵਿਧੀਆਂ</string>
+    <string name="p">ਵਰਤੋਂਕਾਰ ਨੂੰ ਇਸ ਐਪ ਦੇ ਅੰਦਰ ਉਪਲਬਧ ਐਪਾਂ ਨੂੰ  ਦੇਖਣ  ਦਿੰਦੀ ਹੈ।</string>
+    <string name="q">Google Play ਐਪ ਖੋਜ ਸੇਵਾ \'ਤੇ ਪਹੁੰਚ ਕਰੋ</string>
+    <string name="r">ਉਪਭੋਗਤਾ ਨੂੰ ਇਸ ਐਪ ਵਿੱਚੋਂ Google Play ਰਾਹੀਂ ਆਈਟਮਾਂ ਖ਼ਰੀਦਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ</string>
+    <string name="s">Google Play ਬਿਲਿੰਗ ਸੇਵਾ</string>
+    <string name="t">ਜਾਂਚ ਕਰ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ Google Play ਤੋਂ ਇਸ ਐਪ ਦਾ ਲਸੰਸ ਹੈ ਜਾਂ ਨਹੀਂ</string>
+    <string name="u">Google Play ਲਸੰਸ ਜਾਂਚ</string>
+    <string name="v">ਐਪ ਅਨੁਮਤੀਆਂ</string>
+    <string name="x">ਪ੍ਰਮਾਣੀਕਰਨ ਲੋੜੀਂਦਾ ਹੈ</string>
+    <string name="y">ਆਪਣਾ ਕੋਡ ਰੀਡੀਮ ਕਰੋ</string>
+    <string name="aa">ਇਸਨੂੰ ਦਰਜਾ ਦਿਓ!</string>
+    <string name="ba">ਤੋਹਫ਼ਾ ਭੇਜੋ</string>
+    <string name="ca">ਸੈਟਿੰਗਾਂ</string>
+    <string name="da">ਸੂਚਨਾਵਾਂ</string>
+    <string name="ea">ਖਾਤਾ ਸੈਟਅਪ ਪੂਰਾ ਕਰੋ</string>
+    <string name="fa">ਐਪਾਂ ਨੂੰ ਸੈੱਟਅੱਪ ਮੁਕੰਮਲ ਹੋਣ ਤੋਂ ਬਾਅਦ ਸਥਾਪਤ ਕੀਤਾ ਜਾਵੇਗਾ</string>
+    <string name="ga">ਵਾਧੂ ਐਪਾਂ ਦੀ ਸਮੀਖਿਆ ਕਰੋ</string>
+    <string name="ha">Google ਉਤਪਾਦਾਂ ਨਾਲ ਤੁਰੰਤ ਚੈੱਕਆਊਟ ਦਾ ਆਨੰਦ ਮਾਣੋ</string>
+    <string name="ia">ਭੁਗਤਾਨ ਵਿਧੀ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="ja">ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਸੈਟ ਅਪ ਕਰੋ</string>
+    <string name="ka">ਡੀਵਾਈਸ ਤੋਂ ਐਪਾਂ ਨੂੰ ਮੁੜ-ਬਹਾਲ ਕਰੋ</string>
+    <string name="la">ਕਿਹੜੀ ਡੀਵਾਈਸ?</string>
+    <string name="ma">ਪਰਿਵਾਰ ਭੁਗਤਾਨ ਵਿਧੀ ਚੁਣੋ</string>
+    <string name="na">ਰਕਮ ਚੁਣੋ</string>
+    <string name="oa">ਭੁਗਤਾਨ ਵਿਧੀ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ</string>
+    <string name="pa">ਪ੍ਰਮਾਣਿਤ ਕਰੋ ਅਤੇ ਇੰਸਟੌਲ ਕਰੋ</string>
+    <string name="qa">ਸੁਰੱਖਿਆ ਸਮੱਸਿਆਵਾਂ ਲਈ ਸਕੈਨ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

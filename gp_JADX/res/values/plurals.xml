@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="content_description_rated">
+        <item quantity="other">Your rating: %1$s stars</item>
+        <item quantity="one">Your rating: %1$s star</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d reviews</item>
+        <item quantity="one">%1$d review</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d reviews for star rating %2$d</item>
+        <item quantity="one">%1$d review for star rating %2$d</item>
+    </plurals>
+    <plurals name="installs_paused">
+        <item quantity="other">Installs paused</item>
+        <item quantity="one">Install paused</item>
+    </plurals>
+    <plurals name="myapps_security_last_scanned_days_ago">
+        <item quantity="other">Apps scanned %1$d days ago</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="myapps_security_recently_removed_message">
+        <item quantity="other">%1$d harmful apps removed. %2$s.</item>
+        <item quantity="one">%1$d harmful app removed. %2$s.</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d updates need approval</item>
+        <item quantity="one">%1$d update needs approval</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d new updates</item>
+        <item quantity="one">%1$d new update</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d updates available</item>
+        <item quantity="one">%1$d update available</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Update all</item>
+        <item quantity="one">Update</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d apps updated</item>
+        <item quantity="one">%1$d app updated</item>
+    </plurals>
+    <plurals name="pe_first_song_and_x_more">
+        <item quantity="other">%1$s and %2$d more</item>
+        <item quantity="zero">%1$s and %2$d more</item>
+        <item quantity="one">%1$s and %2$d more</item>
+        <item quantity="two">%1$s and %2$d more</item>
+        <item quantity="few">%1$s and %2$d more</item>
+        <item quantity="many">%1$s and %2$d more</item>
+    </plurals>
+    <plurals name="pe_x_views">
+        <item quantity="other">%1$,d views</item>
+        <item quantity="zero">%1$,d views</item>
+        <item quantity="one">%1$,d view</item>
+        <item quantity="two">%1$,d views</item>
+        <item quantity="few">%1$,d views</item>
+        <item quantity="many">%1$,d views</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s stars</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s star</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s stars - %3$s</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s star - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s stars - %3$s - %4$s</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s star - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d users found this review helpful. Mark comment as helpful</item>
+        <item quantity="one">%1$d user found this review helpful. Mark comment as helpful</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d users found this review helpful. Unmark comment as helpful</item>
+        <item quantity="one">%1$d user found this review helpful. Unmark comment as helpful</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Rated it &lt;b&gt;%1$s stars&lt;/b&gt;</item>
+        <item quantity="one">Rated it &lt;b&gt;%1$s star&lt;/b&gt;</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">in %1$s reviews</item>
+        <item quantity="one">in %1$s review</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b&gt;%1$s stars&lt;/b&gt; %2$s</item>
+        <item quantity="one">&lt;b&gt;%1$s star&lt;/b&gt; %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Last used %1$d days ago</item>
+        <item quantity="one">Last used %1$d day ago</item>
+    </plurals>
+    <plurals name="setup_wizard_restore_selected_apps">
+        <item quantity="other">Restore selected %1$d apps</item>
+        <item quantity="one">Restore selected app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stars</item>
+        <item quantity="one">star</item>
+    </plurals>
+    <plurals name="unauth_updates_cancellation_progress_text">
+        <item quantity="other">Updates in progress…%1$d apps left</item>
+        <item quantity="one">Updates in progress…%1$d app left</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_installs_v2">
+        <item quantity="other">Apps will be installed soon.</item>
+        <item quantity="one">App will be installed soon.</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_updates_v2">
+        <item quantity="other">App updates will be installed soon.</item>
+        <item quantity="one">App update will be installed soon.</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_days">
+        <item quantity="other">Last used %1$d days ago</item>
+        <item quantity="one">Last used %1$d day ago</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_months">
+        <item quantity="other">Last used %1$d months ago</item>
+        <item quantity="one">Last used %1$d month ago</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_accessibility_v2">
+        <item quantity="other">To install apps or updates on this device, delete apps you no longer need. You can also free up space by deleting media files in Storage Settings.</item>
+        <item quantity="one">To install app or update on this device, delete apps you no longer need. You can also free up space by deleting media files in Storage Settings.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_exact_v2">
+        <item quantity="other">To install apps or updates on this device, delete apps you no longer need. You can also free up space by deleting media files in &lt;a href=&quot;&quot;&gt;Settings &gt; Storage&lt;/a&gt;.</item>
+        <item quantity="one">To install app or update on this device, delete apps you no longer need. You can also free up space by deleting media files in &lt;a href=&quot;&quot;&gt;Settings &gt; Storage&lt;/a&gt;.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_fallback_v2">
+        <item quantity="other">To install apps or updates on this device, delete apps you no longer need. You can also free up space by deleting media files in Settings &gt; Storage.</item>
+        <item quantity="one">To install app or update on this device, delete apps you no longer need. You can also free up space by deleting media files in Settings &gt; Storage.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.ClusterPanelView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/panel_title" android:paddingLeft="@dimen/pe_side_padding" android:paddingRight="@dimen/pe_side_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_large_padding" style="@style/PEPanelTitleText" />
+    <android.support.v7.widget.RecyclerView android:id="@id/slider_recycler_view" android:paddingLeft="@dimen/box_small_padding" android:paddingRight="@dimen/box_small_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.google.android.libraries.play.entertainment.story.ClusterPanelView>

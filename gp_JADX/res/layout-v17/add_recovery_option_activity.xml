@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:paddingTop="12dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <TextView finsky:textStyle="bold" finsky:id="@id/title" finsky:paddingLeft="16dp" finsky:paddingTop="16dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/prompt_for_recovery_phone_title" finsky:paddingStart="16dp" finsky:paddingEnd="16dp" style="@style/LightPurchase_TitleText" />
+    <FrameLayout finsky:padding="16dp" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+        <TextView finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/message" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_Details" />
+    </FrameLayout>
+    <include layout="@layout/light_purchase_button_bar" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

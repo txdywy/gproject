@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/disconnection_page" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.1" />
+    <ImageView android:id="@id/connectivity_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e056f" android:layout_height="UNKNOWN_DATA_0x7f0e056f" android:src="@drawable/wifi_on_grey_oval" />
+    <TextView android:textSize="@dimen/play_cluster_header_title_size" android:textStyle="bold" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/error_title" android:paddingTop="@dimen/play_card_padding_xl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_error_title" android:layout_weight="0.2" android:textAlignment="center" style="@c6382j/PlayCardTitle" />
+    <TextView android:textSize="@dimen/play_description_callout_size" android:id="@id/error_msg" android:padding="@dimen/play_card_padding_m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/play_card_padding_xl" android:text="@string/network_error_notify" android:layout_weight="0.2" android:lineSpacingMultiplier="1.2" android:textAlignment="center" style="@c6382j/PlayPlainText" />
+    <include layout="@layout/disconnection_page_button_bar" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/error_logo" android:paddingBottom="8dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/disconnection_page_play_logo" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.1" />
+</LinearLayout>

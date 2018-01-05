@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play स्टोर</string>
+    <string name="b">Google Play</string>
+    <string name="c">स्वीकृति आवश्यक</string>
+    <string name="d">माता-पिता के नियंत्रण में</string>
+    <string name="e">समीक्षाएं</string>
+    <string name="f">झटपट ऐप</string>
+    <string name="g">सदस्‍य सेटिंग</string>
+    <string name="h">झटपट ऐप्स प्राथमिकताएं</string>
+    <string name="i">Play स्टोर</string>
+    <string name="l">Play Protect</string>
+    <string name="m">मेरे ऐप्स</string>
+    <string name="n">खरीदारी विकल्प</string>
+    <string name="o">भुगतान के तरीके</string>
+    <string name="p">उपयोगकर्ता को इस ऐप्लिकेशन के अंदर से उपलब्ध ऐप्लिकेशन देखने देती है.</string>
+    <string name="q">Google Play ऐप्लिकेशन खोज सेवा का एक्सेस</string>
+    <string name="r">उपयोगकर्ता को इस ऐप्स  के अंतर्गत Google Play से आइटम खरीदने देता है.</string>
+    <string name="s">Google Play बिलिंग सेवा</string>
+    <string name="t">इस बात की जाँच की जा सकती है कि आपके पास Google Play से इस ऐप्स  के लिए लाइसेंस है या नहीं.</string>
+    <string name="u">Google Play लाइसेंस जाँच</string>
+    <string name="v">ऐप्स  अनुमतियां</string>
+    <string name="w">ओपन सोर्स लाइसेंस</string>
+    <string name="x">प्रमाणीकरण आवश्यक है</string>
+    <string name="y">अपना कोड रिडीम करें</string>
+    <string name="aa">इसका मूल्‍यांकन करें!</string>
+    <string name="ba">उपहार भेजें</string>
+    <string name="ca">सेटिंग</string>
+    <string name="da">सूचनाएं</string>
+    <string name="ea">खाता सेटअप पूर्ण करें</string>
+    <string name="fa">ऐप्लिकेशन सेटअप पूरा होने के बाद इंस्टॉल किए जाएंगे</string>
+    <string name="ga">अतिरिक्त ऐप्लिकेशन की समीक्षा करें</string>
+    <string name="ha">Google उत्पादों के साथ त्वरित चेकआउट का आनंद लें</string>
+    <string name="ia">भुगतान विधि जोड़ें</string>
+    <string name="ja">पेमेंट जानकारी सेट करें</string>
+    <string name="ka">डिवाइस से ऐप्स पुन: स्थापित करें</string>
+    <string name="la">कौन सा डिवाइस?</string>
+    <string name="ma">परिवार की भुगतान विधि चुनना</string>
+    <string name="na">राशि चुनें</string>
+    <string name="oa">भुगतान विधि अपडेट करें</string>
+    <string name="pa">सत्यापित करें और इंस्टॉल करें</string>
+    <string name="qa">सुरक्षा की समस्याओं के लिए स्कैन किया जा रहा है…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

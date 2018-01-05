@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ScreenshotGallery xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0583">
+    <View android:id="@id/strip_background" android:background="@color/play_white" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.finsky.layout.HorizontalStrip android:id="@id/strip" android:focusable="true" android:visibility="gone" android:fadingEdge="horizontal" android:fadingEdgeLength="30dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/error_indicator" />
+</com.google.android.finsky.layout.ScreenshotGallery>

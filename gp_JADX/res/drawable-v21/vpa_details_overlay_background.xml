@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/setup_wizard_app_details_overlay_margin" android:insetRight="@dimen/setup_wizard_app_details_overlay_margin" android:insetTop="@dimen/setup_wizard_app_details_overlay_margin" android:insetBottom="@dimen/setup_wizard_app_details_overlay_margin">
+    <shape android:shape="rectangle">
+        <corners android:radius="2dp" />
+        <solid android:color="0x106000b" />
+    </shape>
+</inset>

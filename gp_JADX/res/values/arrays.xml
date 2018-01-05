@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="debug_available_network_types">
+        <item>WIFI</item>
+        <item>4G/LTE</item>
+        <item>3G</item>
+        <item>2G</item>
+        <item>Disable Network Type Override</item>
+    </array>
+    <array name="design_default_color_palette_primary">
+    </array>
+    <array name="design_default_color_palette_secondary">
+    </array>
+</resources>

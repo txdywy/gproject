@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Approvazione necessaria</string>
+    <string name="d">Controllo genitori</string>
+    <string name="e">Recensioni</string>
+    <string name="f">App istantanea</string>
+    <string name="g">Impostazioni membri</string>
+    <string name="h">Preferenze per le app istantanee</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Le mie app</string>
+    <string name="n">Opzioni di acquisto</string>
+    <string name="o">Metodi di pagamento</string>
+    <string name="p">Consente all\'utente di visualizzare le app disponibili dall\'interno dell\'app.</string>
+    <string name="q">Accesso a Google Play App Discovery Service</string>
+    <string name="r">Consente all\'utente di acquistare articoli su Google Play da questa applicazione.</string>
+    <string name="s">Servizio di fatturazione di Google Play</string>
+    <string name="t">Consente di controllare se possiedi una licenza per questa applicazione di Google Play.</string>
+    <string name="u">Controllo licenza di Google Play</string>
+    <string name="v">Autorizzazioni app</string>
+    <string name="w">Licenze open source</string>
+    <string name="x">Richiedi autenticazione</string>
+    <string name="y">Utilizza il tuo codice</string>
+    <string name="aa">Dai una valutazione.</string>
+    <string name="ba">Invia regalo</string>
+    <string name="ca">Impostazioni</string>
+    <string name="da">Notifiche</string>
+    <string name="ea">Completa configurazione dell\'account</string>
+    <string name="fa">Le app saranno installate una volta completata la configurazione</string>
+    <string name="ga">Aggiungi altre app</string>
+    <string name="ha">Prova il pagamento rapido con i prodotti Google</string>
+    <string name="ia">Aggiungi metodo di pagamento</string>
+    <string name="ja">Configura dati di pagamento</string>
+    <string name="ka">Ripristina app dal dispositivo</string>
+    <string name="la">Quale dispositivo?</string>
+    <string name="ma">Seleziona pagamento gruppo Famiglia</string>
+    <string name="na">Scegli l\'importo</string>
+    <string name="oa">Aggiornamento del metodo di pagamento</string>
+    <string name="pa">Verifica e installa</string>
+    <string name="qa">Scansione di ricerca di problemi di sicurezza…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

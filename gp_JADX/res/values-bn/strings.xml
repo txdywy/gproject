@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play স্টোর</string>
+    <string name="b">Google Play</string>
+    <string name="c">অনুমোদন প্রয়োজন</string>
+    <string name="d">অভিভাবকীয় নিয়ন্ত্রণ</string>
+    <string name="e">পর্যালোচনাগুলি</string>
+    <string name="f">ঝটপট অ্যাপ</string>
+    <string name="g">সদস্যের সেটিংস</string>
+    <string name="h">ঝটপট অ্যাপের পছন্দগুলি</string>
+    <string name="i">Play স্টোর</string>
+    <string name="l">Play নিরাপত্তা</string>
+    <string name="m">আমার অ্যাপ্লিকেশাগুলি</string>
+    <string name="n">কেনাকাটার বিকল্পগুলি</string>
+    <string name="o">পেমেন্টের পদ্ধতিগুলি</string>
+    <string name="p">এই অ্যাপ থেকে ব্যবহারকারী অন্যান্য উপলব্ধ অ্যাপ দেখতে পান।</string>
+    <string name="q">Google Play অ্যাপ আবিষ্কার পরিষেবা অ্যাক্সেস করুন</string>
+    <string name="r">Google Play এর মধ্যে থাকা এই অ্যাপ্লিকেশানটির মাধ্যমে আইটেমগুলি ক্রয় করতে ব্যবহারকারীকে অনুমতি দেয়৷</string>
+    <string name="s">Google Play বিলিং পরিষেবা</string>
+    <string name="t">Google Play থেকে এই অ্যাপ্লিকেশানটির জন্য আপনার কাছে লাইসেন্স রয়েছে কিনা তা পরীক্ষা করতে পারেন৷</string>
+    <string name="u">Google Play লাইসেন্স পরীক্ষা</string>
+    <string name="v">অ্যাপ্লিকেশানের অনুমতি</string>
+    <string name="w">ওপেন সোর্স লাইসেন্স</string>
+    <string name="x">প্রমাণীকরণ প্রয়োজন</string>
+    <string name="y">আপনার কোড ভাঙ্গান</string>
+    <string name="aa">এটিকে রেট দিন!</string>
+    <string name="ba">উপহার পাঠান</string>
+    <string name="ca">সেটিংস</string>
+    <string name="da">বিজ্ঞপ্তিগুলি</string>
+    <string name="ea">অ্যাকাউন্ট সেটআপ সম্পূর্ণ হয়েছে</string>
+    <string name="fa">সেটআপ সম্পূর্ণ হওয়ার পরে অ্যাপগুলি ইনস্টল হবে</string>
+    <string name="ga">অতিরিক্ত অ্যাপ্লিকেশানগুলির পর্যালোচনা করুন</string>
+    <string name="ha">Google পণ্যগুলিতে দ্রুত চেকআউট উপভোগ করুন</string>
+    <string name="ia">পেমেন্টের পদ্ধতি যোগ করুন</string>
+    <string name="ja">পেমেন্টের তথ্য সেট আপ করুন</string>
+    <string name="ka">ডিভাইস থেকে অ্যাপ্লিকেশানগুলি পুনরুদ্ধার করুন</string>
+    <string name="la">কোন ডিভাইস?</string>
+    <string name="ma">পারিবারিক অর্থপ্রদান পদ্ধতি বেছে নিন</string>
+    <string name="na">রাশি বেছে নিন</string>
+    <string name="oa">পেমেন্টের পদ্ধতি আপডেট করুন</string>
+    <string name="pa">যাচাই ও ইনস্টল করুন</string>
+    <string name="qa">নিরাপত্তা সংক্রান্ত সমস্যা খুঁজতে স্ক্যান করা হচ্ছে…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

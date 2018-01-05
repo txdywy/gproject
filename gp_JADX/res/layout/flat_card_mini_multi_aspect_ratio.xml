@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.FlatCardViewMini xmlns:android="http://schemas.android.com/apk/res-auto" playcommon:id="@id/play_card" playcommon:paddingLeft="@dimen/flat_mini_card_side_padding" playcommon:paddingRight="@dimen/flat_mini_card_side_padding" playcommon:focusable="true" playcommon:nextFocusRight="@id/li_overflow" playcommon:clipToPadding="false" playcommon:layout_width="match_parent" playcommon:layout_height="UNKNOWN_DATA_0x1" playcommon:foreground="@drawable/play_highlight_round_overlay_light" style="@style/FlatCardViewGroup">
+    <include layout="@layout/flat_card_mini_content" />
+</com.google.android.finsky.playcard.FlatCardViewMini>

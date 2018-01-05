@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CategorySpacer xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/category_spacer" android:background="@color/play_white" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0082" />

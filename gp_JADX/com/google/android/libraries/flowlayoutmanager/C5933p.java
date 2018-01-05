@@ -1,0 +1,58 @@
+package com.google.android.libraries.flowlayoutmanager;
+
+import com.squareup.leakcanary.C7582R;
+
+public final class C5933p {
+    public static final int[] FlowLayoutManager_Layout = new int[]{C7582R.attr.layout_flmWidth, C7582R.attr.layout_flmHeight, C7582R.attr.layout_flmGridInsetStart, C7582R.attr.layout_flmGridInsetEnd, C7582R.attr.layout_flmMaxGridWidth, C7582R.attr.layout_flmGridColumnCount, C7582R.attr.layout_flmGridMinCellSize, C7582R.attr.layout_flmMargin, C7582R.attr.layout_flmMarginTop, C7582R.attr.layout_flmMarginStart, C7582R.attr.layout_flmMarginEnd, C7582R.attr.layout_flmMarginBottom, C7582R.attr.layout_flmMarginTopForFirstLine, C7582R.attr.layout_flmMarginBottomForLastLine, C7582R.attr.layout_flmVAlign, C7582R.attr.layout_flmFlow, C7582R.attr.layout_flmFlowInsetTop, C7582R.attr.layout_flmFlowInsetStart, C7582R.attr.layout_flmFlowInsetEnd, C7582R.attr.layout_flmFlowInsetBottom, C7582R.attr.layout_flmFlowWidth, C7582R.attr.layout_flmFlowHeight, C7582R.attr.layout_flmLineWrap};
+    public static final int[] FlowLayoutManager_Layout_Style = new int[]{C7582R.attr.layout_flmStyle};
+    public static final int FlowLayoutManager_Layout_Style_layout_flmStyle = 0;
+    public static final int FlowLayoutManager_Layout_layout_flmFlow = 15;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowHeight = 21;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowInsetBottom = 19;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowInsetEnd = 18;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowInsetStart = 17;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowInsetTop = 16;
+    public static final int FlowLayoutManager_Layout_layout_flmFlowWidth = 20;
+    public static final int FlowLayoutManager_Layout_layout_flmGridColumnCount = 5;
+    public static final int FlowLayoutManager_Layout_layout_flmGridInsetEnd = 3;
+    public static final int FlowLayoutManager_Layout_layout_flmGridInsetStart = 2;
+    public static final int FlowLayoutManager_Layout_layout_flmGridMinCellSize = 6;
+    public static final int FlowLayoutManager_Layout_layout_flmHeight = 1;
+    public static final int FlowLayoutManager_Layout_layout_flmLineWrap = 22;
+    public static final int FlowLayoutManager_Layout_layout_flmMargin = 7;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginBottom = 11;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginBottomForLastLine = 13;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginEnd = 10;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginStart = 9;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginTop = 8;
+    public static final int FlowLayoutManager_Layout_layout_flmMarginTopForFirstLine = 12;
+    public static final int FlowLayoutManager_Layout_layout_flmMaxGridWidth = 4;
+    public static final int FlowLayoutManager_Layout_layout_flmVAlign = 14;
+    public static final int FlowLayoutManager_Layout_layout_flmWidth = 0;
+    public static final int[] FontFamily = new int[]{C7582R.attr.fontProviderAuthority, C7582R.attr.fontProviderPackage, C7582R.attr.fontProviderQuery, C7582R.attr.fontProviderCerts, C7582R.attr.fontProviderFetchStrategy, C7582R.attr.fontProviderFetchTimeout};
+    public static final int[] FontFamilyFont = new int[]{16844082, 16844083, 16844095, C7582R.attr.fontStyle, C7582R.attr.font, C7582R.attr.fontWeight};
+    public static final int FontFamilyFont_android_font = 0;
+    public static final int FontFamilyFont_android_fontStyle = 2;
+    public static final int FontFamilyFont_android_fontWeight = 1;
+    public static final int FontFamilyFont_font = 4;
+    public static final int FontFamilyFont_fontStyle = 3;
+    public static final int FontFamilyFont_fontWeight = 5;
+    public static final int FontFamily_fontProviderAuthority = 0;
+    public static final int FontFamily_fontProviderCerts = 3;
+    public static final int FontFamily_fontProviderFetchStrategy = 4;
+    public static final int FontFamily_fontProviderFetchTimeout = 5;
+    public static final int FontFamily_fontProviderPackage = 1;
+    public static final int FontFamily_fontProviderQuery = 2;
+    public static final int[] RecyclerView = new int[]{16842948, 16842993, C7582R.attr.layoutManager, C7582R.attr.spanCount, C7582R.attr.reverseLayout, C7582R.attr.stackFromEnd, C7582R.attr.fastScrollEnabled, C7582R.attr.fastScrollVerticalThumbDrawable, C7582R.attr.fastScrollVerticalTrackDrawable, C7582R.attr.fastScrollHorizontalThumbDrawable, C7582R.attr.fastScrollHorizontalTrackDrawable};
+    public static final int RecyclerView_android_descendantFocusability = 1;
+    public static final int RecyclerView_android_orientation = 0;
+    public static final int RecyclerView_fastScrollEnabled = 6;
+    public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 9;
+    public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 10;
+    public static final int RecyclerView_fastScrollVerticalThumbDrawable = 7;
+    public static final int RecyclerView_fastScrollVerticalTrackDrawable = 8;
+    public static final int RecyclerView_layoutManager = 2;
+    public static final int RecyclerView_reverseLayout = 4;
+    public static final int RecyclerView_spanCount = 3;
+    public static final int RecyclerView_stackFromEnd = 5;
+}

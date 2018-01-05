@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.common.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.wallet.ui.common.WalletCheckedTextView android:textAppearance="?attr/uicFormInputTextAppearance" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/description" android:paddingLeft="?attr/uicFormSpinnerStartEndPadding" android:paddingTop="?attr/uicFormSpinnerTopBottomPadding" android:paddingRight="?attr/uicFormSpinnerStartEndPadding" android:paddingBottom="?attr/uicFormSpinnerTopBottomPadding" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wallet_uic_spinner_row_height" android:singleLine="false" style="?unknown_attr_ref: 1010087" />
+</com.google.android.wallet.ui.common.CheckableFrameLayout>

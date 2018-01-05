@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@id/top_panel" android:layout_width="match_parent" android:layout_height="wrap_content" style="@c6382j/PlayCardViewGroup">
+        <FrameLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingTop="@dimen/restore_card_title_top_padding" android:paddingBottom="@dimen/restore_card_title_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.play.layout.PlayTextView android:textColor="@color/play_primary_text" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/alert_Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RestoreCardTitle" />
+        </FrameLayout>
+        <com.google.android.play.layout.PlayTextView android:id="@id/alertBody" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RestoreCardDescription" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/device_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/restore_card_buttons_bar" />
+</LinearLayout>

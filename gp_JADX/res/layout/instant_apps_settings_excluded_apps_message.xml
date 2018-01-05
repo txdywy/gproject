@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/instant_apps_settings_excluded_message_padding_top" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Subhead" android:textSize="@dimen/instant_apps_settings_excluded_apps_message" android:textStyle="bold" android:textColor="@color/instant_apps_settings_message_color" android:id="@id/aia_excluded_apps_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

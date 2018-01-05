@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play स्टोर</string>
+    <string name="b">Google Play</string>
+    <string name="c">अनुमोदन आवश्यक छ</string>
+    <string name="d">अभिभावकीय नियन्त्रण</string>
+    <string name="e">समीक्षाहरू</string>
+    <string name="f">तात्कालिक अनुप्रयोग</string>
+    <string name="g">सदस्य सम्बन्धी सेटिङहरू</string>
+    <string name="h">तात्कालिक एपसम्बन्धी प्राथमिकताहरू</string>
+    <string name="i">Play स्टोर</string>
+    <string name="l">Play संरक्षण</string>
+    <string name="m">मेरा अनुप्रयोगहरू</string>
+    <string name="n">खरिद विकल्पहरू</string>
+    <string name="o">भुक्तानी विधिहरू</string>
+    <string name="p">उक्त प्रयोगकर्तालाई यस अनुप्रयोग भित्र उपलब्ध अनुप्रयोगरू हेर्न मिल्छ।</string>
+    <string name="q">Google Play एपको खोज सेवामा पहुँच राख्नुहोस्</string>
+    <string name="r">यस अनुप्रयोग बीचमा Google Play मार्फत प्रयोगकर्तालाई यो वस्तुहरू खरिद गर्न अनुमति दिन्छ।</string>
+    <string name="s">Google Play बिलिङ सेवा</string>
+    <string name="t">Google Play बाट यस अनुप्रयोगको लागि तपाईँसँग लाइसेन्स भएको वा नभएको भन्ने जाँच गर्न सक्दछ।</string>
+    <string name="u">Google Play लाइसेन्स जाँच</string>
+    <string name="v">अनुप्रयोग अनुमतिहरू</string>
+    <string name="x">प्रमाणीकरण आवश्यक पर्छ</string>
+    <string name="y">तपाईँको कोड मुक्त गर्नुहोस्</string>
+    <string name="aa">यसको मूल्याङ्कन गर्नुहोस्!</string>
+    <string name="ba">उपहार पठाउनुहोस्</string>
+    <string name="ca">सेटिङहरू</string>
+    <string name="da">सूचनाहरू</string>
+    <string name="ea">खाता सेटअप पूरा गर्नुहोस्</string>
+    <string name="fa">सेटअप सम्पन्न भएपछि अनुप्रयोगहरू स्थापना हुनेछन्</string>
+    <string name="ga">थप अनुप्रयोगहरूका समीक्षा गर्नुहोस्</string>
+    <string name="ha">Google उत्पादनहरूलाई शीघ्र चेकआउट गरी आनन्द लिनुहोस्</string>
+    <string name="ia">भुक्तानी विधि थप्नुहोस्</string>
+    <string name="ja">भुक्तान जानकारी सेट गर्नुहोस्</string>
+    <string name="ka">यन्त्रबाट अनुप्रयोगहरूलाई पुनर्स्थापना गर्नुहोस्</string>
+    <string name="la">कुन यन्त्र?</string>
+    <string name="ma">परिवार भुक्तानी विधि चयन गर्नुहोस्</string>
+    <string name="na">रकम छनौट गर्नुहोस्</string>
+    <string name="oa">भुक्तानीको विधि अद्यावधिक गर्नुहोस्</string>
+    <string name="pa">प्रमाणित गरेर स्थापना गर्नुहोस्</string>
+    <string name="qa">सुरक्षा सम्बन्धी समस्याका लागि स्क्यान गर्दै…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/uninstall_manager_dialog" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/finsky_dialog_width" finsky:minHeight="@dimen/uninstall_manager_dialog_min_height" finsky:max_width="@dimen/finsky_dialog_width">
+    <ProgressBar finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/loading_spinner" finsky:visibility="invisible" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:contentDescription="@string/loading" />
+    <FrameLayout finsky:id="@id/uninstall_manager_content_frame" finsky:visibility="invisible" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" /> />

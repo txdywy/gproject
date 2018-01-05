@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/navigation_bar">
+        <com.google.android.finsky.layout.SetupWizardIllustration android:id="@id/illustration" android:background="@drawable/setup_wizard_header_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_header_graphic" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10001" android:layout_alignParentTop="true" />
+        </com.google.android.finsky.layout.SetupWizardIllustration>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="8.0">
+            <TextView android:id="@id/title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_marginTop="256dp" android:layout_weight="3.0" style="@style/SetupWizardCardTitle" />
+            <ScrollView android:id="@id/bottom_scroll_view" android:background="?unknown_attr_ref: 1010031" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginTop="128dp" android:layout_weight="4.0" android:elevation="5dp">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/setup_wizard_divider_and_progress" />
+                    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+                    <FrameLayout android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardContentFrame" /> />
+            </ScrollView>
+        </LinearLayout> />
+    <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</RelativeLayout>

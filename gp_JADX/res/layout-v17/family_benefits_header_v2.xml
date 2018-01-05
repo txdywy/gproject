@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playpass.PlayPassHeaderView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/benefit_header_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.play.image.FifeImageView android:id="@id/background" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/overlay" android:paddingLeft="40dp" android:paddingTop="56dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="40dp" android:paddingEnd="40dp">
+        <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/overlay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/overlay_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.play.image.FifeImageView android:id="@id/overlay_icon" android:layout_width="UNKNOWN_DATA_0x12001" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:adjustViewBounds="true" />
+    </LinearLayout>
+</com.google.android.finsky.playpass.PlayPassHeaderView>

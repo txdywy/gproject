@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeRating xmlns:android="http://schemas.android.com/apk/res/android" style="@style/DiscoveryBadge">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/icon_container" style="@style/DiscoveryBadgeIconContainer">
+        <TextView android:textSize="@dimen/play_details_discovery_badge_rate_size" android:textStyle="bold" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/average_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.play.layout.StarRatingBar android:id="@id/discovery_summary_rating_bar" android:layout_marginBottom="4dp" style="@style/DiscoveryRatingBar" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0e0193" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" style="@style/DiscoveryBadgeTitle" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginRight="0dp" android:src="@drawable/ic_user_rating" android:baselineAlignBottom="true" android:layout_toRightOf="@id/title" android:layout_alignBaseline="@id/title" android:contentDescription="0x0" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.play.DiscoveryBadgeRating>

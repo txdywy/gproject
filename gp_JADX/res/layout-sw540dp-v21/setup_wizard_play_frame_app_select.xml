@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.finsky.layout.SetupWizardIllustration android:id="@id/illustration" android:background="@drawable/setup_wizard_header_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/navigation_bar">
+        <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_header_graphic" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10001" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/title" android:layout_below="@id/setup_wizard_header_graphic" style="@style/SetupWizardHeaderTitle" />
+        <FrameLayout android:background="?unknown_attr_ref: 1010031" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_below="@id/title" android:layout_alignParentBottom="true" android:layout_marginStart="56dp" android:layout_marginEnd="56dp" android:elevation="5dp">
+            <include layout="@layout/setup_wizard_divider_and_progress" />
+            <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+            <FrameLayout android:id="@id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SetupWizardContentFrame" /> />
+    </com.google.android.finsky.layout.SetupWizardIllustration>
+    <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</RelativeLayout>

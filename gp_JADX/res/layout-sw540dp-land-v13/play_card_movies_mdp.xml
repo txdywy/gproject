@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.PlayCardMoviesMdpView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@c6382j/PlayCardViewGroup">
+    <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:minHeight="@dimen/movies_mdp_card_height">
+        <include finsky:id="@id/hero_graphic" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="match_parent" finsky:layout_weight="1.0" layout="@layout/hero_graphic" />
+        <LinearLayout finsky:orientation="vertical" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="match_parent" finsky:layout_weight="1.0">
+            <RelativeLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_weight="1.0">
+                <com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/li_thumbnail_frame" finsky:layout_width="UNKNOWN_DATA_0x7f0e037c" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_marginLeft="@dimen/movies_mdp_margin" finsky:layout_marginTop="@dimen/movies_mdp_margin" finsky:layout_marginRight="@dimen/movies_mdp_margin">
+                    <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+                </com.google.android.play.layout.PlayCardThumbnail>
+                <include finsky:id="@id/title_section" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="@dimen/movies_mdp_title_section_margin_top" finsky:layout_toRightOf="@id/li_thumbnail_frame" layout="@layout/play_card_movies_mdp_title_section" />
+                <com.google.android.play.layout.PlayTextView finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/li_description" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="8dp" finsky:layout_marginRight="@dimen/movies_mdp_margin" finsky:maxLines="2" finsky:layout_toRightOf="@id/li_thumbnail_frame" finsky:layout_below="@id/title_section" finsky:lastLineOverdrawColor="@color/play_card_light_background" style="@style/PlayInlineDetailDescription" />
+            </RelativeLayout>
+            <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_margin="@dimen/movies_mdp_margin" layout="@layout/action_buttons_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.finsky.playcard.PlayCardMoviesMdpView>

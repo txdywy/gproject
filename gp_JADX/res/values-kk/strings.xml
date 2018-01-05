@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Мақұлдау қажет</string>
+    <string name="d">Ата-ана бақылауы</string>
+    <string name="e">Пікірлер</string>
+    <string name="f">Лездік қолданба</string>
+    <string name="g">Мүшелік параметрлері</string>
+    <string name="h">Instant Apps параметрлері</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Қолданбаларым</string>
+    <string name="n">Сатып алу опциялары</string>
+    <string name="o">Төлем әдістері</string>
+    <string name="p">Пайдаланушыға осы қолданба ішінен қолжетімді қолданбаларды көруге рұқсат етеді.</string>
+    <string name="q">Google Play қолданба табу қызметін пайдалану</string>
+    <string name="r">Пайдаланушы Google Play арқылы заттарды осы қолданбаның ішінен сатып ала алады.</string>
+    <string name="s">Google Play арқылы төлем жасау қызметі</string>
+    <string name="t">Осы қолданба үшін сізде Google Play лицензиясының болуын тексере алады.</string>
+    <string name="u">Google Play лицензиясын тексеру</string>
+    <string name="v">Қолданба рұқсаттары</string>
+    <string name="x">Аутентификация қажет</string>
+    <string name="y">Кодыңызды белсендіріңіз</string>
+    <string name="aa">Бағалаңыз!</string>
+    <string name="ba">Сыйлық жіберу</string>
+    <string name="ca">Параметрлер</string>
+    <string name="da">Хабарландырулар</string>
+    <string name="ea">Есептік жазба орнатуды аяқтау</string>
+    <string name="fa">Қолданбалар реттеу аяқталғаннан кейін орнатылады</string>
+    <string name="ga">Қосымша қолданбаларды қарап шығу</string>
+    <string name="ha">Google өнімдерімен жылдам төлем жасаңыз</string>
+    <string name="ia">Төлем әдісін қосу</string>
+    <string name="ja">Төлем туралы ақпаратты реттеу</string>
+    <string name="ka">Қолданбаларды құрылғыдан қалпына келтіру</string>
+    <string name="la">Қай құрылғы?</string>
+    <string name="ma">Отбасылық төлем әдісін таңдау</string>
+    <string name="na">Соманы таңдау</string>
+    <string name="oa">Төлем әдісін жаңарту</string>
+    <string name="pa">Растау және орнату</string>
+    <string name="qa">Қауіпсіздік мәселелері сканерленуде…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

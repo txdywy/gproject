@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Butik</string>
+    <string name="b">Google Play</string>
+    <string name="c">Godkännande krävs</string>
+    <string name="d">Barnfilter</string>
+    <string name="e">Recensioner</string>
+    <string name="f">Snabbapp</string>
+    <string name="g">Medlemsinställningar</string>
+    <string name="h">Inställningar för Instant Apps</string>
+    <string name="i">Play Butik</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mina appar</string>
+    <string name="n">Köpalternativ</string>
+    <string name="o">Betalningsmetoder</string>
+    <string name="p">Gör det möjligt för användare att visa tillgängliga appar i den här appen.</string>
+    <string name="q">Få åtkomst till tjänsten Google Play App Discovery</string>
+    <string name="r">Gör det möjligt för användaren att köpa objekt via Google Play i den här appen.</string>
+    <string name="s">Faktureringstjänst för Google Play</string>
+    <string name="t">Kan kontrollera om du har en licens för den här appen från Google Play.</string>
+    <string name="u">Licenskontroll för Google Play</string>
+    <string name="v">Appens behörigheter</string>
+    <string name="w">Licenser för öppen källkod</string>
+    <string name="x">Kräv autentisering</string>
+    <string name="y">Lös in koden</string>
+    <string name="aa">Sätt betyg!</string>
+    <string name="ba">Skicka en present</string>
+    <string name="ca">Inställningar</string>
+    <string name="da">Aviseringar</string>
+    <string name="ea">Gör klart kontoregistreringen</string>
+    <string name="fa">Apparna installeras när konfigurationen har slutförts</string>
+    <string name="ga">Granska fler appar</string>
+    <string name="ha">Betala snabbt med Googles produkter</string>
+    <string name="ia">Lägg till betalningsmetod</string>
+    <string name="ja">Ange betalningsinformation</string>
+    <string name="ka">Återställ appar från enheten</string>
+    <string name="la">Vilken enhet?</string>
+    <string name="ma">Välj familjens betalningsmetod</string>
+    <string name="na">Välj belopp</string>
+    <string name="oa">Uppdatera betalningsmetoden</string>
+    <string name="pa">Verifiera och installera</string>
+    <string name="qa">Söker efter säkerhetsproblem …</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

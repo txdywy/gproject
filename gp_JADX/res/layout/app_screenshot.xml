@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AppScreenshot xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:contentDescription="@string/content_description_screenshot">
+    <ImageView android:id="@id/screenshot" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/download_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_file_download_grey" android:contentDescription="@string/content_description_tap_to_load" />
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/screenshot_small_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <View android:id="@id/accessibility_overlay" android:background="@drawable/play_highlight_overlay_dark" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.google.android.finsky.layout.AppScreenshot>

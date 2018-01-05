@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/display_name" android:text="@string/contact_email_title" style="@style/ContactEmailHeaderText" />

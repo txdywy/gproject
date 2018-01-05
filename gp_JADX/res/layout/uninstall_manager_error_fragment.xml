@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uninstall_wizard_confirmation_vmargin">
+    <TextView android:textSize="20sp" android:textColor="@color/play_uninstall_wizard_title_color" android:id="@id/uninstall_manager_error_title" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uninstall_wizard_hmargin" android:layout_marginRight="@dimen/uninstall_wizard_hmargin" android:layout_marginBottom="@dimen/uninstall_wizard_confirmation_vmargin" android:text="@string/error" />
+    <TextView android:textSize="14sp" android:textColor="@color/play_uninstall_wizard_secondary" android:id="@id/uninstall_manager_error_message" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uninstall_wizard_hmargin" android:layout_marginRight="@dimen/uninstall_wizard_hmargin" android:layout_marginBottom="@dimen/uninstall_wizard_confirmation_vmargin" />
+    <include layout="@layout/uninstall_manager_button_bar" />
+</LinearLayout>

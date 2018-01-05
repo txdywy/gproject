@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/permission_row" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="15dp" android:paddingBottom="4dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp">
+    <View android:id="@id/bucket_separator" android:background="@color/grey" android:paddingLeft="11dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="15dp" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="11dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bucket_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/header" android:paddingLeft="22dp" android:paddingTop="1dp" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/expander_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_menu_expander_minimized_light" android:contentDescription="@string/content_description_toggle_expand" />
+    </LinearLayout>
+    <TextView android:id="@id/short_description" android:paddingLeft="61dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+    <LinearLayout android:orientation="vertical" android:id="@id/detailed_buckets" android:paddingTop="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" /> />

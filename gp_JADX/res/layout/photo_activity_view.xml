@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@aa/photo_activity_root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@aa/photo_activity_background" android:background="#ff000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.ex.photo.PhotoViewPager android:id="@aa/photo_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@aa/photo_activity_temporary_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play స్టోర్</string>
+    <string name="b">Google Play</string>
+    <string name="c">ఆమోదం అవసరం</string>
+    <string name="d">తల్లిదండ్రుల నియంత్రణలు</string>
+    <string name="e">సమీక్షలు</string>
+    <string name="f">తక్షణ అనువర్తనం</string>
+    <string name="g">సభ్యుని సెట్టింగ్‌లు</string>
+    <string name="h">తక్షణ యాప్‌ల ప్రాధాన్యతలు</string>
+    <string name="i">Play స్టోర్</string>
+    <string name="l">Play రక్షణ</string>
+    <string name="m">నా అనువర్తనాలు</string>
+    <string name="n">కొనుగోలు ఎంపికలు</string>
+    <string name="o">చెల్లింపు పద్ధతులు</string>
+    <string name="p">ఈ అనువర్తనంలోనే అందుబాటులో ఉన్న అనువర్తనాలను వీక్షించడం కోసం వినియోగదారును అనుమతిస్తుంది.</string>
+    <string name="q">Google Play అనువర్తన శోధన సేవని ప్రాప్యత చేయి</string>
+    <string name="r">ఈ అనువర్తనంలో నుండి Google Play ద్వారా అంశాలను కొనుగోలు చేయడానికి వినియోగదారుని అనుమతిస్తుంది.</string>
+    <string name="s">Google Play బిల్లింగ్ సేవ</string>
+    <string name="t">Google Play నుండి ఈ అనువర్తనం కోసం మీకు లైసెన్స్ ఉంటే తనిఖీ చేయవచ్చు.</string>
+    <string name="u">Google Play లైసెన్స్ తనిఖీ</string>
+    <string name="v">అనువర్తన అనుమతులు</string>
+    <string name="w">ఓపెన్ సోర్స్ లైసెన్స్‌లు</string>
+    <string name="x">ప్రామాణీకరణ అవసరం</string>
+    <string name="y">మీ కోడ్‌ను రీడీమ్ చేయండి</string>
+    <string name="aa">దీన్ని రేట్ చేయండి!</string>
+    <string name="ba">బహుమతిగా పంపండి</string>
+    <string name="ca">సెట్టింగ్‌లు</string>
+    <string name="da">నోటిఫికేషన్‌లు</string>
+    <string name="ea">ఖాతా సెటప్‌ని పూర్తి చేయండి</string>
+    <string name="fa">సెటప్ పూర్తయిన తర్వాత అనువర్తనాలు ఇన్‌స్టాల్ చేయబడతాయి</string>
+    <string name="ga">అదనపు అనువర్తనాలను సమీక్షించండి</string>
+    <string name="ha">Google ఉత్పత్తులతో శీఘ్ర చెక్అవుట్‌ను ఆస్వాదించండి</string>
+    <string name="ia">చెల్లింపు పద్ధతిని జోడించండి</string>
+    <string name="ja">చెల్లింపు సమాచారాన్ని సెటప్ చేయండి</string>
+    <string name="ka">పరికరం నుండి అనువర్తనాలను పునరుద్ధరించండి</string>
+    <string name="la">ఏ పరికరం?</string>
+    <string name="ma">కుటుంబ చెల్లింపు పద్ధతిని ఎంచుకోండి</string>
+    <string name="na">ఒక మొత్తాన్ని ఎంచుకోండి</string>
+    <string name="oa">చెల్లింపు పద్ధతిని నవీకరించు</string>
+    <string name="pa">ధృవీకరించి, ఇన్‌. చేయండి</string>
+    <string name="qa">భద్రతా సమస్యల కోసం స్కాన్ చేస్తోంది…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

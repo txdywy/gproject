@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.common.InfoMessageView xmlns:android="http://schemas.android.com/apk/res-auto" uic:layout_width="wrap_content" uic:layout_height="wrap_content" uic:layout_marginLeft="?attr/internalUicNonFormFieldTextStartMargin" uic:layout_marginRight="?attr/internalUicNonFormFieldTextStartMargin" uic:internalUicInfoMessageTextAppearance="?attr/uicLegalMessagesTextAppearance" />

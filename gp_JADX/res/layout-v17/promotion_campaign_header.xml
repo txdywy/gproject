@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.promotioncampaign.view.PromotionCampaignHeaderView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:background="@color/white" finsky:padding="24dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="-8dp" finsky:layout_marginBottom="8dp" style="@style/PromotionCampaignHeader">
+    <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <RelativeLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <com.caverock.androidsvg.SVGImageView finsky:id="@id/info_icon" finsky:visibility="gone" finsky:clickable="true" finsky:layout_width="UNKNOWN_DATA_0x1801" finsky:layout_height="UNKNOWN_DATA_0x1801" finsky:layout_alignParentRight="true" finsky:contentDescription="@string/more_info" finsky:layout_alignParentEnd="true" finsky:svg="@raw/ic_info_outline_grey600_24dp" />
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_toLeftOf="@id/info_icon" finsky:layout_alignParentLeft="true" finsky:layout_toStartOf="@id/info_icon" finsky:layout_alignParentStart="true" finsky:allowsCompactLineSpacing="true" style="@c6382j/PlayDetailTitle" />
+        </RelativeLayout>
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/subtitle" finsky:background="@color/white" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="8dp" finsky:layout_marginBottom="8dp" finsky:allowsCompactLineSpacing="true" style="@style/LightPurchase_Details" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/paragraph" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="8dp" style="@style/LightPurchase_ItemTitle" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/terms_link" finsky:visibility="gone" finsky:clickable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="8dp" style="@style/LightPurchase_ItemTitle" />
+        <FrameLayout finsky:id="@id/button_frame_hidden" finsky:visibility="gone" style="@style/TouchTargetExtensionFrame">
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/primary_button_hidden" style="@style/PromotionCampaignHeaderButton" />
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/secondary_button_hidden" finsky:visibility="gone" style="@style/PromotionCampaignHeaderButton" />
+        </FrameLayout>
+        <LinearLayout finsky:orientation="horizontal" finsky:id="@id/button_frame" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x2401" finsky:layout_marginTop="24dp" finsky:weightSum="1.0" style="@style/TouchTargetExtensionFrame">
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/secondary_button" finsky:visibility="gone" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="8dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="8dp" style="@style/PromotionCampaignHeaderButton" />
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/primary_button" style="@style/PromotionCampaignHeaderButton" />
+        </LinearLayout>
+        <LinearLayout finsky:orientation="vertical" finsky:id="@id/button_frame_wide" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="24dp" style="@style/TouchTargetExtensionFrame">
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/primary_button_wide" finsky:layout_width="match_parent" style="@style/PromotionCampaignHeaderButton" />
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/secondary_button_wide" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_marginTop="8dp" finsky:layout_marginBottom="8dp" style="@style/PromotionCampaignHeaderButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.finsky.stream.controllers.promotioncampaign.view.PromotionCampaignHeaderView>

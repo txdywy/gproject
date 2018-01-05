@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.wallet.ui.common.FormEditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/summary_text_view_text" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="?attr/uicFormInputTextAppearance" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/summary_text_view_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wallet_uic_icon_margin" android:layout_marginRight="?attr/internalUicNonFormFieldTextStartMargin" android:src="?attr/uicEditDrawable" android:layout_centerInParent="true" android:contentDescription="@string/wallet_uic_summary_edit_button_description" />
+</merge>

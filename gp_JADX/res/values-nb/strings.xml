@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Butikk</string>
+    <string name="b">Google Play</string>
+    <string name="c">Godkjenning kreves</string>
+    <string name="d">Foreldrekontroll</string>
+    <string name="e">Anmeldelser</string>
+    <string name="f">Instant-app</string>
+    <string name="g">Medlemsinnstillinger</string>
+    <string name="h">Instant Apps-innstillinger</string>
+    <string name="i">Play Butikk</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mine apper</string>
+    <string name="n">Alternativer for kjøp</string>
+    <string name="o">Betalingsmåter</string>
+    <string name="p">Lar brukeren se tilgjengelige apper i denne appen.</string>
+    <string name="q">Åpne Google Play-tjenesten for oppdagelse av apper</string>
+    <string name="r">Lar brukeren kjøpe produkter gjennom Google Play via denne appen.</string>
+    <string name="s">Faktureringstjeneste for Google Play</string>
+    <string name="t">Kan sjekke om du har lisens for denne appen fra Google Play.</string>
+    <string name="u">Lisenssjekk for Google Play</string>
+    <string name="v">Apptillatelser</string>
+    <string name="w">Åpen kildekode-lisenser</string>
+    <string name="x">Krev autentisering</string>
+    <string name="y">Løs inn koden din</string>
+    <string name="aa">Gi vurdering</string>
+    <string name="ba">Send gave</string>
+    <string name="ca">Innstillinger</string>
+    <string name="da">Varsler</string>
+    <string name="ea">Fullfør kontokonfigurasjonen</string>
+    <string name="fa">Appene blir installert etter at konfigureringen er fullført</string>
+    <string name="ga">Gå gjennom flere apper</string>
+    <string name="ha">Betal raskt med Google-produkter</string>
+    <string name="ia">Legg til betalingsmåte</string>
+    <string name="ja">Angi betalingsinfo</string>
+    <string name="ka">Gjenopprett apper fra enheten</string>
+    <string name="la">Hvilken enhet?</string>
+    <string name="ma">Velg familiebetalingsmåte</string>
+    <string name="na">Velg beløp</string>
+    <string name="oa">Oppdater betalingsmåten</string>
+    <string name="pa">Bekreft og installer</string>
+    <string name="qa">Skanner etter sikkerhetsproblemer …</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

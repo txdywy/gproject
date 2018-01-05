@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.searchsuggestions.view.SearchSuggestionsClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/suggestion_line" layout="@layout/suggestion_bar" />
+    <include android:id="@id/replaced_line" layout="@layout/suggestion_bar" />
+</com.google.android.finsky.stream.controllers.searchsuggestions.view.SearchSuggestionsClusterView>

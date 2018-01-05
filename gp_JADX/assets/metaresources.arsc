@@ -1,0 +1,14 @@
+Error decode arsc
+java.io.IOException: Not a table chunk, expected: 0x2, actual: 0x0, offset: 0x2
+	at jadx.core.xmlgen.ParserStream.throwException(ParserStream.java:114)
+	at jadx.core.xmlgen.ParserStream.checkInt16(ParserStream.java:109)
+	at jadx.core.xmlgen.ResTableParser.decodeTableChunk(ResTableParser.java:91)
+	at jadx.core.xmlgen.ResTableParser.decode(ResTableParser.java:57)
+	at jadx.core.xmlgen.ResTableParser.decodeFiles(ResTableParser.java:62)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:110)
+	at jadx.api.ResourcesLoader.access$000(ResourcesLoader.java:30)
+	at jadx.api.ResourcesLoader$1.decode(ResourcesLoader.java:89)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:68)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:86)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:52)
+

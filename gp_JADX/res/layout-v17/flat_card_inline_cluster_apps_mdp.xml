@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.InlineClusterFlatCardAppsMdpView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:background="@color/flat_card_cluster_light_background" finsky:paddingLeft="@dimen/flat_mdp_inner_margin" finsky:paddingRight="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:paddingStart="@dimen/flat_mdp_inner_margin" finsky:paddingEnd="0dp" finsky:card_show_inline_creator_badge="true" finsky:playCardInset="0dp">
+    <include layout="@layout/flat_card_apps_mdp_content" />
+    <View finsky:id="@id/white_spacer" finsky:background="@color/flat_card_cluster_light_background" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x7f0e021e" finsky:layout_below="@id/mdp_content" />
+    <View finsky:id="@id/bottom_separator" finsky:background="@color/play_translucent_separator_line" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x101" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="@dimen/flat_mdp_separator_top_margin" finsky:layout_marginRight="@dimen/flat_mdp_inner_margin" finsky:layout_below="@id/white_spacer" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="@dimen/flat_mdp_inner_margin" />
+</com.google.android.finsky.playcard.InlineClusterFlatCardAppsMdpView>

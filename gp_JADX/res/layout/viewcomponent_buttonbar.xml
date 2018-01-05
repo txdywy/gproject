@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.common.LightPurchaseButtonBarLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/continue_button_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:id="@id/play_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_googleplay" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/continue_button_frame" style="@style/TouchTargetExtensionFrame">
+        <Button android:id="@id/continue_button" android:background="@drawable/play_action_button_multi" android:visibility="gone" style="@style/ButtonBar_PrimaryButton" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/secondary_button_frame" style="@style/TouchTargetExtensionFrame">
+        <Button android:id="@id/secondary_button" android:background="@drawable/play_action_button_multi" android:visibility="gone" style="@style/ButtonBar_SecondaryButton" />
+    </FrameLayout>
+</com.google.android.finsky.billing.common.LightPurchaseButtonBarLayout>

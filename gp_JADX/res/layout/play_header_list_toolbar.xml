@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="?attr/actionBarTheme" app:id="@id/play_header_toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01015c" app:popupTheme="?attr/actionBarPopupTheme" />

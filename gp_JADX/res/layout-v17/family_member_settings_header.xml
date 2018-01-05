@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" play_common:gravity="top|bottom|center_vertical|fill_vertical|center|fill" play_common:orientation="horizontal" play_common:id="@id/family_member_settings_header" play_common:padding="16dp" play_common:layout_width="match_parent" play_common:layout_height="wrap_content" play_common:minHeight="64dp">
+    <com.google.android.play.image.FifeImageView play_common:id="@id/avatar" play_common:layout_width="UNKNOWN_DATA_0x2001" play_common:layout_height="UNKNOWN_DATA_0x2001" play_common:is_avatar_no_ring="true" />
+    <TextView play_common:textAppearance="?unknown_attr_ref: 1010041" play_common:textColor="@color/play_fg_primary" play_common:id="@id/user_name" play_common:paddingLeft="24dp" play_common:paddingRight="0dp" play_common:layout_width="wrap_content" play_common:layout_height="wrap_content" play_common:paddingStart="24dp" play_common:paddingEnd="0dp" />
+</LinearLayout>

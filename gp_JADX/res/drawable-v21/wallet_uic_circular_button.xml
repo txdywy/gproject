@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/uicCircularButtonBackgroundColor" />
+            <padding android:left="@dimen/wallet_uic_circular_button_padding" android:top="@dimen/wallet_uic_circular_button_padding" android:right="@dimen/wallet_uic_circular_button_padding" android:bottom="@dimen/wallet_uic_circular_button_padding" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="?unknown_attr_ref: 101042c" />
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout style="@style/EmailMarketingRow">
+        <android.support.v7.widget.SwitchCompat app:id="@id/email_marketing_toggle" app:showText="false" style="@style/EmailMarketingSwitch" />
+        <TextView app:id="@id/marketing_description" app:text="@string/email_marketing_preference_text" app:layout_toLeftOf="@id/email_marketing_toggle" app:layout_toStartOf="@id/email_marketing_toggle" style="@style/EmailMarketingText" />
+    </RelativeLayout>
+    <include layout="@layout/account_separator" />
+</LinearLayout>

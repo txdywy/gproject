@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayTextView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:textSize="24sp" finsky:textColor="@color/play_fg_primary" finsky:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/message" finsky:padding="16dp" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:allowsCompactLineSpacing="true" style="@c6382j/PlayLightText" />

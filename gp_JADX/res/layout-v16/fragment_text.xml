@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <include layout="@layout/pe__toolbar" />
+    <ScrollView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+        <LinearLayout app:orientation="vertical" app:paddingBottom="@dimen/box_vertical_margin" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout app:id="@id/leading_image_wrapper" app:layout_width="match_parent" app:layout_height="wrap_content" app:widthRatio="16.0" app:heightRatio="9.0">
+                <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/leading_image" app:background="@c6071d/pe__dc_details_thumbnail_background_color" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:fadesInImage="true" app:hidesBackgroundWhenBound="true" />
+            </com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout>
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/avatar_image" app:layout_width="UNKNOWN_DATA_0x7f0e0406" app:layout_height="UNKNOWN_DATA_0x7f0e0406" app:layout_marginTop="@dimen/box_vertical_margin" app:scaleType="fitCenter" />
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1901" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PETextContainer">
+                <TextView app:id="@id/subtitle_1" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/box_small_padding" style="@style/PEPanelTitleText" />
+                <TextView app:id="@id/subtitle_2" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/box_small_padding" style="@style/PEPanelTitleText" />
+                <TextView app:id="@id/title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/box_small_padding" style="@style/PETitleText" />
+                <TextView app:id="@id/body" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEText.BodyText" />
+                <TextView app:id="@id/attribution" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_large_padding" style="@style/PEText.Attribution" />
+            </LinearLayout>
+            <View app:id="@id/padding" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e0416" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

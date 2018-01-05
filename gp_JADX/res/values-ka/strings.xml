@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">საჭიროა დასტური</string>
+    <string name="d">მშობლის მიერ კონტროლი</string>
+    <string name="e">მიმოხილვები</string>
+    <string name="f">მყისიერი აპი</string>
+    <string name="g">წევრის პარამეტრები</string>
+    <string name="h">მყისიერი აპების პარამეტრები</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">ჩემი აპები</string>
+    <string name="n">შესყიდვის პარამეტრები</string>
+    <string name="o">გადახდის მეთოდები</string>
+    <string name="p">საშუალებას აძლევს მომხმარებელს, იხილოს ხელმისაწვდომი აპები ამ აპში.</string>
+    <string name="q">წვდომა Google Play-ის აპების აღმოჩენის სერვისზე</string>
+    <string name="r">უფლებას აძლევს მომხმარებელს შეიძინოს ერთეულები Google Play-დან ამ აპის გამოყენებით.</string>
+    <string name="s">Google Play-ს ბილინგის სერვისი</string>
+    <string name="t">შეუძლია შეამოწმოს, გაქვთ თუ არა Google Play-დან ამ აპის ლიცენზია.</string>
+    <string name="u">Google Play-ს ლიცენზიის შემოწმება</string>
+    <string name="v">აპის უფლებები</string>
+    <string name="x">საჭიროებენ ამოცნობას</string>
+    <string name="y">თქვენი კოდის გამოყენება</string>
+    <string name="aa">შეაფასეთ!</string>
+    <string name="ba">საჩუქრის გაგზავნა</string>
+    <string name="ca">პარამეტრები</string>
+    <string name="da">შეტყობინებები</string>
+    <string name="ea">დაასრულეთ ანგარიშის პარამეტრ. დაყენება</string>
+    <string name="fa">აპების ინსტალაცია დაყენების დასრულების შემდეგ განხორციელდება</string>
+    <string name="ga">სხვა აპების მიმოხილვა</string>
+    <string name="ha">ისარგებლეთ Google-ის პროდუქტებში სწრაფი ანგარიშსწორების შესაძლებლობით</string>
+    <string name="ia">გადახდის მეთოდის დამატება</string>
+    <string name="ja">გადახდის ინფორმაციის დაყენება</string>
+    <string name="ka">მოწყობილობიდან აპების აღდგენა</string>
+    <string name="la">რომელი მოწყობილობა?</string>
+    <string name="ma">აირჩიეთ საოჯახო გადახდის მეთოდი</string>
+    <string name="na">აირჩიეთ ოდენობა</string>
+    <string name="oa">განაახლეთ გადახდის მეთოდი</string>
+    <string name="pa">დადასტურება და დაყენება</string>
+    <string name="qa">მიმდინარეობს უსაფრთხოების პრობლემების სკანირება…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

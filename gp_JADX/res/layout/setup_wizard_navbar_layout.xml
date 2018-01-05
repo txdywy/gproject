@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/SetupWizardNavbar">
+    <view android:id="@id/negative_button" class="com.google.android.finsky.setup.SetupWizardNavBar$NavButton" style="@style/FinskyInstrumentManagerNegativeButtonSetupWizard" />
+    <View android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <view android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/positive_button" android:text="@string/setup_wizard_next_button_label" class="com.google.android.finsky.setup.SetupWizardNavBar$NavButton" style="@style/FinskyInstrumentManagerPositiveButtonSetupWizard" />
+</LinearLayout>

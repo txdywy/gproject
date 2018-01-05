@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/family_safe_search_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/family_safe_search_result_title" />

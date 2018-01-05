@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="?attr/uicDialogBodyStartEndMargin" android:paddingTop="?attr/uicDialogBodyTopBottomMargin" android:paddingRight="?attr/uicDialogBodyStartEndMargin" android:paddingBottom="?attr/uicDialogBodyTopBottomMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/uicDialogBodyStartEndMargin" android:paddingEnd="?attr/uicDialogBodyStartEndMargin">
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@c6642e/wallet_im_cvc_code_popup_default_description" android:textAlignment="viewStart" style="?attr/uicInfoDialogTextAppearance" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="?attr/uicDialogBodyTopBottomMargin" android:src="@drawable/wallet_im_cvc_image_default" android:contentDescription="0x0" />
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@c6642e/wallet_im_cvc_code_popup_amex_description" android:textAlignment="viewStart" style="?attr/uicInfoDialogTextAppearance" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallet_im_cvc_image_amex" android:contentDescription="0x0" />
+    </LinearLayout>
+</ScrollView>

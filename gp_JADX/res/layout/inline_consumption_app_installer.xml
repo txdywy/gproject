@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.play.layout.PlayTextView android:id="@c6634c/top_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/LightPurchase_TitleText" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="12dp" android:layout_weight="1.0">
+        <com.google.android.play.layout.PlayTextView android:id="@id/body_text" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/LightPurchase_PrimaryText" />
+    </ScrollView>
+</LinearLayout>

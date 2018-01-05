@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/ContactEmailBody">
+    <TextView finsky:id="@id/contact_email_until_verification" finsky:visibility="gone" style="@style/ContactEmailUntilVerificationText" />
+    <TextView finsky:id="@id/contact_email_address" finsky:layout_toLeftOf="@id/edit_contact_email_address" finsky:layout_below="@id/contact_email_until_verification" style="@style/ContactEmailAddressText" />
+    <TextView finsky:id="@id/pending_contact_email_verification" finsky:visibility="gone" finsky:text="@string/contact_email_pending_verification" finsky:layout_below="@id/contact_email_address" style="@style/ContactEmailPendingText" />
+    <com.caverock.androidsvg.SVGImageView finsky:id="@id/edit_contact_email_address" finsky:visibility="gone" finsky:clickable="true" finsky:layout_below="@id/contact_email_until_verification" finsky:layout_alignParentRight="true" finsky:contentDescription="@string/content_description_edit_contact_email" finsky:svg="@raw/ic_create_grey600_24dp" style="@style/ContactEmailEditIcon" />
+    <Button finsky:id="@id/contact_email_resend_button" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:text="@string/contact_email_resend" finsky:layout_below="@id/pending_contact_email_verification" style="@style/ContactEmailResendButton" />
+    <Space finsky:id="@id/contact_email_footer_spacer" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x7f0e00b7" finsky:layout_below="@id/contact_email_resend_button" />
+    <TextView finsky:id="@id/contact_email_description" finsky:text="@string/contact_email_description" finsky:layout_below="@id/contact_email_footer_spacer" style="@style/ContactEmailFooterText" />
+</RelativeLayout>

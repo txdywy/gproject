@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Samþykkis er krafist</string>
+    <string name="d">Barnalæsing</string>
+    <string name="e">Umsagnir</string>
+    <string name="f">Skyndiforrit</string>
+    <string name="g">Meðlimastillingar</string>
+    <string name="h">Kjörstillingar skyndiforrita</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Forritin mín</string>
+    <string name="n">Valkostir fyrir kaup</string>
+    <string name="o">Greiðslumátar</string>
+    <string name="p">Gerir notandanum kleift að skoða tiltæk forrit úr þessu forriti.</string>
+    <string name="q">Fá aðgang að leitarþjónustu forrita í Google Play</string>
+    <string name="r">Leyfir notanda að kaupa vörur gegnum Google Play úr þessu forriti.</string>
+    <string name="s">Greiðsluþjónusta Google Play</string>
+    <string name="t">Getur athugað hvort þú ert með leyfi fyrir þetta forrit frá Google Play.</string>
+    <string name="u">Google Play leyfiskönnun</string>
+    <string name="v">Heimildir forrits</string>
+    <string name="w">Leyfi opins kóða</string>
+    <string name="x">Krefjast auðkenningar</string>
+    <string name="y">Innleystu kóðann þinn</string>
+    <string name="aa">Gefðu einkunn!</string>
+    <string name="ba">Senda gjöf</string>
+    <string name="ca">Stillingar</string>
+    <string name="da">Tilkynningar</string>
+    <string name="ea">Ljúka uppsetningu reiknings</string>
+    <string name="fa">Forrit verða sett upp eftir að uppsetningu er lokið</string>
+    <string name="ga">Yfirfara fleiri forrit</string>
+    <string name="ha">Fljótlegt greiðsluferli með vörum Google</string>
+    <string name="ia">Bæta við greiðslumáta</string>
+    <string name="ja">Setja upp greiðsluupplýsingar</string>
+    <string name="ka">Enduruppsetja forrit af tækinu</string>
+    <string name="la">Hvaða tæki?</string>
+    <string name="ma">Velja greiðslumáta fjölskyldunnar</string>
+    <string name="na">Veldu upphæð</string>
+    <string name="oa">Uppfæra greiðslumáta</string>
+    <string name="pa">Staðfesta og setja upp</string>
+    <string name="qa">Leitar að öryggisvandamálum…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

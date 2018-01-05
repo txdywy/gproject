@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="16dp" style="@style/AccountRow">
+    <com.google.android.play.image.FifeImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon_start" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AccountRowTitle" />
+        <TextView android:id="@id/subtitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AccountRowSubtitle" />
+    </LinearLayout>
+    <com.google.android.play.image.FifeImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon_end" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" />
+</LinearLayout>

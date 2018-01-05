@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:padding="@dimen/family_library_onboarding_side_margin" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.google.android.play.image.FifeImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/family_music_purchase_image" app:layout_width="UNKNOWN_DATA_0xe801" app:layout_height="UNKNOWN_DATA_0xe801" />
+    <TextView app:textSize="@dimen/family_onboarding_title_text" app:textStyle="bold" app:id="@id/music_purchase_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="24dp" app:layout_marginBottom="16dp" />
+    <TextView app:textSize="@dimen/family_onboarding_text" app:id="@id/music_purchase_body" app:layout_width="match_parent" app:layout_height="wrap_content" />
+</LinearLayout>

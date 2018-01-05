@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="automotive_app_desc">res/xml/automotive_app_desc.xml</xml>
+    <xml name="debug">res/xml/debug.xml</xml>
+    <xml name="debug_experiment_overrides">res/xml/debug_experiment_overrides.xml</xml>
+    <xml name="debug_phenotype">res/xml/debug_phenotype.xml</xml>
+    <xml name="debug_stream">res/xml/debug_stream.xml</xml>
+    <xml name="notifications_settings">res/xml/notifications_settings.xml</xml>
+    <xml name="settings">res/xml/settings.xml</xml>
+    <xml name="shortcuts">res/xml/shortcuts.xml</xml>
+    <xml name="shortcuts">res/xml-v22/shortcuts.xml</xml>
+</resources>

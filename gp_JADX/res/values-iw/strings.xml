@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">חנות Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">נדרש אישור</string>
+    <string name="d">בקרת הורים</string>
+    <string name="e">ביקורות</string>
+    <string name="f">אפליקציה אינסטנט</string>
+    <string name="g">הגדרות חברים</string>
+    <string name="h">העדפות של אפליקציות אינסטנט</string>
+    <string name="i">חנות Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">האפליקציות שלי</string>
+    <string name="n">אפשרויות רכישה</string>
+    <string name="o">שיטת התשלום</string>
+    <string name="p">מאפשרת למשתמש לראות את האפליקציות הזמינות מתוך האפליקציה הזו.</string>
+    <string name="q">גישה ל-Google Play App Discovery Service</string>
+    <string name="r">מאפשר למשתמש לרכוש פריטים באמצעות Google Play מתוך אפליקציה זו.</string>
+    <string name="s">שירות החיוב של Google Play</string>
+    <string name="t">יכול לבדוק אם יש לך רישיון לאפליקציה זו מ-Google Play.</string>
+    <string name="u">בדיקת רישיון Google Play</string>
+    <string name="v">הרשאות לאפליקציה</string>
+    <string name="w">רישיונות קוד פתוח</string>
+    <string name="x">נדרש אימות</string>
+    <string name="y">ממש את הקוד שלך</string>
+    <string name="aa">דרג אותו!</string>
+    <string name="ba">שלח מתנה</string>
+    <string name="ca">הגדרות</string>
+    <string name="da">הודעות</string>
+    <string name="ea">סיים את הגדרת החשבון</string>
+    <string name="fa">האפליקציות יותקנו לאחר השלמת תהליך ההגדרה</string>
+    <string name="ga">בדיקת אפליקציות נוספות</string>
+    <string name="ha">ליהנות מסיום קנייה מהיר במוצרי Google</string>
+    <string name="ia">הוספת אמצעי תשלום</string>
+    <string name="ja">הגדרת פרטי תשלום</string>
+    <string name="ka">שחזור אפליקציות ממכשיר</string>
+    <string name="la">איזה מכשיר?</string>
+    <string name="ma">בחירת אמצעי תשלום למשפחה</string>
+    <string name="na">בחר סכום</string>
+    <string name="oa">עדכן את אמצעי התשלום</string>
+    <string name="pa">אמת והתקן</string>
+    <string name="qa">מתבצעת סריקה של בעיות אבטחה…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

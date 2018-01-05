@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">فروشگاه Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">به تأیید نیاز است</string>
+    <string name="d">کنترل‌های والدین</string>
+    <string name="e">نظرها</string>
+    <string name="f">برنامه فوری</string>
+    <string name="g">تنظیمات عضو</string>
+    <string name="h">تنظیمات برگزیده برنامه‌های فوری</string>
+    <string name="i">فروشگاه Play</string>
+    <string name="l">‫‏سپر ایمنی Play‬</string>
+    <string name="m">برنامه‌های من</string>
+    <string name="n">گزینه‌های خرید</string>
+    <string name="o">روش‌های پرداخت</string>
+    <string name="p">به کاربر اجازه می‌دهد برنامه‌های در دسترس را از داخل این برنامه مشاهده کند.</string>
+    <string name="q">دسترسی به سرویس کاوش برنامه Google Play</string>
+    <string name="r">به کاربر اجازه دهید تا موارد را از طریق Google Play و از این برنامه خریداری کند.</string>
+    <string name="s">خدمات صدور صورت‌حساب Google Play</string>
+    <string name="t">بررسی کنید که آیا مجوز این برنامه را از Google Play دریافت کرده‌اید.</string>
+    <string name="u">بررسی مجوز Google Play</string>
+    <string name="v">مجوزهای برنامه</string>
+    <string name="w">مجوزهای منبع باز</string>
+    <string name="x">احراز هویت لازم است</string>
+    <string name="y">بازخرید کدتان</string>
+    <string name="aa">رتبه‌بندی کنید!</string>
+    <string name="ba">ارسال هدیه</string>
+    <string name="ca">تنظیمات</string>
+    <string name="da">اعلان‌ها</string>
+    <string name="ea">تنظیم کامل حساب</string>
+    <string name="fa">بعد از تکمیل راه‌اندازی، برنامه‌ها نصب می‌شوند</string>
+    <string name="ga">بررسی برنامه‌های بیشتر</string>
+    <string name="ha">با محصولات Google از تسویه‌حساب سریع لذت ببرید</string>
+    <string name="ia">افزودن روش پرداخت</string>
+    <string name="ja">تنظیم اطلاعات پرداخت</string>
+    <string name="ka">بازیابی برنامه‌ها از دستگاه</string>
+    <string name="la">کدام دستگاه؟</string>
+    <string name="ma">انتخاب روش پرداخت خانواده</string>
+    <string name="na">انتخاب مقدار</string>
+    <string name="oa">به‌روزرسانی روش پرداخت</string>
+    <string name="pa">تأیید صحت و نصب</string>
+    <string name="qa">درحال اسکن برای وجود مشکلات امنیتی...</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

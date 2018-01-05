@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/message_and_button_container" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="?attr/uicWebViewLayoutOverlayTextBottomMargin" android:maxWidth="?attr/uicWebViewLayoutOverlayTextMaxWidth" android:text="@string/wallet_uic_android_app_redirect_canceled" style="?attr/uicWebViewLayoutOverlayTextAppearance" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_progress" android:layout="?attr/internalUicProgressBarLayout" android:inflatedId="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:contentDescription="0x0" />
+</LinearLayout>

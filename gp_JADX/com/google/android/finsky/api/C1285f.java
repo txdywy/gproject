@@ -1,0 +1,54 @@
+package com.google.android.finsky.api;
+
+import com.google.android.play.utils.p354b.C6321a;
+import java.util.concurrent.TimeUnit;
+
+public final class C1285f {
+    public static final C6321a f7583A = C6321a.m28958a("finsky.replicate_library_max_retries", Integer.valueOf(0));
+    public static final C6321a f7584B = C6321a.m28957a("finsky.replicate_library_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7585C = C6321a.m28958a("finsky.early_update_timeout_ms", Integer.valueOf(2500));
+    public static final C6321a f7586D = C6321a.m28958a("finsky.early_update_max_retries", Integer.valueOf(1));
+    public static final C6321a f7587E = C6321a.m28957a("finsky.early_update_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7588F = C6321a.m28958a("finsky.ad_click_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(10)));
+    public static final C6321a f7589G = C6321a.m28958a("finsky.update_testing_program_opt_status_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(30)));
+    public static final C6321a f7590H = C6321a.m28956a("finsky.skip_all_caches", Boolean.valueOf(false));
+    public static final C6321a f7591I = C6321a.m28956a("finsky.show_staging_data", Boolean.valueOf(false));
+    public static final C6321a f7592J = C6321a.m28956a("finsky.prex_disabled", Boolean.valueOf(false));
+    public static final C6321a f7593K = C6321a.m28956a("finsky.vouchers_in_details_requests_enabled", Boolean.valueOf(true));
+    public static final C6321a f7594L = C6321a.m28958a("finsky.max_vouchers_in_details_request", Integer.valueOf(25));
+    public static final C6321a f7595M = C6321a.m28956a("finsky.consistency_token_enabled", Boolean.valueOf(true));
+    public static final C6321a f7596N = C6321a.m28959a("finsky.content_filter_settings_response_ttl_ms", Long.valueOf(TimeUnit.DAYS.toMillis(7)));
+    public static final C6321a f7597O = C6321a.m28960a("finsky.purchase_manager_ees_suffix", "PhoneskyPM");
+    public static final C6321a f7598P = C6321a.m28958a("finsky.preloads_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(10)));
+    public static final C6321a f7599Q = C6321a.m28958a("finsky.preloads_max_retries", Integer.valueOf(1));
+    public static final C6321a f7600R = C6321a.m28957a("finsky.preloads_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7601S = C6321a.m28958a("finsky.managed_configuration_timeout_ms", Integer.valueOf(2500));
+    public static final C6321a f7602T = C6321a.m28958a("finsky.managed_configuration_max_retries", Integer.valueOf(1));
+    public static final C6321a f7603U = C6321a.m28957a("finsky.managed_configuration_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7604a = C6321a.m28960a("finsky.mcc_mnc_override", null);
+    public static final C6321a f7605b = C6321a.m28960a("finsky.proto_log_url_regexp", ".*");
+    public static final C6321a f7606c = C6321a.m28956a("finsky.send_public_android_id_in_requests_for_rads", Boolean.valueOf(true));
+    public static final C6321a f7607d = C6321a.m28956a("finsky.send_ad_id_in_requests_for_rads", Boolean.valueOf(true));
+    public static final C6321a f7608e = C6321a.m28958a("finsky.dfe_max_retries", Integer.valueOf(1));
+    public static final C6321a f7609f = C6321a.m28957a("finsky.dfe_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7610g = C6321a.m28960a("finsky.ip_country_override", null);
+    public static final C6321a f7611h = C6321a.m28963b("logging_id2", "");
+    public static final C6321a f7612i = C6321a.m28958a("finsky.acquire_default_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(35)));
+    public static final C6321a f7613j = C6321a.m28958a("finsky.acquire_default_max_retry_attempts", Integer.valueOf(0));
+    public static final C6321a f7614k = C6321a.m28957a("finsky.acquire_default_back_off_multiplier", Float.valueOf(0.0f));
+    public static final C6321a f7615l = C6321a.m28958a("finsky.purchase_status_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(35)));
+    public static final C6321a f7616m = C6321a.m28958a("finsky.age_verification_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(35)));
+    public static final C6321a f7617n = C6321a.m28958a("finsky.backup_devices_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(15)));
+    public static final C6321a f7618o = C6321a.m28958a("finsky.backup_devices_max_retries", Integer.valueOf(1));
+    public static final C6321a f7619p = C6321a.m28957a("finsky.backup_devices_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7620q = C6321a.m28958a("finsky.backup_documents_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(15)));
+    public static final C6321a f7621r = C6321a.m28958a("finsky.backup_documents_max_retries", Integer.valueOf(1));
+    public static final C6321a f7622s = C6321a.m28957a("finsky.backup_documents_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7623t = C6321a.m28958a("finsky.bulk_details_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(30)));
+    public static final C6321a f7624u = C6321a.m28958a("finsky.bulk_details_max_retries", Integer.valueOf(1));
+    public static final C6321a f7625v = C6321a.m28957a("finsky.bulk_details_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7626w = C6321a.m28958a("finsky.sku_details_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(30)));
+    public static final C6321a f7627x = C6321a.m28958a("finsky.sku_details_max_retries", Integer.valueOf(1));
+    public static final C6321a f7628y = C6321a.m28957a("finsky.sku_details_backoff_multiplier", Float.valueOf(1.0f));
+    public static final C6321a f7629z = C6321a.m28958a("finsky.replicate_library_timeout_ms", Integer.valueOf((int) TimeUnit.SECONDS.toMillis(30)));
+}

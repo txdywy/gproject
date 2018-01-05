@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.quicklinks.view.QuickLinksBannerItemPillView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/PlayLinksView">
+    <TextView android:id="@id/li_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/QuicklinksPillTitle" />
+</com.google.android.finsky.stream.controllers.quicklinks.view.QuickLinksBannerItemPillView>

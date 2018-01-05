@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/filter_list_dialog_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@id/filter_list_search_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/filter_list_scroll_section" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.8">
+        <LinearLayout android:orientation="vertical" android:id="@id/filter_list_dynamic_targets_list" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/filter_list_button_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/filter_list_button_reset" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/debug_reset" android:layout_weight="0.33" />
+        <Button android:id="@id/filter_list_button_cancel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/cancel" android:layout_weight="0.33" />
+        <Button android:id="@id/filter_list_button_OK" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/ok" android:layout_weight="0.33" />
+    </LinearLayout>
+</LinearLayout>

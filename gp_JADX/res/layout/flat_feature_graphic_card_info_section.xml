@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" android:layout_width="UNKNOWN_DATA_0x7f0e01ff" android:layout_height="UNKNOWN_DATA_0x7f0e01ff" android:layout_marginLeft="0dp" android:layout_marginTop="@dimen/flat_feature_graphic_card_thumbnail_top_margin" android:layout_marginRight="@dimen/flat_feature_graphic_card_thumbnail_right_margin" android:layout_marginBottom="@dimen/flat_feature_graphic_card_thumbnail_bottom_margin" android:layout_below="@id/feature_graphic_view" android:layout_alignParentLeft="true">
+        <include android:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView android:id="@id/li_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="@dimen/flat_featured_card_overflow_safe_margin" android:layout_toRightOf="@id/li_thumbnail_frame" android:layout_alignTop="@id/li_thumbnail_frame" style="@style/FlatCardTitle.FeatureGraphic" />
+    <ImageView android:id="@id/li_overflow" android:nextFocusLeft="@id/play_card" android:layout_marginLeft="0dp" android:layout_marginTop="-7dp" android:layout_marginRight="-10dp" android:layout_alignTop="@id/li_title" android:layout_alignParentRight="true" style="@style/FlatCardOverflow" />
+    <com.google.android.play.layout.StarRatingBar android:id="@id/li_rating" android:layout_toRightOf="@id/li_thumbnail_frame" android:layout_alignBaseline="@id/li_thumbnail_frame" style="@style/FlatRatingBar" />
+    <com.google.android.play.layout.PlayCardLabelView android:id="@id/li_label" android:layout_alignBaseline="@id/li_thumbnail_frame" android:layout_alignTop="@id/li_rating" android:layout_alignParentRight="true" style="@c6382j/PlayCardLabel" />
+</merge>

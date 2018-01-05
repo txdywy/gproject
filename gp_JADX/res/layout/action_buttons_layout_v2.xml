@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.actionbuttons.DetailsSummaryDynamic xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/title_details_summary_dynamic" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.finsky.actionbuttons.DetailsButtonLayout android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/details_action_buttons_v2" />
+    </com.google.android.finsky.actionbuttons.DetailsButtonLayout>
+    <include android:id="@id/download_progress_panel" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/details_download_progress" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/summary_dynamic_status" android:paddingTop="4dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@c6382j/PlayLightText" />
+</com.google.android.finsky.actionbuttons.DetailsSummaryDynamic>

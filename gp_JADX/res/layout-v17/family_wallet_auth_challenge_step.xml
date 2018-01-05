@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:paddingLeft="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:paddingTop="@dimen/light_purchase_dialog_footer_top_bottom_padding" finsky:paddingRight="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:paddingStart="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:paddingEnd="@dimen/light_purchase_dialog_footer_left_right_padding"
+    <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content"
+        <LinearLayout finsky:orientation="vertical" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="wrap_content" finsky:layout_weight="1.0">
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="24dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="24dp" style="@style/LightPurchase_TitleText" />
+            <TextView finsky:id="@id/instrument_display_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="-2dp" style="@style/LightPurchase_SubtitleText" />
+        </LinearLayout>
+        <LinearLayout finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="vertical" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+            <com.google.android.finsky.frameworkviews.AccessibleTextView finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/price" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:drawablePadding="3dp" style="@style/LightPurchase_Price" />
+            <TextView finsky:ellipsize="marquee" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/price_byline" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="-2dp" finsky:maxWidth="160dp" finsky:maxLines="2" style="@style/LightPurchase_PriceByline" />
+            <TextView finsky:ellipsize="marquee" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/price_byline_2" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="-2dp" finsky:maxWidth="160dp" finsky:maxLines="2" style="@style/LightPurchase_PriceByline" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+        <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <com.google.android.finsky.frameworkviews.ForegroundLinearLayout finsky:orientation="horizontal" finsky:id="@id/document_header" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp">
+                <com.google.android.play.image.FifeImageView finsky:id="@id/application_icon" finsky:layout_width="UNKNOWN_DATA_0x7f0e0339" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="16dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="16dp" />
+                <LinearLayout finsky:orientation="vertical" finsky:id="@id/document_description" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+                    <com.google.android.play.layout.PlayTextView finsky:ellipsize="end" finsky:id="@id/document_title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="-5dp" finsky:maxLines="2" style="@style/LightPurchase_Auth_ItemTitle" />
+                </LinearLayout>
+            </com.google.android.finsky.frameworkviews.ForegroundLinearLayout>
+            <com.google.android.finsky.frameworkviews.FlowLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/badge_container" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" finsky:vertical_gap="16dp" finsky:horizontal_gap="12dp" />
+            <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/consumption_app_details" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp">
+                <com.google.android.play.image.FifeImageView finsky:id="@id/consumption_app_icon" finsky:visibility="gone" finsky:layout_width="UNKNOWN_DATA_0x7f0e0339" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="16dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="16dp" />
+                <TextView finsky:id="@id/consumption_app_disclaimer" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView finsky:textSize="@dimen/play_medium_size" finsky:id="@id/requester_info" finsky:background="#efefef" finsky:padding="8dp" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" />
+            <TextView finsky:id="@id/approver_email" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" style="@style/LightPurchase_SubtitleText" />
+            <Spinner finsky:id="@id/approver_email_list" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" />
+            <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="4dp" layout="@layout/light_purchase_password_pin" />
+            <TextView finsky:id="@id/error_message" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_ErrorByline" />
+            <TextView finsky:id="@id/purchase_disclaimer" finsky:focusable="true" finsky:focusableInTouchMode="true" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+            <CheckBox finsky:textSize="@dimen/play_purchase_message_size" finsky:textColor="@color/play_fg_secondary" finsky:id="@id/approval_checkbox" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minHeight="32dp" />
+            <TextView finsky:id="@id/footer" finsky:focusable="true" finsky:focusableInTouchMode="true" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="8dp" style="@style/LightPurchase_Footer" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

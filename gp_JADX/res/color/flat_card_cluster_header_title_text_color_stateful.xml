@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/flat_card_cluster_header_title_text_color_hover" android:state_hovered="true" />
+    <item android:state_pressed="true" android:color="@color/flat_card_cluster_header_title_text_color_pressed" />
+    <item android:color="@color/flat_card_cluster_header_title_text_color" />
+</selector>

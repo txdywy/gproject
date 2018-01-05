@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.layout.CardLinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/item_content" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/pe__card_margin_bottom" style="@c6382j/PlayCardViewGroup">
+        <com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:widthRatio="@integer/pe__card_width_ratio" app:heightRatio="@integer/pe__card_height_ratio">
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" />
+            <LinearLayout app:orientation="vertical" app:background="@c6087f/pe__card_story_fg" app:paddingTop="@dimen/box_small_padding" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+                <TextView app:id="@id/title" app:background="@c6087f/pe__card_story_tag_bg" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/PECardText.Title" />
+                <TextView app:id="@id/subtitle" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__card_title_subtitle_margin" app:maxLines="2" style="@style/PECardText" />
+                <TextView app:id="@id/source" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/pe__card_subtitle_source_margin" style="@style/PECardText.Source" />
+                <View app:background="@c6071d/pe__card_divider_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/pe__card_source_divider_margin" />
+                <TextView app:id="@id/call_to_action" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e03fe" style="@style/PECardText.CallToAction" />
+            </LinearLayout>
+        </com.google.android.libraries.play.entertainment.media.FixedAspectRatioRelativeLayout>
+    </com.google.android.play.layout.CardLinearLayout>
+    <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/attribution" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEText.Attribution.Small" />
+</merge>

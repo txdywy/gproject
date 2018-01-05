@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content"
+    <LinearLayout finsky:orientation="vertical" finsky:paddingLeft="16dp" finsky:paddingTop="12dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+        <com.google.android.play.layout.PlayTextView finsky:ellipsize="end" finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:singleLine="true" style="@style/LightPurchase_TitleText" />
+        <TextView finsky:id="@id/account_name" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="-2dp" style="@style/LightPurchase_AccountName" />
+        <ScrollView finsky:scrollbarStyle="insideInset" finsky:orientation="vertical" finsky:id="@id/scroll_content" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:layout_marginBottom="12dp">
+            <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+                <TextView finsky:id="@id/description" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" style="@style/LightPurchase_ExtendedDetails" />
+                <EditText finsky:id="@id/name_entry" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" finsky:singleLine="true" finsky:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberDecimal|phone|time" />
+                <EditText finsky:id="@id/birthday" finsky:focusableInTouchMode="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" finsky:cursorVisible="false" finsky:inputType="UNKNOWN_DATA_0x0" />
+                <RadioGroup finsky:orientation="horizontal" finsky:id="@id/genders" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" />
+                <EditText finsky:id="@id/phone_number" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" finsky:singleLine="true" finsky:digits="0123456789-" finsky:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" />
+                <RadioGroup finsky:orientation="horizontal" finsky:id="@id/carriers" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" />
+                <LinearLayout finsky:orientation="horizontal" finsky:id="@id/carriers_extension" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp">
+                    <RadioButton finsky:id="@id/carriers_extension_button" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+                    <android.support.v7.widget.AppCompatSpinner finsky:id="@id/carriers_extension_spinner" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="8dp" finsky:layout_marginRight="0dp" finsky:minWidth="100dp" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                </LinearLayout>
+                <TextView finsky:id="@id/carriers_help" finsky:paddingLeft="4dp" finsky:paddingRight="0dp" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" />
+                <com.google.android.finsky.layout.play.SingleLineContainer finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" finsky:flexibleChildId="@id/citizenship">
+                    <CheckBox finsky:id="@id/citizenship" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="10dp" />
+                    <TextView finsky:id="@id/citizenship_error" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="10dp" finsky:layout_marginTop="10dp" finsky:layout_marginRight="10dp" />
+                </com.google.android.finsky.layout.play.SingleLineContainer>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView finsky:id="@id/footer" finsky:paddingLeft="16dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/LightPurchase_Footer" />
+    <include layout="@layout/light_purchase_button_bar" />
+</LinearLayout>

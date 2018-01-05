@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.layout.PlayCardThumbnail playcommon:id="@id/li_thumbnail_frame" playcommon:layout_width="match_parent" playcommon:layout_height="UNKNOWN_DATA_0x1" playcommon:app_thumbnail_padding="0dp">
+        <include playcommon:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <ProgressBar playcommon:id="@id/loading_progress_bar" playcommon:layout_width="wrap_content" playcommon:layout_height="wrap_content" playcommon:indeterminate="true" playcommon:layout_centerInParent="true" />
+    <ImageView playcommon:id="@id/li_overflow" playcommon:nextFocusLeft="@id/play_card" playcommon:layout_marginLeft="0dp" playcommon:layout_marginTop="@dimen/flat_mini_card_overflow_top_margin" playcommon:layout_marginRight="-10dp" playcommon:layout_marginStart="0dp" playcommon:layout_marginEnd="-10dp" style="@style/FlatCardOverflow" />
+</merge>

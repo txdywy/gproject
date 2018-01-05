@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.lite.FlatCardViewMiniLite xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/play_card" android:paddingLeft="@dimen/flat_mini_card_side_padding" android:paddingRight="@dimen/flat_mini_card_side_padding" android:focusable="true" android:nextFocusRight="@id/li_overflow" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:foreground="@drawable/play_highlight_round_overlay_light" android:paddingStart="@dimen/flat_mini_card_side_padding" android:paddingEnd="@dimen/flat_mini_card_side_padding" style="@style/FlatCardViewGroup">
+    <include layout="@layout/flat_card_mini_content_lite" />
+</com.google.android.finsky.playcard.lite.FlatCardViewMiniLite>

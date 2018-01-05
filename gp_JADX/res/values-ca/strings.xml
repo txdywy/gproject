@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Aprovació obligatòria</string>
+    <string name="d">Controls parentals</string>
+    <string name="e">Comentaris</string>
+    <string name="f">Aplicació instantània</string>
+    <string name="g">Configuració de membres</string>
+    <string name="h">Preferències d\'Aplicacions instantànies</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Les meves aplicacions</string>
+    <string name="n">Opcions de compra</string>
+    <string name="o">Formes de pagament</string>
+    <string name="p">Permet que l\'usuari vegi les aplicacions disponibles des d\'aquesta aplicació.</string>
+    <string name="q">Accedeix al servei Descoberta d\'aplicacions de Google Play</string>
+    <string name="r">Permet que l\'usuari compri elements mitjançant Google Play des d\'aquesta aplicació.</string>
+    <string name="s">Servei de facturació de Google Play</string>
+    <string name="t">Pot comprovar si tens una llicència per a aquesta aplicació de Google Play.</string>
+    <string name="u">Comprovació de llicència de Google Play</string>
+    <string name="v">Permisos de l\'aplicació</string>
+    <string name="w">Llicències de programari lliure</string>
+    <string name="x">Sol·licita autenticació</string>
+    <string name="y">Bescanvia el codi</string>
+    <string name="aa">Puntua\'l!</string>
+    <string name="ba">Envia un regal</string>
+    <string name="ca">Configuració</string>
+    <string name="da">Notificacions</string>
+    <string name="ea">Completa la configuració del compte</string>
+    <string name="fa">Les aplicacions s\'instal·laran una vegada completada la configuració</string>
+    <string name="ga">Revisa més aplicacions</string>
+    <string name="ha">Gaudeix del pagament ràpid en productes de Google</string>
+    <string name="ia">Afegeix una forma de pagament</string>
+    <string name="ja">Configura les dades de pagament</string>
+    <string name="ka">Restaura les aplicacions del dispositiu</string>
+    <string name="la">Quin dispositiu?</string>
+    <string name="ma">Selecciona la forma de pagament familiar</string>
+    <string name="na">Tria un import</string>
+    <string name="oa">Actualitza la forma de pagament</string>
+    <string name="pa">Verifica i instal·la</string>
+    <string name="qa">S\'estan cercant problemes de seguretat…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

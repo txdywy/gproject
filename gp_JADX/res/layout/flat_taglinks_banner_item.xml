@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.taglinks.view.TagLinksBannerItemRectangularView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/marker" style="@style/FlatLinksView">
+    <TextView android:id="@id/li_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TagLinksRectangleTitle" />
+</com.google.android.finsky.stream.controllers.taglinks.view.TagLinksBannerItemRectangularView>

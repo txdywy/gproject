@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.actionbar.FinskySearchToolbar xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e052a" app:contentInsetStart="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@c6382j/PlayToolbarTextAppearance" />

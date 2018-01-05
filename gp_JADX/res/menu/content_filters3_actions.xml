@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item finsky:icon="@drawable/ic_info_white" finsky:id="@id/content_filters_help" finsky:title="@string/content_filters_help" finsky:showAsAction="always" />
+</menu>

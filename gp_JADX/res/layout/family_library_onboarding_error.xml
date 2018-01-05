@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/family_onboarding_title_text" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.google.android.finsky.frameworkviews.ForegroundLinearLayout android:id="@id/continue_button" android:background="@color/play_multi_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light" android:layout_alignParentBottom="true">
+        <com.google.android.finsky.frameworkviews.AccessibleTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/continue_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001" />
+    </com.google.android.finsky.frameworkviews.ForegroundLinearLayout>
+</RelativeLayout>

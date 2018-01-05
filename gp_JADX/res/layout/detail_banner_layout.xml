@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.DetailBannerLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/hero_promo" finsky:background="@color/play_transparent" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:full_screen_on="@bool/use_wide_layout">
+    <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/hero_graphic_include" />
+</com.google.android.finsky.detailspage.DetailBannerLayout>

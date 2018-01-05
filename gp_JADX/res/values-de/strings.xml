@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Genehmigung erforderlich</string>
+    <string name="d">Jugendschutzeinstellungen</string>
+    <string name="e">Bewertungen</string>
+    <string name="f">Instant-App</string>
+    <string name="g">Mitgliedseinstellungen</string>
+    <string name="h">Android Instant Apps-Einstellungen</string>
+    <string name="i">Play Store</string>
+    <string name="j">Leaks</string>
+    <string name="k">Storage Berechtigung</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Meine Apps</string>
+    <string name="n">Kaufoptionen</string>
+    <string name="o">Zahlungsmethoden</string>
+    <string name="p">Ermöglicht dem Nutzer, sich verfügbare Apps von dieser App aus anzusehen.</string>
+    <string name="q">Zugriff auf Google Play App Discovery Service</string>
+    <string name="r">Nutzer können mit dieser App Artikel über Google Play kaufen.</string>
+    <string name="s">Google Play-Rechnungsdienst</string>
+    <string name="t">Darf prüfen, ob du eine Lizenz für diese App von Google Play hast</string>
+    <string name="u">Google Play-Lizenzprüfung</string>
+    <string name="v">App-Berechtigungen</string>
+    <string name="w">Open-Source-Lizenzen</string>
+    <string name="x">Authentifizierung erforderlich</string>
+    <string name="y">Code einlösen</string>
+    <string name="aa">Jetzt bewerten!</string>
+    <string name="ba">Geschenk senden</string>
+    <string name="ca">Einstellungen</string>
+    <string name="da">Benachrichtigungen</string>
+    <string name="ea">Kontoeinrichtung abschließen</string>
+    <string name="fa">Apps werden installiert, sobald die Einrichtung abgeschlossen ist</string>
+    <string name="ga">Weitere Apps überprüfen</string>
+    <string name="ha">Schnelle Bezahlung bei Google-Produkten</string>
+    <string name="ia">Zahlungsmethode hinzufügen</string>
+    <string name="ja">Zahlungsdetails einrichten</string>
+    <string name="ka">Apps auf dem Gerät wiederherstellen</string>
+    <string name="la">Welches Gerät?</string>
+    <string name="ma">Familienzahlungsmethode auswählen</string>
+    <string name="na">Betrag auswählen</string>
+    <string name="oa">Zahlungsmethode aktualisieren</string>
+    <string name="pa">Verifizieren und installieren</string>
+    <string name="qa">Sicherheitsscan läuft…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/play_card_empty_list" android:background="@color/jpkr_mini_top_charts_empty_item_background_color" android:paddingTop="@dimen/play_card_flat_list_vpadding" android:paddingBottom="0dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e030f" style="@style/PlayCardFlatList">
+    <View android:id="@id/li_separator" android:background="@color/play_cards_separator_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0456" android:layout_alignParentBottom="true" />
+</RelativeLayout>

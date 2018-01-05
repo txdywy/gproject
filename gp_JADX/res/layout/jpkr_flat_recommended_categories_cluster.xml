@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.JpkrFlatRecommendedCategoriesClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FlatCardCluster">
+    <include layout="@layout/flat_card_cluster_header" />
+    <LinearLayout android:id="@id/recommended_categories_cell_grid" android:background="@drawable/jpkr_card_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/cluster_header">
+        <include layout="@layout/jpkr_recommended_categories_column" />
+        <include layout="@layout/jpkr_recommended_categories_column" />
+        <include layout="@layout/jpkr_recommended_categories_column" />
+        <include layout="@layout/jpkr_recommended_categories_column" />
+    </LinearLayout>
+</com.google.android.finsky.stream.controllers.view.JpkrFlatRecommendedCategoriesClusterView>

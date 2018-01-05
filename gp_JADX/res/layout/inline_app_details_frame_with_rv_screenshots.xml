@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.pagesystem.ContentFrame xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:contentLayoutResourceId="@layout/inline_app_details_with_rv_screenshots" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000">
+        <shape android:shape="ring" android:innerRadiusRatio="2.1" android:thicknessRatio="48.0" android:useLevel="false">
+            <solid android:color="@color/myapps_progress_ring_bg" />
+        </shape>
+    </item>
+    <item android:id="0x102000d">
+        <rotate android:fromDegrees="-90.0" android:toDegrees="-90.0">
+            <shape android:shape="ring" android:innerRadiusRatio="2.1" android:thicknessRatio="48.0" android:useLevel="true">
+                <solid android:color="@color/myapps_data_ring_warning" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

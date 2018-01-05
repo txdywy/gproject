@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Une approbation est requise</string>
+    <string name="d">Contrôles parentaux</string>
+    <string name="e">Avis</string>
+    <string name="f">Application instantanée</string>
+    <string name="g">Paramètres du membre</string>
+    <string name="h">Préférences des applis instantanées</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mes applications</string>
+    <string name="n">Options d\'achat</string>
+    <string name="o">Modes de paiement</string>
+    <string name="p">Permet aux utilisateurs d\'afficher des applications disponibles au sein de l\'application.</string>
+    <string name="q">Accéder au service découverte d\'appli Google Play</string>
+    <string name="r">Permet à l\'utilisateur d\'acheter des articles sur Google Play depuis cette application.</string>
+    <string name="s">Service de facturation Google Play</string>
+    <string name="t">Permet de vérifier si vous disposez d\'une licence Google Play pour cette application.</string>
+    <string name="u">Vérification de licence Google Play</string>
+    <string name="v">Autorisations de l\'application</string>
+    <string name="x">Exiger l\'authentification</string>
+    <string name="y">Utiliser votre code</string>
+    <string name="aa">Donnez votre avis!</string>
+    <string name="ba">Envoyer un cadeau</string>
+    <string name="ca">Paramètres</string>
+    <string name="da">Notifications</string>
+    <string name="ea">Finaliser la configuration du compte</string>
+    <string name="fa">Les applications seront installées une fois la configuration terminée</string>
+    <string name="ga">Choisir d\'autres applications</string>
+    <string name="ha">Profiter d\'un mode de paiement rapide avec les produits Google</string>
+    <string name="ia">Ajouter un mode de paiement</string>
+    <string name="ja">Configurer les données de paiement</string>
+    <string name="ka">Restaurer les applications de cet appareil</string>
+    <string name="la">Quel appareil?</string>
+    <string name="ma">Sélectionner le mode de paiement familial</string>
+    <string name="na">Choisissez un montant</string>
+    <string name="oa">Mettre à jour le mode de paiement</string>
+    <string name="pa">Vérifier et installer</string>
+    <string name="qa">Analyse des problèmes de sécurité en cours…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

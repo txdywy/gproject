@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/fast_scroll_scrubber_right_shift">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/fast_scroll_scrubber_stroke_width" android:color="@color/fast_scroll_scrubber_idle_stroke" />
+            <solid android:color="@color/fast_scroll_scrubber_idle_fill" />
+        </shape>
+    </item>
+</layer-list>

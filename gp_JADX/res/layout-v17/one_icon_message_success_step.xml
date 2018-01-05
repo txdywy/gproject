@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <com.google.android.play.layout.PlayTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GiftCardPromotionTitle" />
+    <com.google.android.play.layout.PlayTextView android:textSize="@dimen/play_purchase_auth_secondary_size" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/icon_message" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:id="@id/icon" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="0dp" android:layout_marginRight="12dp" android:layout_marginStart="0dp" android:layout_marginEnd="12dp" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/message" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LightPurchase_ItemTitle" />
+    </LinearLayout>
+    <com.google.android.play.layout.PlayTextView android:id="@id/footer_html" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="8dp" android:layout_marginRight="0dp" android:layout_marginStart="50dp" android:layout_marginEnd="0dp" style="@style/GiftCardPromotionFooter" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.inlinetopcharts.view.InlineTopChartsClusterContentView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/inline_top_charts_cluster_content_view" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:layout_marginTop="@dimen/inline_top_charts_content_margin_top" style="@style/FlatNoBottomPaddingNorMarginCardCluster">
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/content_data_view" finsky:descendantFocusability="blocksDescendants" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+        <android.support.design.widget.TabLayout finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/inline_top_charts_content_tab_layout" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x7f0e02c0" finsky:minHeight="@dimen/inline_top_charts_content_tab_layout_min_height" finsky:layoutDirection="ltr" finsky:tabIndicatorHeight="@dimen/inline_top_charts_content_tab_indicator_height" finsky:tabMode="0" finsky:tabPaddingStart="@dimen/inline_top_charts_content_tab_horizontal_padding" finsky:tabPaddingEnd="@dimen/inline_top_charts_content_tab_horizontal_padding" />
+        <View finsky:id="@id/inline_top_charts_content_tab_layout_divider" finsky:background="@color/flat_card_stroke_color" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x7f0e01dd" />
+        <android.support.v4.view.ViewPager finsky:id="@id/inline_top_charts_content_viewpager" finsky:layout_width="match_parent" finsky:layout_height="match_parent" />
+    </LinearLayout>
+    <include finsky:id="@id/content_lists_loading_indicator" layout="@layout/list_loading_indicator" />
+    <include finsky:id="@id/content_page_error_indicator" finsky:visibility="gone" layout="@layout/page_error_indicator" />
+</com.google.android.finsky.stream.controllers.inlinetopcharts.view.InlineTopChartsClusterContentView>

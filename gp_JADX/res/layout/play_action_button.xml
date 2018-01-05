@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.PlayActionButtonV2 xmlns:android="http://schemas.android.com/apk/res-auto" finsky:action_style="2" style="@style/Play_DetailsPage_ActionButton" />

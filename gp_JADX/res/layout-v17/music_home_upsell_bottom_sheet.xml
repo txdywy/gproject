@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/music_home_upsell_bottom_sheet" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:minWidth="420dp">
+    <FrameLayout finsky:id="@id/header_with_image" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/play_music_header_image_view" finsky:background="#e1692b" finsky:focusable="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:adjustViewBounds="true" />
+        <LinearLayout finsky:orientation="vertical" finsky:padding="@dimen/music_home_microsite_outer_padding" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+            <TextView finsky:textSize="34sp" finsky:textStyle="italic" finsky:textColor="@color/music_home_microsite_image_header_text" finsky:layout_width="UNKNOWN_DATA_0xc801" finsky:layout_height="wrap_content" finsky:text="@string/music_home_microsite_description_full" finsky:lineSpacingExtra="6dp" finsky:fontFamily="sans-serif-light" />
+            <com.google.android.play.image.FifeImageView finsky:id="@id/play_music_logo_white" finsky:paddingTop="24dp" finsky:focusable="false" finsky:layout_width="UNKNOWN_DATA_0xa001" finsky:layout_height="wrap_content" finsky:layout_marginBottom="@dimen/music_home_microsite_vertical_padding" finsky:adjustViewBounds="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/header_no_image" finsky:paddingLeft="@dimen/music_home_microsite_outer_padding" finsky:paddingTop="@dimen/music_home_microsite_outer_padding" finsky:paddingRight="0dp" finsky:paddingBottom="@dimen/music_home_microsite_vertical_padding" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:paddingStart="@dimen/music_home_microsite_outer_padding" finsky:paddingEnd="0dp">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/play_music_logo" finsky:focusable="false" finsky:layout_width="UNKNOWN_DATA_0x10401" finsky:layout_height="wrap_content" finsky:adjustViewBounds="true" />
+        <TextView finsky:textSize="16sp" finsky:textStyle="bold" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/music_home_microsite_description" />
+    </LinearLayout>
+    <LinearLayout finsky:orientation="vertical" finsky:paddingLeft="@dimen/music_home_microsite_outer_padding" finsky:paddingRight="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:paddingStart="@dimen/music_home_microsite_outer_padding" finsky:paddingEnd="0dp"
+        <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <ImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/ic_library_music" finsky:layout_width="UNKNOWN_DATA_0x7f0e0387" finsky:layout_height="UNKNOWN_DATA_0x7f0e0386" finsky:srcCompat="@drawable/ic_library_music_orange" />
+            <TextView finsky:paddingTop="@dimen/music_home_microsite_vertical_padding" finsky:paddingBottom="@dimen/music_home_microsite_vertical_padding" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="16dp" finsky:layout_marginRight="0dp" finsky:text="@string/music_home_microsite_listen" finsky:layout_marginStart="16dp" finsky:layout_marginEnd="0dp" />
+        </LinearLayout>
+        <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <ImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/ic_download_music" finsky:layout_width="UNKNOWN_DATA_0x7f0e0387" finsky:layout_height="UNKNOWN_DATA_0x7f0e0386" finsky:srcCompat="@drawable/ic_download_music_orange" />
+            <TextView finsky:paddingTop="@dimen/music_home_microsite_vertical_padding" finsky:paddingBottom="@dimen/music_home_microsite_vertical_padding" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="16dp" finsky:layout_marginRight="0dp" finsky:text="@string/music_home_microsite_download" finsky:layout_marginStart="16dp" finsky:layout_marginEnd="0dp" />
+        </LinearLayout>
+        <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <ImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/ic_assistant_google" finsky:layout_width="UNKNOWN_DATA_0x7f0e0387" finsky:layout_height="UNKNOWN_DATA_0x7f0e0386" finsky:srcCompat="@drawable/ic_assistant_google_orange" />
+            <TextView finsky:paddingTop="@dimen/music_home_microsite_vertical_padding" finsky:paddingBottom="@dimen/music_home_microsite_vertical_padding" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="16dp" finsky:layout_marginRight="0dp" finsky:text="@string/music_home_microsite_google" finsky:layout_marginStart="16dp" finsky:layout_marginEnd="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_margin="12dp">
+        <Button finsky:textColor="@color/play_music_primary" finsky:id="@id/negative_button" finsky:paddingLeft="12dp" finsky:paddingRight="12dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:minHeight="36dp" finsky:text="@string/music_home_microsite_dismiss" finsky:paddingStart="12dp" finsky:paddingEnd="12dp" finsky:layout_marginEnd="12dp" style="?attr/buttonBarNegativeButtonStyle" />
+        <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/positive_button" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:minHeight="36dp" finsky:text="@string/music_home_microsite_subscribe" finsky:action_xpadding="12dp" />
+    </LinearLayout>
+</LinearLayout>

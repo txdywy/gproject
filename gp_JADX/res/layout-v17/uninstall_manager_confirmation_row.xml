@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/uninstall_row" android:paddingLeft="0dp" android:paddingRight="24dp" android:paddingBottom="@dimen/uninstall_wizard_confirmation_row_vpadding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="24dp">
+    <com.google.android.finsky.detailscomponents.DocImageView android:id="@id/uninstall_row_icon" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+    <LinearLayout android:textColor="@color/play_uninstall_wizard_secondary" android:orientation="vertical" android:paddingLeft="14dp" android:paddingRight="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="14dp" android:paddingEnd="12dp" android:labelFor="@id/uninstall_row_checkbox">
+        <TextView android:textSize="16sp" android:ellipsize="end" android:id="@id/uninstall_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

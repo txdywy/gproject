@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/family_library_onboarding_side_margin" app:layout_marginTop="@dimen/family_library_onboarding_side_margin" app:layout_marginRight="@dimen/family_library_onboarding_side_margin" app:layout_marginStart="@dimen/family_library_onboarding_side_margin" app:layout_marginEnd="@dimen/family_library_onboarding_side_margin">
+        <com.google.android.play.image.FifeImageView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/family_library_step1_image" app:layout_width="UNKNOWN_DATA_0xe801" app:layout_height="UNKNOWN_DATA_0xe801" />
+        <TextView app:textSize="@dimen/family_onboarding_title_text" app:textStyle="bold" app:id="@id/future_purchase_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="24dp" app:layout_marginBottom="16dp" />
+        <TextView app:textSize="@dimen/family_onboarding_text" app:id="@id/future_purchase_body" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:background="@color/play_main_background" app:padding="8dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="16dp">
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/family_library_icon" app:layout_width="UNKNOWN_DATA_0x7f0e01b0" app:layout_height="UNKNOWN_DATA_0x7f0e01b0" app:layout_margin="8dp" />
+        <TextView app:textSize="@dimen/family_onboarding_description_text_small" app:textColor="@color/play_fg_primary" app:id="@id/family_library_icon_description" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="8dp" app:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

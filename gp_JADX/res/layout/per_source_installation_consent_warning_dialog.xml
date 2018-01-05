@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.verifier.impl.PerSourceInstallationConsentWarningDialogView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verifyapps" />
+            <TextView android:textSize="@dimen/abc_text_size_body_1_material" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/abc_text_size_body_1_material" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/per_source_installation_consent_dialog_message" android:lineSpacingMultiplier="1.5" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.finsky.verifier.impl.PerSourceInstallationConsentWarningDialogView>

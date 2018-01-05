@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.wallet.ui.common.WebViewLayout android:id="@id/web_view_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        <ProgressBar android:id="@id/progress_bar_web_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wallet_uic_horizontal_progress_bar_top_margin" style="?unknown_attr_ref: 1010078" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/loading_overlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:maxWidth="220dp" style="?unknown_attr_ref: 1010041" />
+            <ViewStub android:id="@id/loading_progress" android:layout="@c6641d/view_progress_bar" android:inflatedId="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/error_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:maxWidth="220dp" android:text="@string/wallet_uic_error_loading_page" style="?unknown_attr_ref: 1010041" />
+            <ImageButton android:id="@id/refresh_button" android:background="@c6621e/wallet_uic_circular_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_refresh_white_48dp" />
+        </LinearLayout>
+    </com.google.android.wallet.ui.common.WebViewLayout>
+</FrameLayout>

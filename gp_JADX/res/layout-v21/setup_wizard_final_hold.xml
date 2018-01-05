@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/setup_wizard_header_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_restore_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <TextView android:id="@id/setup_wizard_title_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_restore_title" android:layout_centerInParent="true" style="@style/SetupWizardFinalHoldTitle" />
+            <TextView android:id="@id/setup_wizard_title_ellipse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/setup_wizard_title_content" android:layout_toEndOf="@id/setup_wizard_title_content" style="@style/SetupWizardFinalHoldTitle" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

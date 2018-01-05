@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/instrument_details" android:background="@color/play_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/addinstrument_content_padding" android:paddingEnd="@dimen/addinstrument_content_padding">
+            <TextView android:textSize="@dimen/content_generic_large_size" android:textStyle="bold" android:textColor="@color/play_primary_text" android:id="@id/challenge_title" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="6dp" android:paddingStart="@dimen/details_content_margin" android:paddingEnd="@dimen/details_content_margin" />
+            <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_primary_text" android:id="@id/challenge_description" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="6dp" android:paddingStart="@dimen/details_content_margin" android:paddingEnd="@dimen/details_content_margin" />
+            <com.google.android.finsky.billing.addresschallenge.BillingAddress android:orientation="vertical" android:id="@id/billing_address" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory finsky:title="@string/settings_general_section_header" finsky:key="category-general">
+        <Preference finsky:title="@string/settings_notifications_section_header" finsky:key="notifications-settings" finsky:summary="@string/settings_notifications_section_summary" />
+        <com.google.android.finsky.settings.SettingsListPreference finsky:title="@string/auto_update_label" finsky:key="auto-update-mode" />
+        <Preference finsky:title="@string/download_settings_label" finsky:key="download-mode" />
+        <CheckBoxPreference finsky:title="@string/auto_add_shortcuts_label" finsky:key="auto-add-shortcuts" finsky:summary="@string/auto_add_shortcuts_description" />
+        <Preference finsky:title="@string/clear_local_history_title" finsky:key="clear-history" finsky:summary="@string/clear_local_history_summary" />
+        <CheckBoxPreference finsky:title="@string/news_offers_title" finsky:key="receive-emails" finsky:summary="@string/news_offers_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory finsky:title="@string/settings_notifications_section_header" finsky:key="category-notifications">
+        <CheckBoxPreference finsky:title="@string/auto_update_available_notification" finsky:key="update-notifications" finsky:summary="@string/auto_update_available_notification_summary" />
+        <CheckBoxPreference finsky:title="@string/auto_update_completion_notification" finsky:key="update-completion-notifications" finsky:summary="@string/auto_update_completion_notification_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory finsky:title="@string/settings_user_controls_section_header" finsky:key="category-user-controls">
+        <Preference finsky:title="@string/content_filtering_label" finsky:key="content-level" finsky:summary="@string/content_filtering_description" />
+        <CheckBoxPreference finsky:title="@string/fingerprint_auth_settings_label" finsky:key="fingerprint-auth" finsky:summary="@string/fingerprint_auth_settings_description" />
+        <Preference finsky:title="@string/purchase_auth_settings_label" finsky:key="purchase-auth" />
+        <Preference finsky:title="@string/instant_apps_play_store_settings_label" finsky:key="instant-apps" finsky:summary="@string/instant_apps_play_store_settings_description" />
+        <CheckBoxPreference finsky:title="@string/verify_parent_settings_label" finsky:key="verify-parent" finsky:summary="@string/verify_parent_settings_description" />
+        <CheckBoxPreference finsky:title="@string/launcher_icon_counter_setting_title" finsky:key="launcher-icon-counter" finsky:summary="@string/launcher_icon_counter_setting_description" />
+    </PreferenceCategory>
+    <PreferenceCategory finsky:title="@string/settings_about_header" finsky:key="category-about">
+        <Preference finsky:title="@string/os_licenses_label" finsky:key="os-licenses" finsky:summary="@string/os_licenses_summary" />
+        <Preference finsky:title="@string/settings_build_version" finsky:key="build-version" />
+        <Preference finsky:title="@string/certification_status_label" finsky:key="certification-status" />
+    </PreferenceCategory>
+</PreferenceScreen>

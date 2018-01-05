@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.FlatCardViewDoubleWideAd xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/play_card" style="@style/FlatFeatureGraphicCard">
+    <com.google.android.finsky.playcard.FeatureGraphicFrameLayout android:id="@id/feature_graphic_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1">
+        <com.google.android.play.image.FifeImageView android:id="@id/cover_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    </com.google.android.finsky.playcard.FeatureGraphicFrameLayout>
+    <include layout="@layout/flat_feature_graphic_card_info_section" />
+</com.google.android.finsky.playcard.FlatCardViewDoubleWideAd>

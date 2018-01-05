@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_dark">
+    <View android:id="@id/spacer" android:background="@color/play_translucent_separator_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/setup_wizard_restore_item_top_padding" android:paddingBottom="@dimen/setup_wizard_content_ypadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/image" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="0dp" android:layout_marginRight="@dimen/setup_wizard_restore_item_image_xoffset" android:scaleType="center" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title" android:paddingBottom="@dimen/setup_wizard_restore_item_subtitle_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardUIControlsPrimaryItem" />
+            <TextView android:id="@id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SetupWizardUIControlsSecondaryItem" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

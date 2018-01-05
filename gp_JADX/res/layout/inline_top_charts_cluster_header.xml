@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.inlinetopcharts.view.InlineTopChartsClusterHeaderView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e02c2" android:minHeight="@dimen/inline_top_charts_header_min_height">
+    <Spinner android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/section_corpus_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/spinner_min_width" android:spinnerMode="dropdown" />
+    <include android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent" layout="@layout/installed_apps_toggle" />
+    <include android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/category_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/top_charts_category_spinner" />
+</com.google.android.finsky.stream.controllers.inlinetopcharts.view.InlineTopChartsClusterHeaderView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/jpkr_mini_top_charts_tab_strip_background_color" />
+    <corners android:topLeftRadius="@dimen/play_card_default_radius" android:topRightRadius="@dimen/play_card_default_radius" />
+</shape>

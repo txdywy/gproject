@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.headerlist.PlayHeaderListTabStrip xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/pager_tab_strip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:id="@id/play_header_list_tab_scroll" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="match_parent" style="@c6382j/PlayHeaderListTabScrollview">
+        <include layout="@layout/phll_tab_container" />
+    </HorizontalScrollView>
+</com.google.android.play.headerlist.PlayHeaderListTabStrip>

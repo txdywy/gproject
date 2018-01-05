@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play ஸ்டோர்</string>
+    <string name="b">Google Play</string>
+    <string name="c">அனுமதி தேவை</string>
+    <string name="d">பெற்றோர் கட்டுப்பாடுகள்</string>
+    <string name="e">மதிப்பாய்வுகள்</string>
+    <string name="f">இன்ஸ்டண்ட் பயன்பாடு</string>
+    <string name="g">உறுப்பினர் அமைப்புகள்</string>
+    <string name="h">இன்ஸ்டண்ட் பயன்பாடு விருப்பத்தேர்வுகள்</string>
+    <string name="i">Play ஸ்டோர்</string>
+    <string name="l">Play Protect</string>
+    <string name="m">எனது பயன்பாடுகள்</string>
+    <string name="n">வாங்குதல் விருப்பங்கள்</string>
+    <string name="o">கட்டண முறைகள்</string>
+    <string name="p">இந்தப் பயன்பாட்டிலிருந்து கிடைக்கும் பயன்பாடுகளைப் பார்க்க பயனரை அனுமதிக்கும்.</string>
+    <string name="q">Google Play பயன்பாடு கண்டறிதல் சேவையை அணுகுவதற்கு</string>
+    <string name="r">இந்தப் பயன்பாட்டிலேயே Google Play மூலம் உருப்படிகளை வாங்க பயனரை அனுமதிக்கிறது.</string>
+    <string name="s">Google Play பில்லிங் சேவை</string>
+    <string name="t">Google Play இலிருந்து இந்தப் பயன்பாட்டிற்கு உரிமம் பெற்றிருப்பின், அதைச் சரிபார்க்கலாம்.</string>
+    <string name="u">Google Play உரிமச் சரிபார்ப்பு</string>
+    <string name="v">பயன்பாட்டு அனுமதிகள்</string>
+    <string name="w">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
+    <string name="x">அங்கீகாரம் தேவை</string>
+    <string name="y">குறியீட்டைப் பயன்படுத்துக</string>
+    <string name="aa">இதனை மதிப்பிடவும்!</string>
+    <string name="ba">கிஃப்ட் அனுப்பு</string>
+    <string name="ca">அமைப்புகள்</string>
+    <string name="da">அறிவிப்புகள்</string>
+    <string name="ea">கணக்கு அமைவை நிறைவுசெய்தல்</string>
+    <string name="fa">அமைவு முடிந்த பின்னர், பயன்பாடுகள் நிறுவப்படும்</string>
+    <string name="ga">கூடுதல் பயன்பாடுகளைப் பார்க்கவும்</string>
+    <string name="ha">Google தயாரிப்புகளில் வேகமாக செக்அவுட் செய்யலாம்</string>
+    <string name="ia">கட்டண முறையைச் சேர்க்கவும்</string>
+    <string name="ja">கட்டணத் தகவலை அமை</string>
+    <string name="ka">சாதனத்திலிருந்து பயன்பாடுகளை மீட்டமைக்கவும்</string>
+    <string name="la">எந்தச் சாதனம்?</string>
+    <string name="ma">குடும்பக் கட்டண முறையை தேர்வுசெய்க</string>
+    <string name="na">தொகையைத் தேர்வுசெய்க</string>
+    <string name="oa">கட்டண முறையைப் புதுப்பிக்கவும்</string>
+    <string name="pa">சரிபார்த்து நிறுவுக</string>
+    <string name="qa">பாதுகாப்புச் சிக்கல்கள் உள்ளதா என சோதிக்கிறது…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@aa/retry_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e0578" android:layout_height="UNKNOWN_DATA_0x7f0e0578" android:src="@c0592z/ic_menu_refresh_holo_dark" android:scaleType="center" android:layout_below="@aa/empty_text" android:layout_centerHorizontal="true" />

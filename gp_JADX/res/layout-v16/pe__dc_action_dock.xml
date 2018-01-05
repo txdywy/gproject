@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/Theme.AppCompat.Light" android:orientation="vertical" android:id="@id/dc_action_dock" android:background="0x106000b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0421">
+    <View android:background="@c6071d/pe__dc_dock_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dc_action_wishlist" android:background="?attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layout_weight="0.5">
+            <View android:id="@id/dc_action_wishlist_icon" android:layout_width="UNKNOWN_DATA_0x7f0e0410" android:layout_height="UNKNOWN_DATA_0x7f0e0410" android:importantForAccessibility="no" />
+            <TextView android:id="@id/dc_action_wishlist_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/pe__wishlist" android:importantForAccessibility="no" style="@style/PEText.CallToAction" />
+        </LinearLayout>
+        <View android:id="@id/center" android:background="@c6071d/pe__dc_dock_divider_color" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dc_primary_action" android:background="?attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layout_weight="0.5" style="@style/PEText.CallToAction" />
+    </LinearLayout>
+</LinearLayout>

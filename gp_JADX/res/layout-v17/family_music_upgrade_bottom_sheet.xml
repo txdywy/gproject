@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.CardLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/family_music_upgrade_bottom_sheet" finsky:padding="16dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/finsky_dialog_width" style="@style/PlayCardFlatList">
+    <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/icon" finsky:focusable="false" finsky:layout_width="UNKNOWN_DATA_0x2801" finsky:layout_height="UNKNOWN_DATA_0x2801" finsky:layout_margin="8dp" finsky:src="@mipmap/ic_launcher_play_store" />
+        <LinearLayout finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_margin="8dp">
+            <TextView finsky:textSize="16sp" finsky:textColor="@color/play_fg_primary" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+            <TextView finsky:textSize="14sp" finsky:textColor="@color/play_fg_primary" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/description" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="12dp" finsky:layout_marginRight="4dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="4dp">
+        <Button finsky:textColor="@color/play_apps_secondary" finsky:id="@id/negative_button" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingLeft="12dp" finsky:paddingRight="12dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="12dp" finsky:minHeight="36dp" finsky:text="@string/skip" finsky:paddingStart="12dp" finsky:paddingEnd="12dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="12dp" style="?attr/buttonBarNegativeButtonStyle" />
+        <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/positive_button" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:minHeight="36dp" finsky:text="@string/get_started" finsky:action_xpadding="12dp" />
+    </LinearLayout>
+</com.google.android.play.layout.CardLinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.gifting.PlayCreditGiftingHeader xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/play_credit_gifting_header" android:background="@color/play_multi_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e04a1">
+    <View android:id="@id/background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.play.image.FifeImageView android:id="@id/gift_header_image" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="UNKNOWN_DATA_0x8701" android:scaleType="fitStart" android:adjustViewBounds="true" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/play_banner_large_size" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gift_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" />
+        <TextView android:textColor="@color/play_white" android:id="@id/gift_header_description" android:layout_marginBottom="62dp" style="@style/GiftLandingDescriptionText" />
+    </LinearLayout>
+</com.google.android.finsky.billing.gifting.PlayCreditGiftingHeader>

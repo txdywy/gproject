@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Dyqani i \"Luaj me Google\"</string>
+    <string name="b">Luaj me Google</string>
+    <string name="c">Kërkohet miratimi</string>
+    <string name="d">Kontrollet prindërore</string>
+    <string name="e">Komente</string>
+    <string name="f">Aplikacioni i çastit</string>
+    <string name="g">Cilësimet e anëtarit</string>
+    <string name="h">Preferencat për \"Aplikacionet e çastit\"</string>
+    <string name="i">Dyqani</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Apl. e mia</string>
+    <string name="n">Opsione blerjeje</string>
+    <string name="o">Mënyrat e pagesës</string>
+    <string name="p">Lejon që përdoruesi të shikojë aplikacionet e ofruara nga brenda këtij aplikacioni.</string>
+    <string name="q">Qasu te \"Shërbimi i zbul. të apl\". të Google Play</string>
+    <string name="r">Lejon përdoruesin të blejë artikuj në \"Luaj me Google\" përmes këtij aplikacioni.</string>
+    <string name="s">Shërbimi i faturimit i \"Luaj me Google\"</string>
+    <string name="t">Mund të kontrollojë nëse ke licencë për këtë aplikacion nga \"Luaj me Google\".</string>
+    <string name="u">Kontroll licence nga \"Luaj me Google\"</string>
+    <string name="v">Lejet e aplikacionit</string>
+    <string name="x">Kërko vërtetimin</string>
+    <string name="y">Paguaj me kod</string>
+    <string name="aa">Vlerësoje!</string>
+    <string name="ba">Dërgo dhuratën</string>
+    <string name="ca">Cilësimet</string>
+    <string name="da">Njoftimet</string>
+    <string name="ea">Përfundo konfigurimin e llogarisë</string>
+    <string name="fa">Aplikacionet do të instalohen pas përfundimit të konfigurimit</string>
+    <string name="ga">Rishiko aplikacionet e tjera</string>
+    <string name="ha">Provo përfundimin e shpejtë të blerjes me produktet e Google</string>
+    <string name="ia">Shto mënyrë pagese</string>
+    <string name="ja">Konfiguro informacionet e pagesës</string>
+    <string name="ka">Restauro aplikacionet nga pajisja</string>
+    <string name="la">Cilën pajisje?</string>
+    <string name="ma">Zgjidh mënyrën e pagesës për familjen</string>
+    <string name="na">Zgjidh sasinë</string>
+    <string name="oa">Përditëso mënyrën e pagesës</string>
+    <string name="pa">Verifiko dhe instalo</string>
+    <string name="qa">Po skanon për probleme të sigurisë…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

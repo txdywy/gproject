@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/inline_app_details_footer" finsky:background="@color/play_white" finsky:paddingLeft="16dp" finsky:paddingTop="8dp" finsky:paddingRight="16dp" finsky:paddingBottom="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <com.caverock.androidsvg.SVGImageView finsky:id="@id/logo" finsky:padding="0dp" finsky:layout_width="UNKNOWN_DATA_0x7b01" finsky:layout_height="UNKNOWN_DATA_0x2d01" finsky:scaleType="fitStart" finsky:layout_alignParentLeft="true" finsky:layout_centerVertical="true" finsky:svg="@raw/inline_footer_prism_logo" />
+    <TextView finsky:textColor="@color/play_apps_primary" finsky:orientation="horizontal" finsky:id="@id/more_details" finsky:background="@drawable/play_highlight_overlay_light" finsky:padding="8dp" finsky:focusable="true" finsky:clickable="true" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_alignParentRight="true" finsky:layout_centerVertical="true" style="@c6382j/PlayCardAction" />
+</RelativeLayout>

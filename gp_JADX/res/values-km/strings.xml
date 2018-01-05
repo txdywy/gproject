@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">តម្រូវឲ្យមានការយល់ព្រម</string>
+    <string name="d">ការគ្រប់គ្រងដោយមាតាបិតា</string>
+    <string name="e">ពិនិត្យ​មើល</string>
+    <string name="f">កម្មវិធី​ប្រើភ្លាមៗ</string>
+    <string name="g">ការកំណត់សមាជិក</string>
+    <string name="h">ចំណូលចិត្ត​កម្មវិធីប្រើភ្លាមៗ</string>
+    <string name="i">ហាង Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">កម្មវិធី​ខ្ញុំ</string>
+    <string name="n">ជម្រើស​​ទិញ</string>
+    <string name="o">វិធីសាស្ត្របង់ប្រាក់</string>
+    <string name="p">អនុញ្ញាត​ឲ្យ​អ្នកប្រើប្រាស់​មើល​កម្មវិធីដែល​មាន​ផ្តល់ជូនពី​ក្នុង​កម្មវិធីនេះ។</string>
+    <string name="q">ចូល​ប្រើ​សេវាកម្ម​ស្វែងរក​កម្មវិធី​នៅលើ Google Play</string>
+    <string name="r">អនុញ្ញាត​ឲ្យ​អ្នក​ប្រើ​ទិញ​ធាតុ​ទាំង​នេះ​តាម​រយៈ​កម្សាន្ត Google ពី​ក្នុង​កម្មវិធី​នេះ។</string>
+    <string name="s">សេវាកម្ម​ចេញ​វិក្កយបត្រ​កម្សាន្ត Google</string>
+    <string name="t">អាច​ពិនិត្យ​មើល​ប្រសិនបើ​​អ្នក​មាន​អាជ្ញាប័ណ្ណ​សម្រាប់​កម្មវិធី​នេះ​ពី​កម្សាន្ត Google ។</string>
+    <string name="u">ពិនិត្យមើល​អាជ្ញាប័ណ្ណ​​​​កម្សាន្ត​ Google</string>
+    <string name="v">សិទ្ធិ​កម្មវិធី</string>
+    <string name="x">តម្រូវឲ្យមានការផ្ទៀងផ្ទាត់</string>
+    <string name="y">ទូទាត់​លេខ​កូដ​របស់​អ្នក</string>
+    <string name="aa">វាយ​តម្លៃ​​​​វា!</string>
+    <string name="ba">ផ្ញើអំណោយ</string>
+    <string name="ca">ការកំណត់</string>
+    <string name="da">ការជូនដំណឹង</string>
+    <string name="ea">បញ្ចប់​ការ​បង្កើត​គណនី</string>
+    <string name="fa">កម្មវិធីនឹងត្រូវបានដំឡើងបន្ទាប់ពីការរៀបចំបានបញ្ចប់</string>
+    <string name="ga">ពិនិត្យកម្មវិធីបន្ថែម</string>
+    <string name="ha">រីករាយនឹងការបង់ប្រាក់ឆាប់រហ័សជាមួយផលិតផល Google</string>
+    <string name="ia">បន្ថែម​វិធីសាស្ត្រ​បង់​ប្រាក់</string>
+    <string name="ja">កំណត់ព័ត៌មានបង់ប្រាក់</string>
+    <string name="ka">ស្តារកម្មវិធីពីឧបករណ៍</string>
+    <string name="la">ឧបករណ៍មួយណា?</string>
+    <string name="ma">ជ្រើសវិធីបង់ប្រាក់លក្ខណៈគ្រួសារ</string>
+    <string name="na">ជ្រើស​ចំនួន​ទឹកប្រាក់</string>
+    <string name="oa">អាប់ដេតវិធីសាស្ត្របង់ប្រាក់</string>
+    <string name="pa">ផ្ទៀងផ្ទាត់ និង​ដំឡើង</string>
+    <string name="qa">កំពុង​ស្កេនរក​បញ្ហា​សុវត្ថិភាព…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play စတိုး</string>
+    <string name="b">Google Play</string>
+    <string name="c">အတည်ပြုချက် လိုအပ်သည်</string>
+    <string name="d">မိဘအုပ်ထိန်းမှုများ</string>
+    <string name="e">သုံးသပ်ချက်များ</string>
+    <string name="f">အသင့်သုံးအက်ပ်</string>
+    <string name="g">အဖွဲ့ဝင် ဆက်တင်များ</string>
+    <string name="h">Instant Apps ရွေးချယ်မှုများ</string>
+    <string name="i">Play စတိုး</string>
+    <string name="l">Play Protect</string>
+    <string name="m">ကျွန်ုပ်၏အက်ပ်များ</string>
+    <string name="n">ဝယ်ယူရန် ရွေးချယ်စရာများ</string>
+    <string name="o">ငွေပေးချေမှု နည်းလမ်းများ</string>
+    <string name="p">ရရှိနိုင်သည့်အက်ပ်များကို ဤအက်ပ်ထဲတွင် သုံးစွဲသူများအား ကြည့်ခွင့်ပေးသည်။</string>
+    <string name="q">Google Play အက်ပ် ရှာဖွေရေး ဝန်ဆောင်မှုကို သုံးပါ</string>
+    <string name="r">သုံးစွဲသူအား Google Play မှတဆင့် ဤအပ္ပလီကေးရှင်းအတွင်း ပစ္စည်းများ ဝယ်ယူခွင့်ပြုပါ။</string>
+    <string name="s">Google Play ငွေတောင်းခံလွှာ ဝန်ဆောင်မှု</string>
+    <string name="t">ဤ အက်ပ်အတွက် Google Play မှ လိုင်စင် သင့်တွင် ရှိမရှိ စစ်နိုင်သည်။</string>
+    <string name="u">Google Play လိုင်စင် စစ်ဆေးမှု</string>
+    <string name="v">အက်ပ်ခွင့်ပြုချက်များ</string>
+    <string name="x">အထောက်အထားစစ်ဆေးရန် လိုသည်</string>
+    <string name="y">သင့်ကုဒ်အား ပြန်ရွေးရန်</string>
+    <string name="aa">အဆင့် သတ်မှတ်ပါ!</string>
+    <string name="ba">လက်ဆောင်ကို ပို့ပါ</string>
+    <string name="ca">ဆက်တင်များ</string>
+    <string name="da">အကြောင်းကြားချက်များ</string>
+    <string name="ea">အကောင့်သတ်မှတ်ခြင်း ပြီးစီးရန်</string>
+    <string name="fa">စနစ်ထည့်သွင်းမှု ပြီးသည့်အခါ အက်ပ်များကို ထည့်သွင်းသွားပါမည်</string>
+    <string name="ga">နောက်ထပ်အက်ပ်များကို ပြန်လည်သုံးသပ်ပါ</string>
+    <string name="ha">Google ထုတ်ကုန်များဖြင့် ငွေအြမန်ရှင်းနိုင်ပါသည်</string>
+    <string name="ia">ငွေပေးချေမှုနည်းလမ်း ထည့်ပါ</string>
+    <string name="ja">ငွေပေးချေမှု အချက်အလက် ပြင်ဆင်သတ်မှတ်ရန်</string>
+    <string name="ka">စက်ပစ္စည်းမှ အက်ပ်များကို ပြန်ယူပါ</string>
+    <string name="la">ဘယ်စက်ပစ္စည်းလဲ။</string>
+    <string name="ma">မိသားစု ငွေပေးချေမှုစနစ်ကိုရွေးပါ</string>
+    <string name="na">ပမာဏ ရွေးရန်</string>
+    <string name="oa">ငွေပေးချေမှုနည်းလမ်းကို အပ်ဒိတ်လုပ်ပါ</string>
+    <string name="pa">အတည်ပြုပြီး ထည့်သွင်းရန်</string>
+    <string name="qa">လုံခြုံရေးအတွက် စစ်ဆေးနေပါသည်…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

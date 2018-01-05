@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.FinskyDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.finsky.frameworkviews.InsetsFrameLayout android:id="@id/outer_content_frame" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+        <com.google.android.finsky.frameworkviews.InsetsFrameLayout android:id="@id/content_frame" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/placeholder_loading" android:visibility="gone" layout="@layout/page_loading_indicator" />
+            <include android:id="@id/placeholder_error" android:visibility="gone" layout="@layout/page_error_indicator" />
+            <include android:id="@id/placeholder_error_with_notify" android:visibility="gone" layout="@layout/page_error_indicator_with_notify" />
+        </com.google.android.finsky.frameworkviews.InsetsFrameLayout>
+        <include layout="@layout/action_bar" />
+    </com.google.android.finsky.frameworkviews.InsetsFrameLayout>
+    <include layout="@layout/play_drawer_container" />
+</com.google.android.finsky.layout.play.FinskyDrawerLayout>

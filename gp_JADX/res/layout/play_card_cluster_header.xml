@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.base.playcluster.PlayCardClusterViewHeader xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/cluster_header" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:foreground="@drawable/play_highlight_overlay_light" finsky:min_header_height="@dimen/play_cluster_header_height" finsky:header_xpadding="@dimen/play_cluster_header_xpadding">
+    <com.google.android.finsky.frameworkviews.CircularImageView finsky:id="@id/cluster_image" finsky:visibility="gone" finsky:layout_width="UNKNOWN_DATA_0x7f0e0486" finsky:layout_height="UNKNOWN_DATA_0x7f0e0486" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="8dp" />
+    <include layout="@layout/play_card_cluster_ad_container" />
+    <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:id="@id/cluster_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+        <TextView finsky:ellipsize="marquee" finsky:id="@id/header_title_main" finsky:paddingLeft="0dp" finsky:paddingRight="16dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:singleLine="true" style="@c6382j/PlayClusterTitle" />
+        <TextView finsky:ellipsize="marquee" finsky:id="@id/header_title_secondary" finsky:paddingLeft="0dp" finsky:paddingRight="16dp" finsky:paddingBottom="4dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="2dp" finsky:layout_marginTop="-3dp" finsky:layout_marginRight="0dp" finsky:maxLines="1" finsky:singleLine="true" style="@c6382j/PlayClusterSubtitle" />
+    </LinearLayout>
+    <TextView finsky:textSize="@dimen/play_card_action_size" finsky:id="@id/header_more" finsky:background="@color/play_transparent" style="@c6382j/PlayClusterMore" />
+</com.google.android.finsky.stream.base.playcluster.PlayCardClusterViewHeader>

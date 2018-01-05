@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Goedkeuring vereist</string>
+    <string name="d">Ouderlijk toezicht</string>
+    <string name="e">Recensies</string>
+    <string name="f">Instant-app</string>
+    <string name="g">Instellingen voor gezinsleden</string>
+    <string name="h">Voorkeuren voor instant-apps</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Mijn apps</string>
+    <string name="n">Aankoopopties</string>
+    <string name="o">Betaalmethoden</string>
+    <string name="p">Hiermee kan de gebruiker beschikbare apps bekijken in deze app.</string>
+    <string name="q">App Discovery Service van Google Play openen</string>
+    <string name="r">Hiermee kan de gebruiker items via Google Play kopen vanuit deze app.</string>
+    <string name="s">Factureringsservice van Google Play</string>
+    <string name="t">Kan controleren of je een licentie hebt voor deze app van Google Play.</string>
+    <string name="u">Licentie van Google Play controleren</string>
+    <string name="v">App-machtigingen</string>
+    <string name="w">Open-sourcelicenties</string>
+    <string name="x">Verificatie vereisen</string>
+    <string name="y">Wissel je code in</string>
+    <string name="aa">Beoordeel het zelf!</string>
+    <string name="ba">Cadeau verzenden</string>
+    <string name="ca">Instellingen</string>
+    <string name="da">Meldingen</string>
+    <string name="ea">Accountconfiguratie voltooien</string>
+    <string name="fa">Apps worden geïnstalleerd nadat de configuratie is voltooid</string>
+    <string name="ga">Aanvullende apps bekijken</string>
+    <string name="ha">Snel afrekenen in Google-producten</string>
+    <string name="ia">Betaalmethode toevoegen</string>
+    <string name="ja">Betalingsgegevens instellen</string>
+    <string name="ka">Apps terugzetten vanaf apparaat</string>
+    <string name="la">Welk apparaat?</string>
+    <string name="ma">Betaalmethode gezin selecteren</string>
+    <string name="na">Aantal selecteren</string>
+    <string name="oa">Betaalmethode updaten</string>
+    <string name="pa">Verifiëren en installeren</string>
+    <string name="qa">Scannen op beveiligingsproblemen…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

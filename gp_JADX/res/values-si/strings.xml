@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">අනුමැතිය අවශ්‍යය</string>
+    <string name="d">මාපිය පාලන</string>
+    <string name="e">සමාලෝචන</string>
+    <string name="f">ක්ෂණික යෙදුම</string>
+    <string name="g">සාමාජික සැකසීම්</string>
+    <string name="h">ක්ෂණික යෙදුම් මනාප</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">මාගේ යෙදුම්</string>
+    <string name="n">විකල්ප මිලදී ගැනීම්</string>
+    <string name="o">ගෙවීමේ ක්‍රම</string>
+    <string name="p">මෙම යෙදුම තුළ සිට තිබෙන යෙදුම් බැලීමට පරිශීලකට ඉඩ දෙයි.</string>
+    <string name="q">Google Play යෙදුම් සොයා ගැනීමේ සේවාවට ප්‍රවේශය</string>
+    <string name="r">මෙම යෙදුම තුළදී Google Play හරහා අයිතම මිලදී ගැනීමට, පරිශීලකයාට ඉඩ ලබා දෙයි.</string>
+    <string name="s">Google Play ගෙවීමේ සේවාව</string>
+    <string name="t">ඔබට මෙම යෙදුමට බලපත්‍රයක් තිබේදැයි Google Play වෙතින් පරීක්ෂා කළ හැකියි.</string>
+    <string name="u">Google Play බලපත්‍ර පරීක්ෂාව</string>
+    <string name="v">යෙදුම් අවසර</string>
+    <string name="x">සත්‍යාපනය අවශ්‍යයි</string>
+    <string name="y">ඔබගේ කේතය මුදවා හරින්න</string>
+    <string name="aa">එය අගයන්න!</string>
+    <string name="ba">තෑග්ග යවන්න</string>
+    <string name="ca">සැකසීම්</string>
+    <string name="da">දැනුම්දීම්</string>
+    <string name="ea">ගිණුම ස්ථාපනය සම්පූර්ණ කරන්න</string>
+    <string name="fa">පිහිටුවීම සම්පූර්ණ වූ පසු යෙදුම් ස්ථාපනය කරනු ඇත</string>
+    <string name="ga">අමතර යෙදුම් සමාලෝචනය</string>
+    <string name="ha">Google නිෂ්පාදන සමගින් ඉක්මන් ගෙවීම භුක්ති විඳින්න</string>
+    <string name="ia">ගෙවීමේ ක්‍රමයක් එක් කරන්න</string>
+    <string name="ja">ගෙවීමේ තොරතුරු සකසන්න</string>
+    <string name="ka">උපාංගයෙන් යෙදුම් ප්‍රතිසාධනය කරන්න</string>
+    <string name="la">කුමන උපාංගයද?</string>
+    <string name="ma">පවුලේ ගෙවීමේ ක්‍රමය තෝරන්න</string>
+    <string name="na">මුළු මුදල තෝරන්න</string>
+    <string name="oa">ගෙවීම් ක්‍රමය යාවත්කාලීන කරන්න</string>
+    <string name="pa">සත්‍යාපනය කර ස්ථාපනය කරන්න</string>
+    <string name="qa">ආරක්ෂක ගැටලු සඳහා ස්කෑන් කරමින්...</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

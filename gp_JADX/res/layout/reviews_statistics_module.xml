@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.ReviewsStatisticsModuleLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/play_white" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light">
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ratings_section_title" android:paddingTop="@dimen/details_review_module_title_padding_top" android:paddingBottom="@dimen/details_review_module_title_padding_bottom" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@c6382j/PlayMediumPlainText" />
+    <include layout="@layout/reviews_statistics" />
+</com.google.android.finsky.detailspage.ReviewsStatisticsModuleLayout>

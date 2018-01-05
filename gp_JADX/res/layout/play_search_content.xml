@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <View playcommon:id="@id/play_search_overlay" playcommon:background="@color/play_search_overlay_color" playcommon:visibility="gone" playcommon:layout_width="match_parent" playcommon:layout_height="match_parent" />
+    <com.google.android.play.layout.CardLinearLayout playcommon:orientation="vertical" playcommon:id="@id/play_search_container" playcommon:layout_width="match_parent" playcommon:layout_height="wrap_content" playcommon:playCardBackgroundColor="@color/play_white" style="@c6382j/PlayCardViewGroup">
+        <include playcommon:id="@id/play_search_plate" playcommon:layout_width="match_parent" playcommon:layout_height="wrap_content" layout="@layout/play_search_plate" />
+        <include playcommon:id="@id/play_search_suggestions_list" playcommon:layout_width="match_parent" playcommon:layout_height="wrap_content" layout="@layout/play_search_suggestions_list" />
+    </com.google.android.play.layout.CardLinearLayout>
+</merge>

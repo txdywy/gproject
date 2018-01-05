@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/permission_row" android:background="@drawable/focus_overlay" android:paddingLeft="11dp" android:paddingTop="4dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bucket_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16sp" android:textColor="@color/play_primary_text" android:id="@id/header" android:paddingLeft="22dp" android:paddingTop="1dp" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingExtra="0sp" style="@style/PermissionRow" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/expander_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_menu_expander_minimized_light" android:contentDescription="@string/content_description_toggle_expand" />
+    </LinearLayout>
+    <TextView android:id="@id/content" android:paddingLeft="50dp" android:paddingTop="5dp" android:paddingRight="0dp" android:layout_width="match_parent" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+</LinearLayout>

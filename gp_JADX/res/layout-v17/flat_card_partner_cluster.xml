@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.FlatCardMerchClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/flat_card_cluster_container" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FlatCardCluster">
+    <com.google.android.finsky.frameworkviews.FadingEdgeImageView android:id="@id/merch_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <View android:id="@id/gradient_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.finsky.layout.play.FlatCardPartnerClusterViewHeader finsky:id="@id/cluster_header" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:foreground="@drawable/play_highlight_overlay_light" finsky:min_header_height="@dimen/flat_cluster_header_height" finsky:header_xpadding="@dimen/flat_cluster_header_xpadding">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/cluster_image" finsky:visibility="visible" finsky:layout_width="UNKNOWN_DATA_0x7f0e01e8" finsky:layout_height="UNKNOWN_DATA_0x7f0e01e8" finsky:layout_marginEnd="8dp" />
+        <include layout="@layout/play_card_cluster_ad_container" />
+        <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:id="@id/cluster_title" finsky:paddingTop="@dimen/flat_cluster_header_title_vpadding" finsky:paddingBottom="@dimen/flat_cluster_header_title_vpadding" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+            <TextView finsky:ellipsize="marquee" finsky:id="@id/header_title_main" finsky:paddingLeft="0dp" finsky:paddingRight="16dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:paddingStart="0dp" finsky:paddingEnd="16dp" style="@style/FlatClusterTitle" />
+            <TextView finsky:ellipsize="marquee" finsky:id="@id/header_title_secondary" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" style="@style/FlatClusterSubtitle" />
+        </LinearLayout>
+        <TextView finsky:id="@id/header_more" finsky:background="@drawable/flat_partner_call_to_action_button_shape" style="@c6382j/PlayClusterMore" />
+    </com.google.android.finsky.layout.play.FlatCardPartnerClusterViewHeader>
+    <com.google.android.finsky.layout.play.FlatCardLeadingGapClusterViewContent android:id="@id/cluster_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.stream.controllers.view.FlatCardMerchClusterView>

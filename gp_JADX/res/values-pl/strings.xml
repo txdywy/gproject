@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Sklep Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">Wymagane zatwierdzenie</string>
+    <string name="d">Kontrola rodzicielska</string>
+    <string name="e">Opinie</string>
+    <string name="f">Aplikacja błyskawiczna</string>
+    <string name="g">Ustawienia osoby</string>
+    <string name="h">Ustawienia aplikacji błyskawicznych</string>
+    <string name="i">Sklep Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Moje aplikacje</string>
+    <string name="n">Opcje zakupu</string>
+    <string name="o">Formy płatności</string>
+    <string name="p">Zezwala użytkownikowi na wyświetlanie dostępnych aplikacji z poziomu tej aplikacji.</string>
+    <string name="q">Dostęp do App Discovery Service w Google Play</string>
+    <string name="r">Pozwala na kupowanie produktów w Google Play bezpośrednio z tej aplikacji.</string>
+    <string name="s">Usługa płatności w Google Play</string>
+    <string name="t">Możliwość sprawdzenia, czy masz licencję na tę aplikację z Google Play.</string>
+    <string name="u">Kontrola licencji Google Play</string>
+    <string name="v">Uprawnienia aplikacji</string>
+    <string name="w">Licencje open source</string>
+    <string name="x">Wymagaj uwierzytelnienia</string>
+    <string name="y">Zrealizuj kod</string>
+    <string name="aa">Oceń!</string>
+    <string name="ba">Wyślij prezent</string>
+    <string name="ca">Ustawienia</string>
+    <string name="da">Powiadomienia</string>
+    <string name="ea">Dokończ konfigurację konta</string>
+    <string name="fa">Aplikacje zostaną zainstalowane po zakończeniu konfiguracji</string>
+    <string name="ga">Sprawdź dodatkowe aplikacje</string>
+    <string name="ha">Korzystaj z szybkich płatności w usługach Google</string>
+    <string name="ia">Dodaj formę płatności</string>
+    <string name="ja">Skonfiguruj informacje rozliczeniowe</string>
+    <string name="ka">Przywróć aplikacje z urządzenia</string>
+    <string name="la">Które urządzenie?</string>
+    <string name="ma">Wybierz rodzinną formę płatności</string>
+    <string name="na">Wybierz kwotę</string>
+    <string name="oa">Zaktualizuj formę płatności</string>
+    <string name="pa">Zweryfikuj i zainstaluj</string>
+    <string name="qa">Skanuję pod kątem problemów z bezpieczeństwem…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

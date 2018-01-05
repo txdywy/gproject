@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Onay gerekiyor</string>
+    <string name="d">Ebeveyn denetimleri</string>
+    <string name="e">Yorumlar</string>
+    <string name="f">Hazır uygulama</string>
+    <string name="g">Üye ayarları</string>
+    <string name="h">Hazır Uygulama tercihleri</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Uygulamalarım</string>
+    <string name="n">Satın alma seçenekleri</string>
+    <string name="o">Ödeme yöntemleri</string>
+    <string name="p">Kullanıcıların bu uygulamanın içinden, kullanılabilir uygulamaları görmesine izin verir.</string>
+    <string name="q">Google Play Uygulama Keşfetme Hizmeti\'ne erişme</string>
+    <string name="r">Kullanıcının bu uygulama içinden bağlanarak Google Play üzerinden ürün satın almasına izin verir.</string>
+    <string name="s">Google Play faturalandırma hizmeti</string>
+    <string name="t">Bu uygulama için lisansınız olup olmadığını Google Play\'den denetleyebilir.</string>
+    <string name="u">Google Play lisans denetimi</string>
+    <string name="v">Uygulama izinleri</string>
+    <string name="w">Açık kaynak lisansları</string>
+    <string name="x">Kimlik doğrulaması isteyin</string>
+    <string name="y">Kodunuzu kullanın</string>
+    <string name="aa">Oy verin!</string>
+    <string name="ba">Hediye gönder</string>
+    <string name="ca">Ayarlar</string>
+    <string name="da">Bildirimler</string>
+    <string name="ea">Hesap kurulumunu tamamlayın</string>
+    <string name="fa">Uygulamalar, kurulum tamamlandıktan sonra yüklenecektir</string>
+    <string name="ga">Diğer uygulamaları inceleyin</string>
+    <string name="ha">Google ürünleriyle hızlı ödemeden yararlanın</string>
+    <string name="ia">Ödeme yöntemi ekle</string>
+    <string name="ja">Ödeme bilgilerini ayarlayın</string>
+    <string name="ka">Uygulamaları cihazdan geri yükleyin</string>
+    <string name="la">Hangi cihaz?</string>
+    <string name="ma">Aileye ait ödeme yöntemini seçin</string>
+    <string name="na">Tutar seçin</string>
+    <string name="oa">Ödeme yöntemini güncelleyin</string>
+    <string name="pa">Doğrula ve yükle</string>
+    <string name="qa">Güvenlik sorunları taranıyor…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

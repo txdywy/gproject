@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">ต้องได้รับอนุมัติ</string>
+    <string name="d">การควบคุมโดยผู้ปกครอง</string>
+    <string name="e">ความเห็น</string>
+    <string name="f">Instant App</string>
+    <string name="g">การตั้งค่าสมาชิก</string>
+    <string name="h">ค่ากำหนดของ Instant App</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">แอปพลิเคชันของฉัน</string>
+    <string name="n">ตัวเลือกการซื้อ</string>
+    <string name="o">วิธีการชำระเงิน</string>
+    <string name="p">อนุญาตให้ผู้ใช้ดูแอปที่พร้อมใช้งานจากภายในแอปนี้</string>
+    <string name="q">เข้าถึงบริการค้นหาแอปของ Google Play</string>
+    <string name="r">ช่วยให้ผู้ใช้ซื้อสินค้าผ่านทาง Google Play ได้จากภายในแอปพลิเคชันนี้</string>
+    <string name="s">บริการเรียกเก็บเงินของ Google Play</string>
+    <string name="t">สามารถตรวจสอบว่าคุณมีสัญญาอนุญาตสำหรับแอปพลิเคชันนี้จาก Google Play หรือไม่</string>
+    <string name="u">การตรวจสอบสัญญาอนุญาตของ Google Play</string>
+    <string name="v">สิทธิ์ของแอป</string>
+    <string name="w">สัญญาอนุญาตโอเพนซอร์ส</string>
+    <string name="x">ต้องมีการตรวจสอบสิทธิ์</string>
+    <string name="y">แลกรหัสของคุณ</string>
+    <string name="aa">ให้คะแนนเลย!</string>
+    <string name="ba">ส่งของขวัญ</string>
+    <string name="ca">การตั้งค่า</string>
+    <string name="da">การแจ้งเตือน</string>
+    <string name="ea">สร้างบัญชีให้เสร็จสมบูรณ์</string>
+    <string name="fa">แอปจะติดตั้งหลังจากตั้งค่าเสร็จสมบูรณ์</string>
+    <string name="ga">ตรวจสอบแอปเพิ่มเติม</string>
+    <string name="ha">ชำระเงินได้รวดเร็วด้วยผลิตภัณฑ์ของ Google</string>
+    <string name="ia">เพิ่มวิธีการชำระเงิน</string>
+    <string name="ja">ตั้งค่าข้อมูลการชำระเงิน</string>
+    <string name="ka">คืนค่าแอปจากอุปกรณ์</string>
+    <string name="la">อุปกรณ์เครื่องใด</string>
+    <string name="ma">เลือกวิธีการชำระเงินของครอบครัว</string>
+    <string name="na">เลือกจำนวนเงิน</string>
+    <string name="oa">อัปเดตวิธีการชำระเงิน</string>
+    <string name="pa">ตรวจสอบและติดตั้ง</string>
+    <string name="qa">กำลังสแกนหาปัญหาด้านความปลอดภัย…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

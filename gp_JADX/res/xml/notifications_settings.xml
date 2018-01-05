@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_notifications_device_header" android:key="category-device">
+        <CheckBoxPreference android:title="@string/auto_update_available_notification2" android:key="update-notifications" android:summary="@string/auto_update_available_notification_summary2" />
+        <CheckBoxPreference android:title="@string/auto_update_completion_notification2" android:key="update-completion-notifications" android:summary="@string/auto_update_completion_notification_summary2" />
+    </PreferenceCategory>
+</PreferenceScreen>

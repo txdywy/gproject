@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.gifting.SendGiftLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gift_dialog_header" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/GiftEmailHeaderPadding">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gifting_white_36" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gift_email_horizontal_padding" android:layout_marginRight="0dp">
+            <TextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/send_gift" style="@style/GiftEmailTitleText" />
+            <TextView android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GiftEmailItemText" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/GiftEmailPadding">
+            <include android:id="@id/gift_message_text" layout="@layout/input_with_character_counter" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.finsky.billing.gifting.SendGiftLayout>

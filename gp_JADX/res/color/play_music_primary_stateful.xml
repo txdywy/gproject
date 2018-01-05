@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/play_music_primary_hover" android:state_hovered="true" />
+    <item android:state_pressed="true" android:color="@color/play_music_primary_pressed" />
+    <item android:color="@color/play_music_primary" />
+</selector>

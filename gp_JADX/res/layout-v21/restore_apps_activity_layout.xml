@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="@dimen/setup_wizard_dialog_top_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="@string/setup_wizard_restore_apps_dialog_title" style="@style/SetupWizardListDialogTitle" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/restore_apps_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="0x0" android:dividerHeight="0dp" android:choiceMode="multipleChoice" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="@dimen/setup_wizard_button_bar_vertical_padding" android:paddingBottom="@dimen/setup_wizard_button_bar_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/setup_wizard_button_bar_horizontal_padding" android:paddingEnd="@dimen/setup_wizard_button_bar_horizontal_padding">
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+        <Button android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+    </LinearLayout>
+</LinearLayout>

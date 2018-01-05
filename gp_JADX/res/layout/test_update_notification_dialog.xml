@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="When to delay?" />
+    <RadioGroup android:id="@id/delay_decision" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/delay_decision_ml" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Use machine learning (default)" />
+        <RadioButton android:id="@id/delay_decision_always" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Always delay until expiration" />
+        <RadioButton android:id="@id/delay_decision_never" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No delay" />
+    </RadioGroup>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Expiration (max amount can be delayed)" />
+    <RadioGroup android:id="@id/expiration_length" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/expiration_length_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6 hours (default)" />
+        <RadioButton android:id="@id/expiration_length_15s" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="15 seconds" />
+    </RadioGroup>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reschedule deadline" />
+    <RadioGroup android:id="@id/reschedule_deadline" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/reschedule_deadline_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Every 24 hours (default)" />
+        <RadioButton android:id="@id/reschedule_deadline_5s" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Every 5 seconds" />
+    </RadioGroup>
+    <Button android:id="@id/trigger_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trigger a notification" />
+    <Button android:id="@id/trigger_reschedule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trigger reschedule" />
+    <Button android:id="@id/check_queue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check queue" />
+</LinearLayout>

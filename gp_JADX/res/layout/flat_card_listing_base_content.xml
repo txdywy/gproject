@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/li_thumbnail_frame" finsky:layout_width="UNKNOWN_DATA_0x7f0e0217" finsky:layout_height="wrap_content" finsky:layout_marginLeft="@dimen/flat_listing_inner_margin" finsky:layout_marginTop="@dimen/flat_listing_inner_margin" finsky:layout_marginRight="@dimen/flat_listing_inner_margin" finsky:layout_marginBottom="@dimen/flat_listing_inner_margin">
+        <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/li_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:singleLine="true" finsky:includeFontPadding="false" style="@style/FlatCardTitle.Listing" />
+    <com.google.android.finsky.playcard.FadingEdgeTextView finsky:id="@id/li_fading_edge_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:fading_edge_width="@dimen/flat_card_title_fading_edge_width" style="@style/FlatCardTitle.Listing" />
+    <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/li_subtitle" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" style="@style/FlatCardSubtitle.Listing" />
+    <ImageView finsky:id="@id/li_overflow" finsky:nextFocusLeft="@id/play_card" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="@dimen/flat_listing_overflow_margin_top" finsky:layout_marginRight="@dimen/flat_listing_overflow_margin_end" style="@style/FlatCardOverflow" />
+</merge>

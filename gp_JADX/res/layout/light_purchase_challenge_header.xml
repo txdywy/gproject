@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/challenge_header" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:id="@id/application_icon" android:visibility="gone" style="@style/LightPurchase_PurchaseFlow_IconImage" />
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.play.layout.PlayTextView android:ellipsize="marquee" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="16dp" android:maxLines="2" style="@style/LightPurchase_TitleText" />
+            <com.google.android.play.layout.PlayTextView android:ellipsize="marquee" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/item_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="16dp" android:maxLines="2" style="@style/LightPurchase_ItemTitle" />
+            <TextView android:ellipsize="end" android:id="@id/instrument_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/LightPurchase_Auth_InstrumentTitle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/item_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="3dp" style="@style/LightPurchase_Price" />
+            <TextView android:ellipsize="marquee" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/price_byline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:maxWidth="160dp" android:maxLines="2" style="@style/LightPurchase_PriceByline" />
+            <TextView android:ellipsize="marquee" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/price_byline_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:maxWidth="160dp" android:maxLines="2" style="@style/LightPurchase_PriceByline" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.play.layout.PlayTextView android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LightPurchase_TitleText" />
+    <TextView android:id="@id/account" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LightPurchase_AccountName" />
+</LinearLayout>

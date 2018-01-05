@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/public_reviews_container" finsky:background="@drawable/rate_review_bg" finsky:paddingTop="0dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/review_user_profile_header" />
+    <ScrollView android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:textSize="@dimen/play_large_size" android:id="@id/public_reviews_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gplus_public_reviews" style="@c6382j/PlayDetailDescription" />
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

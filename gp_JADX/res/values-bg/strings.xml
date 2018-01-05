@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Магазин</string>
+    <string name="b">Google Play</string>
+    <string name="c">Изисква се одобрение</string>
+    <string name="d">Родителски контроли</string>
+    <string name="e">Отзиви</string>
+    <string name="f">Мигновено приложение</string>
+    <string name="g">Настройки за членовете</string>
+    <string name="h">Предпочитания за мигновените приложения</string>
+    <string name="i">Google Play Магазин</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Моите приложения</string>
+    <string name="n">Опции за покупката</string>
+    <string name="o">Начини на плащане</string>
+    <string name="p">Разрешава на потребителя да преглежда наличните приложения направо от това приложение.</string>
+    <string name="q">Достъп до услугата за открив. на прил. в Google Play</string>
+    <string name="r">Дава възможност на потребителя да купува елементи от Google Play направо от това приложение.</string>
+    <string name="s">Услуга за таксуване на Google Play</string>
+    <string name="t">Можете да проверите дали имате лиценз за това приложение от Google Play.</string>
+    <string name="u">Проверка на лиценза от Google Play</string>
+    <string name="v">Разрешения за приложения</string>
+    <string name="w">Лицензи за отворен код</string>
+    <string name="x">Изискване за удостоверяване</string>
+    <string name="y">Осребряване на кода ви</string>
+    <string name="aa">Дайте оценка!</string>
+    <string name="ba">Изпращане на подарък</string>
+    <string name="ca">Настройки</string>
+    <string name="da">Известия</string>
+    <string name="ea">Завършете настройването на профила</string>
+    <string name="fa">Приложенията ще бъдат инсталирани, след като завърши настройването</string>
+    <string name="ga">Преглед на допълнителните приложения</string>
+    <string name="ha">Възползвайте се от бързо плащане с продуктите ни</string>
+    <string name="ia">Добавяне на начин на плащане</string>
+    <string name="ja">Настройване на данните за плащане</string>
+    <string name="ka">Възстановяване на приложения от устройство</string>
+    <string name="la">Кое устройство?</string>
+    <string name="ma">Избор на семеен начин на плащане</string>
+    <string name="na">Изберете сума</string>
+    <string name="oa">Актуализиране на начина на плащане</string>
+    <string name="pa">Потвърждаване и инсталиране</string>
+    <string name="qa">Сканира се за проблеми със сигурността…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

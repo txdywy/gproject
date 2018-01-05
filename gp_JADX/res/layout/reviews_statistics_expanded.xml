@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.HistogramView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/reviews_statistics_panel" finsky:paddingLeft="@dimen/details_new_content_margin" finsky:paddingTop="18dp" finsky:paddingRight="@dimen/details_new_content_margin" finsky:paddingBottom="24dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:shows_bottom_separator="true">
+    <LinearLayout finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <TextView finsky:textSize="56sp" finsky:textColor="@color/play_fg_primary" finsky:id="@id/average_value" finsky:paddingLeft="0dp" finsky:paddingRight="8dp" finsky:focusable="true" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="56dp" finsky:layout_marginRight="0dp" finsky:includeFontPadding="false" style="@c6382j/PlayLightText" />
+        <include finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" layout="@layout/ratings_summary" />
+    </LinearLayout>
+    <com.google.android.finsky.layout.HistogramTable finsky:id="@id/histogram" finsky:paddingTop="18dp" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="5dp" finsky:layout_marginRight="0dp" finsky:stretchColumns="1" finsky:shrinkColumns="1" finsky:labels_on="true" finsky:bar_height="16dp" finsky:max_bar_width="160dp" finsky:bar_margin="2dp" />
+</com.google.android.finsky.layout.HistogramView>

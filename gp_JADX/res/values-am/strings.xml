@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play መደብር</string>
+    <string name="b">Google Play</string>
+    <string name="c">ፍቃድ ያስፈልጋል</string>
+    <string name="d">የወላጅ መቆጣጠሪያዎች</string>
+    <string name="e">ክለሳዎች</string>
+    <string name="f">ቅጽበታዊ መተግበሪያ</string>
+    <string name="g">የአባል ቅንብሮች</string>
+    <string name="h">የቅጽበት መተግበሪያዎች አማራጮች</string>
+    <string name="i">Play መደብር</string>
+    <string name="l">Play ጥቃት መከላከያ</string>
+    <string name="m">የእኔ  መተግበሪያዎች</string>
+    <string name="n">የግዢ አማራጮች</string>
+    <string name="o">የክፍያ ስልቶች</string>
+    <string name="p">ተጠቃሚው ከዚህ መተግበሪያ ሆኖ የሚገኙ መተግበሪያዎችን እንዲመለከት ያስችለዋል።</string>
+    <string name="q">የGoogle Play መተግበሪያ ማግኛ አገልግሎቱ ይድረሱ</string>
+    <string name="r">ተጠቃሚው በዚህ መተግበሪያ በኩል ንጥሎችን ከGoogle Play እንዲገዛ ያስችለዋል።</string>
+    <string name="s">የGoogle Play የክፍያ ማዘዣ አገልግሎት</string>
+    <string name="t">ለእዚህ መተግበሪያ ከGoogle Play የተሰጠህ ፍቃድ ካለ ሊያይልህ ይችላል።</string>
+    <string name="u">የGoogle Play የፍቃድ መፈተሻ</string>
+    <string name="v">የመተግበሪያ ፈቃዶች</string>
+    <string name="w">የነፃ ምንጭ ፈቃዶች</string>
+    <string name="x">ማረጋገጥ ጠይቅ</string>
+    <string name="y">ኮድዎን ያስመልሱ</string>
+    <string name="aa">ደረጃ ስጥ!</string>
+    <string name="ba">ስጦታ ይላኩ</string>
+    <string name="ca">ቅንብሮች</string>
+    <string name="da">ማሳወቂያዎች</string>
+    <string name="ea">መለያን ማዋቀር ያጠናቅቁ</string>
+    <string name="fa">ማዋቀር ከተጠናቀቀ በኋላ መተግበሪያዎች ይጫናሉ</string>
+    <string name="ga">ተጨማሪ መተግበሪያዎችን ይገምግሙ</string>
+    <string name="ha">በGoogle ምርቶች ላይ በፈጣን ተመዝግቦ መውጫ ይደሰቱ</string>
+    <string name="ia">የመክፈያ ዘዴ ያክሉ</string>
+    <string name="ja">የክፍያ መረጃ ያዋቅሩ</string>
+    <string name="ka">መተግበሪያዎችን ከመሣሪያ ላይ ወደነበሩበት መልስ</string>
+    <string name="la">የትኛው መሣሪያ?</string>
+    <string name="ma">የቤተሰብ መክፈያ ዘዴ ይምረጡ</string>
+    <string name="na">መጠን ይምረጡ</string>
+    <string name="oa">የመክፈያ ዘዴ ያዘምኑ</string>
+    <string name="pa">አረጋግጥ እና ጫን</string>
+    <string name="qa">የደህንነት ችግሮች ካሉ በመቃኘት ላይ…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

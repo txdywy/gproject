@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Дэлгүүр</string>
+    <string name="b">Google Play</string>
+    <string name="c">Зөвшөөрөл шаардлагатай</string>
+    <string name="d">Эцэг эхийн хяналт</string>
+    <string name="e">Сэтгэгдэл</string>
+    <string name="f">Шуурхай апп</string>
+    <string name="g">Гишүүний тохиргоо</string>
+    <string name="h">Шуурхай аппын сонголт</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play хамгаалалт</string>
+    <string name="m">Миний апп</string>
+    <string name="n">Худалдан авалтын сонголт</string>
+    <string name="o">Төлбөрийн аргачлалууд</string>
+    <string name="p">Хэрэглэгчид энэ аппаас боломжит апп үзэхийг зөвшөөрдөг.</string>
+    <string name="q">Google Play апп хайх үйлчилгээнд хандах</string>
+    <string name="r">Энэ апп-с Play ашиглан худалдан авалт хийхийг хэрэглэгчид зөвшөөрөх.</string>
+    <string name="s">Google Play төлбөрийн үйлчилгээ</string>
+    <string name="t">Танд энэ апп-н Google Play лиценз байвал шалгах боломжтой.</string>
+    <string name="u">Google Play лиценз шалгах</string>
+    <string name="v">Апп зөвшөөрөл</string>
+    <string name="x">Баталгаажуулалт шаардлагатай</string>
+    <string name="y">Кодоор төлөх</string>
+    <string name="aa">Үнэлнэ үү!</string>
+    <string name="ba">Бэлэг илгээх</string>
+    <string name="ca">Тохиргоо</string>
+    <string name="da">Мэдэгдэл</string>
+    <string name="ea">Акаунтын тохиргоо дуусав</string>
+    <string name="fa">Тохируулж дууссаны дараагаар апп-г суулгах болно</string>
+    <string name="ga">Нэмэлт апп-г үнэлэх</string>
+    <string name="ha">Google бүтээгдэхүүнийг хялбарханаар хараарай</string>
+    <string name="ia">Төлбөрийн арга нэмэх</string>
+    <string name="ja">Төлбөрийн мэдээллийг суулгана уу</string>
+    <string name="ka">Төхөөрөмжөөс апп-уудыг сэргээх</string>
+    <string name="la">Аль төхөөрөмж вэ?</string>
+    <string name="ma">Гэр бүлийн төлбөрийн хэрэгслийг сонгох</string>
+    <string name="na">Хэмжээг сонгоно уу</string>
+    <string name="oa">Төлбөрийн хэлбэрээ шинэчлэх</string>
+    <string name="pa">Тулгаж үзээд суулгах</string>
+    <string name="qa">Аюулгүй байдлын үүднээс скан хийж байна...</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/header_list_recycler_view_fixed_width" />
+    <com.google.android.finsky.fastscroll.ScrubberView finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/scrubber_view" finsky:layout_width="UNKNOWN_DATA_0x7f0e01bc" finsky:layout_height="match_parent" finsky:fastScrollModel="3" finsky:disableHeaderOffset="true" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="vertical" finsky:id="@id/family_no_results_view" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+    <View finsky:layout_width="wrap_content" finsky:layout_height="UNKNOWN_DATA_0x7801" />
+    <ImageView finsky:id="@id/empty_list_image" finsky:visibility="gone" finsky:layout_width="UNKNOWN_DATA_0x6001" finsky:layout_height="UNKNOWN_DATA_0x6001" finsky:layout_marginBottom="15dp" finsky:scaleType="fitCenter" />
+    <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_secondary" finsky:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/no_results_textview" finsky:layout_width="UNKNOWN_DATA_0x14001" finsky:layout_height="wrap_content" finsky:minHeight="40dp" />
+    <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/navigation_button" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="16dp" finsky:maxLines="1" finsky:action_style="0" finsky:action_xpadding="16dp" />
+</LinearLayout>

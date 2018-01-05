@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsRefundAndFlagItemsSection xmlns:android="http://schemas.android.com/apk/res-auto" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:id="@id/flag_row" finsky:background="@drawable/flag_bg_with_highlight" finsky:paddingLeft="@dimen/details_new_content_margin" finsky:paddingTop="8dp" finsky:paddingRight="@dimen/details_new_content_margin" finsky:paddingBottom="8dp" finsky:focusable="true" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="4dp" finsky:layout_marginRight="0dp" finsky:minHeight="48dp" finsky:layout_weight="1.0">
+    <LinearLayout finsky:id="@id/refund" finsky:paddingTop="8dp" finsky:paddingBottom="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:mark_as_button="true">
+        <ImageView finsky:layout_width="UNKNOWN_DATA_0x1801" finsky:layout_height="UNKNOWN_DATA_0x1801" finsky:src="@drawable/ic_refund_gray_24dp" finsky:scaleType="fitCenter" />
+        <TextView finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:text="@string/refund_policy_title" style="@style/RefundAndFlagText" />
+    </LinearLayout>
+    <LinearLayout finsky:id="@id/flag" finsky:paddingTop="8dp" finsky:paddingBottom="8dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:mark_as_button="true">
+        <ImageView finsky:layout_width="UNKNOWN_DATA_0x1801" finsky:layout_height="UNKNOWN_DATA_0x1801" finsky:src="@drawable/ic_flagcontent" finsky:scaleType="fitCenter" />
+        <TextView finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:text="@string/flagging_title" style="@style/RefundAndFlagText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.DetailsRefundAndFlagItemsSection>

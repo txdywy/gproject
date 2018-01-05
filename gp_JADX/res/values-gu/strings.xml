@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play સ્ટોર</string>
+    <string name="b">Google Play</string>
+    <string name="c">મંજૂરી આવશ્યક છે</string>
+    <string name="d">માતા પિતા યોગ્ય નિયંત્રણો</string>
+    <string name="e">સમીક્ષાઓ</string>
+    <string name="f">ઝટપટ ઍપ્લિકેશન</string>
+    <string name="g">સભ્યની સેટિંગ્સ</string>
+    <string name="h">ઝટપટ ઍપ પસંદગીઓ</string>
+    <string name="i">Play સ્ટોર</string>
+    <string name="l">Play Protect</string>
+    <string name="m">મારી ઍપ્લિકેશનો</string>
+    <string name="n">ખરીદી વિકલ્પો</string>
+    <string name="o">ચૂકવણીની પદ્ધતિઓ</string>
+    <string name="p">વપરાશકર્તાને આ ઍપ્લિકેશનની અંદરથી ઉપલબ્ધ ઍપ્લિકેશન જોવાની મંજૂરી આપે છે.</string>
+    <string name="q">Google Play ઍપ્લિકેશન શોધ સેવાને ઍક્સેસ કરો</string>
+    <string name="r">વપરાશકર્તાને આ એપ્લિકેશનમાંથી જ Google Play મારફતે આઇટમ્સ ખરીદવાની મંજૂરી આપે છે</string>
+    <string name="s">Google Play બિલિંગ સેવા</string>
+    <string name="t">તમારી પાસે Google Play ની આ ઍપ્લિકેશન માટે લાઇસન્સ છે કે કેમ તે તપાસી શકે છે.</string>
+    <string name="u">Google Play લાઇસન્સ તપાસ</string>
+    <string name="v">ઍપ્લિકેશન પરવાનગીઓ</string>
+    <string name="w">ઓપન સોર્સ લાઇસેંસેસ</string>
+    <string name="x">પ્રમાણીકરણ આવશ્યક છે</string>
+    <string name="y">તમારો કોડ રિડીમ કરો</string>
+    <string name="aa">આને રેટ કરો!</string>
+    <string name="ba">ભેટ મોકલો</string>
+    <string name="ca">સેટિંગ્સ</string>
+    <string name="da">સૂચનાઓ</string>
+    <string name="ea">એકાઉન્ટ સેટઅપ પૂર્ણ કરો</string>
+    <string name="fa">સેટઅપ પૂર્ણ થયાં પછી ઍપ્લિકેશનો ઇન્સ્ટૉલ કરવામાં આવશે</string>
+    <string name="ga">વધારાની ઍપ્લિકેશનોની સમીક્ષા કરો</string>
+    <string name="ha">Google ઉત્પાદનો સાથે ઝડપી ચેકઆઉટને માણો</string>
+    <string name="ia">ચૂકવણી પદ્ધતિ ઉમેરો</string>
+    <string name="ja">ચુકવણી માહિતી સેટ કરો</string>
+    <string name="ka">ઉપકરણમાંથી ઍપ્લિકેશનોને પુનઃસ્થાપિત કરો</string>
+    <string name="la">કયું ઉપકરણ?</string>
+    <string name="ma">કુટુંબની ચૂકવણી પદ્ધતિ પસંદ કરો</string>
+    <string name="na">રકમ પસંદ કરો</string>
+    <string name="oa">ચૂકવણીની પદ્ધતિને અપડેટ કરો</string>
+    <string name="pa">ચકાસો અને ઇન્સ્ટોલ કરો</string>
+    <string name="qa">સુરક્ષા સમસ્યાઓ માટે સ્કૅન કરી રહ્યાં છે…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

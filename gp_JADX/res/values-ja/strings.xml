@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play ストア</string>
+    <string name="b">Google Play</string>
+    <string name="c">許可が必要</string>
+    <string name="d">保護者による使用制限</string>
+    <string name="e">レビュー</string>
+    <string name="f">Instant App</string>
+    <string name="g">メンバー設定</string>
+    <string name="h">Instant Apps の設定</string>
+    <string name="i">Play ストア</string>
+    <string name="l">Play プロテクト</string>
+    <string name="m">マイアプリ</string>
+    <string name="n">購入オプション</string>
+    <string name="o">お支払い方法</string>
+    <string name="p">利用可能なアプリをこのアプリ内から表示することをユーザーに許可します。</string>
+    <string name="q">Google Play App Discovery Service へのアクセス</string>
+    <string name="r">このアプリを通じてGoogle Playで商品を購入することをユーザーに許可します。</string>
+    <string name="s">Google Play請求サービス</string>
+    <string name="t">アプリがGoogle Playからライセンスを取得しているかどうかを確認します。</string>
+    <string name="u">Google Playライセンス確認</string>
+    <string name="v">アプリの権限</string>
+    <string name="w">オープンソースライセンス</string>
+    <string name="x">認証が必要なときは？</string>
+    <string name="y">コードの利用</string>
+    <string name="aa">評価する</string>
+    <string name="ba">ギフトの送信</string>
+    <string name="ca">設定</string>
+    <string name="da">通知</string>
+    <string name="ea">アカウント設定の完了</string>
+    <string name="fa">アプリはセットアップの完了後にインストールされます</string>
+    <string name="ga">追加するアプリ</string>
+    <string name="ha">Google サービスでのご購入手続きが簡単になります</string>
+    <string name="ia">お支払い方法の追加</string>
+    <string name="ja">お支払い情報の設定</string>
+    <string name="ka">端末からアプリを復元</string>
+    <string name="la">端末を指定してください</string>
+    <string name="ma">ファミリー用お支払い方法の選択</string>
+    <string name="na">金額の選択</string>
+    <string name="oa">お支払い方法の更新</string>
+    <string name="pa">確認してインストール</string>
+    <string name="qa">セキュリティ上の問題をスキャンしています…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

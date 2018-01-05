@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">متجر Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">الموافقة مطلوبة</string>
+    <string name="d">أدوات الرقابة الأبوية</string>
+    <string name="e">التعليقات</string>
+    <string name="f">تطبيق فوري</string>
+    <string name="g">إعدادات أفراد العائلة</string>
+    <string name="h">تفضيلات التطبيقات الفورية</string>
+    <string name="i">متجر Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">تطبيقاتي</string>
+    <string name="n">خيارات الشراء</string>
+    <string name="o">طرق الدفع</string>
+    <string name="p">السماح للمستخدم بالاطلاع على التطبيقات المتاحة من داخل هذا التطبيق.</string>
+    <string name="q">الوصول إلى خدمة Google Play App Discovery</string>
+    <string name="r">للسماح للمستخدم بشراء العناصر عبر Google Play من داخل هذا التطبيق.</string>
+    <string name="s">خدمة فوترة Google Play</string>
+    <string name="t">يمكن التحقق من وجود ترخيص لهذا التطبيق من Google Play.</string>
+    <string name="u">التحقق من الترخيص في Google Play</string>
+    <string name="v">أذونات التطبيق</string>
+    <string name="w">تراخيص البرامج المفتوحة المصدر</string>
+    <string name="x">طلب المصادقة</string>
+    <string name="y">استرداد الرمز</string>
+    <string name="aa">قيّمه!</string>
+    <string name="ba">إرسال هدية</string>
+    <string name="ca">الإعدادات</string>
+    <string name="da">الإشعارات</string>
+    <string name="ea">إكمال إعداد الحساب</string>
+    <string name="fa">سيتم تثبيت التطبيقات بعد اكتمال الإعداد</string>
+    <string name="ga">مراجعة تطبيقات إضافية</string>
+    <string name="ha">الاستمتاع بسداد الرسوم بسرعة عبر منتجات Google</string>
+    <string name="ia">إضافة طريقة دفع</string>
+    <string name="ja">إعداد معلومات الدفع</string>
+    <string name="ka">استعادة التطبيقات من الجهاز</string>
+    <string name="la">أي جهاز؟</string>
+    <string name="ma">تحديد طريقة دفع العائلة</string>
+    <string name="na">اختيار المبلغ</string>
+    <string name="oa">تحديث طريقة الدفع</string>
+    <string name="pa">التحقق والتثبيت</string>
+    <string name="qa">جارٍ الفحص بحثًا عن المشكلات الأمنية…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

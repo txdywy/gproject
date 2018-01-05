@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.layout.PlayTextView android:id="@id/title" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/LightPurchase_TitleText" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/subtitle" android:paddingLeft="16dp" android:paddingTop="6dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/LightPurchase_SubtitleText" />
+    <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/account" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:textAlignment="viewStart" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/LightPurchase_AccountName" />
+</merge>

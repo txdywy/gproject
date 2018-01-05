@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.common.SelectFieldView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/ui_field_spinner" android:visibility="gone" layout="@layout/view_default_spinner" />
+    <com.google.android.wallet.ui.common.InlineSelectView android:orientation="vertical" android:id="@id/ui_field_inline_select" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?attr/uicFormListDivider" android:showDividers="middle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.wallet.ui.common.ImageWithCaptionView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/ui_field_read_only_text_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0100ef" android:layout_height="UNKNOWN_DATA_0x7f0100ef" android:layout_marginRight="?attr/uicFormListIconMargin" android:layout_marginEnd="?attr/uicFormListIconMargin" />
+        <include android:id="@id/ui_field_read_only_text" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/view_form_non_editable_text" />
+    </LinearLayout>
+    <com.google.android.wallet.ui.common.InfoMessageView android:id="@id/ui_field_info_message_description" android:paddingLeft="?attr/internalUicFormNonEditableTextStartMargin" android:paddingRight="?attr/internalUicFormNonEditableTextStartMargin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/internalUicFormNonEditableTextStartMargin" android:paddingEnd="?attr/internalUicFormNonEditableTextStartMargin" />
+</com.google.android.wallet.ui.common.SelectFieldView>

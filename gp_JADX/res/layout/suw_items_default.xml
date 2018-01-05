@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@c0611e/SuwItemContainer">
+    <FrameLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@c0609c/suw_items_icon_container" android:layout_width="UNKNOWN_DATA_0x7f0e060c" android:layout_height="wrap_content">
+        <ImageView android:id="@c0609c/suw_items_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.android.setupwizardlib.view.RichTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c0609c/suw_items_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@c0611e/SuwItemTitle" />
+        <com.android.setupwizardlib.view.RichTextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c0609c/suw_items_summary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/suw_items_padding_bottom_extra" style="@c0611e/SuwItemSummary" />
+    </LinearLayout>
+</LinearLayout>

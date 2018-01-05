@@ -1,0 +1,2573 @@
+
+˜Ú
+googleplay.proto"
+AckNotificationResponse"¤
+AndroidAppDeliveryData"
+downloadSize (RdownloadSize
+	signature (	R	signature 
+downloadUrl (	RdownloadUrl8
+additionalFile (2.AppFileMetadataRadditionalFile;
+downloadAuthCookie (2.HttpCookieRdownloadAuthCookie$
+forwardLocked (RforwardLocked$
+refundTimeout (RrefundTimeout(
+serverInitiated (RserverInitiatedD
+postInstallRefundWindowMillis	 (RpostInstallRefundWindowMillis2
+immediateStartNeeded
+ (RimmediateStartNeeded2
+	patchData (2.AndroidAppPatchDataR	patchData=
+encryptionParams (2.EncryptionParamsRencryptionParams.
+gzippedDownloadUrl (	RgzippedDownloadUrl0
+gzippedDownloadSize (RgzippedDownloadSize@
+splitDeliveryData (2.SplitDeliveryDataRsplitDeliveryData(
+installLocation (RinstallLocation"
+SplitDeliveryData
+id (	Rid"
+downloadSize (RdownloadSize0
+gzippedDownloadSize (RgzippedDownloadSize
+	signature (	R	signature 
+downloadUrl (	RdownloadUrl.
+gzippedDownloadUrl (	RgzippedDownloadUrl2
+	patchData (2.AndroidAppPatchDataR	patchData"Í
+AndroidAppPatchData(
+baseVersionCode (RbaseVersionCode$
+baseSignature (	RbaseSignature 
+downloadUrl (	RdownloadUrl 
+patchFormat (RpatchFormat"
+maxPatchSize (RmaxPatchSize"…
+AppFileMetadata
+fileType (RfileType 
+versionCode (RversionCode
+size (Rsize 
+downloadUrl (	RdownloadUrl"l
+EncryptionParams
+version (Rversion$
+encryptionKey (	RencryptionKey
+hmacKey (	RhmacKey"6
+
+HttpCookie
+name (	Rname
+value (	Rvalue"í
+Address
+name (	Rname"
+addressLine1 (	RaddressLine1"
+addressLine2 (	RaddressLine2
+city (	Rcity
+state (	Rstate
+
+postalCode (	R
+postalCode$
+postalCountry (	RpostalCountry,
+dependentLocality (	RdependentLocality 
+sortingCode	 (	RsortingCode"
+languageCode
+ (	RlanguageCode 
+phoneNumber (	RphoneNumber0
+deprecatedIsReduced (RdeprecatedIsReduced
+	firstName (	R	firstName
+lastName (	RlastName
+email (	Remail"h
+
+BookAuthor
+name (	Rname(
+deprecatedQuery (	RdeprecatedQuery
+docid (2.DocidRdocid"©
+BookDetails&
+subject (2.BookSubjectRsubject
+	publisher (	R	publisher(
+publicationDate (	RpublicationDate
+isbn (	Risbn$
+numberOfPages (RnumberOfPages
+subtitle (	Rsubtitle#
+author	 (2.BookAuthorRauthor
+	readerUrl
+ (	R	readerUrl(
+downloadEpubUrl (	RdownloadEpubUrl&
+downloadPdfUrl (	RdownloadPdfUrl(
+acsEpubTokenUrl (	RacsEpubTokenUrl&
+acsPdfTokenUrl (	RacsPdfTokenUrl$
+epubAvailable (RepubAvailable"
+pdfAvailable (RpdfAvailable&
+aboutTheAuthor (	RaboutTheAuthor7
+
+identifier (
+2.BookDetails.IdentifierR
+identifier.
+fixedLayoutContent (RfixedLayoutContent,
+audioVideoContent (RaudioVideoContent"
+isAgencyBook (RisAgencyBook@
+
+Identifier
+type (Rtype
+
+identifier (	R
+identifier"U
+BookSubject
+name (	Rname
+query (	Rquery
+	subjectId (	R	subjectId"f
+
+BrowseLink
+name (	Rname
+dataUrl (	RdataUrl*
+serverLogsCookie (RserverLogsCookie"ú
+BrowseResponse 
+contentsUrl (	RcontentsUrl
+promoUrl (	RpromoUrl'
+category (2.BrowseLinkRcategory+
+
+breadcrumb (2.BrowseLinkR
+breadcrumb(
+	quickLink (2
+.QuickLinkR	quickLink*
+serverLogsCookie (RserverLogsCookie"ô
+	QuickLink
+name (	Rname
+image (2.ImageRimage!
+link (2.ResolvedLinkRlink(
+displayRequired (RdisplayRequired*
+serverLogsCookie (RserverLogsCookie
+	backendId (R	backendId
+
+prismStyle (R
+prismStyle"²
+BuyResponseI
+purchaseResponse (2.PurchaseNotificationResponseRpurchaseResponse=
+checkoutinfo (
+2.BuyResponse.CheckoutInfoRcheckoutinfo&
+continueViaUrl (	RcontinueViaUrl,
+purchaseStatusUrl	 (	RpurchaseStatusUrl,
+checkoutServiceId (	RcheckoutServiceId4
+checkoutTokenRequired (RcheckoutTokenRequired(
+baseCheckoutUrl (	RbaseCheckoutUrl(
+tosCheckboxHtml% (	RtosCheckboxHtml(
+permissionError& (RpermissionErrorO
+purchaseStatusResponse' (2.PurchaseStatusResponseRpurchaseStatusResponse&
+purchaseCookie. (	RpurchaseCookie(
+	challenge1 (2
+.ChallengeR	challenge8
+addInstrumentPromptHtml2 (	RaddInstrumentPromptHtml,
+confirmButtonText3 (	RconfirmButtonText:
+permissionErrorTitleText4 (	RpermissionErrorTitleText>
+permissionErrorMessageText5 (	RpermissionErrorMessageText*
+serverLogsCookie6 (RserverLogsCookie2
+encodedDeliveryToken7 (	RencodedDeliveryTokenù
+CheckoutInfo
+item (2	.LineItemRitem#
+subItem (2	.LineItemRsubItemP
+checkoutoption (
+2(.BuyResponse.CheckoutInfo.CheckoutOptionRcheckoutoption4
+deprecatedCheckoutUrl
+ (	RdeprecatedCheckoutUrl*
+addInstrumentUrl (	RaddInstrumentUrl
+
+footerHtml (	R
+footerHtml:
+eligibleInstrumentFamily (ReligibleInstrumentFamily"
+footnoteHtml$ (	RfootnoteHtml;
+eligibleInstrument, (2.InstrumentReligibleInstrument³
+CheckoutOption$
+formOfPayment (	RformOfPayment0
+encodedAdjustedCart (	RencodedAdjustedCart"
+instrumentId (	RinstrumentId
+item (2	.LineItemRitem#
+subItem (2	.LineItemRsubItem
+total (2	.LineItemRtotal
+
+footerHtml (	R
+footerHtml*
+instrumentFamily (RinstrumentFamily.
+selectedInstrument  (RselectedInstrument#
+summary! (2	.LineItemRsummary"
+footnoteHtml# (	RfootnoteHtml+
+
+instrument+ (2.InstrumentR
+instrument&
+purchaseCookie- (	RpurchaseCookie&
+disabledReason0 (	RdisabledReason"~
+LineItem
+name (	Rname 
+description (	Rdescription
+offer (2.OfferRoffer
+amount (2.MoneyRamount"m
+Money
+micros (Rmicros"
+currencyCode (	RcurrencyCode(
+formattedAmount (	RformattedAmount"¶
+PurchaseNotificationResponse
+status (Rstatus(
+	debugInfo (2
+.DebugInfoR	debugInfo4
+localizedErrorMessage (	RlocalizedErrorMessage
+
+purchaseId (	R
+purchaseId"ä
+PurchaseStatusResponse
+status (Rstatus
+	statusMsg (	R	statusMsg 
+statusTitle (	RstatusTitle"
+briefMessage (	RbriefMessage
+infoUrl (	RinfoUrl4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate;
+rejectedInstrument (2.InstrumentRrejectedInstrumentA
+appDeliveryData (2.AndroidAppDeliveryDataRappDeliveryData"“
+BillingProfileResponse
+result (Rresult7
+billingProfile (2.BillingProfileRbillingProfile(
+userMessageHtml (	RuserMessageHtml"ñ
+CheckInstrumentResponse6
+userHasValidInstrument (RuserHasValidInstrument4
+checkoutTokenRequired (RcheckoutTokenRequired+
+
+instrument (2.InstrumentR
+instrument;
+eligibleInstrument (2.InstrumentReligibleInstrument"‡
+InstrumentSetupInfoResponse2
+	setupInfo (2.InstrumentSetupInfoR	setupInfo4
+checkoutTokenRequired (RcheckoutTokenRequired"½
+RedeemGiftCardRequest 
+giftCardPin (	RgiftCardPin"
+address (2.AddressRaddress8
+acceptedLegalDocumentId (	RacceptedLegalDocumentId$
+checkoutToken (	RcheckoutToken"ñ
+RedeemGiftCardResponse
+result (Rresult(
+userMessageHtml (	RuserMessageHtml 
+balanceHtml (	RbalanceHtml=
+addressChallenge (2.AddressChallengeRaddressChallenge4
+checkoutTokenRequired (RcheckoutTokenRequired"l
+UpdateInstrumentRequest+
+
+instrument (2.InstrumentR
+instrument$
+checkoutToken (	RcheckoutToken"²
+UpdateInstrumentResponse
+result (Rresult"
+instrumentId (	RinstrumentId(
+userMessageHtml (	RuserMessageHtml?
+errorInputField (2.InputValidationErrorRerrorInputField4
+checkoutTokenRequired (RcheckoutTokenRequired9
+redeemedOffer (2.RedeemedPromoOfferRredeemedOffer";
+InitiateAssociationResponse
+	userToken (	R	userToken"Ä
+VerifyAssociationResponse
+status (Rstatus0
+billingAddress (2.AddressRbillingAddress+
+
+carrierTos (2.CarrierTosR
+carrierTos0
+carrierErrorMessage (	RcarrierErrorMessage"Ê
+AddressChallenge2
+responseAddressParam (	RresponseAddressParam8
+responseCheckboxesParam (	RresponseCheckboxesParam
+title (	Rtitle(
+descriptionHtml (	RdescriptionHtml)
+checkbox (2.FormCheckboxRcheckbox"
+address (2.AddressRaddress?
+errorInputField (2.InputValidationErrorRerrorInputField
+	errorHtml (	R	errorHtml$
+requiredField	 (RrequiredField4
+supportedCountry
+ (2.CountryRsupportedCountry"ä
+AuthenticationChallenge.
+authenticationType (RauthenticationTypeH
+responseAuthenticationTypeParam (	RresponseAuthenticationTypeParam8
+responseRetryCountParam (	RresponseRetryCountParam&
+gaiaHeaderText (	RgaiaHeaderText8
+gaiaDescriptionTextHtml (	RgaiaDescriptionTextHtml.
+gaiaFooterTextHtml (	RgaiaFooterTextHtml=
+gaiaOptOutCheckbox	 (2.FormCheckboxRgaiaOptOutCheckboxD
+gaiaOptOutDescriptionTextHtml
+ (	RgaiaOptOutDescriptionTextHtml"Ý
+	Challenge=
+addressChallenge (2.AddressChallengeRaddressChallengeR
+authenticationChallenge (2.AuthenticationChallengeRauthenticationChallenge=
+webViewChallenge (2.WebViewChallengeRwebViewChallenge"K
+Country
+
+regionCode (	R
+regionCode 
+displayName (	RdisplayName"v
+FormCheckbox 
+description (	Rdescription
+checked (Rchecked
+required (Rrequired
+id (	Rid"Z
+InputValidationError
+
+inputField (R
+inputField"
+errorMessage (	RerrorMessage"Œ
+WebViewChallenge
+startUrl (	RstartUrl(
+targetUrlRegexp (	RtargetUrlRegexp:
+cancelButtonDisplayLabel (	RcancelButtonDisplayLabel6
+responseTargetUrlParam (	RresponseTargetUrlParam(
+cancelUrlRegexp (	RcancelUrlRegexp
+title (	Rtitle"¿
+AddCreditCardPromoOffer
+
+headerText (	R
+headerText(
+descriptionHtml (	RdescriptionHtml
+image (2.ImageRimage2
+introductoryTextHtml (	RintroductoryTextHtml
+
+offerTitle (	R
+offerTitle0
+noActionDescription (	RnoActionDescription6
+termsAndConditionsHtml (	RtermsAndConditionsHtml"_
+AvailablePromoOfferH
+addCreditCardOffer (2.AddCreditCardPromoOfferRaddCreditCardOffer"È
+CheckPromoOfferResponse<
+availableOffer (2.AvailablePromoOfferRavailableOffer9
+redeemedOffer (2.RedeemedPromoOfferRredeemedOffer4
+checkoutTokenRequired (RcheckoutTokenRequired"|
+RedeemedPromoOffer
+
+headerText (	R
+headerText(
+descriptionHtml (	RdescriptionHtml
+image (2.ImageRimage"Ÿ
+ActiveExperiments:
+clientAlteringExperiment (	RclientAlteringExperiment(
+otherExperiment (	RotherExperiment$
+gwsExperiment (RgwsExperiment"ã
+AndroidClientInfo
+	androidId (R	androidId
+	loggingId (	R	loggingId
+
+sdkVersion (R
+sdkVersion
+model (	Rmodel
+product (	Rproduct
+osBuild (	RosBuild*
+applicationBuild (	RapplicationBuild
+hardware (	Rhardware
+device	 (	Rdevice
+mccMnc
+ (	RmccMnc
+locale (	Rlocale
+country (	Rcountry"æ
+
+ClientInfo
+
+clientType (R
+clientType@
+androidClientInfo (2.AndroidClientInfoRandroidClientInfo@
+desktopClientInfo (2.DesktopClientInfoRdesktopClientInfo4
+iosClientInfo (2.IosClientInfoRiosClientInfo"×
+DesktopClientInfo
+clientId (	RclientId
+	loggingId (	R	loggingId
+os (	Ros&
+osMajorVersion (	RosMajorVersion$
+osFullVersion (	RosFullVersion*
+applicationBuild (	RapplicationBuild""
+ExperimentIdList
+id (	Rid"Ã
+IosClientInfo
+clientId (	RclientId
+	loggingId (	R	loggingId&
+osMajorVersion (	RosMajorVersion$
+osFullVersion (	RosFullVersion*
+applicationBuild (	RapplicationBuild"â
+LogEvent 
+eventTimeMs (ReventTimeMs
+tag (	Rtag(
+value (2.LogEventKeyValuesRvalue(
+store (2.PlayStoreLogEventRstore(
+sourceExtension (RsourceExtension$
+exp (2.ActiveExperimentsRexp";
+LogEventKeyValues
+key (	Rkey
+value (	Rvalue"Ö
+
+LogRequest+
+
+clientInfo (2.ClientInfoR
+clientInfo
+	logSource (R	logSource%
+logEvent (2	.LogEventRlogEvent$
+requestTimeMs (RrequestTimeMs0
+serializedLogEvents (RserializedLogEvents"x
+LogResponse4
+nextRequestWaitMillis (RnextRequestWaitMillis3
+experiments (2.ExperimentIdListRexperiments"Y
+Docid"
+backendDocid (	RbackendDocid
+type (Rtype
+backend (Rbackend"u
+Install
+	androidId (R	androidId
+version (Rversion
+bundled (Rbundled
+pending (Rpending"
+GroupLicenseKey"J
+LicenseTerms:
+groupLicenseKey (2.GroupLicenseKeyRgroupLicenseKey"…
+
+Offer
+micros (Rmicros"
+currencyCode (	RcurrencyCode(
+formattedAmount (	RformattedAmount.
+convertedPrice (2.OfferRconvertedPrice2
+checkoutFlowRequired (RcheckoutFlowRequired(
+fullPriceMicros (RfullPriceMicros0
+formattedFullAmount (	RformattedFullAmount
+	offerType (R	offerType.
+rentalTerms	 (2.RentalTermsRrentalTerms
+
+onSaleDate
+ (R
+onSaleDate&
+promotionLabel (	RpromotionLabel@
+subscriptionTerms (2.SubscriptionTermsRsubscriptionTerms$
+formattedName (	RformattedName2
+formattedDescription (	RformattedDescription
+preorder (RpreorderP
+#onSaleDateDisplayTimeZoneOffsetMsec (R#onSaleDateDisplayTimeZoneOffsetMsec,
+licensedOfferType (RlicensedOfferTypeU
+subscriptionContentTerms (2.SubscriptionContentTermsRsubscriptionContentTerms
+offerId (	RofferIdF
+preorderFulfillmentDisplayDate (RpreorderFulfillmentDisplayDate1
+licenseTerms (2.LicenseTermsRlicenseTerms(
+temporarilyFree (RtemporarilyFree1
+voucherTerms (2.VoucherTermsRvoucherTerms1
+offerPayment (2.OfferPaymentRofferPayment,
+repeatLastPayment (RrepeatLastPayment&
+buyButtonLabel (	RbuyButtonLabel6
+instantPurchaseEnabled (RinstantPurchaseEnabled"5
+MonthAndDay
+month (Rmonth
+day (Rday"
+OfferPaymentPeriod'
+duration (2.TimePeriodRduration"
+start (2.MonthAndDayRstart
+end (2.MonthAndDayRend"r
+OfferPaymentOverride
+micros (Rmicros"
+start (2.MonthAndDayRstart
+end (2.MonthAndDayRend"Ú
+OfferPayment
+micros (Rmicros"
+currencyCode (	RcurrencyCodeC
+offerPaymentPeriod (2.OfferPaymentPeriodRofferPaymentPeriodI
+offerPaymentOverride (2.OfferPaymentOverrideRofferPaymentOverride"
+VoucherTerms"ÿ
+RentalTermsB
+dEPRECATEDGrantPeriodSeconds (RdEPRECATEDGrantPeriodSecondsH
+dEPRECATEDActivatePeriodSeconds (RdEPRECATEDActivatePeriodSeconds-
+grantPeriod (2.TimePeriodRgrantPeriod3
+activatePeriod (2.TimePeriodRactivatePeriod"J
+
+SignedData
+
+signedData (	R
+signedData
+	signature (	R	signature"V
+SubscriptionContentTerms:
+requiredSubscription (2.DocidRrequiredSubscription"y
+SubscriptionTerms5
+recurringPeriod (2.TimePeriodRrecurringPeriod-
+trialPeriod (2.TimePeriodRtrialPeriod"6
+
+TimePeriod
+unit (Runit
+count (Rcount"j
+BillingAddressSpec.
+billingAddressType (RbillingAddressType$
+requiredField (RrequiredField"Ì
+BillingProfile+
+
+instrument (2.InstrumentR
+instrumentB
+selectedExternalInstrumentId (	RselectedExternalInstrumentIdI
+billingProfileOption (2.BillingProfileOptionRbillingProfileOption"•
+BillingProfileOption
+type (Rtype"
+displayTitle (	RdisplayTitle2
+externalInstrumentId (	RexternalInstrumentId(
+	topupInfo (2
+.TopupInfoR	topupInfog
+carrierBillingInstrumentStatus (2.CarrierBillingInstrumentStatusRcarrierBillingInstrumentStatus"Q
+CarrierBillingCredentials
+value (	Rvalue
+
+expiration (R
+expiration"µ
+CarrierBillingInstrument$
+instrumentKey (	RinstrumentKey 
+accountType (	RaccountType"
+currencyCode (	RcurrencyCode*
+transactionLimit (RtransactionLimit2
+subscriberIdentifier (	RsubscriberIdentifierR
+encryptedSubscriberInfo (2.EncryptedSubscriberInfoRencryptedSubscriberInfo<
+credentials (2.CarrierBillingCredentialsRcredentials;
+acceptedCarrierTos (2.CarrierTosRacceptedCarrierTos"¦
+CarrierBillingInstrumentStatus+
+
+carrierTos (2.CarrierTosR
+carrierTos0
+associationRequired (RassociationRequired*
+passwordRequired (RpasswordRequiredE
+carrierPasswordPrompt (2.PasswordPromptRcarrierPasswordPrompt
+
+apiVersion (R
+apiVersion
+name (	Rname@
+deviceAssociation (2.DeviceAssociationRdeviceAssociation<
+carrierSupportPhoneNumber (	RcarrierSupportPhoneNumber"Ì
+
+CarrierTos(
+dcbTos (2.CarrierTosEntryRdcbTos(
+piiTos (2.CarrierTosEntryRpiiTos4
+needsDcbTosAcceptance (RneedsDcbTosAcceptance4
+needsPiiTosAcceptance (RneedsPiiTosAcceptance"=
+CarrierTosEntry
+url (	Rurl
+version (	Rversion"ó
+CreditCardInstrument
+type (Rtype"
+escrowHandle (	RescrowHandle
+
+lastDigits (	R
+lastDigits(
+expirationMonth (RexpirationMonth&
+expirationYear (RexpirationYear1
+escrowEfeParam (2	.EfeParamRescrowEfeParam"‡
+DeviceAssociation8
+userTokenRequestMessage (	RuserTokenRequestMessage8
+userTokenRequestAddress (	RuserTokenRequestAddress"Œ
+DisabledInfo&
+disabledReason (RdisabledReason0
+disabledMessageHtml (	RdisabledMessageHtml"
+errorMessage (	RerrorMessage"2
+EfeParam
+key (Rkey
+value (	Rvalue"›
+
+Instrument2
+externalInstrumentId (	RexternalInstrumentId0
+billingAddress (2.AddressRbillingAddress5
+
+creditCard (2.CreditCardInstrumentR
+creditCardA
+carrierBilling (2.CarrierBillingInstrumentRcarrierBillingC
+billingAddressSpec (2.BillingAddressSpecRbillingAddressSpec*
+instrumentFamily (RinstrumentFamilyS
+carrierBillingStatus (2.CarrierBillingInstrumentStatusRcarrierBillingStatus"
+displayTitle (	RdisplayTitle<
+topupInfoDeprecated	 (2
+.TopupInfoRtopupInfoDeprecated
+version
+ (Rversion8
+storedValue (2.StoredValueInstrumentRstoredValue1
+disabledInfo (2.DisabledInfoRdisabledInfo"à
+InstrumentSetupInfo*
+instrumentFamily (RinstrumentFamily
+	supported (R	supported=
+addressChallenge (2.AddressChallengeRaddressChallenge 
+balance (2.MoneyRbalance
+
+footerHtml (	R
+footerHtml"V
+PasswordPrompt
+prompt (	Rprompt,
+forgotPasswordUrl (	RforgotPasswordUrl"w
+StoredValueInstrument
+type (Rtype 
+balance (2.MoneyRbalance(
+	topupInfo (2
+.TopupInfoR	topupInfo"×
+	TopupInfoH
+optionsContainerDocidDeprecated (	RoptionsContainerDocidDeprecated&
+optionsListUrl (	RoptionsListUrl
+subtitle (	Rsubtitle<
+optionsContainerDocid (2.DocidRoptionsContainerDocid"g
+ConsumePurchaseResponse4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate
+status (Rstatus"—
+ContainerMetadata
+	browseUrl (	R	browseUrl 
+nextPageUrl (	RnextPageUrl
+	relevance (R	relevance*
+estimatedResults (RestimatedResults(
+analyticsCookie (	RanalyticsCookie
+ordered (Rordered4
+containerView (2.ContainerViewRcontainerView"‡
+ContainerView
+selected (Rselected
+title (	Rtitle
+listUrl (	RlistUrl*
+serverLogsCookie (RserverLogsCookie"
+FlagContentResponse"Ø
+
+ClientDownloadRequest
+url (	Rurl8
+digests (2.ClientDownloadRequest.DigestsRdigests
+length (Rlength=
+	resources (2.ClientDownloadRequest.ResourceR	resourcesB
+	signature (2$.ClientDownloadRequest.SignatureInfoR	signature$
+userInitiated (RuserInitiated
+	clientAsn (	R	clientAsn"
+fileBasename	 (	RfileBasename"
+downloadType
+ (RdownloadType
+locale (	Rlocale8
+apkInfo (2.ClientDownloadRequest.ApkInfoRapkInfo
+	androidId (R	androidId0
+originatingPackages (	RoriginatingPackagesX
+originatingSignature (2$.ClientDownloadRequest.SignatureInfoRoriginatingSignatureM
+ApkInfo 
+packageName (	RpackageName 
+versionCode (RversionCodeÍ
+CertificateChainI
+element (2/.ClientDownloadRequest.CertificateChain.ElementRelementí
+Element 
+certificate (Rcertificate.
+parsedSuccessfully (RparsedSuccessfully
+subject (Rsubject
+issuer (Rissuer 
+fingerprint (Rfingerprint
+
+expiryTime (R
+expiryTime
+	startTime (R	startTimeG
+Digests
+sha256 (Rsha256
+sha1 (Rsha1
+md5 (Rmd5h
+Resource
+url (	Rurl
+type (Rtype
+remoteIp (RremoteIp
+referrer (	Rreferrer~
+SignatureInfoS
+certificateChain (2'.ClientDownloadRequest.CertificateChainRcertificateChain
+trusted (Rtrusted"Æ
+ClientDownloadResponse
+verdict (Rverdict<
+moreInfo (2 .ClientDownloadResponse.MoreInfoRmoreInfo
+token (Rtoken>
+MoreInfo 
+description (	Rdescription
+url (	Rurl"V
+ClientDownloadStatsRequest"
+userDecision (RuserDecision
+token (Rtoken"Š
+	DebugInfo
+message (	Rmessage)
+timing (
+2.DebugInfo.TimingRtiming8
+Timing
+name (	Rname
+timeInMs (RtimeInMs"}
+DebugSettingsResponse0
+playCountryOverride (	RplayCountryOverride2
+playCountryDebugInfo (	RplayCountryDebugInfo"m
+DeliveryResponse
+status (RstatusA
+appDeliveryData (2.AndroidAppDeliveryDataRappDeliveryData",
+BulkDetailsEntry
+doc (2.DocV2Rdoc"à
+BulkDetailsRequest
+docid (	Rdocid*
+includeChildDocs (RincludeChildDocs&
+includeDetails (RincludeDetails,
+sourcePackageName (	RsourcePackageName2
+installedVersionCode (RinstalledVersionCode">
+BulkDetailsResponse'
+entry (2.BulkDetailsEntryRentry"¥
+DetailsResponse
+docV1 (2.DocV1RdocV1(
+analyticsCookie (	RanalyticsCookie'
+
+userReview (2.ReviewR
+userReview
+docV2 (2.DocV2RdocV2
+
+footerHtml (	R
+footerHtml*
+serverLogsCookie (RserverLogsCookie7
+discoveryBadge (2.DiscoveryBadgeRdiscoveryBadge"Ë
+DiscoveryBadge
+title (	Rtitle
+image (2.ImageRimage(
+backgroundColor (RbackgroundColorC
+discoveryBadgeLink (2.DiscoveryBadgeLinkRdiscoveryBadgeLink*
+serverLogsCookie (RserverLogsCookie
+	isPlusOne (R	isPlusOne(
+aggregateRating (RaggregateRating&
+userStarRating (RuserStarRating$
+downloadCount	 (	RdownloadCount$
+downloadUnits
+ (	RdownloadUnits.
+contentDescription (	RcontentDescription"ƒ
+DiscoveryBadgeLink
+link (2.LinkRlink&
+userReviewsUrl (	RuserReviewsUrl*
+criticReviewsUrl (	RcriticReviewsUrl"È
+DeviceConfigurationProto 
+touchScreen (RtouchScreen
+keyboard (Rkeyboard
+
+navigation (R
+navigation"
+screenLayout (RscreenLayout(
+hasHardKeyboard (RhasHardKeyboard2
+hasFiveWayNavigation (RhasFiveWayNavigation$
+screenDensity (RscreenDensity 
+glEsVersion (RglEsVersion0
+systemSharedLibrary	 (	RsystemSharedLibrary6
+systemAvailableFeature
+ (	RsystemAvailableFeature&
+nativePlatform (	RnativePlatform 
+screenWidth (RscreenWidth"
+screenHeight (RscreenHeight4
+systemSupportedLocale (	RsystemSupportedLocale 
+glExtension (	RglExtension 
+deviceClass (RdeviceClass2
+maxApkDownloadSizeMb (RmaxApkDownloadSizeMb"Ç
+Document
+docid (2.DocidRdocid&
+
+fetchDocid (2.DocidR
+fetchDocid(
+sampleDocid (2.DocidRsampleDocid
+title (	Rtitle
+url (	Rurl
+snippet (	Rsnippet0
+priceDeprecated (2.OfferRpriceDeprecated1
+availability	 (2.AvailabilityRavailability
+image
+ (2.ImageRimage
+child (2	.DocumentRchild:
+aggregateRating (2.AggregateRatingRaggregateRating
+offer (2.OfferRoffer=
+translatedSnippet (2.TranslatedTextRtranslatedSnippet:
+documentVariant (2.DocumentVariantRdocumentVariant
+
+categoryId (	R
+categoryId)
+
+decoration (2	.DocumentR
+decoration!
+parent (2	.DocumentRparent*
+privacyPolicyUrl (	RprivacyPolicyUrl&
+consumptionUrl (	RconsumptionUrl2
+estimatedNumChildren (RestimatedNumChildren
+subtitle (	Rsubtitle"Å
+DocumentVariant$
+variationType (RvariationType
+rule (2.RuleRrule
+title (	Rtitle
+snippet (	Rsnippet$
+recentChanges (	RrecentChanges9
+autoTranslation (2.TranslatedTextRautoTranslation
+offer (2.OfferRoffer
+	channelId	 (R	channelId
+child
+ (2	.DocumentRchild)
+
+decoration (2	.DocumentR
+decoration
+image (2.ImageRimage
+
+categoryId (	R
+categoryId
+subtitle (	Rsubtitle"¤
+Image
+	imageType (R	imageType.
+	dimension (
+2.Image.DimensionR	dimension
+imageUrl (	RimageUrl*
+altTextLocalized (	RaltTextLocalized
+	secureUrl (	R	secureUrl.
+positionInSequence (RpositionInSequence6
+supportsFifeUrlOptions	 (RsupportsFifeUrlOptions+
+citation
+ (
+2.Image.CitationRcitation(
+durationSeconds (RdurationSeconds"
+fillColorRgb (	RfillColorRgb
+autogen (Rautogen.
+attribution (2.AttributionRattribution.
+backgroundColorRgb (	RbackgroundColorRgb'
+palette (2.ImagePaletteRpalette 
+deviceClass (RdeviceClass>
+supportsFifeMonogramOption (RsupportsFifeMonogramOption9
+	Dimension
+width (Rwidth
+height (RheightD
+Citation&
+titleLocalized (	RtitleLocalized
+url (	Rurl"
+ImagePalette"‘
+Attribution 
+sourceTitle (	RsourceTitle
+	sourceUrl (	R	sourceUrl"
+licenseTitle (	RlicenseTitle
+
+licenseUrl (	R
+licenseUrl"l
+TranslatedText
+text (	Rtext"
+sourceLocale (	RsourceLocale"
+targetLocale (	RtargetLocale"{
+Badge
+title (	Rtitle
+image (2.ImageRimage
+	browseUrl (	R	browseUrl 
+description (	Rdescription"b
+BadgeContainer
+title (	Rtitle
+image (2.ImageRimage
+badge (2.BadgeRbadge"=
+ContainerWithBanner&
+colorThemeArgb (	RcolorThemeArgb"^
+DealOfTheDay&
+featuredHeader (	RfeaturedHeader&
+colorThemeArgb (	RcolorThemeArgb"G
+	Dismissal
+url (	Rurl(
+descriptionHtml (	RdescriptionHtml"
+EditorialSeriesContainer 
+seriesTitle (	RseriesTitle&
+seriesSubtitle (	RseriesSubtitle"
+episodeTitle (	RepisodeTitle(
+episodeSubtitle (	RepisodeSubtitle&
+colorThemeArgb (	RcolorThemeArgb1
+videoSnippet (2.VideoSnippetRvideoSnippet"k
+Link
+uri (	Ruri1
+resolvedLink (2.ResolvedLinkRresolvedLink
+
+uriBackend (R
+uriBackend"d
+
+NextBanner
+title (	Rtitle
+subtitle (	Rsubtitle$
+colorTextArgb (	RcolorTextArgb"‡
+OBSOLETE_Reason 
+briefReason (	RbriefReason6
+oBSOLETEDetailedReason (	RoBSOLETEDetailedReason
+uniqueId (	RuniqueId"
+PlusOneData
+	setByUser (R	setByUser
+total (Rtotal"
+circlesTotal (RcirclesTotal6
+circlesProfiles (2.PlusProfileRcirclesProfiles"§
+PromotedDoc
+title (	Rtitle
+subtitle (	Rsubtitle
+image (2.ImageRimage(
+descriptionHtml (	RdescriptionHtml
+
+detailsUrl (	R
+detailsUrl"Ô
+Reason(
+descriptionHtml (	RdescriptionHtmlC
+reasonPlusProfiles (2.ReasonPlusProfilesRreasonPlusProfiles1
+reasonReview (2.ReasonReviewRreasonReview(
+	dismissal (2
+.DismissalR	dismissal"€
+ReasonPlusProfiles:
+localizedDescriptionHtml (	RlocalizedDescriptionHtml.
+plusProfile (2.PlusProfileRplusProfile"/
+ReasonReview
+review (2.ReviewRreview"
+RecommendationsContainer"‹
+SectionMetadata
+header (	Rheader
+listUrl (	RlistUrl
+	browseUrl (	R	browseUrl(
+descriptionHtml (	RdescriptionHtml"¿
+SeriesAntenna 
+seriesTitle (	RseriesTitle&
+seriesSubtitle (	RseriesSubtitle"
+episodeTitle (	RepisodeTitle(
+episodeSubtitle (	RepisodeSubtitle&
+colorThemeArgb (	RcolorThemeArgb6
+sectionTracks (2.SectionMetadataRsectionTracks6
+sectionAlbums (2.SectionMetadataRsectionAlbums"¦
+SuggestionReasons
+reason (2.ReasonRreason6
+neutralDismissal (2
+.DismissalRneutralDismissal8
+positiveDismissal (2
+.DismissalRpositiveDismissal"‡
+Template4
+seriesAntenna (2.SeriesAntennaRseriesAntenna5
+tileGraphic2X1 (2.TileTemplateRtileGraphic2X15
+tileGraphic4X2 (2.TileTemplateRtileGraphic4X2M
+tileGraphicColoredTitle2X1 (2.TileTemplateRtileGraphicColoredTitle2X1Q
+tileGraphicUpperLeftTitle2X1 (2.TileTemplateRtileGraphicUpperLeftTitle2X1U
+tileDetailsReflectedGraphic2X2 (2.TileTemplateRtileDetailsReflectedGraphic2X29
+tileFourBlock4X2 (2.TileTemplateRtileFourBlock4X2F
+containerWithBanner (2.ContainerWithBannerRcontainerWithBanner1
+dealOfTheDay	 (2.DealOfTheDayRdealOfTheDayM
+tileGraphicColoredTitle4X2
+ (2.TileTemplateRtileGraphicColoredTitle4X2U
+editorialSeriesContainer (2.EditorialSeriesContainerReditorialSeriesContainerU
+recommendationsContainer (2.RecommendationsContainerRrecommendationsContainer+
+
+nextBanner (2.NextBannerR
+nextBanner"\
+TileTemplate&
+colorThemeArgb (	RcolorThemeArgb$
+colorTextArgb (	RcolorTextArgb"d
+VideoSnippet
+image (2.ImageRimage
+title (	Rtitle 
+description (	Rdescription"5
+Warning*
+localizedMessage (	RlocalizedMessage"
+AlbumDetails
+name (	Rname'
+details (2.MusicDetailsRdetails4
+displayArtist (2.ArtistDetailsRdisplayArtist"ª
+
+Dependency 
+packageName (	RpackageName&
+minVersionCode (RminVersionCode(
+versionCodeMask (RversionCodeMask(
+skipPermissions (RskipPermissions"§
+InstallDetails(
+installLocation (RinstallLocation
+size (Rsize+
+
+dependency (2.DependencyR
+dependency*
+targetSdkVersion (RtargetSdkVersion"§
+
+
+AppDetails$
+developerName (	RdeveloperName.
+majorVersionNumber (RmajorVersionNumber 
+versionCode (RversionCode$
+versionString (	RversionString
+title (	Rtitle 
+appCategory (	RappCategory$
+contentRating (RcontentRating*
+installationSize	 (RinstallationSize
+
+permission
+ (	R
+permission&
+developerEmail (	RdeveloperEmail*
+developerWebsite (	RdeveloperWebsite"
+numDownloads (	RnumDownloads 
+packageName (	RpackageName,
+recentChangesHtml (	RrecentChangesHtml
+
+uploadDate (	R
+uploadDate!
+file (2.FileMetadataRfile
+appType (	RappType(
+certificateHash (	RcertificateHash(
+variesByAccount (RvariesByAccount7
+certificateSet (2.CertificateSetRcertificateSetd
+-autoAcquireFreeAppIfHigherVersionAvailableTag (	R-autoAcquireFreeAppIfHigherVersionAvailableTag 
+declaresIab (RdeclaresIab
+splitId (	RsplitId(
+gamepadRequired (RgamepadRequired*
+externallyHosted (RexternallyHosted2
+everExternallyHosted (ReverExternallyHosted"
+installNotes (	RinstallNotes(
+installLocation (RinstallLocation*
+targetSdkVersion  (RtargetSdkVersion@
+hasPreregistrationPromoCode! (	RhasPreregistrationPromoCode7
+installDetails" (2.InstallDetailsRinstallDetails":
+CertificateSet(
+certificateHash (	RcertificateHash"Q
+AppPermission
+key (	Rkey.
+permissionRequired (RpermissionRequired"
+ArtistDetails
+
+detailsUrl (	R
+detailsUrl
+name (	Rname:
+externalLinks (2.ArtistExternalLinksRexternalLinks"—
+ArtistExternalLinks
+
+websiteUrl (	R
+websiteUrl2
+googlePlusProfileUrl (	RgooglePlusProfileUrl,
+youtubeChannelUrl (	RyoutubeChannelUrl"ï
+DocumentDetails+
+
+appDetails (2.AppDetailsR
+appDetails1
+albumDetails (2.AlbumDetailsRalbumDetails4
+artistDetails (2.ArtistDetailsRartistDetails.
+songDetails (2.SongDetailsRsongDetails.
+bookDetails (2.BookDetailsRbookDetails1
+videoDetails (2.VideoDetailsRvideoDetailsF
+subscriptionDetails (2.SubscriptionDetailsRsubscriptionDetails:
+magazineDetails (2.MagazineDetailsRmagazineDetails4
+tvShowDetails	 (2.TvShowDetailsRtvShowDetails:
+tvSeasonDetails
+ (2.TvSeasonDetailsRtvSeasonDetails=
+tvEpisodeDetails (2.TvEpisodeDetailsRtvEpisodeDetails"L
+PatchDetails(
+baseVersionCode (RbaseVersionCode
+size (Rsize"Õ
+FileMetadata
+fileType (RfileType 
+versionCode (RversionCode
+size (Rsize
+splitId (	RsplitId&
+compressedSize (RcompressedSize1
+patchDetails (2.PatchDetailsRpatchDetails"÷
+MagazineDetails*
+parentDetailsUrl (	RparentDetailsUrlL
+!deviceAvailabilityDescriptionHtml (	R!deviceAvailabilityDescriptionHtml&
+psvDescription (	RpsvDescriptionB
+deliveryFrequencyDescription (	RdeliveryFrequencyDescription"˜
+MusicDetails
+	censoring (R	censoring 
+durationSec (RdurationSec0
+originalReleaseDate (	RoriginalReleaseDate
+label (	Rlabel&
+artist (2.ArtistDetailsRartist
+genre (	Rgenre 
+releaseDate (	RreleaseDate 
+releaseType (RreleaseType"a
+NewsDetails*
+parentDetailsUrl (	RparentDetailsUrl&
+psvDescription (	RpsvDescription"þ
+SongDetails
+name (	Rname'
+details (2.MusicDetailsRdetails
+	albumName (	R	albumName 
+trackNumber (RtrackNumber
+
+previewUrl (	R
+previewUrl4
+displayArtist (2.ArtistDetailsRdisplayArtist
+badge (2.BadgeRbadge"E
+SubscriptionDetails.
+subscriptionPeriod (RsubscriptionPeriod"™
+Trailer
+	trailerId (	R	trailerId
+title (	Rtitle"
+thumbnailUrl (	RthumbnailUrl
+watchUrl (	RwatchUrl
+duration (	Rduration"„
+TvEpisodeDetails*
+parentDetailsUrl (	RparentDetailsUrl"
+episodeIndex (RepisodeIndex 
+releaseDate (	RreleaseDate"û
+TvSeasonDetails*
+parentDetailsUrl (	RparentDetailsUrl 
+seasonIndex (RseasonIndex 
+releaseDate (	RreleaseDate 
+broadcaster (	Rbroadcaster"
+episodeCount (RepisodeCount2
+expectedEpisodeCount (RexpectedEpisodeCount"‹
+TvShowDetails 
+seasonCount (RseasonCount
+	startYear (R	startYear
+endYear (RendYear 
+broadcaster (	Rbroadcaster"Y
+VideoCredit
+
+creditType (R
+creditType
+credit (	Rcredit
+name (	Rname"†
+VideoDetails$
+credit (2.VideoCreditRcredit
+duration (	Rduration 
+releaseDate (	RreleaseDate$
+contentRating (	RcontentRating
+likes (Rlikes
+dislikes (Rdislikes
+genre (	Rgenre"
+trailer (2.TrailerRtrailer0
+
+rentalTerm	 (2.VideoRentalTermR
+rentalTerm$
+audioLanguage
+ (	RaudioLanguage(
+captionLanguage (	RcaptionLanguage"à
+VideoRentalTerm
+	offerType (R	offerType,
+offerAbbreviation (	RofferAbbreviation"
+rentalHeader (	RrentalHeader)
+term (
+2.VideoRentalTerm.TermRterm2
+Term
+header (	Rheader
+body (	Rbody"Š
+Bucket"
+document (2.DocV1Rdocument 
+multiCorpus (RmultiCorpus
+title (	Rtitle
+iconUrl (	RiconUrl(
+fullContentsUrl (	RfullContentsUrl
+	relevance (R	relevance*
+estimatedResults (RestimatedResults(
+analyticsCookie (	RanalyticsCookie0
+fullContentsListUrl	 (	RfullContentsListUrl 
+nextPageUrl
+ (	RnextPageUrl
+ordered (Rordered"I
+ListResponse
+bucket (2.BucketRbucket
+doc (2.DocV2Rdoc"î
+DocV1'
+	finskyDoc (2	.DocumentR	finskyDoc
+docid (	Rdocid
+
+detailsUrl (	R
+detailsUrl
+
+reviewsUrl (	R
+reviewsUrl&
+relatedListUrl (	RrelatedListUrl$
+moreByListUrl (	RmoreByListUrl
+shareUrl (	RshareUrl
+creator (	Rcreator*
+details	 (2.DocumentDetailsRdetails(
+descriptionHtml
+ (	RdescriptionHtml*
+relatedBrowseUrl (	RrelatedBrowseUrl(
+moreByBrowseUrl (	RmoreByBrowseUrl$
+relatedHeader (	RrelatedHeader"
+moreByHeader (	RmoreByHeader
+title (	Rtitle.
+plusOneData (2.PlusOneDataRplusOneData&
+warningMessage (	RwarningMessage"Ý
+
+Annotations8
+sectionRelated (2.SectionMetadataRsectionRelated6
+sectionMoreBy (2.SectionMetadataRsectionMoreBy.
+plusOneData (2.PlusOneDataRplusOneData"
+warning (2.WarningRwarning>
+sectionBodyOfWork (2.SectionMetadataRsectionBodyOfWork@
+sectionCoreContent (2.SectionMetadataRsectionCoreContent%
+template (2	.TemplateRtemplate0
+badgeForCreator (2.BadgeRbadgeForCreator(
+badgeForDoc	 (2.BadgeRbadgeForDoc
+link
+ (2.LinkRlink<
+sectionCrossSell (2.SectionMetadataRsectionCrossSellF
+sectionRelatedDocType (2.SectionMetadataRsectionRelatedDocType.
+promotedDoc (2.PromotedDocRpromotedDoc
+	offerNote (	R	offerNote*
+subscription (2.DocV2Rsubscription8
+oBSOLETEReason (2.OBSOLETE_ReasonRoBSOLETEReason*
+privacyPolicyUrl (	RprivacyPolicyUrl@
+suggestionReasons (2.SuggestionReasonsRsuggestionReasonsF
+optimalDeviceClassWarning (2.WarningRoptimalDeviceClassWarning=
+docBadgeContainer (2.BadgeContainerRdocBadgeContainerJ
+sectionSuggestForRating (2.SectionMetadataRsectionSuggestForRatingD
+sectionRateAndReview (2.SectionMetadataRsectionRateAndReviewL
+sectionPurchaseCrossSell (2.SectionMetadataRsectionPurchaseCrossSell1
+overflowLink (2.OverflowLinkRoverflowLink&
+
+creatorDoc (2.DocV2R
+creatorDoc"?
+OverflowLink
+title (	Rtitle
+link (2.LinkRlink"u
+	ReviewTip
+tipUrl (	RtipUrl
+text (	Rtext
+polarity (Rpolarity 
+reviewCount (RreviewCount"‘
+
+DocV2
+docid (	Rdocid"
+backendDocid (	RbackendDocid
+docType (RdocType
+	backendId (R	backendId
+title (	Rtitle
+creator (	Rcreator(
+descriptionHtml (	RdescriptionHtml
+offer (2.OfferRoffer1
+availability	 (2.AvailabilityRavailability
+image
+ (2.ImageRimage
+child (2.DocV2Rchild@
+containerMetadata (2.ContainerMetadataRcontainerMetadata*
+details (2.DocumentDetailsRdetails:
+aggregateRating (2.AggregateRatingRaggregateRating.
+annotations (2.AnnotationsRannotations
+
+detailsUrl (	R
+detailsUrl
+shareUrl (	RshareUrl
+
+reviewsUrl (	R
+reviewsUrl
+
+backendUrl (	R
+backendUrl.
+purchaseDetailsUrl (	RpurchaseDetailsUrl(
+detailsReusable (RdetailsReusable
+subtitle (	Rsubtitle<
+translatedDescriptionHtml (	RtranslatedDescriptionHtml*
+serverLogsCookie (RserverLogsCookie7
+productDetails (2.ProductDetailsRproductDetails
+mature (Rmature6
+promotionalDescription (	RpromotionalDescriptionB
+availabileForPreregistration (RavailabileForPreregistration
+tip (2
+.ReviewTipRtip 
+snippetsUrl (	RsnippetsUrl,
+forceShareability  (RforceShareability>
+useWishlistAsPrimaryAction! (RuseWishlistAsPrimaryAction"X
+ProductDetails
+title (	Rtitle0
+section (2.ProductDetailsSectionRsection"k
+ProductDetailsSection
+title (	Rtitle<
+description (2.ProductDetailsDescriptionRdescription"[
+ProductDetailsDescription
+image (2.ImageRimage 
+description (	Rdescription"é
+EncryptedSubscriberInfo
+data (	Rdata"
+encryptedKey (	RencryptedKey
+	signature (	R	signature
+
+initVector (	R
+initVector*
+googleKeyVersion (RgoogleKeyVersion,
+carrierKeyVersion (RcarrierKeyVersion"È
+Availability 
+restriction (Rrestriction
+	offerType (R	offerType
+rule (2.RuleRrulez
+ perdeviceavailabilityrestriction	 (
+2..Availability.PerDeviceAvailabilityRestrictionR perdeviceavailabilityrestriction*
+availableIfOwned (RavailableIfOwned"
+install (2.InstallRinstall5
+
+filterInfo (2.FilterEvaluationInfoR
+filterInfo4
+ownershipInfo (2.OwnershipInfoRownershipInfoF
+availabilityProblem (2.AvailabilityProblemRavailabilityProblem
+hidden (RhiddenÃ
+ PerDeviceAvailabilityRestriction
+	androidId
+ (R	androidId,
+deviceRestriction (RdeviceRestriction
+	channelId (R	channelId5
+
+filterInfo (2.FilterEvaluationInfoR
+filterInfo"[
+AvailabilityProblem 
+problemType (RproblemType"
+missingValue (	RmissingValue"O
+FilterEvaluationInfo7
+ruleEvaluation (2.RuleEvaluationRruleEvaluation"±
+Rule
+negate (Rnegate
+operator (Roperator
+key (Rkey
+	stringArg (	R	stringArg
+longArg (RlongArg
+	doubleArg (R	doubleArg
+subrule (2.RuleRsubrule"
+responseCode (RresponseCode
+comment	 (	Rcomment$
+stringArgHash
+ (RstringArgHash
+constArg (RconstArg8
+availabilityProblemType (RavailabilityProblemType2
+includeMissingValues (RincludeMissingValues"Û
+RuleEvaluation
+rule (2.RuleRrule,
+actualStringValue (	RactualStringValue(
+actualLongValue (RactualLongValue(
+actualBoolValue (RactualBoolValue,
+actualDoubleValue (RactualDoubleValue"b
+GroupLicenseInfo,
+licensedOfferType (RlicensedOfferType 
+gaiaGroupId (RgaiaGroupId"8
+LicensedDocumentInfo 
+gaiaGroupId (RgaiaGroupId"Á
+LibraryAppDetails(
+certificateHash (	RcertificateHash>
+refundTimeoutTimestampMsec (RrefundTimeoutTimestampMsecB
+postDeliveryRefundWindowMsec (RpostDeliveryRefundWindowMsec"c
+LibraryInAppDetails.
+signedPurchaseData (	RsignedPurchaseData
+	signature (	R	signature"‚
+LibraryMutation
+docid (2.DocidRdocid
+	offerType (R	offerType"
+documentHash (RdocumentHash
+deleted (Rdeleted2
+
+appDetails (2.LibraryAppDetailsR
+appDetailsM
+subscriptionDetails (2.LibrarySubscriptionDetailsRsubscriptionDetails8
+inAppDetails (2.LibraryInAppDetailsRinAppDetails8
+validUntilTimestampMsec (RvalidUntilTimestampMsec"Ð
+LibrarySubscriptionDetails8
+initiationTimestampMsec (RinitiationTimestampMsecL
+!deprecatedValidUntilTimestampMsec (R!deprecatedValidUntilTimestampMsec"
+autoRenewing (RautoRenewing8
+trialUntilTimestampMsec (RtrialUntilTimestampMsec.
+signedPurchaseData (	RsignedPurchaseData
+	signature (	R	signature"Ç
+LibraryUpdate
+status (Rstatus
+corpus (Rcorpus 
+serverToken (RserverToken,
+mutation (2.LibraryMutationRmutation
+hasMore (RhasMore
+	libraryId (	R	libraryId"°
+ClientLibraryState
+corpus (Rcorpus 
+serverToken (RserverToken 
+hashCodeSum (RhashCodeSum 
+librarySize (RlibrarySize
+	libraryId (	R	libraryId"T
+LibraryReplicationRequest7
+libraryState (2.ClientLibraryStateRlibraryState"D
+LibraryReplicationResponse&
+update (2.LibraryUpdateRupdate"¡
+ClickLogEvent
+	eventTime (R	eventTime
+url (	Rurl
+listId (	RlistId 
+referrerUrl (	RreferrerUrl&
+referrerListId (	RreferrerListId"ª
+ModifyLibraryRequest
+	libraryId (	R	libraryId 
+forAddDocid (	RforAddDocid(
+forRemovalDocid (	RforRemovalDocid(
+forArchiveDocid (	RforArchiveDocid"M
+ModifyLibraryResponse4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate"X
+AndroidAppNotificationData 
+versionCode (RversionCode
+assetId (	RassetId"s
+InAppNotificationData(
+checkoutOrderId (	RcheckoutOrderId0
+inAppNotificationId (	RinAppNotificationId"J
+LibraryDirtyData
+backend (Rbackend
+	libraryId (	R	libraryId"ó
+Notification*
+notificationType (RnotificationType
+	timestamp (R	timestamp
+docid (2.DocidRdocid
+docTitle (	RdocTitle
+	userEmail (	R	userEmail5
+appData (2.AndroidAppNotificationDataRappDataA
+appDeliveryData (2.AndroidAppDeliveryDataRappDeliveryDataF
+purchaseRemovalData	 (2.PurchaseRemovalDataRpurchaseRemovalDataI
+userNotificationData
+ (2.UserNotificationDataRuserNotificationDataL
+inAppNotificationData (2.InAppNotificationDataRinAppNotificationDataI
+purchaseDeclinedData (2.PurchaseDeclinedDataRpurchaseDeclinedData&
+notificationId (	RnotificationId4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate=
+libraryDirtyData (2.LibraryDirtyDataRlibraryDirtyData"Z
+PurchaseDeclinedData
+reason (Rreason*
+showNotification (RshowNotification"3
+PurchaseRemovalData
+	malicious (R	malicious"Ò
+UserNotificationData,
+notificationTitle (	RnotificationTitle*
+notificationText (	RnotificationText
+
+tickerText (	R
+tickerText 
+dialogTitle (	RdialogTitle
+
+dialogText (	R
+dialogText"Ä
+OwnershipInfo8
+initiationTimestampMsec (RinitiationTimestampMsec8
+validUntilTimestampMsec (RvalidUntilTimestampMsec"
+autoRenewing (RautoRenewing>
+refundTimeoutTimestampMsec (RrefundTimeoutTimestampMsecB
+postDeliveryRefundWindowMsec (RpostDeliveryRefundWindowMsecA
+developerPurchaseInfo (2.SignedDataRdeveloperPurchaseInfo
+
+preordered (R
+preordered
+hidden (Rhidden.
+rentalTerms	 (2.RentalTermsRrentalTerms=
+groupLicenseInfo
+ (2.GroupLicenseInfoRgroupLicenseInfoI
+licensedDocumentInfo (2.LicensedDocumentInfoRlicensedDocumentInfo
+quantity (RquantityF
+libraryExpirationTimestampMsec (RlibraryExpirationTimestampMsec"a
+AppData
+version (Rversion
+
+oldVersion (R
+oldVersion
+	systemApp (R	systemApp"ç
+PlayStoreBackgroundActionEvent
+type (Rtype
+document (	Rdocument
+reason (	Rreason
+	errorCode (R	errorCode$
+exceptionType (	RexceptionType*
+serverLogsCookie (RserverLogsCookie
+	offerType (R	offerType 
+fromSetting (RfromSetting
+	toSetting	 (R	toSetting7
+sessionInfo
+ (2.PlayStoreSessionDataRsessionInfo"
+appData (2.AppDataRappData(
+serverLatencyMs (RserverLatencyMs(
+clientLatencyMs (RclientLatencyMs"L
+PlayStoreClickEvent5
+elementPath (2.PlayStoreUiElementRelementPath"^
+PlayStoreDeepLinkEvent 
+externalUrl (	RexternalUrl"
+resolvedType (RresolvedType"Œ
+PlayStoreImpressionEvent'
+tree (2.PlayStoreUiElementRtree7
+referrerPath (2.PlayStoreUiElementRreferrerPath
+id (Rid"«
+PlayStoreLogEvent9
+
+impression (2.PlayStoreImpressionEventR
+impression*
+click (2.PlayStoreClickEventRclickK
+backgroundAction (2.PlayStoreBackgroundActionEventRbackgroundAction-
+search (2.PlayStoreSearchEventRsearch3
+deepLink (2.PlayStoreDeepLinkEventRdeepLink"j
+PlayStoreSearchEvent
+query (	Rquery
+queryUrl (	RqueryUrl 
+referrerUrl (	RreferrerUrl"¼
+PlayStoreSessionData8
+globalAutoUpdateEnabled (RglobalAutoUpdateEnabledB
+globalAutoUpdateOverWifiOnly (RglobalAutoUpdateOverWifiOnlyR
+$autoUpdateCleanupDialogNumTimesShown (R$autoUpdateCleanupDialogNumTimesShown 
+networkType (RnetworkType&
+networkSubType (RnetworkSubType0
+numAccountsOnDevice (RnumAccountsOnDevice*
+numInstalledApps (RnumInstalledAppsB
+numAutoUpdatingInstalledApps (RnumAutoUpdatingInstalledAppsH
+numInstalledAppsNotAutoUpdating	 (RnumInstalledAppsNotAutoUpdating:
+gaiaPasswordAuthOptedOut
+ (RgaiaPasswordAuthOptedOut.
+contentFilterLevel (RcontentFilterLevel0
+allowUnknownSources (RallowUnknownSources"Ä
+PlayStoreUiElement
+type (Rtype*
+serverLogsCookie (RserverLogsCookieC
+clientLogsCookie (2.PlayStoreUiElementInfoRclientLogsCookie)
+child (2.PlayStoreUiElementRchild"æ
+PlayStoreUiElementInfoN
+instrumentInfo (2&.PlayStoreUiElementInfo.InstrumentInfoRinstrumentInfo 
+serialDocid (	RserialDocidZ
+InstrumentInfo*
+instrumentFamily (RinstrumentFamily
+	isDefault (R	isDefault"…
+PlusProfile 
+displayName (	RdisplayName(
+profileImageUrl (	RprofileImageUrl*
+profileImage (2.ImageRprofileImage"
+PlusOneResponse"E
+PlusProfileResponse.
+plusProfile (2.PlusProfileRplusProfile"á
+
+ClientCart
+title (	Rtitle&
+formattedPrice (	RformattedPrice2
+purchaseContextToken (	RpurchaseContextToken+
+
+instrument (2.InstrumentR
+instrument.
+extendedDetailHtml (	RextendedDetailHtml
+
+footerHtml (	R
+footerHtml8
+addInstrumentPromptHtml (	RaddInstrumentPromptHtml
+
+buttonText (	R
+buttonTextH
+completePurchaseChallenge	 (2
+.ChallengeRcompletePurchaseChallenge 
+priceByline
+ (	RpriceByline
+
+detailHtml (	R
+detailHtml" 
+CommitPurchaseResponse7
+purchaseStatus (2.PurchaseStatusRpurchaseStatus(
+	challenge (2
+.ChallengeR	challenge4
+libraryUpdate (2.LibraryUpdateRlibraryUpdateA
+appDeliveryData (2.AndroidAppDeliveryDataRappDeliveryData*
+serverLogsCookie (RserverLogsCookie"ÿ
+PreparePurchaseResponse7
+purchaseStatus (2.PurchaseStatusRpurchaseStatus(
+	challenge (2
+.ChallengeR	challenge
+cart (2.ClientCartRcart4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate*
+serverLogsCookie (RserverLogsCookie"†
+PurchaseStatus
+
+statusCode (R
+statusCode*
+errorMessageHtml (	RerrorMessageHtml(
+permissionError (RpermissionError"
+RateSuggestedContentResponse"Ý
+AggregateRating
+type (Rtype
+
+starRating (R
+starRating"
+ratingsCount (RratingsCount&
+oneStarRatings (RoneStarRatings&
+twoStarRatings (RtwoStarRatings*
+threeStarRatings (RthreeStarRatings(
+fourStarRatings (RfourStarRatings(
+fiveStarRatings (RfiveStarRatings$
+thumbsUpCount	 (RthumbsUpCount(
+thumbsDownCount
+ (RthumbsDownCount"
+commentCount (RcommentCount.
+bayesianMeanRating (RbayesianMeanRating"–
+DirectPurchase
+
+detailsUrl (	R
+detailsUrl$
+purchaseDocid (	RpurchaseDocid 
+parentDocid (	RparentDocid
+	offerType (R	offerType"Z
+RedeemGiftCard 
+prefillCode (	RprefillCode&
+partnerPayload (	RpartnerPayload"’
+ResolvedLink
+
+detailsUrl (	R
+detailsUrl
+	browseUrl (	R	browseUrl
+	searchUrl (	R	searchUrl7
+directPurchase (2.DirectPurchaseRdirectPurchase
+homeUrl (	RhomeUrl7
+redeemGiftCard (2.RedeemGiftCardRredeemGiftCard*
+serverLogsCookie (RserverLogsCookie
+docid (2.DocidRdocid 
+wishlistUrl	 (	RwishlistUrl
+backend
+ (Rbackend
+query (	Rquery"Ù#
+Payload1
+listResponse (2.ListResponseRlistResponse:
+detailsResponse (2.DetailsResponseRdetailsResponse7
+reviewResponse (2.ReviewResponseRreviewResponse.
+buyResponse (2.BuyResponseRbuyResponse7
+searchResponse (2.SearchResponseRsearchResponse.
+tocResponse (2.TocResponseRtocResponse7
+browseResponse (2.BrowseResponseRbrowseResponseO
+purchaseStatusResponse (2.PurchaseStatusResponseRpurchaseStatusResponseU
+updateInstrumentResponse	 (2.UpdateInstrumentResponseRupdateInstrumentResponse.
+logResponse
+ (2.LogResponseRlogResponseR
+checkInstrumentResponse (2.CheckInstrumentResponseRcheckInstrumentResponse:
+plusOneResponse (2.PlusOneResponseRplusOneResponseF
+flagContentResponse (2.FlagContentResponseRflagContentResponseR
+ackNotificationResponse (2.AckNotificationResponseRackNotificationResponse^
+initiateAssociationResponse (2.InitiateAssociationResponseRinitiateAssociationResponseX
+verifyAssociationResponse (2.VerifyAssociationResponseRverifyAssociationResponse[
+libraryReplicationResponse (2.LibraryReplicationResponseRlibraryReplicationResponse7
+revokeResponse (2.RevokeResponseRrevokeResponseF
+bulkDetailsResponse (2.BulkDetailsResponseRbulkDetailsResponse?
+resolveLinkResponse (2.ResolvedLinkRresolveLinkResponse=
+deliveryResponse (2.DeliveryResponseRdeliveryResponse@
+acceptTosResponse (2.AcceptTosResponseRacceptTosResponsea
+rateSuggestedContentResponse (2.RateSuggestedContentResponseRrateSuggestedContentResponseR
+checkPromoOfferResponse (2.CheckPromoOfferResponseRcheckPromoOfferResponse^
+instrumentSetupInfoResponse (2.InstrumentSetupInfoResponseRinstrumentSetupInfoResponseO
+redeemGiftCardResponse (2.RedeemGiftCardResponseRredeemGiftCardResponseL
+modifyLibraryResponse (2.ModifyLibraryResponseRmodifyLibraryResponse[
+uploadDeviceConfigResponse (2.UploadDeviceConfigResponseRuploadDeviceConfigResponseF
+plusProfileResponse (2.PlusProfileResponseRplusProfileResponseR
+consumePurchaseResponse (2.ConsumePurchaseResponseRconsumePurchaseResponseO
+billingProfileResponse (2.BillingProfileResponseRbillingProfileResponseR
+preparePurchaseResponse  (2.PreparePurchaseResponseRpreparePurchaseResponseO
+commitPurchaseResponse! (2.CommitPurchaseResponseRcommitPurchaseResponseL
+debugSettingsResponse" (2.DebugSettingsResponseRdebugSettingsResponseL
+checkIabPromoResponse# (2.CheckIabPromoResponseRcheckIabPromoResponsea
+userActivitySettingsResponse$ (2.UserActivitySettingsResponseRuserActivitySettingsResponse[
+recordUserActivityResponse% (2.RecordUserActivityResponseRrecordUserActivityResponseC
+redeemCodeResponse& (2.RedeemCodeResponseRredeemCodeResponseC
+selfUpdateResponse' (2.SelfUpdateResponseRselfUpdateResponseL
+searchSuggestResponse( (2.searchSuggestResponseRsearchSuggestResponse|
+%getInitialInstrumentFlowStateResponse) (2&.GetInitialInstrumentFlowStateResponseR%getInitialInstrumentFlowStateResponseU
+createInstrumentResponse* (2.CreateInstrumentResponseRcreateInstrumentResponse@
+challengeResponse+ (2.ChallengeResponseRchallengeResponse\
+backupDeviceChoicesResponse, (2.BackDeviceChoicesResponseRbackupDeviceChoicesResponsed
+backupDocumentChoicesResponse- (2.BackupDocumentChoicesResponseRbackupDocumentChoicesResponseF
+earlyUpdateResponse. (2.EarlyUpdateResponseRearlyUpdateResponse=
+preloadsResponse/ (2.PreloadsResponseRpreloadsResponseC
+myAccountsResponse0 (2.MyAccountsResponseRmyAccountsResponseL
+contentFilterResponse1 (2.ContentFilterResponseRcontentFilterResponseF
+experimentsResponse2 (2.ExperimentsResponseRexperimentsResponse7
+surveyResponse3 (2.SurveyResponseRsurveyResponse1
+pingResponse4 (2.PingResponseRpingResponseX
+updateUserSettingResponse5 (2.UpdateUserSettingResponseRupdateUserSettingResponseR
+getUserSettingsREsponse6 (2.GetUserSettingsResponseRgetUserSettingsREsponse[
+getSharingSettingsResponse8 (2.GetSharingSettingsResponseRgetSharingSettingsResponsed
+updateSharingSettingsResponse9 (2.UpdateSharingSettingsResponseRupdateSharingSettingsResponseO
+reviewSnippetsResponse: (2.ReviewSnippetsResponseRreviewSnippetsResponsea
+documentSharingStateResponse; (2.DocumentSharingStateResponseRdocumentSharingStateResponseO
+moduleDeliveryResponseF (2.ModuleDeliveryResponseRmoduleDeliveryResponse"
+CheckIabPromoResponse"
+UserActivitySettingsResponse"
+RecordUserActivityResponse"
+RedeemCodeResponse"
+SelfUpdateResponse"
+searchSuggestResponse"'
+%GetInitialInstrumentFlowStateResponse"
+CreateInstrumentResponse"
+ChallengeResponse"
+BackDeviceChoicesResponse"
+BackupDocumentChoicesResponse"
+EarlyUpdateResponse"
+PreloadsResponse"
+MyAccountsResponse"
+ContentFilterResponse"
+ExperimentsResponse"
+SurveyResponse"
+PingResponse"
+UpdateUserSettingResponse"
+GetUserSettingsResponse"
+GetSharingSettingsResponse"
+UpdateSharingSettingsResponse"
+ReviewSnippetsResponse"
+DocumentSharingStateResponse"
+ModuleDeliveryResponse"x
+PreFetch
+url (	Rurl
+response (Rresponse
+etag (	Retag
+ttl (Rttl
+softTtl (RsoftTtl"õ
+ResponseWrapper"
+payload (2.PayloadRpayload+
+commands (2.ServerCommandsRcommands%
+preFetch (2	.PreFetchRpreFetch1
+notification (2.NotificationRnotification7
+serverMetadata (2.ServerMetadataRserverMetadata"’
+ServerCommands
+
+clearCache (R
+clearCache0
+displayErrorMessage (	RdisplayErrorMessage.
+logErrorStacktrace (	RlogErrorStacktrace"6
+ServerMetadata$
+latencyMillis (RlatencyMillis"[
+GetReviewsResponse
+review (2.ReviewRreview$
+matchingCount (RmatchingCount"ô
+Review
+
+authorName (	R
+authorName
+url (	Rurl
+source (	Rsource(
+documentVersion (	RdocumentVersion$
+timestampMsec (RtimestampMsec
+
+starRating (R
+starRating
+title (	Rtitle
+comment (	Rcomment
+	commentId	 (	R	commentId
+
+deviceName (	R
+deviceName
+	replyText (	R	replyText.
+replyTimestampMsec (RreplyTimestampMsec.
+plusProfile (2.PlusProfileRplusProfile
+author! (2.DocV2Rauthor$
+	sentiment" (2.ImageR	sentiment"˜
+ReviewResponse5
+getResponse (2.GetReviewsResponseRgetResponse 
+nextPageUrl (	RnextPageUrl-
+updatedReview (2.ReviewRupdatedReview"F
+RevokeResponse4
+libraryUpdate (2.LibraryUpdateRlibraryUpdate"—
+RelatedSearch
+	searchUrl (	R	searchUrl
+header (	Rheader
+	backendId (R	backendId
+docType (RdocType
+current (Rcurrent"£
+SearchResponse$
+originalQuery (	RoriginalQuery&
+suggestedQuery (	RsuggestedQuery&
+aggregateQuery (RaggregateQuery
+bucket (2.BucketRbucket
+doc (2.DocV2Rdoc4
+relatedSearch (2.RelatedSearchRrelatedSearch*
+serverLogsCookie (RserverLogsCookie"†
+BillingConfigI
+carrierBillingConfig (2.CarrierBillingConfigRcarrierBillingConfig*
+maxIabApiVersion (RmaxIabApiVersion"ü
+CarrierBillingConfig
+id (	Rid
+name (	Rname
+
+apiVersion (R
+apiVersion(
+provisioningUrl (	RprovisioningUrl&
+credentialsUrl (	RcredentialsUrl 
+tosRequired (RtosRequiredL
+!perTransactionCredentialsRequired (R!perTransactionCredentialsRequired^
+*sendSubscriberIdWithCarrierBillingRequests (R*sendSubscriberIdWithCarrierBillingRequests"¦
+CorpusMetadata
+backend (Rbackend
+name (	Rname
+
+landingUrl (	R
+landingUrl 
+libraryName (	RlibraryName$
+recsWidgetUrl (	RrecsWidgetUrl"1
+Experiments"
+experimentId (	RexperimentId"L
+SelfUpdateConfig8
+latestClientVersionCode (RlatestClientVersionCode"ð
+TocResponse'
+corpus (2.CorpusMetadataRcorpus2
+tosVersionDeprecated (RtosVersionDeprecated
+
+tosContent (	R
+tosContent
+homeUrl (	RhomeUrl.
+experiments (2.ExperimentsRexperimentsF
+tosCheckboxTextMarketingEmails (	RtosCheckboxTextMarketingEmails
+tosToken (	RtosToken1
+userSettings (2.UserSettingsRuserSettings(
+iconOverrideUrl	 (	RiconOverrideUrl=
+selfUpdateConfig
+ (2.SelfUpdateConfigRselfUpdateConfig>
+requiresUploadDeviceConfig (RrequiresUploadDeviceConfig4
+billingConfig (2.BillingConfigRbillingConfig$
+recsWidgetUrl (	RrecsWidgetUrl"\
+UserSettingsL
+!tosCheckboxMarketingEmailsOptedIn (R!tosCheckboxMarketingEmailsOptedIn"
+AcceptTosResponse"º
+UploadDeviceConfigRequestK
+deviceConfiguration (2.DeviceConfigurationProtoRdeviceConfiguration"
+manufacturer (	Rmanufacturer,
+gcmRegistrationId (	RgcmRegistrationId"V
+UploadDeviceConfigResponse8
+uploadDeviceConfigToken (	RuploadDeviceConfigToken"±
+AckNotificationsRequestProto&
+notificationId (	RnotificationId9
+signatureHash (2.SignatureHashProtoRsignatureHash.
+nackNotificationId (	RnackNotificationId"
+AckNotificationsResponseProto"è
+AddressProto
+address1 (	Raddress1
+address2 (	Raddress2
+city (	Rcity
+state (	Rstate
+
+postalCode (	R
+postalCode
+country (	Rcountry
+name (	Rname
+type (	Rtype
+phone	 (	Rphone"6
+AppDataProto
+key (	Rkey
+value (	Rvalue"G
+AppSuggestionProto1
+	assetInfo (2.ExternalAssetProtoR	assetInfo"t
+AssetIdentifierProto 
+packageName (	RpackageName 
+versionCode (RversionCode
+assetId (	RassetId"„
+AssetsRequestProto
+	assetType (R	assetType
+query (	Rquery
+
+categoryId (	R
+categoryId
+assetId (	RassetId6
+retrieveVendingHistory (RretrieveVendingHistory2
+retrieveExtendedInfo (RretrieveExtendedInfo
+	sortOrder (R	sortOrder
+
+startIndex (R
+startIndex
+
+numEntries	 (R
+numEntries
+
+viewFilter
+ (R
+viewFilter 
+rankingType (	RrankingType6
+retrieveCarrierChannel (RretrieveCarrierChannel6
+pendingDownloadAssetId (	RpendingDownloadAssetId<
+reconstructVendingHistory (RreconstructVendingHistory,
+unfilteredResults (RunfilteredResults
+badgeId (	RbadgeId"©
+AssetsResponseProto)
+asset (2.ExternalAssetProtoRasset(
+numTotalEntries (RnumTotalEntries&
+correctedQuery (	RcorrectedQuery/
+altAsset (2.ExternalAssetProtoRaltAsset0
+numCorrectedEntries (RnumCorrectedEntries
+header (	Rheader
+listType (RlistType"Œ
+BillingEventRequestProto
+	eventType (R	eventType0
+billingParametersId (	RbillingParametersId$
+resultSuccess (RresultSuccess$
+clientMessage (	RclientMessageT
+carrierInstrument (2&.ExternalCarrierBillingInstrumentProtoRcarrierInstrument"
+BillingEventResponseProto"á
+BillingParameterProto
+id (	Rid
+name (	Rname
+mncMcc (	RmncMcc
+
+backendUrl (	R
+backendUrl
+iconId (	RiconId4
+billingInstrumentType (RbillingInstrumentType$
+applicationId (	RapplicationId
+tosUrl (	RtosUrl4
+instrumentTosRequired	 (RinstrumentTosRequired
+
+apiVersion
+ (R
+apiVersionL
+!perTransactionCredentialsRequired (R!perTransactionCredentialsRequired^
+*sendSubscriberIdWithCarrierBillingRequests (R*sendSubscriberIdWithCarrierBillingRequests8
+deviceAssociationMethod (RdeviceAssociationMethod8
+userTokenRequestMessage (	RuserTokenRequestMessage8
+userTokenRequestAddress (	RuserTokenRequestAddress.
+passphraseRequired (RpassphraseRequired"r
+CarrierBillingCredentialsProto 
+credentials (	Rcredentials.
+credentialsTimeout (RcredentialsTimeout"—
+CategoryProto
+	assetType (R	assetType
+
+categoryId (	R
+categoryId(
+categoryDisplay (	RcategoryDisplay*
+categorySubtitle (	RcategorySubtitle,
+promotedAssetsNew (	RpromotedAssetsNew.
+promotedAssetsHome (	RpromotedAssetsHome4
+subCategories (2.CategoryProtoRsubCategories.
+promotedAssetsPaid	 (	RpromotedAssetsPaid.
+promotedAssetsFree
+ (	RpromotedAssetsFree"I
+!CheckForNotificationsRequestProto$
+alarmDuration (RalarmDuration"$
+"CheckForNotificationsResponseProto"t
+CheckLicenseRequestProto 
+packageName (	RpackageName 
+versionCode (RversionCode
+nonce (Rnonce"}
+CheckLicenseResponseProto"
+responseCode (RresponseCode
+
+signedData (	R
+signedData
+	signature (	R	signature"Ð
+CommentsRequestProto
+assetId (	RassetId
+
+startIndex (R
+startIndex
+
+numEntries (R
+numEntries8
+shouldReturnSelfComment (RshouldReturnSelfComment$
+assetReferrer (	RassetReferrer"«
+CommentsResponseProto/
+comment (2.ExternalCommentProtoRcomment(
+numTotalEntries (RnumTotalEntries7
+selfComment (2.ExternalCommentProtoRselfComment"„
+ContentSyncRequestProto 
+incremental (RincrementalX
+assetinstallstate (
+2*.ContentSyncRequestProto.AssetInstallStateRassetinstallstate@
+	systemapp
+ (
+2".ContentSyncRequestProto.SystemAppR	systemapp.
+sideloadedAppCount (RsideloadedAppCountÿ
+AssetInstallState
+assetId (	RassetId
+
+assetState (R
+assetState 
+installTime (RinstallTime$
+uninstallTime (RuninstallTime 
+packageName (	RpackageName 
+versionCode (RversionCode$
+assetReferrer	 (	RassetReferrery
+	SystemApp 
+packageName (	RpackageName 
+versionCode (RversionCode(
+certificateHash (	RcertificateHash"L
+ContentSyncResponseProto0
+numUpdatesAvailable (RnumUpdatesAvailable"W
+DataMessageProto
+category (	Rcategory'
+appData (2.AppDataProtoRappData"i
+DownloadInfoProto
+apkSize (RapkSize:
+additionalFile (2.FileMetadataProtoRadditionalFile"¿
+ExternalAssetProto
+id (	Rid
+title (	Rtitle
+	assetType (R	assetType
+owner (	Rowner
+version (	Rversion
+price (	Rprice$
+averageRating (	RaverageRating
+
+numRatings (R
+numRatingsY
+purchaseinformation	 (
+2'.ExternalAssetProto.PurchaseInformationRpurchaseinformationD
+extendedinfo (
+2 .ExternalAssetProto.ExtendedInfoRextendedinfo
+ownerId (	RownerId 
+packageName (	RpackageName 
+versionCode (RversionCode"
+bundledAsset (RbundledAsset$
+priceCurrency  (	RpriceCurrency 
+priceMicros! (RpriceMicros"
+filterReason# (	RfilterReason,
+actualSellerPrice( (	RactualSellerPrice/
+appBadge/ (2.ExternalBadgeProtoRappBadge3
+
+ownerBadge0 (2.ExternalBadgeProtoR
+ownerBadgeÉ
+PurchaseInformation"
+purchaseTime
+ (RpurchaseTime,
+refundTimeoutTime (RrefundTimeoutTime,
+refundStartPolicy- (RrefundStartPolicy2
+refundWindowDuration. (RrefundWindowDurationé
+ExtendedInfo 
+description (	Rdescription$
+downloadCount (RdownloadCount8
+applicationPermissionId (	RapplicationPermissionId:
+requiredInstallationSize (RrequiredInstallationSize 
+packageName (	RpackageName
+category (	Rcategory$
+forwardLocked (RforwardLocked"
+contactEmail (	RcontactEmail0
+everInstalledByUser (ReverInstalledByUser0
+downloadCountString (	RdownloadCountString"
+contactPhone (	RcontactPhone&
+contactWebsite (	RcontactWebsite6
+nextPurchaseRefundable (RnextPurchaseRefundable&
+numScreenshots (RnumScreenshots6
+promotionalDescription (	RpromotionalDescription*
+serverAssetState" (RserverAssetState.
+contentRatingLevel$ (RcontentRatingLevel0
+contentRatingString% (	RcontentRatingString$
+recentChanges& (	RrecentChanges`
+packagedependency' (
+22.ExternalAssetProto.ExtendedInfo.PackageDependencyRpackagedependency
+	videoLink+ (	R	videoLink6
+downloadInfo1 (2.DownloadInfoProtoRdownloadInfo_
+PackageDependency 
+packageName) (	RpackageName(
+skipPermissions* (RskipPermissions"A
+ExternalBadgeImageProto
+usage (Rusage
+url (	Rurl"Æ
+ExternalBadgeProto&
+localizedTitle (	RlocalizedTitle2
+localizedDescription (	RlocalizedDescription8
+
+badgeImage (2.ExternalBadgeImageProtoR
+badgeImage
+searchId (	RsearchId"—
+%ExternalCarrierBillingInstrumentProto$
+instrumentKey (	RinstrumentKey2
+subscriberIdentifier (	RsubscriberIdentifier 
+accountType (	RaccountType.
+subscriberCurrency (	RsubscriberCurrency*
+transactionLimit (RtransactionLimit&
+subscriberName (	RsubscriberName
+address1 (	Raddress1
+address2 (	Raddress2
+city	 (	Rcity
+state
+ (	Rstate
+
+postalCode (	R
+postalCode
+country (	RcountryR
+encryptedSubscriberInfo (2.EncryptedSubscriberInfoRencryptedSubscriberInfo"¦
+ExternalCommentProto
+body (	Rbody
+rating (Rrating 
+creatorName (	RcreatorName"
+creationTime (RcreationTime
+	creatorId (	R	creatorId"ú
+ExternalCreditCard
+type (	Rtype
+
+lastDigits (	R
+lastDigits
+expYear (RexpYear
+expMonth (RexpMonth
+
+personName (	R
+personName 
+countryCode (	RcountryCode
+
+postalCode (	R
+postalCode 
+makeDefault (RmakeDefault
+address1	 (	Raddress1
+address2
+ (	Raddress2
+city (	Rcity
+state (	Rstate
+phone (	Rphone"”
+ExternalPaypalInstrumentProto$
+instrumentKey (	RinstrumentKey&
+preapprovalKey (	RpreapprovalKey 
+paypalEmail (	RpaypalEmail3
+paypalAddress (2.AddressProtoRpaypalAddressN
+"multiplePaypalInstrumentsSupported (R"multiplePaypalInstrumentsSupported"‡
+FileMetadataProto
+fileType (RfileType 
+versionCode (RversionCode
+size (Rsize 
+downloadUrl (	RdownloadUrl"s
+GetAddressSnippetRequestProtoR
+encryptedSubscriberInfo (2.EncryptedSubscriberInfoRencryptedSubscriberInfo"H
+GetAddressSnippetResponseProto&
+addressSnippet (	RaddressSnippet"^
+GetAssetRequestProto
+assetId (	RassetId,
+directDownloadKey (	RdirectDownloadKey"Ó
+GetAssetResponseProtoG
+installasset (
+2#.GetAssetResponseProto.InstallAssetRinstallasset:
+additionalFile (2.FileMetadataProtoRadditionalFile´
+InstallAsset
+assetId (	RassetId
+	assetName (	R	assetName
+	assetType (	R	assetType"
+assetPackage (	RassetPackage
+blobUrl (	RblobUrl&
+assetSignature (	RassetSignature
+	assetSize (R	assetSize0
+refundTimeoutMillis	 (RrefundTimeoutMillis$
+forwardLocked
+ (RforwardLocked
+secured (Rsecured 
+versionCode (RversionCode6
+downloadAuthCookieName (	RdownloadAuthCookieName8
+downloadAuthCookieValue (	RdownloadAuthCookieValueD
+postInstallRefundWindowMillis (RpostInstallRefundWindowMillis"
+GetCarrierInfoRequestProto"£
+GetCarrierInfoResponseProto4
+carrierChannelEnabled (RcarrierChannelEnabled(
+carrierLogoIcon (RcarrierLogoIcon$
+carrierBanner (RcarrierBanner(
+carrierSubtitle (	RcarrierSubtitle"
+carrierTitle (	RcarrierTitle0
+carrierImageDensity (RcarrierImageDensity"I
+GetCategoriesRequestProto,
+prefetchPromoData (RprefetchPromoData"L
+GetCategoriesResponseProto.
+
+categories (2.CategoryProtoR
+categories"¨
+GetImageRequestProto
+assetId (	RassetId
+
+imageUsage (R
+imageUsage
+imageId (	RimageId0
+screenPropertyWidth (RscreenPropertyWidth2
+screenPropertyHeight (RscreenPropertyHeight4
+screenPropertyDensity (RscreenPropertyDensity 
+productType (RproductType"Y
+GetImageResponseProto
+	imageData (R	imageData"
+imageDensity (RimageDensity"ö
+GetMarketMetadataRequestProto(
+lastRequestTime (RlastRequestTimeK
+deviceConfiguration (2.DeviceConfigurationProtoRdeviceConfiguration$
+deviceRoaming (RdeviceRoaming0
+marketSignatureHash (	RmarketSignatureHash$
+contentRating (RcontentRating(
+deviceModelName (	RdeviceModelName6
+deviceManufacturerName (	RdeviceManufacturerName"î
+GetMarketMetadataResponseProto8
+latestClientVersionCode (RlatestClientVersionCode(
+latestClientUrl (	RlatestClientUrl(
+paidAppsEnabled (RpaidAppsEnabledB
+billingParameter (2.BillingParameterProtoRbillingParameter.
+commentPostEnabled (RcommentPostEnabled2
+billingEventsEnabled (RbillingEventsEnabled&
+warningMessage (	RwarningMessage0
+inAppBillingEnabled (RinAppBillingEnabled<
+inAppBillingMaxApiVersion	 (RinAppBillingMaxApiVersion"<
+GetSubCategoriesRequestProto
+	assetType (R	assetType"Ò
+GetSubCategoriesResponseProtoL
+subcategory (
+2*.GetSubCategoriesResponseProto.SubCategoryRsubcategoryc
+SubCategory.
+subCategoryDisplay (	RsubCategoryDisplay$
+subCategoryId (	RsubCategoryId"ý
+$InAppPurchaseInformationRequestProto9
+signatureHash (2.SignatureHashProtoRsignatureHash
+nonce (Rnonce&
+notificationId (	RnotificationId.
+signatureAlgorithm (	RsignatureAlgorithm,
+billingApiVersion (RbillingApiVersion"ò
+%InAppPurchaseInformationResponseProto8
+signedResponse (2.SignedDataProtoRsignedResponseQ
+statusBarNotification (2.StatusBarNotificationProtoRstatusBarNotification<
+purchaseResult (2.PurchaseResultProtoRpurchaseResult"Õ
+$InAppRestoreTransactionsRequestProto9
+signatureHash (2.SignatureHashProtoRsignatureHash
+nonce (Rnonce.
+signatureAlgorithm (	RsignatureAlgorithm,
+billingApiVersion (RbillingApiVersion"Ÿ
+%InAppRestoreTransactionsResponseProto8
+signedResponse (2.SignedDataProtoRsignedResponse<
+purchaseResult (2.PurchaseResultProtoRpurchaseResult"Š
+ModifyCommentRequestProto
+assetId (	RassetId/
+comment (2.ExternalCommentProtoRcomment$
+deleteComment (RdeleteComment
+	flagAsset (R	flagAsset
+flagType (RflagType 
+flagMessage (	RflagMessage 
+nonFlagFlow (RnonFlagFlow"
+ModifyCommentResponseProto"´
+PaypalCountryInfoProto,
+birthDateRequired (RbirthDateRequired
+tosText (	RtosText2
+billingAgreementText (	RbillingAgreementText
+
+preTosText (	R
+preTosText"¢
+PaypalCreateAccountRequestProto
+	firstName (	R	firstName
+lastName (	RlastName'
+address (2.AddressProtoRaddress
+	birthDate (	R	birthDate"N
+ PaypalCreateAccountResponseProto*
+createAccountKey (	RcreateAccountKey"b
+PaypalCredentialsProto&
+preapprovalKey (	RpreapprovalKey 
+paypalEmail (	RpaypalEmail"K
+ PaypalMassageAddressRequestProto'
+address (2.AddressProtoRaddress"L
+!PaypalMassageAddressResponseProto'
+address (2.AddressProtoRaddress"‚
+(PaypalPreapprovalCredentialsRequestProto$
+gaiaAuthToken (	RgaiaAuthToken0
+billingInstrumentId (	RbillingInstrumentId"™
+)PaypalPreapprovalCredentialsResponseProto
+
+resultCode (R
+resultCode*
+paypalAccountKey (	RpaypalAccountKey 
+paypalEmail (	RpaypalEmail"n
+$PaypalPreapprovalDetailsRequestProto
+
+getAddress (R
+getAddress&
+preapprovalKey (	RpreapprovalKey"r
+%PaypalPreapprovalDetailsResponseProto 
+paypalEmail (	RpaypalEmail'
+address (2.AddressProtoRaddress"
+PaypalPreapprovalRequestProto"H
+PaypalPreapprovalResponseProto&
+preapprovalKey (	RpreapprovalKey"|
+PendingNotificationsProto5
+notification (2.DataMessageProtoRnotification(
+nextCheckMillis (RnextCheckMillis"x
+PrefetchedBundleProto-
+request (2.SingleRequestProtoRrequest0
+response (2.SingleResponseProtoRresponse"¡
+PurchaseCartInfoProto
+	itemPrice (	R	itemPrice"
+taxInclusive (	RtaxInclusive"
+taxExclusive (	RtaxExclusive
+total (	Rtotal
+
+taxMessage (	R
+taxMessage$
+footerMessage (	RfooterMessage$
+priceCurrency (	RpriceCurrency 
+priceMicros (RpriceMicros"ø
+PurchaseInfoProto$
+transactionId (	RtransactionId2
+cartInfo (2.PurchaseCartInfoProtoRcartInfoU
+billinginstruments (
+2%.PurchaseInfoProto.BillingInstrumentsRbillinginstruments*
+errorInputFields	 (RerrorInputFields"
+refundPolicy
+ (	RrefundPolicy$
+userCanAddGdd (RuserCanAddGdd8
+eligibleInstrumentTypes (ReligibleInstrumentTypes
+orderId (	RorderIdç
+BillingInstrumentse
+billinginstrument (
+27.PurchaseInfoProto.BillingInstruments.BillingInstrumentRbillinginstrument>
+defaultBillingInstrumentId (	RdefaultBillingInstrumentId©
+BillingInstrument
+id (	Rid
+name (	Rname
+	isInvalid (R	isInvalid&
+instrumentType (RinstrumentType*
+instrumentStatus (RinstrumentStatus"¤
+PurchaseMetadataRequestProtoN
+"deprecatedRetrieveBillingCountries (R"deprecatedRetrieveBillingCountries4
+billingInstrumentType (RbillingInstrumentType"£
+PurchaseMetadataResponseProtoF
+	countries (
+2(.PurchaseMetadataResponseProto.CountriesR	countries¹
+	CountriesJ
+country (
+20.PurchaseMetadataResponseProto.Countries.CountryRcountryß
+Country 
+countryCode (	RcountryCode 
+countryName (	RcountryNameE
+paypalCountryInfo (2.PaypalCountryInfoProtoRpaypalCountryInfo@
+allowsReducedBillingAddress (RallowsReducedBillingAddress|
+instrumentaddressspec (
+2F.PurchaseMetadataResponseProto.Countries.Country.InstrumentAddressSpecRinstrumentaddressspecˆ
+InstrumentAddressSpec*
+instrumentFamily (RinstrumentFamilyC
+billingAddressSpec	 (2.BillingAddressSpecRbillingAddressSpec"Ô
+PurchaseOrderRequestProto$
+gaiaAuthToken (	RgaiaAuthToken
+assetId (	RassetId$
+transactionId (	RtransactionId0
+billingInstrumentId (	RbillingInstrumentId 
+tosAccepted (RtosAccepted]
+carrierBillingCredentials (2.CarrierBillingCredentialsProtoRcarrierBillingCredentials(
+existingOrderId (	RexistingOrderId4
+billingInstrumentType (RbillingInstrumentType0
+billingParametersId	 (	RbillingParametersIdE
+paypalCredentials
+ (2.PaypalCredentialsProtoRpaypalCredentials<
+riskHeaderInfo (2.RiskHeaderInfoProtoRriskHeaderInfo 
+productType (RproductType9
+signatureHash (2.SignatureHashProtoRsignatureHash*
+developerPayload (	RdeveloperPayload"ñ
+PurchaseOrderResponseProto2
+deprecatedResultCode (RdeprecatedResultCode6
+purchaseInfo (2.PurchaseInfoProtoRpurchaseInfo)
+asset (2.ExternalAssetProtoRasset<
+purchaseResult (2.PurchaseResultProtoRpurchaseResult"å
+PurchasePostRequestProto$
+gaiaAuthToken (	RgaiaAuthToken
+assetId (	RassetId$
+transactionId (	RtransactionIde
+billinginstrumentinfo (
+2/.PurchasePostRequestProto.BillingInstrumentInfoRbillinginstrumentinfo 
+tosAccepted (RtosAccepted(
+cbInstrumentKey (	RcbInstrumentKey0
+paypalAuthConfirmed (RpaypalAuthConfirmed 
+productType (RproductType9
+signatureHash (2.SignatureHashProtoRsignatureHash 
+BillingInstrumentInfo0
+billingInstrumentId (	RbillingInstrumentId3
+
+creditCard (2.ExternalCreditCardR
+creditCardT
+carrierInstrument	 (2&.ExternalCarrierBillingInstrumentProtoRcarrierInstrumentJ
+paypalInstrument
+ (2.ExternalPaypalInstrumentProtoRpaypalInstrument"Ï
+PurchasePostResponseProto2
+deprecatedResultCode (RdeprecatedResultCode6
+purchaseInfo (2.PurchaseInfoProtoRpurchaseInfo,
+termsOfServiceUrl (	RtermsOfServiceUrl.
+termsOfServiceText (	RtermsOfServiceText.
+termsOfServiceName (	RtermsOfServiceName>
+termsOfServiceCheckboxText (	RtermsOfServiceCheckboxText:
+termsOfServiceHeaderText (	RtermsOfServiceHeaderText<
+purchaseResult (2.PurchaseResultProtoRpurchaseResult"˜
+PurchaseProductRequestProto 
+productType (RproductType
+	productId (	R	productId9
+signatureHash (2.SignatureHashProtoRsignatureHash"¢
+PurchaseProductResponseProto
+title (	Rtitle
+	itemTitle (	R	itemTitle(
+itemDescription (	RitemDescription$
+merchantField (	RmerchantField"c
+PurchaseResultProto
+
+resultCode (R
+resultCode,
+resultCodeMessage (	RresultCodeMessage"€
+QuerySuggestionProto
+query (	Rquery0
+estimatedNumResults (RestimatedNumResults 
+queryWeight (RqueryWeight"U
+QuerySuggestionRequestProto
+query (	Rquery 
+requestType (RrequestType"÷
+QuerySuggestionResponseProtoH
+
+suggestion (
+2(.QuerySuggestionResponseProto.SuggestionR
+suggestion>
+estimatedNumAppSuggestions (RestimatedNumAppSuggestionsB
+estimatedNumQuerySuggestions (RestimatedNumQuerySuggestionsˆ
+
+Suggestion9
+appSuggestion (2.AppSuggestionProtoRappSuggestion?
+querySuggestion (2.QuerySuggestionProtoRquerySuggestion"w
+RateCommentRequestProto
+assetId (	RassetId
+	creatorId (	R	creatorId$
+commentRating (RcommentRating"
+RateCommentResponseProto"S
+ReconstructDatabaseRequestProto0
+retrieveFullHistory (RretrieveFullHistory"O
+ ReconstructDatabaseResponseProto+
+asset (2.AssetIdentifierProtoRasset".
+RefundRequestProto
+assetId (	RassetId"|
+RefundResponseProto
+result (Rresult)
+asset (2.ExternalAssetProtoRasset"
+resultDetail (	RresultDetail"3
+RemoveAssetRequestProto
+assetId (	RassetId"š
+RequestPropertiesProto$
+userAuthToken (	RuserAuthToken0
+userAuthTokenSecure (RuserAuthTokenSecure(
+softwareVersion (RsoftwareVersion
+aid (	Raid4
+productNameAndVersion (	RproductNameAndVersion"
+userLanguage (	RuserLanguage 
+userCountry (	RuserCountry"
+operatorName (	RoperatorName(
+simOperatorName	 (	RsimOperatorName0
+operatorNumericName
+ (	RoperatorNumericName6
+simOperatorNumericName (	RsimOperatorNumericName
+clientId (	RclientId
+	loggingId (	R	loggingId"Ž
+RequestProtoE
+requestProperties (2.RequestPropertiesProtoRrequestProperties/
+request (
+2.RequestProto.RequestRrequest…
+Request]
+requestSpecificProperties (2.RequestSpecificPropertiesProtoRrequestSpecificProperties7
+assetRequest (2.AssetsRequestProtoRassetRequest?
+commentsRequest (2.CommentsRequestProtoRcommentsRequestN
+modifyCommentRequest (2.ModifyCommentRequestProtoRmodifyCommentRequestK
+purchasePostRequest (2.PurchasePostRequestProtoRpurchasePostRequestN
+purchaseOrderRequest (2.PurchaseOrderRequestProtoRpurchaseOrderRequestH
+contentSyncRequest	 (2.ContentSyncRequestProtoRcontentSyncRequest?
+getAssetRequest
+ (2.GetAssetRequestProtoRgetAssetRequest?
+getImageRequest (2.GetImageRequestProtoRgetImageRequest9
+refundRequest (2.RefundRequestProtoRrefundRequestW
+purchaseMetadataRequest (2.PurchaseMetadataRequestProtoRpurchaseMetadataRequestQ
+subCategoriesRequest (2.GetSubCategoriesRequestProtoRsubCategoriesRequestT
+uninstallReasonRequest (2.UninstallReasonRequestProtoRuninstallReasonRequestH
+rateCommentRequest (2.RateCommentRequestProtoRrateCommentRequestK
+checkLicenseRequest (2.CheckLicenseRequestProtoRcheckLicenseRequestZ
+getMarketMetadataRequest (2.GetMarketMetadataRequestProtoRgetMarketMetadataRequestN
+getCategoriesRequest (2.GetCategoriesRequestProtoRgetCategoriesRequestQ
+getCarrierInfoRequest (2.GetCarrierInfoRequestProtoRgetCarrierInfoRequestH
+removeAssetRequest (2.RemoveAssetRequestProtoRremoveAssetRequest`
+restoreApplicationsRequest (2 .RestoreApplicationsRequestProtoRrestoreApplicationsRequestT
+querySuggestionRequest (2.QuerySuggestionRequestProtoRquerySuggestionRequestK
+billingEventRequest (2.BillingEventRequestProtoRbillingEventRequestZ
+paypalPreapprovalRequest (2.PaypalPreapprovalRequestProtoRpaypalPreapprovalRequesto
+paypalPreapprovalDetailsRequest (2%.PaypalPreapprovalDetailsRequestProtoRpaypalPreapprovalDetailsRequest`
+paypalCreateAccountRequest (2 .PaypalCreateAccountRequestProtoRpaypalCreateAccountRequest{
+#paypalPreapprovalCredentialsRequest (2).PaypalPreapprovalCredentialsRequestProtoR#paypalPreapprovalCredentialsRequesto
+inAppRestoreTransactionsRequest (2%.InAppRestoreTransactionsRequestProtoRinAppRestoreTransactionsRequesto
+inAppPurchaseInformationRequest  (2%.InAppPurchaseInformationRequestProtoRinAppPurchaseInformationRequestf
+checkForNotificationsRequest! (2".CheckForNotificationsRequestProtoRcheckForNotificationsRequestW
+ackNotificationsRequest" (2.AckNotificationsRequestProtoRackNotificationsRequestT
+purchaseProductRequest# (2.PurchaseProductRequestProtoRpurchaseProductRequest`
+reconstructDatabaseRequest$ (2 .ReconstructDatabaseRequestProtoRreconstructDatabaseRequestc
+paypalMassageAddressRequest% (2!.PaypalMassageAddressRequestProtoRpaypalMassageAddressRequestZ
+getAddressSnippetRequest& (2.GetAddressSnippetRequestProtoRgetAddressSnippetRequest"B
+RequestSpecificPropertiesProto 
+ifNoneMatch (	RifNoneMatch"”
+ResponsePropertiesProto
+result (Rresult
+maxAge (RmaxAge
+etag (	Retag$
+serverVersion (RserverVersion*
+maxAgeConsumable (RmaxAgeConsumable"
+errorMessage (	RerrorMessage?
+errorInputField (2.InputValidationErrorRerrorInputField"â
+ResponseProto3
+response (
+2.ResponseProto.ResponseRresponseN
+pendingNotifications& (2.PendingNotificationsProtoRpendingNotificationsË
+ResponseH
+responseProperties (2.ResponsePropertiesProtoRresponseProperties<
+assetsResponse (2.AssetsResponseProtoRassetsResponseB
+commentsResponse (2.CommentsResponseProtoRcommentsResponseQ
+modifyCommentResponse (2.ModifyCommentResponseProtoRmodifyCommentResponseN
+purchasePostResponse (2.PurchasePostResponseProtoRpurchasePostResponseQ
+purchaseOrderResponse (2.PurchaseOrderResponseProtoRpurchaseOrderResponseK
+contentSyncResponse (2.ContentSyncResponseProtoRcontentSyncResponseB
+getAssetResponse	 (2.GetAssetResponseProtoRgetAssetResponseB
+getImageResponse
+ (2.GetImageResponseProtoRgetImageResponse<
+refundResponse (2.RefundResponseProtoRrefundResponseZ
+purchaseMetadataResponse (2.PurchaseMetadataResponseProtoRpurchaseMetadataResponseT
+subCategoriesResponse (2.GetSubCategoriesResponseProtoRsubCategoriesResponseW
+uninstallReasonResponse (2.UninstallReasonResponseProtoRuninstallReasonResponseK
+rateCommentResponse (2.RateCommentResponseProtoRrateCommentResponseN
+checkLicenseResponse (2.CheckLicenseResponseProtoRcheckLicenseResponse]
+getMarketMetadataResponse (2.GetMarketMetadataResponseProtoRgetMarketMetadataResponseB
+prefetchedBundle (2.PrefetchedBundleProtoRprefetchedBundleQ
+getCategoriesResponse (2.GetCategoriesResponseProtoRgetCategoriesResponseT
+getCarrierInfoResponse (2.GetCarrierInfoResponseProtoRgetCarrierInfoResponsea
+restoreApplicationResponse (2!.RestoreApplicationsResponseProtoRrestoreApplicationResponseW
+querySuggestionResponse (2.QuerySuggestionResponseProtoRquerySuggestionResponseN
+billingEventResponse (2.BillingEventResponseProtoRbillingEventResponse]
+paypalPreapprovalResponse (2.PaypalPreapprovalResponseProtoRpaypalPreapprovalResponser
+ paypalPreapprovalDetailsResponse (2&.PaypalPreapprovalDetailsResponseProtoR paypalPreapprovalDetailsResponsec
+paypalCreateAccountResponse (2!.PaypalCreateAccountResponseProtoRpaypalCreateAccountResponse~
+$paypalPreapprovalCredentialsResponse (2*.PaypalPreapprovalCredentialsResponseProtoR$paypalPreapprovalCredentialsResponser
+ inAppRestoreTransactionsResponse (2&.InAppRestoreTransactionsResponseProtoR inAppRestoreTransactionsResponser
+ inAppPurchaseInformationResponse (2&.InAppPurchaseInformationResponseProtoR inAppPurchaseInformationResponsei
+checkForNotificationsResponse  (2#.CheckForNotificationsResponseProtoRcheckForNotificationsResponseZ
+ackNotificationsResponse! (2.AckNotificationsResponseProtoRackNotificationsResponseW
+purchaseProductResponse" (2.PurchaseProductResponseProtoRpurchaseProductResponsec
+reconstructDatabaseResponse# (2!.ReconstructDatabaseResponseProtoRreconstructDatabaseResponsef
+paypalMassageAddressResponse$ (2".PaypalMassageAddressResponseProtoRpaypalMassageAddressResponse]
+getAddressSnippetResponse% (2.GetAddressSnippetResponseProtoRgetAddressSnippetResponse"¸
+RestoreApplicationsRequestProto(
+backupAndroidId (	RbackupAndroidId
+
+tosVersion (	R
+tosVersionK
+deviceConfiguration (2.DeviceConfigurationProtoRdeviceConfiguration"P
+ RestoreApplicationsResponseProto,
+asset (2.GetAssetResponseProtoRasset"A
+RiskHeaderInfoProto*
+hashedDeviceInfo (	RhashedDeviceInfo"l
+SignatureHashProto 
+packageName (	RpackageName 
+versionCode (RversionCode
+hash (Rhash"O
+SignedDataProto
+
+signedData (	R
+signedData
+	signature (	R	signature"–
+SingleRequestProto]
+requestSpecificProperties (2.RequestSpecificPropertiesProtoRrequestSpecificProperties7
+assetRequest (2.AssetsRequestProtoRassetRequest?
+commentsRequest (2.CommentsRequestProtoRcommentsRequestN
+modifyCommentRequest (2.ModifyCommentRequestProtoRmodifyCommentRequestK
+purchasePostRequest (2.PurchasePostRequestProtoRpurchasePostRequestN
+purchaseOrderRequest (2.PurchaseOrderRequestProtoRpurchaseOrderRequestH
+contentSyncRequest	 (2.ContentSyncRequestProtoRcontentSyncRequest?
+getAssetRequest
+ (2.GetAssetRequestProtoRgetAssetRequest?
+getImageRequest (2.GetImageRequestProtoRgetImageRequest9
+refundRequest (2.RefundRequestProtoRrefundRequestW
+purchaseMetadataRequest (2.PurchaseMetadataRequestProtoRpurchaseMetadataRequestQ
+subCategoriesRequest (2.GetSubCategoriesRequestProtoRsubCategoriesRequestT
+uninstallReasonRequest (2.UninstallReasonRequestProtoRuninstallReasonRequestH
+rateCommentRequest (2.RateCommentRequestProtoRrateCommentRequestK
+checkLicenseRequest (2.CheckLicenseRequestProtoRcheckLicenseRequestZ
+getMarketMetadataRequest (2.GetMarketMetadataRequestProtoRgetMarketMetadataRequestN
+getCategoriesRequest (2.GetCategoriesRequestProtoRgetCategoriesRequestQ
+getCarrierInfoRequest (2.GetCarrierInfoRequestProtoRgetCarrierInfoRequestH
+removeAssetRequest (2.RemoveAssetRequestProtoRremoveAssetRequest`
+restoreApplicationsRequest (2 .RestoreApplicationsRequestProtoRrestoreApplicationsRequestT
+querySuggestionRequest (2.QuerySuggestionRequestProtoRquerySuggestionRequestK
+billingEventRequest (2.BillingEventRequestProtoRbillingEventRequestZ
+paypalPreapprovalRequest (2.PaypalPreapprovalRequestProtoRpaypalPreapprovalRequesto
+paypalPreapprovalDetailsRequest (2%.PaypalPreapprovalDetailsRequestProtoRpaypalPreapprovalDetailsRequest`
+paypalCreateAccountRequest (2 .PaypalCreateAccountRequestProtoRpaypalCreateAccountRequest{
+#paypalPreapprovalCredentialsRequest (2).PaypalPreapprovalCredentialsRequestProtoR#paypalPreapprovalCredentialsRequesto
+inAppRestoreTransactionsRequest (2%.InAppRestoreTransactionsRequestProtoRinAppRestoreTransactionsRequestu
+"getInAppPurchaseInformationRequest  (2%.InAppPurchaseInformationRequestProtoR"getInAppPurchaseInformationRequestf
+checkForNotificationsRequest! (2".CheckForNotificationsRequestProtoRcheckForNotificationsRequestW
+ackNotificationsRequest" (2.AckNotificationsRequestProtoRackNotificationsRequestT
+purchaseProductRequest# (2.PurchaseProductRequestProtoRpurchaseProductRequest`
+reconstructDatabaseRequest$ (2 .ReconstructDatabaseRequestProtoRreconstructDatabaseRequestc
+paypalMassageAddressRequest% (2!.PaypalMassageAddressRequestProtoRpaypalMassageAddressRequestZ
+getAddressSnippetRequest& (2.GetAddressSnippetRequestProtoRgetAddressSnippetRequest"˜
+SingleResponseProtoH
+responseProperties (2.ResponsePropertiesProtoRresponseProperties<
+assetsResponse (2.AssetsResponseProtoRassetsResponseB
+commentsResponse (2.CommentsResponseProtoRcommentsResponseQ
+modifyCommentResponse (2.ModifyCommentResponseProtoRmodifyCommentResponseN
+purchasePostResponse (2.PurchasePostResponseProtoRpurchasePostResponseQ
+purchaseOrderResponse (2.PurchaseOrderResponseProtoRpurchaseOrderResponseK
+contentSyncResponse (2.ContentSyncResponseProtoRcontentSyncResponseB
+getAssetResponse	 (2.GetAssetResponseProtoRgetAssetResponseB
+getImageResponse
+ (2.GetImageResponseProtoRgetImageResponse<
+refundResponse (2.RefundResponseProtoRrefundResponseZ
+purchaseMetadataResponse (2.PurchaseMetadataResponseProtoRpurchaseMetadataResponseT
+subCategoriesResponse (2.GetSubCategoriesResponseProtoRsubCategoriesResponseW
+uninstallReasonResponse (2.UninstallReasonResponseProtoRuninstallReasonResponseK
+rateCommentResponse (2.RateCommentResponseProtoRrateCommentResponseN
+checkLicenseResponse (2.CheckLicenseResponseProtoRcheckLicenseResponse]
+getMarketMetadataResponse (2.GetMarketMetadataResponseProtoRgetMarketMetadataResponseQ
+getCategoriesResponse (2.GetCategoriesResponseProtoRgetCategoriesResponseT
+getCarrierInfoResponse (2.GetCarrierInfoResponseProtoRgetCarrierInfoResponsea
+restoreApplicationResponse (2!.RestoreApplicationsResponseProtoRrestoreApplicationResponseW
+querySuggestionResponse (2.QuerySuggestionResponseProtoRquerySuggestionResponseN
+billingEventResponse (2.BillingEventResponseProtoRbillingEventResponse]
+paypalPreapprovalResponse (2.PaypalPreapprovalResponseProtoRpaypalPreapprovalResponser
+ paypalPreapprovalDetailsResponse (2&.PaypalPreapprovalDetailsResponseProtoR paypalPreapprovalDetailsResponsec
+paypalCreateAccountResponse (2!.PaypalCreateAccountResponseProtoRpaypalCreateAccountResponse~
+$paypalPreapprovalCredentialsResponse (2*.PaypalPreapprovalCredentialsResponseProtoR$paypalPreapprovalCredentialsResponser
+ inAppRestoreTransactionsResponse (2&.InAppRestoreTransactionsResponseProtoR inAppRestoreTransactionsResponsex
+#getInAppPurchaseInformationResponse (2&.InAppPurchaseInformationResponseProtoR#getInAppPurchaseInformationResponsei
+checkForNotificationsResponse  (2#.CheckForNotificationsResponseProtoRcheckForNotificationsResponseZ
+ackNotificationsResponse! (2.AckNotificationsResponseProtoRackNotificationsResponseW
+purchaseProductResponse" (2.PurchaseProductResponseProtoRpurchaseProductResponsec
+reconstructDatabaseResponse# (2!.ReconstructDatabaseResponseProtoRreconstructDatabaseResponsef
+paypalMassageAddressResponse$ (2".PaypalMassageAddressResponseProtoRpaypalMassageAddressResponse]
+getAddressSnippetResponse% (2.GetAddressSnippetResponseProtoRgetAddressSnippetResponse"‚
+StatusBarNotificationProto
+
+tickerText (	R
+tickerText"
+contentTitle (	RcontentTitle 
+contentText (	RcontentText"O
+UninstallReasonRequestProto
+assetId (	RassetId
+reason (Rreason"
+UninstallReasonResponseProto"›
+CriticReviewsResponse
+title (	Rtitle6
+aggregateSentiment (2.ImageRaggregateSentiment(
+totalNumReviews (RtotalNumReviews*
+percentFavorable (RpercentFavorable
+
+sourceText (	R
+sourceText
+source (2.LinkRsource
+review (2.ReviewRreview

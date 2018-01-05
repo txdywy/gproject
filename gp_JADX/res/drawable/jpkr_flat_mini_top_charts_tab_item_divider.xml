@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/flat_card_stroke_color" />
+    <size android:height="@dimen/flat_cluster_card_to_card_vpadding" />
+</shape>

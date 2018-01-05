@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView xmlns:android="http://schemas.android.com/apk/res-auto" play_common:layout_width="wrap_content" play_common:layout_height="wrap_content" play_common:scaleType="fitStart" play_common:fixed_bounds="true" play_common:is_avatar_no_ring="true" />

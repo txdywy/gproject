@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="actions">res/menu/actions.xml</menu>
+    <menu name="content_filters3_actions">res/menu/content_filters3_actions.xml</menu>
+    <menu name="family_library_x_vertical_destination">res/menu/family_library_x_vertical_destination.xml</menu>
+    <menu name="family_member_settings_menu">res/menu/family_member_settings_menu.xml</menu>
+    <menu name="family_remote_escalation">res/menu/family_remote_escalation.xml</menu>
+    <menu name="instant_apps_settings_menu">res/menu/instant_apps_settings_menu.xml</menu>
+    <menu name="loading_overflow_menu">res/menu/loading_overflow_menu.xml</menu>
+    <menu name="unauth_actions">res/menu/unauth_actions.xml</menu>
+</resources>

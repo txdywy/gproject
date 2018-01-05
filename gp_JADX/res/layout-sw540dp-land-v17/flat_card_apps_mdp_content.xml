@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout finsky:orientation="horizontal" finsky:id="@id/mdp_content" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:baselineAligned="false">
+        <RelativeLayout finsky:paddingBottom="@dimen/flat_mdp_content_bottom_padding" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="wrap_content" finsky:layout_weight="0.51">
+            <LinearLayout finsky:orientation="horizontal" finsky:id="@id/thumbnail_and_item_details" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+                <com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/li_thumbnail_frame" finsky:layout_width="UNKNOWN_DATA_0x7f0e022a" finsky:layout_height="UNKNOWN_DATA_0x7f0e022a" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="@dimen/flat_mdp_inner_margin" finsky:layout_marginRight="@dimen/flat_mdp_thumbnail_end_margin" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="@dimen/flat_mdp_thumbnail_end_margin">
+                    <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+                </com.google.android.play.layout.PlayCardThumbnail>
+                <LinearLayout finsky:orientation="vertical" finsky:id="@id/item_details" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="@dimen/flat_mdp_title_top_margin" finsky:layout_marginRight="@dimen/flat_mdp_inner_margin" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="@dimen/flat_mdp_inner_margin">
+                    <com.google.android.play.layout.PlayTextView finsky:ellipsize="end" finsky:id="@id/li_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:allowsCompactLineSpacing="true" style="@style/FlatCardTitle.Listing" />
+                    <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_creator_panel" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="-1dp" finsky:layout_marginBottom="0dp">
+                        <TextView finsky:id="@id/li_ad_label_v2" finsky:visibility="gone" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="4dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="4dp" style="@style/PlayAdLabelV2" />
+                        <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/li_subtitle" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/FlatCardSubtitle.Listing" />
+                    </LinearLayout>
+                    <com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout finsky:id="@id/title_rating_size" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="-1dp" finsky:separator_gap_size="20dp" finsky:separator_bullet_size="4dp">
+                        <LinearLayout finsky:orientation="horizontal" finsky:id="@id/title_content_rating_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content">
+                            <com.google.android.play.image.FifeImageView finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/title_content_rating_icon" finsky:layout_width="UNKNOWN_DATA_0x7f0e0224" finsky:layout_height="UNKNOWN_DATA_0x7f0e0224" finsky:layout_marginLeft="0dp" finsky:layout_marginRight="4dp" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="4dp" />
+                            <com.google.android.finsky.frameworkviews.DecoratedTextView finsky:id="@id/title_content_rating" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/FlatCardSubtitle.Listing" />
+                        </LinearLayout>
+                    </com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout>
+                    <com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginTop="@dimen/flat_mdp_rating_top_margin" finsky:separator_gap_size="11dp" finsky:separator_bullet_size="3dp">
+                        <TextView finsky:id="@id/app_size" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/MdpCardRating" />
+                        <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="horizontal" finsky:id="@id/rating_info" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="26dp">
+                            <com.google.android.play.layout.StarRatingBar finsky:id="@id/li_rating" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@style/FlatRatingBar" />
+                            <TextView finsky:id="@id/rating_count_left" finsky:focusable="false" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="4dp" finsky:layout_marginRight="0dp" finsky:text="(" finsky:layout_marginStart="4dp" finsky:layout_marginEnd="0dp" style="@style/MdpCardRating" />
+                            <TextView finsky:id="@id/rating_count" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:drawablePadding="4dp" style="@style/MdpCardRating" />
+                            <TextView finsky:id="@id/rating_count_right" finsky:focusable="false" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:text=")" style="@style/MdpCardRating" />
+                        </LinearLayout>
+                        <TextView finsky:id="@id/downloads_count" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:drawablePadding="2dp" style="@style/MdpCardRating" />
+                    </com.google.android.finsky.detailscomponents.DetailsTitleFlowLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.play.layout.PlayTextView finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/li_description" finsky:visibility="gone" finsky:saveEnabled="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="12dp" finsky:layout_marginRight="@dimen/flat_mdp_inner_margin" finsky:maxLines="2" finsky:layout_below="@id/thumbnail_and_item_details" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="@dimen/flat_mdp_inner_margin" finsky:lastLineOverdrawColor="@color/white" style="@c6382j/PlayDetailDescription" />
+            <LinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:id="@id/bottom_buttons_and_labels_container" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:layout_marginLeft="0dp" finsky:layout_marginTop="@dimen/apps_mdp_margin" finsky:layout_marginRight="@dimen/flat_mdp_inner_margin" finsky:layout_below="@id/li_description" finsky:layout_marginStart="0dp" finsky:layout_marginEnd="@dimen/flat_mdp_inner_margin">
+                <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/action_buttons_layout" />
+                <include finsky:orientation="horizontal" finsky:id="@id/title_extra_labels_bottom" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="@dimen/flat_mdp_extra_labels_section_top_margin" finsky:baselineAligned="false" layout="@layout/flat_details_summary_extra_labels_section" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.google.android.finsky.detailscomponents.ScreenshotsRecyclerView finsky:id="@id/screenshots_container" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="match_parent" finsky:layout_weight="0.49" finsky:use_auto_measure="false" />
+    </LinearLayout>
+</merge>

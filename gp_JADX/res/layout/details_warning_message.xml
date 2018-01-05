@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.WarningMessageSection xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/warning_message_panel" android:paddingLeft="@dimen/details_new_content_margin" android:paddingTop="8dp" android:paddingRight="@dimen/details_new_content_margin" android:paddingBottom="8dp" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/details_special_row_min_height">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/details_warning_info_icon" android:paddingLeft="0dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/details_warning_info_first_line" style="@style/WarningMessageText" />
+        <TextView android:textStyle="bold" android:id="@id/details_warning_info_second_line" android:paddingTop="2dp" style="@style/WarningMessageText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.WarningMessageSection>

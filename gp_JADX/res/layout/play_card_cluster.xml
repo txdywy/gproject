@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.base.playcluster.PlayCardClusterView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/play_cluster_vpadding" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/play_card_cluster_header" />
+    <com.google.android.finsky.stream.base.playcluster.PlayCardClusterViewContent android:id="@id/cluster_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.stream.base.playcluster.PlayCardClusterView>

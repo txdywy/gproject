@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_primary" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@c6382j/PlayPlainText" />

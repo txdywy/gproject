@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeDownloadCount xmlns:android="http://schemas.android.com/apk/res/android" style="@style/DiscoveryBadge">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon_container" android:duplicateParentState="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/DiscoveryBadgeIconContainer">
+            <TextView android:textColor="@color/play_fg_secondary" android:id="@id/download_count_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/download_magnitude_container" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0e0180" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/discovery_badge_download_magnitude_size" android:textColor="@color/play_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/download_magnitude" android:paddingLeft="@dimen/discovery_badge_download_count_magnitude_padding" android:paddingRight="@dimen/discovery_badge_download_count_magnitude_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/discovery_badge_title_width" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="@dimen/discovery_badge_download_count_magnitude_padding" android:paddingEnd="@dimen/discovery_badge_download_count_magnitude_padding" style="@c6382j/PlayPlainText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeDownloadCount>

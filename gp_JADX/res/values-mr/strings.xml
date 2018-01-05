@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play स्टोअर</string>
+    <string name="b">Google Play</string>
+    <string name="c">मंजूरी आवश्यक आहे</string>
+    <string name="d">पालक नियंत्रणे</string>
+    <string name="e">पुनरावलोकने</string>
+    <string name="f">इन्सटंट अॅप</string>
+    <string name="g">सदस्य सेटिंग्ज</string>
+    <string name="h">इंस्टंट अॅप्स प्राधान्ये</string>
+    <string name="i">Play स्टोअर</string>
+    <string name="l">Play संरक्षण</string>
+    <string name="m">माझे अ‍ॅप्स</string>
+    <string name="n">खरेदी पर्याय</string>
+    <string name="o">देय द्यायच्या पद्धती</string>
+    <string name="p">वापरकर्त्याला या अॅपमधील उपलब्ध अॅप पाहू देते.</string>
+    <string name="q">Google Play अॅप शोध सेवेमध्ये प्रवेश करा</string>
+    <string name="r">या अॅपमधील Google Play द्वारे आयटमची खरेदी करण्यासाठी वापरकर्त्यास अनुमती देते.</string>
+    <string name="s">Google Play बिलिंग सेवा</string>
+    <string name="t">आपल्याकडे या अॅप्ससाठी Google Play कडील परवाना असल्यास तपासू शकतात.</string>
+    <string name="u">Google Play परवाना तपासणी</string>
+    <string name="v">अॅप परवानग्या</string>
+    <string name="w">मुक्त स्त्रोत परवाने</string>
+    <string name="x">प्रमाणीकरण आवश्यक</string>
+    <string name="y">आपल्या कोडची पूर्तता करा</string>
+    <string name="aa">ते रेट करा!</string>
+    <string name="ba">भेट पाठवा</string>
+    <string name="ca">सेटिंग्ज</string>
+    <string name="da">सूचना</string>
+    <string name="ea">खाते सेटअप पूर्ण करा</string>
+    <string name="fa">सेटअप पूर्ण झाल्यावर अॅप्स इंस्टॉल केले जातील</string>
+    <string name="ga">अतिरिक्त अॅप्सचे पुनरावलोकन करा</string>
+    <string name="ha">Google उत्पादनांसह द्रुत चेकआउटचा आनंद घ्या</string>
+    <string name="ia">देयक पद्धत जोडा</string>
+    <string name="ja">देय माहिती सेट करा</string>
+    <string name="ka">डिव्हाइसवरून अॅप्स पुनर्संचयित करा</string>
+    <string name="la">कोणते डिव्हाइस?</string>
+    <string name="ma">कुटुंब देयक पद्धत निवडा</string>
+    <string name="na">रक्कम निवडा</string>
+    <string name="oa">देयक पद्धत अपडेट करा</string>
+    <string name="pa">सत्यापित करा आणि इंस्टॉल करा</string>
+    <string name="qa">सुरक्षितता समस्यांसाठी स्कॅन करत आहे…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

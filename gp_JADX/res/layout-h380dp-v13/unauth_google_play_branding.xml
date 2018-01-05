@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <ImageView finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/unauth_play_prism" finsky:layout_width="UNKNOWN_DATA_0x7f0e0660" finsky:layout_height="UNKNOWN_DATA_0x7f0e0660" finsky:src="@drawable/play_store_144px" />
+    <ImageView finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:layout_width="UNKNOWN_DATA_0x7f0e065b" finsky:layout_height="UNKNOWN_DATA_0x7f0e065a" finsky:layout_marginTop="@dimen/unauth_home_google_play_margin_top" finsky:src="@drawable/ic_google_play_logo" finsky:scaleType="fitCenter" finsky:layout_constraintTop_toBottomOf="@id/unauth_play_prism" />
+</merge>

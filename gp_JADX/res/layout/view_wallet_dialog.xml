@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" uic:layout_width="match_parent" uic:layout_height="match_parent">
+    <LinearLayout uic:orientation="vertical" uic:paddingLeft="?attr/uicDialogBodyStartEndMargin" uic:paddingTop="?attr/uicDialogBodyTopBottomMargin" uic:paddingRight="?attr/uicDialogBodyStartEndMargin" uic:paddingBottom="?attr/uicDialogBodyTopBottomMargin" uic:layout_width="match_parent" uic:layout_height="wrap_content">
+        <com.google.android.wallet.ui.common.InfoMessageView uic:id="@id/info_message" uic:layout_width="wrap_content" uic:layout_height="wrap_content" uic:textIsSelectable="true" uic:internalUicInfoMessageTextAppearance="?attr/uicDialogMessageTextAppearance" />
+        <TextView uic:id="@id/details" uic:layout_width="wrap_content" uic:layout_height="wrap_content" uic:layout_marginTop="4dp" uic:textIsSelectable="true" style="?unknown_attr_ref: 1010042" />
+    </LinearLayout>
+</ScrollView>

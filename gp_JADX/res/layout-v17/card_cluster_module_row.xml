@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.BucketRowLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/details_pack_row_padding" android:paddingRight="@dimen/details_pack_row_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_pack_row_padding" android:paddingEnd="@dimen/details_pack_row_padding" />

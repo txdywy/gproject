@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="25dp" android:paddingTop="20dp" android:paddingRight="25dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/debug_locale_override_entry_prompt" />
+        <EditText android:id="@id/edit_language" android:background="@drawable/abc_edit_text_material" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/debug_locale_override_language" android:maxLength="3" />
+        <EditText android:id="@id/edit_country" android:background="@drawable/abc_edit_text_material" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/debug_locale_override_country" android:maxLength="3" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberSigned|phone" />
+    </LinearLayout>
+</ScrollView>

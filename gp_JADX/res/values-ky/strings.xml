@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Уруксат керек</string>
+    <string name="d">Ата-эненин көзөмөлү</string>
+    <string name="e">Сын-пикирлер</string>
+    <string name="f">Ыкчам ачылуучу колдонмо</string>
+    <string name="g">Мүчөнүн жөндөөлөрү</string>
+    <string name="h">Ыкчам ачылуучу колдонмолордун параметрлери</string>
+    <string name="i">Play Дүкөн</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Менин колдонмолорум</string>
+    <string name="n">Сатып алуу параметрлери</string>
+    <string name="o">Төлөм ыкмалары</string>
+    <string name="p">Колдонуучуга ушул колдонмодон жеткиликтүү колдонмолорду көрүүгө уруксат берет.</string>
+    <string name="q">Google Play\'дин колдонмону изилдөө кызматына кирүү</string>
+    <string name="r">Колдонуучуга ушул колдонмодон Google Play аркылуу керектүү нерселерди сатп алуу мүмкүнчүлүгн берет.</string>
+    <string name="s">Google Play эсептешүү кызматы</string>
+    <string name="t">Google Play\'ден бул колдонмо үчүн уруксаттамаңыз бар экенин текшере алат.</string>
+    <string name="u">Google Play уруксаттамасын текшерүү</string>
+    <string name="v">Колдонмо уруксаттары</string>
+    <string name="x">Аныктыгн текшрүүнү талап кылуу</string>
+    <string name="y">Кодуңузду иштетиңиз</string>
+    <string name="aa">Буга баа коюңуз!</string>
+    <string name="ba">Белек жөнөтүү</string>
+    <string name="ca">Жөндөөлөр</string>
+    <string name="da">Эскертмелер</string>
+    <string name="ea">Каттоо эсебин орнотууну аяктоо</string>
+    <string name="fa">Жөндөө аягына чыккандан кийин колдонмолор орнотулат</string>
+    <string name="ga">Кошумча колдонмолорду карап чыгуу</string>
+    <string name="ha">Google өндүрүмдөрү менен тез эле эсептешесиз</string>
+    <string name="ia">Төлөм ыкмасын кошуу</string>
+    <string name="ja">Төлөм маалыматын орнотуу</string>
+    <string name="ka">Колдонмолорду түзмөктөн калыбына келтирүү</string>
+    <string name="la">Кайсы түзмөк?</string>
+    <string name="ma">Үй-бүлөлүк төлөм ыкмасын тандаңыз</string>
+    <string name="na">Сумма тандаңыз</string>
+    <string name="oa">Төлөм ыкмасын жаңыртуу</string>
+    <string name="pa">Ырастоо жана орнотуу</string>
+    <string name="qa">Коопсуздук текшерилүүдө…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

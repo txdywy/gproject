@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.view.TopChartsCategorySpinner xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:popupBackground="@drawable/jpkr_mini_top_charts_spinner_popup_background" android:dropDownWidth="UNKNOWN_DATA_0x7f0e030c" android:spinnerMode="dropdown" />

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">É necesaria unha aprobación</string>
+    <string name="d">Controis parentais</string>
+    <string name="e">Recensións</string>
+    <string name="f">Aplicación instantánea</string>
+    <string name="g">Configuración de membros</string>
+    <string name="h">Preferencias de Aplicacións instantáneas</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">As aplicacións</string>
+    <string name="n">Opcións de compra</string>
+    <string name="o">Métodos de pago</string>
+    <string name="p">Permite ao usuario ver as aplicacións dispoñibles desde esta aplicación.</string>
+    <string name="q">Acceder a App Discovery Service de Google Play</string>
+    <string name="r">Permite ao usuario comprar en Google Play desde esta aplicación.</string>
+    <string name="s">Servizo de facturación de Google Play</string>
+    <string name="t">Pode comprobar se tes unha licenza para esta aplicación de Google Play.</string>
+    <string name="u">Comprobación de licenza de Google Play</string>
+    <string name="v">Permisos de aplicacións</string>
+    <string name="x">Requirir autenticación</string>
+    <string name="y">Troca o teu código</string>
+    <string name="aa">Valórao.</string>
+    <string name="ba">Enviar agasallo</string>
+    <string name="ca">Configuración</string>
+    <string name="da">Notificacións</string>
+    <string name="ea">Completar configuración da conta</string>
+    <string name="fa">As aplicacións instalarase despois de completar a configuración</string>
+    <string name="ga">Revisar aplicacións adicionais</string>
+    <string name="ha">Desfruta de compras rápidas cos produtos de Google</string>
+    <string name="ia">Engadir método de pago</string>
+    <string name="ja">Configurar información de pago</string>
+    <string name="ka">Restaurar aplicacións do dispositivo</string>
+    <string name="la">Que dispositivo?</string>
+    <string name="ma">Seleccionar método de pago familiar</string>
+    <string name="na">Seleccionar cantidade</string>
+    <string name="oa">Actualiza o método de pago</string>
+    <string name="pa">Verificar e instalar</string>
+    <string name="qa">Facendo análise de problemas de seguranza…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

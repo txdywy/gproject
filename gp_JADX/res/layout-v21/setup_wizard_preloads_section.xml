@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/preloads_section_divider" android:background="?attr/setup_wizard_row_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="@dimen/setup_wizard_content_list_top_margin" />
+    <TextView android:textAppearance="@style/SetupWizardVpaSectionTitle" android:id="@id/preloads_section_title" android:paddingTop="@dimen/setup_wizard_content_list_bottom_margin" android:paddingBottom="@dimen/setup_wizard_section_title_bottom_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/setup_wizard_horizontal_padding" android:paddingEnd="@dimen/setup_wizard_optional_header_end_padding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/preloads_section_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/setup_wizard_horizontal_padding" />
+</merge>

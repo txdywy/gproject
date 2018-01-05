@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.myaccount.layout.AccountPaymentMethodsExistingInstrumentRowView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/AccountRow">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" style="@style/AccountPaymentMethodsIcon" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/title" style="@style/AccountRowTitle" />
+        <TextView android:id="@id/subtitle" style="@style/AccountRowSubtitle" />
+        <TextView android:id="@id/byline" style="@style/AccountRowErrorByline" />
+    </LinearLayout>
+    <TextView android:id="@id/edit_button" style="@style/AccountPaymentMethodsRowEditButton" />
+</com.google.android.finsky.billing.myaccount.layout.AccountPaymentMethodsExistingInstrumentRowView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/play_disabled_grey" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/content_filter_v3_primary_color" />
+        </shape>
+    </item>
+</selector>

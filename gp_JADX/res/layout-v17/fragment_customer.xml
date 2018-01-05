@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" im:orientation="vertical" im:layout_width="match_parent" im:layout_height="match_parent">
+    <include im:id="@c6634c/legal_country_selector" im:visibility="gone" layout="@layout/view_region_code" />
+    <FrameLayout im:id="@c6634c/tax_info_fragment_holder" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" />
+    <FrameLayout im:id="@c6634c/legal_address_entry_fragment_holder" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" />
+    <FrameLayout im:id="@c6634c/instrument_form_fragment_holder" im:visibility="gone" im:layout_width="match_parent" im:layout_height="wrap_content" />
+    <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageView im:id="@c6634c/customer_legal_message_text" im:layout_width="wrap_content" im:layout_height="wrap_content" im:layout_marginLeft="?attr/internalUicNonFormFieldTextStartMargin" im:layout_marginTop="@dimen/wallet_uic_legal_message_top_margin" im:layout_marginStart="?attr/internalUicNonFormFieldTextStartMargin" im:internalUicInlineExpandLabel="false" im:internalUicInfoMessageTextAppearance="?attr/uicLegalMessagesTextAppearance" />
+</LinearLayout>

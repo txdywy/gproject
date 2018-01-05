@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.drawer.PlayDrawerDownloadSwitchRow xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/play_highlight_overlay_light" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/action_text" android:background="0x0" android:layout_alignParentTop="true" android:layout_toStartOf="@id/switch_button" style="@c6382j/PlayDrawerRegularText" />
+    <Switch android:id="@id/switch_button" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/play_drawer_item_right_padding" android:layout_alignParentEnd="true" style="@c6382j/PlayDrawerDownloadToggle" />
+</com.google.android.play.drawer.PlayDrawerDownloadSwitchRow>

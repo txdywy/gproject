@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Маркет</string>
+    <string name="b">Google Play</string>
+    <string name="c">Потрібне схвалення</string>
+    <string name="d">Батьківський контроль</string>
+    <string name="e">Відгуки</string>
+    <string name="f">Додаток із миттєвим запуском</string>
+    <string name="g">Налаштування учасників</string>
+    <string name="h">Параметри додатків із миттєвим запуском</string>
+    <string name="i">Play Маркет</string>
+    <string name="l">Play Захист</string>
+    <string name="m">Мої додатки</string>
+    <string name="n">Варіанти покупки</string>
+    <string name="o">Способи оплати</string>
+    <string name="p">Користувач може переглядати доступні додатки в цьому додатку.</string>
+    <string name="q">Доступ до служби пошуку додатків Google Play</string>
+    <string name="r">Дозволяє користувачеві купувати товари з Google Play через цю програму.</string>
+    <string name="s">Служба платежів Google Play</string>
+    <string name="t">Може перевіряти наявність у вас ліцензії для цієї програми з Google Play.</string>
+    <string name="u">Перевірка ліцензії Google Play</string>
+    <string name="v">Дозволи для додатка</string>
+    <string name="w">Ліцензії відкритого коду</string>
+    <string name="x">Автентифікація</string>
+    <string name="y">Активуйте свій код</string>
+    <string name="aa">Оцініть!</string>
+    <string name="ba">Надіслати подарунок</string>
+    <string name="ca">Налаштування</string>
+    <string name="da">Сповіщення</string>
+    <string name="ea">Налаштуйте обліковий запис</string>
+    <string name="fa">Додатки буде встановлено, коли завершиться налаштування</string>
+    <string name="ga">Переглянути інші додатки</string>
+    <string name="ha">Швидко оплачуйте покупки в продуктах Google</string>
+    <string name="ia">Додати спосіб оплати</string>
+    <string name="ja">Укажіть платіжні дані</string>
+    <string name="ka">Відновлення додатків із пристрою</string>
+    <string name="la">Який пристрій?</string>
+    <string name="ma">Виберіть сімейний спосіб оплати</string>
+    <string name="na">Вибрати суму</string>
+    <string name="oa">Оновити спосіб оплати</string>
+    <string name="pa">Перевірити та встановити</string>
+    <string name="qa">Перевірка на наявність проблем із безпекою…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

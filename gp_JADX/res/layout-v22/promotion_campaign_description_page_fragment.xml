@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/details_expanded_scroller" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:importantForAccessibility="yes" android:transitionGroup="true" android:accessibilityTraversalAfter="@id/action_bar">
+    <com.google.android.finsky.layout.PromotionCampaignDescriptionContainer android:orientation="vertical" android:id="@id/details_container" android:background="@color/white" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/details" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.google.android.finsky.layout.PromotionCampaignDescriptionContainer>
+</ScrollView>

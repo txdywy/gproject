@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/instant_apps_settings_excluded_app_row_padding_top" android:paddingBottom="@dimen/instant_apps_settings_excluded_app_row_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@id/aia_excluded_app_badged_icon" android:layout_width="UNKNOWN_DATA_0x7f0e02d2" android:layout_height="UNKNOWN_DATA_0x7f0e02d1" layout="@c5811h/badged_icon" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Subhead" android:textSize="@dimen/instant_apps_settings_row_text_size" android:ellipsize="end" android:id="@id/aia_excluded_app_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+    <ImageView android:id="@id/aia_excluded_app_remove" android:padding="@dimen/instant_apps_settings_excluded_app_row_action_image_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

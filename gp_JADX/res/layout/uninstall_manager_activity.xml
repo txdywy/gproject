@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxSizeLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/finsky_dialog_width" finsky:minHeight="@dimen/uninstall_manager_dialog_min_height" finsky:max_width="@dimen/finsky_dialog_width">
+    <FrameLayout finsky:id="@id/main_layout" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+</com.google.android.finsky.frameworkviews.MaxSizeLinearLayout>

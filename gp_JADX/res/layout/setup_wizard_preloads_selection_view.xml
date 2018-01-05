@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+    <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="?unknown_attr_ref: 1010036" finsky:id="@id/setup_wizard_optional_preloads_header" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/setup_wizard_optional_apps_title" />
+    <TextView finsky:textColor="?unknown_attr_ref: 1010036" finsky:id="@id/setup_wizard_preloads_loading" finsky:text="@string/loading" style="@style/SetupWizardMenuSelectorText" />
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/setup_wizard_preloads_list" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" /> />

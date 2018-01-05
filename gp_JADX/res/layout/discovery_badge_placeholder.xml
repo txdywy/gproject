@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0e0193" android:showDividers="UNKNOWN_DATA_0x0" style="@style/DiscoveryBadge">
+    <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/discovery_badge_icon_placeholder" android:layout_width="UNKNOWN_DATA_0x7f0e018b" android:layout_height="UNKNOWN_DATA_0x7f0e018b" />
+    <TextView android:background="@color/placeholder_grey" android:paddingTop="0dp" android:layout_marginTop="6dp" style="@style/DiscoveryBadgeTitle" />
+</LinearLayout>

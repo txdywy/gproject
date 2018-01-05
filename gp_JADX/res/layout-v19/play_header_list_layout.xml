@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@id/background_container" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <FrameLayout app:id="@id/alt_play_background" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <FrameLayout app:id="@id/content_container" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <FrameLayout app:id="@id/controls_container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="-1px" app:layout_marginBottom="@dimen/play_header_list_header_shadow_height"
+        <FrameLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/hero_container" app:layout_width="wrap_content" app:layout_height="wrap_content" /> />
+    <View app:id="@id/header_shadow" app:background="@drawable/play_header_list_shadow" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e04d0" />
+    <FrameLayout app:id="@id/toolbar_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <com.google.android.play.headerlist.PlayHeaderStatusBarUnderlay app:id="@id/play_header_status_bar_underlay" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/play_header_banner" app:background="@drawable/play_header_list_layout_banner_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0e04cd" app:accessibilityLiveRegion="polite" style="@c6382j/PlayHeaderListBannerText" />
+    <include layout="@layout/play_header_list_pull_refresh" />
+</merge>

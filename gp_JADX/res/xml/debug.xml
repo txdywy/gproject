@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/debug_image_debugging_title" android:key="image_debugging" android:summary="@string/debug_image_debugging_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/debug_skip_all_caches" android:key="skip_all_caches" android:summaryOn="@string/debug_skip_all_caches_on" android:summaryOff="@string/debug_skip_all_caches_off" />
+    <CheckBoxPreference android:state_enabled="false" android:title="@string/debug_volley_logging_title" android:key="verbose_volley_logging" android:summaryOn="@string/debug_volley_logging_on" android:summaryOff="@string/debug_volley_logging_off" />
+    <Preference android:persistent="false" android:id="@id/force_network_type" android:title="@string/force_network_type_title" android:key="force_network_type" android:summary="@string/force_network_type_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_environments_title" android:key="environments" android:summary="@string/debug_environments_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_carrier_override_title" android:key="country" android:summary="@string/debug_carrier_override_summary" />
+    <Preference android:title="@string/debug_play_country_override_title" android:key="play_country" android:summary="@string/debug_play_country_override_summary" />
+    <Preference android:title="@string/debug_locale_override_title" android:key="locale" android:summary="@string/debug_locale_override_summary" />
+    <Preference android:title="@string/debug_reset_all_title" android:key="reset_all" android:summary="@string/debug_reset_all_summary" />
+    <Preference android:title="@string/debug_clear_cache_title" android:key="clear_cache" android:summary="@string/debug_clear_cache_summary" />
+    <Preference android:title="@string/debug_export_library_title" android:key="export_library" android:summary="@string/debug_export_library_summary" />
+    <CheckBoxPreference android:title="@string/show_staging_data_title" android:key="show_staging_data" android:summaryOn="@string/show_staging_data_on" android:summaryOff="@string/show_staging_data_off" />
+    <CheckBoxPreference android:title="@string/disable_personalization" android:key="disable_personalization" android:summaryOn="@string/personalization_disabled" android:summaryOff="@string/personalization_enabled" />
+    <CheckBoxPreference android:title="@string/force_dapper_trace_title" android:key="force_dapper_trace" android:summaryOn="@string/force_dapper_trace_on" android:summaryOff="@string/force_dapper_trace_off" />
+    <Preference android:persistent="false" android:title="@string/dump_library_state_title" android:key="dump_library_state" android:summary="@string/dump_library_state_summary" />
+    <CheckBoxPreference android:title="@string/fake_item_rater_title" android:key="fake_item_rater" android:summaryOn="@string/fake_item_rater_on" android:summaryOff="@string/fake_item_rater_off" />
+    <Preference android:persistent="false" android:title="@string/flush_eventlog_title" android:key="flush_eventlog" android:summary="@string/flush_eventlog_summary" />
+    <Preference android:persistent="false" android:title="@string/force_refresh_user_settings_title" android:key="force_refresh_user_settings" android:summary="@string/force_refresh_user_settings_summary" />
+    <Preference android:persistent="false" android:title="@string/dump_family_status_title" android:key="dump_family_status" android:summary="@string/dump_family_status_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_run_daily_hygiene" android:key="run_daily_hygiene" android:summary="@string/debug_run_daily_hygiene_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_gms_core_details" android:key="gms_core_details" android:summary="@string/debug_gms_core_details_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_instant_apps" android:key="instant_apps" android:summary="@string/debug_instant_apps_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_cache_and_sync_pref_title" android:key="cache_and_sync_info" />
+    <Preference android:persistent="false" android:title="@string/debug_trigger_cache_and_sync_title" android:key="trigger_cache_and_sync" />
+    <Preference android:persistent="false" android:title="@string/debug_upload_device_config_title" android:key="upload_device_config" android:summary="@string/debug_upload_device_config_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_run_instant_apps_hygiene_title" android:key="run_instant_apps_hygiene" android:summary="@string/debug_run_instant_apps_hygiene_summary" />
+    <Preference android:title="@string/debug_override_server_experiments_title" android:key="override_server_experiments" android:summary="@string/debug_override_server_experiments_summary" />
+    <Preference android:title="@string/clear_tos_preferences_title" android:key="clear_tos_preferences" android:summary="@string/clear_tos_preferences_summary" />
+    <Preference android:title="Test update notification" android:key="test_update_notification" android:summary="Test app update notification with options of delay." />
+    <Preference android:persistent="false" android:id="@id/schedule_debug_jobs" android:title="@string/schedule_debug_jobs" android:key="schedule_debug_jobs" android:summary="@string/schedule_debug_jobs_summary" />
+</PreferenceScreen>

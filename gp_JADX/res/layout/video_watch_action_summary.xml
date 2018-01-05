@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.videowatchaction.WatchActionSummaryView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:id="@id/watch_action_summary" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/watch_action_button" finsky:layout_width="match_parent" finsky:action_style="0" style="@style/Play_DetailsPage_ActionButtonV2" />
+    <include finsky:id="@id/download_progress_panel" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/details_download_progress" />
+</com.google.android.finsky.detailspage.videowatchaction.WatchActionSummaryView>

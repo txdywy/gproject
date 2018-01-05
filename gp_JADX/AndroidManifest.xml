@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res-auto" finsky:versionCode="80853900" finsky:versionName="8.5.39.W-all [0] [PR] 178322352" package="com.android.vending" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+    <uses-sdk finsky:minSdkVersion="14" finsky:targetSdkVersion="25" />
+    <uses-permission finsky:name="com.android.vending.permission.C2D_MESSAGE" />
+    <uses-permission finsky:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" />
+    <uses-permission finsky:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission finsky:name="android.permission.GET_TASKS" />
+    <uses-permission finsky:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission finsky:name="android.permission.INTERNET" />
+    <uses-permission finsky:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission finsky:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission finsky:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission finsky:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission finsky:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission finsky:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission finsky:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission finsky:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission finsky:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES" />
+    <uses-permission finsky:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission finsky:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" />
+    <uses-permission finsky:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission finsky:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission finsky:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission finsky:name="android.permission.NFC" />
+    <uses-permission finsky:name="com.android.vending.INTENT_VENDING_ONLY" />
+    <uses-permission finsky:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission finsky:name="android.permission.SEND_SMS" />
+    <uses-permission finsky:name="android.permission.SEND_SMS_NO_CONFIRMATION" />
+    <uses-permission finsky:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission finsky:name="android.permission.STATUS_BAR" />
+    <uses-permission finsky:name="com.android.vending.TOS_ACKED" />
+    <uses-permission finsky:name="android.permission.WAKE_LOCK" />
+    <uses-permission finsky:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission finsky:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission finsky:name="com.google.android.finsky.permission.INSTANT_APP_STATE" />
+    <uses-permission finsky:name="android.permission.GET_ACCOUNTS" finsky:maxSdkVersion="22" />
+    <uses-permission finsky:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission finsky:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission finsky:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission finsky:name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+    <uses-permission finsky:name="android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS" />
+    <uses-permission finsky:name="android.permission.GRANT_RUNTIME_PERMISSIONS" />
+    <uses-permission finsky:name="android.permission.REVOKE_RUNTIME_PERMISSIONS" />
+    <uses-permission finsky:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission finsky:name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST" />
+    <uses-permission finsky:name="android.permission.BATTERY_STATS" />
+    <uses-permission finsky:name="android.permission.BACKUP" />
+    <uses-permission finsky:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission finsky:name="android.permission.DUMP" />
+    <uses-permission finsky:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission finsky:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+    <uses-permission finsky:name="android.permission.PACKAGE_VERIFICATION_AGENT" />
+    <uses-permission finsky:name="android.permission.MANAGE_USERS" />
+    <uses-permission finsky:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission finsky:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission finsky:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission finsky:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission finsky:name="com.google.android.gms.permission.CAR" />
+    <uses-permission finsky:name="com.google.android.gms.permission.AD_ID_NOTIFICATION" />
+    <uses-permission finsky:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission finsky:name="com.google.android.gms.WRITE_VERIFY_APPS_CONSENT" />
+    <uses-permission finsky:name="android.permission.ACCESS_INSTANT_APPS" />
+    <uses-permission finsky:name="com.google.android.partnersetup.permission.WRITE_APP_PROVIDER" />
+    <uses-permission finsky:name="android.permission.GET_APP_OPS_STATS" />
+    <uses-permission finsky:name="android.permission.ALLOCATE_AGGRESSIVE" />
+    <uses-permission finsky:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission finsky:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission finsky:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission finsky:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission finsky:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission finsky:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission finsky:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission finsky:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission finsky:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission finsky:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission finsky:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission finsky:name="android.permission.READ_APP_BADGE" />
+    <uses-permission finsky:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission finsky:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission finsky:name="org.chromium.arc.apkcacheprovider.permission.READ_CACHE" />
+    <uses-permission finsky:name="org.chromium.arc.apkcacheprovider.permission.WRITE_CACHE" />
+    <uses-permission finsky:name="android.Manifest.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+    <uses-feature finsky:name="android.hardware.location" finsky:required="false" />
+    <uses-feature finsky:name="android.hardware.location.gps" finsky:required="false" />
+    <uses-feature finsky:name="android.hardware.location.network" finsky:required="false" />
+    <uses-feature finsky:name="android.hardware.telephony" finsky:required="false" />
+    <uses-feature finsky:name="android.hardware.wifi" finsky:required="false" />
+    <uses-feature finsky:name="android.software.vr.mode" finsky:required="false" />
+    <uses-feature finsky:name="android.hardware.touchscreen" finsky:required="false" />
+    <uses-permission finsky:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission finsky:name="android.permission.RECEIVE_SMS" />
+    <uses-permission finsky:name="android.permission.READ_SMS" />
+    <uses-permission finsky:name="android.permission.READ_CONTACTS" />
+    <uses-feature finsky:name="android.hardware.nfc" finsky:required="false" />
+    <permission finsky:label="@string/q" finsky:name="com.android.vending.appdiscoveryservice.permission.ACCESS_APP_DISCOVERY_SERVICE" finsky:protectionLevel="UNKNOWN_DATA_0x0" finsky:permissionGroup="android.permission-group.NETWORK" finsky:description="@string/p" />
+    <permission finsky:label="@string/u" finsky:name="com.android.vending.CHECK_LICENSE" finsky:protectionLevel="UNKNOWN_DATA_0x1000" finsky:permissionGroup="android.permission-group.NETWORK" finsky:description="@string/t" />
+    <permission finsky:label="@string/s" finsky:name="com.android.vending.BILLING" finsky:protectionLevel="UNKNOWN_DATA_0x1000" finsky:permissionGroup="android.permission-group.NETWORK" finsky:description="@string/r" />
+    <permission finsky:name="com.android.vending.permission.C2D_MESSAGE" finsky:protectionLevel="signature|signatureOrSystem" />
+    <permission finsky:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" finsky:protectionLevel="signature|signatureOrSystem" />
+    <permission finsky:name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE" finsky:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission finsky:name="com.android.vending.billing.ADD_CREDIT_CARD" finsky:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission finsky:name="com.android.vending.TOS_ACKED" finsky:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission finsky:name="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission finsky:name="com.google.android.finsky.permission.GEARHEAD_SERVICE" finsky:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission finsky:name="com.google.android.vending.verifier.ACCESS_VERIFIER" finsky:protectionLevel="signature|signatureOrSystem" />
+    <permission finsky:name="com.google.android.finsky.permission.INSTANT_APP_STATE" finsky:protectionLevel="signature|signatureOrSystem" />
+    <permission finsky:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" finsky:protectionLevel="UNKNOWN_DATA_0x0" />
+    <application finsky:label="@string/a" finsky:icon="@mipmap/ic_launcher_play_store" finsky:name="com.google.android.finsky.application.FinskyApplication" finsky:backupAgent="com.android.vending.VendingBackupAgent" finsky:killAfterRestore="false" finsky:restoreNeedsApplication="true" finsky:restoreAnyVersion="true" finsky:hardwareAccelerated="true" finsky:supportsRtl="@bool/is_rtl_enabled" finsky:requiredForAllUsers="true" finsky:restrictedAccountType="com.google" finsky:roundIcon="@mipmap/ic_round_launcher_play_store">
+        <activity finsky:theme="@style/Theme.UiComponents.Translucent.NoActionBar" finsky:name="com.google.android.wallet.instrumentmanager.redirect.ImStartAndroidAppRedirectActivity" finsky:exported="false" finsky:launchMode="singleInstance" />
+        <activity finsky:name="com.google.android.wallet.instrumentmanager.redirect.ImFinishAndroidAppRedirectActivity" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="google-orchestration" finsky:host="return" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/Theme.UiComponents.PopupRedirect" finsky:name="com.google.android.wallet.instrumentmanager.ui.redirect.ImPopupRedirectActivity" finsky:configChanges="orientation|screenSize" />
+        <activity finsky:theme="@style/Theme.UiComponents.Translucent.NoActionBar" finsky:name="com.google.android.wallet.redirect.StartAndroidAppRedirectActivity" finsky:exported="false" finsky:launchMode="singleInstance" />
+        <service finsky:name="org.chromium.customtabsclient.shared.KeepAliveService" finsky:exported="true" />
+        <service finsky:name="com.google.android.finsky.zapp.ZappDownloadIntentService" />
+        <receiver finsky:name="com.google.android.finsky.zapp.ZappDownloadReceiver" finsky:enabled="true" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <meta-data finsky:name="com.google.android.gms.version" finsky:value="@integer/google_play_services_version" />
+        <meta-data finsky:name="com.google.android.gms.car.application" finsky:resource="@xml/automotive_app_desc" />
+        <meta-data finsky:name="com.google.android.safetynet.API_KEY" finsky:value="AIzaSyAbjymMFVpKzKIQNuebMSBu2mdHlasX3Xk" />
+        <meta-data finsky:name="com.google.vr.vrcore.PaymentsClientVersion" finsky:value="v1" />
+        <activity finsky:theme="@*finsky:style/Theme.NoDisplay" finsky:label="@string/i" finsky:icon="@mipmap/ic_launcher_play_store" finsky:name="com.android.vending.AssetBrowserActivity" finsky:enabled="true" finsky:exported="true" finsky:launchMode="singleTop" finsky:roundIcon="@mipmap/ic_round_launcher_play_store">
+            <intent-filter>
+                <action finsky:name="android.intent.action.MAIN" />
+                <action finsky:name="android.intent.action.SEARCH" />
+                <action finsky:name="com.google.android.finsky.VIEW_MY_DOWNLOADS" />
+                <category finsky:name="android.intent.category.LAUNCHER" />
+                <category finsky:name="android.intent.category.APP_MARKET" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data finsky:name="com.android.launcher.toolbar_icon" finsky:resource="@drawable/ic_menu_shop_holo_dark" />
+            <meta-data finsky:name="android.app.shortcuts" finsky:resource="@xml/shortcuts" />
+        </activity>
+        <activity finsky:theme="@style/MainActivityTheme" finsky:label="@string/i" finsky:name="com.google.android.finsky.activities.MainActivity" finsky:exported="true" finsky:launchMode="singleTask" finsky:visibleToInstantApps="true">
+            <meta-data finsky:name="instantapps.clients.allowed" finsky:value="true" />
+            <intent-filter>
+                <action finsky:name="android.intent.action.SEARCH" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.actions.SEARCH_ACTION" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <action finsky:name="android.intent.action.VIEW" />
+                <data finsky:scheme="http" />
+                <data finsky:scheme="https" />
+                <data finsky:host="market.android.com" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <action finsky:name="android.intent.action.VIEW" />
+                <data finsky:scheme="market" />
+                <data finsky:host="search" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.nfc.action.NDEF_DISCOVERED" />
+                <action finsky:name="android.intent.action.VIEW" />
+                <action finsky:name="afwapp.android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="http" />
+                <data finsky:scheme="https" />
+                <data finsky:host="play.google.com" />
+                <data finsky:pathPrefix="/store" />
+                <data finsky:pathPrefix="/redeem" />
+                <data finsky:pathPrefix="/wishlist" />
+                <data finsky:pathPrefix="/apps" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="market" finsky:host="webstoreredirect" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.DETAILS" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data finsky:name="com.android.launcher.toolbar_icon" finsky:resource="@drawable/ic_menu_shop_holo_dark" />
+        </activity>
+        <activity finsky:theme="@style/PurchaseDialog" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.PurchaseActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/PurchaseDialog" finsky:label="" finsky:name="com.google.android.finsky.billing.acquire.AcquireActivity" finsky:exported="false" finsky:configChanges="orientation|screenSize" finsky:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.ACQUIRE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.ACQUIRE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="iabData" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/BottomSheetDialog" finsky:label="" finsky:name="com.google.android.finsky.billing.acquire.PhoenixAcquireActivity" finsky:exported="false" finsky:configChanges="orientation|screenSize" finsky:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.phoenix.ACQUIRE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.phoenix.ACQUIRE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="iabData" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/PurchaseDialog" finsky:label="" finsky:name="com.google.android.finsky.activities.inlineappinstaller.InlineConsumptionAppInstallerActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/PurchaseDialog" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.AgeVerificationActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/PurchaseDialog" finsky:name="com.google.android.finsky.billing.lightpurchase.IabV3Activity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/VrActivityTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.vr.VrPurchaseActivity" finsky:exported="false" finsky:screenOrientation="landscape" finsky:configChanges="keyboardHidden|navigation|orientation|uiMode|screenSize" finsky:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" finsky:resizeableActivity="false" finsky:enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService">
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="com.google.intent.category.DAYDREAM" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/Theme.AppCompat.NoActionBar" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.vr.SwitchPurchaseContextActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/o" finsky:name="com.google.android.finsky.billing.profile.BillingProfileActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.profile.CatchAbandonmentActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/oa" finsky:name="com.google.android.finsky.billing.updatesubscriptioninstrument.UpdateSubscriptionInstrumentActivity">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.CHANGE_SUBSCRIPTION_INSTRUMENT" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.changesubscriptionprice.ChangeSubscriptionPriceActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/ea" finsky:name="com.google.android.finsky.billing.promptforfop.PromptForFopActivity" />
+        <activity finsky:label="@string/ja" finsky:name="com.google.android.finsky.billing.promptforfop.SetupWizardPromptForFopActivity" finsky:permission="com.android.vending.billing.ADD_CREDIT_CARD" finsky:exported="@bool/setup_wizard_enable_payments_linear_step" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.ADD_CREDIT_CARD" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:icon="@drawable/setup_wizard_generic_credit_card_black_56opacity_24dp" finsky:name="com.google.android.finsky.billing.setupwizard.PaymentsOptionalStepShimActivity" finsky:enabled="false" finsky:exported="true">
+            <intent-filter finsky:priority="100">
+                <action finsky:name="android.intent.action.MAIN" />
+                <category finsky:name="com.android.settings.suggested.category.PAYMENT" />
+            </intent-filter>
+            <meta-data finsky:name="com.android.settings.title" finsky:resource="@string/ia" />
+            <meta-data finsky:name="com.android.settings.summary" finsky:resource="@string/ha" />
+            <meta-data finsky:name="com.android.settings.require_account" finsky:value="com.google" />
+        </activity>
+        <receiver finsky:name="com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsAccountChangeBroadcastReceiver" finsky:enabled="@bool/setup_wizard_enable_payments_optional_step">
+            <intent-filter>
+                <action finsky:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsEnablementService" finsky:enabled="@bool/setup_wizard_enable_payments_optional_step" />
+        <activity finsky:theme="@style/Dialog_NoFrame" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.LightPurchaseFlowActivity" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.PURCHASE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.redeem.RedeemIntentActivity" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.REDEEM" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/InlineAppDetailsDialog" finsky:label="" finsky:name="com.google.android.finsky.activities.InlineAppDetailsDialog" finsky:exported="true" finsky:taskAffinity="@string/inline_details_task_affinity">
+            <intent-filter>
+                <action finsky:name="com.android.finsky.APP_DETAILS_DIALOG" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/InlineAppDetailsDialog" finsky:label="" finsky:name="com.google.android.finsky.activities.InlineAppDetailsDialogPrivate" finsky:exported="false" />
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.finsky.activities.InlineAppDetailsDummyDialog" />
+        <activity finsky:theme="@style/InlineAppDetailsDialog" finsky:label="" finsky:name="com.google.android.finsky.activities.InlineAppPostPurchaseDialog" />
+        <activity finsky:theme="@style/RateReviewTheme" finsky:label="@string/aa" finsky:name="com.google.android.finsky.activities.RateReviewActivity" finsky:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible|adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/RateReviewTheme" finsky:label="" finsky:name="com.google.android.finsky.ratereview.PublicReviewsActivity" finsky:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible|adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/v" finsky:name="com.google.android.finsky.activities.AppsPermissionsActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/c" finsky:name="com.google.android.finsky.billing.AskToDownloadActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/n" finsky:name="com.google.android.finsky.billing.lightpurchase.OfferResolutionActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.payments.InstrumentManagerActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.PurchaseManagerActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:label="" finsky:name="com.google.android.finsky.billing.payments.SetupWizardInstrumentManagerActivity" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.AuthenticatedWebViewActivity" finsky:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.lightpurchase.AddRecoveryOptionActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/y" finsky:name="com.google.android.finsky.billing.redeem.RedeemCodeActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="@string/ba" finsky:name="com.google.android.finsky.billing.gifting.GiftingActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.myaccount.CancelSubscriptionActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.myaccount.ReactivateSubscriptionActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.myaccount.ManageSubscriptionActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.myaccount.CancelSubscriptionActivityNew" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:label="" finsky:name="com.google.android.finsky.billing.myaccount.ReactivateSubscriptionActivityNew" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:name="com.google.android.finsky.download.MimeTypeActivity">
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:mimeType="application/vnd.android.obb" />
+                <data finsky:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:mimeType="application/vnd.android.package-delta" />
+                <data finsky:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/SettingsTheme" finsky:label="@string/d" finsky:name="com.google.android.finsky.contentfilterui.ContentFiltersActivity3" />
+        <activity finsky:theme="@style/FinskyLightDialogWithTitleTheme" finsky:name="com.google.android.finsky.contentfilterui.GaiaPasswordVerificationDialog" finsky:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateVisible|stateAlwaysVisible" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.family.remoteescalation.RemoteEscalationApprovalDialog" />
+        <activity finsky:theme="@style/FinskyLightDialogWithTitleTheme" finsky:label="@string/x" finsky:name="com.google.android.finsky.billing.legacyauth.PurchaseAuthActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogWithTitleTheme" finsky:icon="@drawable/ic_locked_holo_light" finsky:name="com.google.android.finsky.contentfilterui.PinEntryDialog" finsky:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateVisible|stateAlwaysVisible" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.activities.AccessRestrictedActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogWithTitleTheme" finsky:label="@string/na" finsky:name="com.google.android.finsky.billing.storedvalue.StoredValueTopUpActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogWithTitleTheme" finsky:label="@string/ma" finsky:name="com.google.android.finsky.billing.myaccount.SwitchFamilyInstrumentActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.uninstall.UninstallManagerActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.uninstall.UninstallManagerActivityV2" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.uninstall.v2a.UninstallManagerActivityV2a" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.uninstall.v2a.UninstallManagerCleanupActivityV2a" />
+        <provider finsky:name="com.google.android.finsky.providers.RecentSuggestionsProvider" finsky:exported="false" finsky:authorities="com.google.android.finsky.RecentSuggestionsProvider" />
+        <receiver finsky:name="com.google.android.gcm.GCMBroadcastReceiver" finsky:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action finsky:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action finsky:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category finsky:name="com.android.vending" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.android.vending.GCMIntentService" />
+        <receiver finsky:name="com.google.android.finsky.tos.TosAckedReceiver" finsky:permission="com.android.vending.TOS_ACKED" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.android.vending.TOS_ACKED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.download.DownloadBroadcastReceiver" finsky:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action finsky:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.volley.ClearCacheReceiver" finsky:exported="false">
+            <intent-filter>
+                <action finsky:name="android.intent.action.LOCALE_CHANGED" />
+                <action finsky:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver" finsky:enabled="false">
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_ADDED" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_REMOVED" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_CHANGED" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.finsky.activities.LaunchUrlHandlerActivity" finsky:taskAffinity="@string/inline_details_task_affinity" finsky:excludeFromRecents="true" finsky:visibleToInstantApps="true">
+            <meta-data finsky:name="instantapps.clients.allowed" finsky:value="true" />
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="market" finsky:host="details" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/InlineAppDetailsDialog" finsky:label="" finsky:name="com.google.android.finsky.activities.MarketDeepLinkHandlerActivity" finsky:enabled="false" finsky:exported="true" finsky:taskAffinity="@string/inline_details_task_affinity" finsky:excludeFromRecents="true" finsky:visibleToInstantApps="true">
+            <meta-data finsky:name="instantapps.clients.allowed" finsky:value="true" />
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="market" finsky:host="details" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.finsky.activities.ShowAppInfoActivity">
+            <intent-filter>
+                <action finsky:name="android.intent.action.SHOW_APP_INFO" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/Theme.AppCompat.Light.NoActionBar" finsky:label="@string/h" finsky:name="com.google.android.finsky.instantapps.SettingsActivity" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="com.google.android.instantapps.CHOOSE_ACCOUNT" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <action finsky:name="com.google.android.instantapps.SNOOZED_APPS" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@*finsky:style/Theme.NoDisplay" finsky:name="com.google.android.finsky.activities.AppCrashProxy" finsky:taskAffinity=":feedback" finsky:noHistory="true">
+            <intent-filter>
+                <action finsky:name="android.intent.action.APP_ERROR" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.tos.TosActivity" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/LightDialogWhenLarge" finsky:name="com.google.android.finsky.billing.addresschallenge.AddressChallengeActivity" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.settings.GaiaAuthActivity" finsky:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity finsky:theme="@style/SettingsTheme" finsky:label="@string/ca" finsky:name="com.google.android.finsky.settings.SettingsActivity" finsky:configChanges="keyboardHidden|orientation" />
+        <activity-alias finsky:name="com.google.android.finsky.activities.SettingsActivity" finsky:targetActivity="com.google.android.finsky.settings.SettingsActivity">
+            <intent-filter>
+                <action finsky:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity finsky:theme="@style/SettingsTheme" finsky:label="@string/ca" finsky:name="com.google.android.finsky.settings.ExternalSettingsActivity" finsky:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.intent.action.EXTERNAL_SETTINGS" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/SettingsTheme" finsky:label="@string/da" finsky:name="com.google.android.finsky.notificationsettings.NotificationsSettingsActivity" finsky:configChanges="keyboardHidden|orientation" finsky:parentActivityName="com.google.android.finsky.settings.SettingsActivity">
+            <meta-data finsky:name="android.support.PARENT_ACTIVITY" finsky:value="com.google.android.finsky.settings.SettingsActivity" />
+        </activity>
+        <activity finsky:theme="@style/SettingsTheme" finsky:label="@string/menu_debug_settings" finsky:name="com.google.android.finsky.activities.DebugActivity" />
+        <activity finsky:theme="@style/SetupWizardTheme.Light" finsky:label="@string/la" finsky:name="com.google.android.finsky.setup.SetupWizardSelectDeviceActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="true" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/SetupWizardTheme.Light" finsky:label="@string/ka" finsky:name="com.google.android.finsky.setup.SetupWizardSelectAppsForDeviceActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="false" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/SetupWizardTheme.Light" finsky:name="com.google.android.finsky.setup.VpaSelectionActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="true" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/VpaDetailsOverlayTheme" finsky:name="com.google.android.finsky.setup.VpaDetailsActivity" finsky:exported="false" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/SetupWizardTheme.Light" finsky:icon="@drawable/ic_play_prism_googblue_36dp" finsky:name="com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="true" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter finsky:priority="10">
+                <action finsky:name="android.intent.action.MAIN" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="com.android.settings.suggested.category.PAI" />
+            </intent-filter>
+            <meta-data finsky:name="com.android.settings.title" finsky:resource="@string/ga" />
+            <meta-data finsky:name="com.android.settings.summary" finsky:resource="@string/fa" />
+            <meta-data finsky:name="com.android.settings.require_connection" finsky:value="true" />
+            <meta-data finsky:name="com.android.settings.icon_tintable" finsky:value="true" />
+        </activity>
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.finsky.setup.RestoreAppsActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="true" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@style/SetupWizardTheme.Light" finsky:name="com.google.android.finsky.setup.SetupWizardFinalHoldActivity" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" finsky:exported="true" finsky:screenOrientation="behind" finsky:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity finsky:theme="@*finsky:style/Theme.NoDisplay" finsky:name="com.google.android.finsky.appdiscoveryservice.AppDiscoveryLaunchActivity" finsky:exported="true" finsky:excludeFromRecents="true" finsky:launchMode="singleInstance" finsky:allowTaskReparenting="true" finsky:noHistory="true" />
+        <activity finsky:theme="@style/PhotoViewTheme.NoActionBar" finsky:label="@string/b" finsky:name="com.google.android.finsky.screenshotsactivity.ScreenshotsActivityV2" />
+        <activity finsky:theme="@style/LightDialogWhenLarge" finsky:name="com.google.android.finsky.activities.FlagItemDialog" />
+        <activity finsky:theme="@style/LightDialogWhenLarge" finsky:label="@string/e" finsky:name="com.google.android.finsky.activities.ReviewsActivity" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.activities.MultiInstallActivity" />
+        <activity finsky:theme="@style/FamilyMemberSettingTheme" finsky:label="@string/g" finsky:name="com.google.android.finsky.family.management.FamilyMemberSettingsActivity" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.family.MEMBER_SETTINGS" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FamilySetupTheme" finsky:name="com.google.android.finsky.family.setup.FamilySetupActivity" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.family.SETUP" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver finsky:name="com.google.android.finsky.boothandler.BootCompletedReceiver" finsky:enabled="false">
+            <intent-filter>
+                <action finsky:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.services.LicensingService" finsky:permission="com.android.vending.CHECK_LICENSE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.android.vending.licensing.ILicensingService" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.heterodyne.HeterodyneSyncService" />
+        <service finsky:name="com.google.android.finsky.setup.RestoreService" />
+        <service finsky:name="com.google.android.finsky.setup.RestoreServiceV2" />
+        <service finsky:name="com.google.android.finsky.setup.VpaService" />
+        <service finsky:name="com.google.android.finsky.wear.WearSupportService" />
+        <service finsky:name="com.google.android.finsky.wear.WearChangeListenerService">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <action finsky:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data finsky:scheme="wear" />
+            </intent-filter>
+        </service>
+        <receiver finsky:name="com.google.android.finsky.accounts.impl.AccountsChangedReceiver" finsky:enabled="false">
+            <intent-filter>
+                <action finsky:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.deviceconfig.RemoveAssetReceiver" finsky:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action finsky:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category finsky:name="REMOVE_ASSET" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.deviceconfig.ServerNotificationReceiver" finsky:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action finsky:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category finsky:name="SERVER_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.simhandler.SimStateReceiver" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.billing.iab.InAppBillingService" finsky:visibleToInstantApps="true">
+            <meta-data finsky:name="instantapps.clients.allowed" finsky:value="true" />
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.InAppBillingService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.billing.iab.FirstPartyInAppBillingService">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.FirstPartyInAppBillingService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.billing.BillingAccountService" finsky:permission="com.android.vending.billing.BILLING_ACCOUNT_SERVICE" finsky:exported="@bool/setup_wizard_enable_payments_linear_step">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.IBillingAccountService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.billing.BillingService">
+            <intent-filter>
+                <action finsky:name="com.android.vending.billing.IBillingService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.setup.PlaySetupService" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE">
+            <intent-filter>
+                <action finsky:name="com.android.vending.setup.IPlaySetupService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.setup.PlaySetupServiceV2" finsky:permission="com.android.vending.setup.PLAY_SETUP_SERVICE">
+            <intent-filter>
+                <action finsky:name="com.android.vending.setup.IPlaySetupServiceV2.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.splitinstallservice.SplitInstallService" finsky:enabled="true" finsky:exported="true" finsky:visibleToInstantApps="true">
+            <meta-data finsky:name="instantapps.clients.allowed" finsky:value="true" />
+            <intent-filter>
+                <action finsky:name="com.google.android.play.core.splitinstall.BIND_SPLIT_INSTALL_SERVICE" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.services.MarketCatalogService">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.services.IMarketCatalogService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.services.ReviewsService">
+            <intent-filter>
+                <action finsky:name="com.android.vending.reviews.IReviewsService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.contentfilterui.ContentFiltersService">
+            <intent-filter>
+                <action finsky:name="com.android.vending.contentfilters.IContentFiltersService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.services.DetailsService">
+            <intent-filter>
+                <action finsky:name="com.android.vending.details.IDetailsService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.appdiscoveryservice.AppDiscoveryService" finsky:permission="com.android.vending.appdiscoveryservice.permission.ACCESS_APP_DISCOVERY_SERVICE">
+            <intent-filter>
+                <action finsky:name="com.android.vending.appdiscoveryservice.IAppDiscoveryService.BIND" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.flushlogs.FlushLogsReceiver$FlushLogsService" finsky:exported="false" />
+        <receiver finsky:name="com.google.android.finsky.flushlogs.FlushLogsReceiver" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.safemode.SafeModeService" finsky:exported="false" finsky:process=":recovery_mode" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.recoverymode.impl.RecoveryModeActivity" finsky:process=":recovery_mode" finsky:stateNotNeeded="true" finsky:launchMode="singleInstance" />
+        <receiver finsky:name="com.google.android.finsky.download.RecoveryModeDownloadBroadcastReceiver" finsky:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" finsky:exported="true" finsky:process=":recovery_mode">
+            <intent-filter>
+                <action finsky:name="android.intent.action.DOWNLOAD_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.foregroundcoordinator.ForegroundCoordinator$ForegroundCoordinatorService" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.scheduler.AlarmEngineService" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.scheduler.FirebaseJobDispatcherEngine$FirebaseJobDispatcherService" finsky:exported="false">
+            <intent-filter>
+                <action finsky:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <receiver finsky:name="com.google.android.finsky.verifier.impl.PackageVerificationReceiver" finsky:permission="android.permission.BIND_PACKAGE_VERIFIER">
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION" />
+                <data finsky:mimeType="application/vnd.android.package-archive" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.verifier.impl.VerifyInstalledPackagesReceiver" finsky:exported="false" />
+        <receiver finsky:name="com.google.android.finsky.verifier.impl.SingleUserSettingsReceiver" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.verifier.impl.PackageVerificationService" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.verifier.impl.PackageVerificationApiService" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.vending.verifier.ACTION_PACKAGE_VERIFICATION_API" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.verifier.impl.SingleUserSettingsService" finsky:exported="false" finsky:singleUser="true" />
+        <activity finsky:label="@string/pa" finsky:icon="@drawable/ic_google_settings" finsky:name="com.google.android.finsky.verifier.impl.PackageVerificationActivity" finsky:enabled="@bool/verification_activity_enable" finsky:excludeFromRecents="true" finsky:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <action finsky:name="android.intent.action.INSTALL_PACKAGE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="file" />
+                <data finsky:mimeType="application/vnd.android.package-archive" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.INSTALL_PACKAGE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="file" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.verifier.impl.PerSourceInstallationConsentWarningDialog" finsky:taskAffinity="" finsky:excludeFromRecents="true" finsky:noHistory="true" />
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.verifier.impl.PackageWarningDialog" finsky:permission="com.google.android.vending.verifier.ACCESS_VERIFIER" finsky:taskAffinity="" finsky:excludeFromRecents="true" finsky:noHistory="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.vending.verifier.ACTION_REMOVE_HARMFUL_APP" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/FinskyLightDialogTheme" finsky:name="com.google.android.finsky.verifier.impl.ConsentDialog" finsky:permission="com.google.android.vending.verifier.ACCESS_VERIFIER" finsky:taskAffinity="" finsky:excludeFromRecents="true" finsky:launchMode="singleInstance" finsky:noHistory="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.vending.verifier.REQUEST_CONSENT" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/TransparentSnackBarTheme" finsky:label="@string/qa" finsky:name="com.google.android.finsky.verifier.impl.VerifyInstallSnackbarActivity" finsky:taskAffinity="" finsky:excludeFromRecents="true" finsky:launchMode="singleInstance" finsky:noHistory="true" />
+        <activity finsky:theme="@style/FinskyTheme" finsky:label="@string/l" finsky:name="com.google.android.finsky.verifier.impl.PlayProtectHomeActivity" finsky:taskAffinity="">
+            <intent-filter>
+                <action finsky:name="android.intent.action.VIEW" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <category finsky:name="android.intent.category.BROWSABLE" />
+                <data finsky:scheme="http" finsky:host="play.google.com" finsky:pathPrefix="/protect/home" />
+                <data finsky:scheme="https" />
+            </intent-filter>
+        </activity>
+        <service finsky:name="com.google.android.finsky.installer.MultiUserCoordinatorService" finsky:exported="false" finsky:singleUser="true" />
+        <receiver finsky:name="com.google.android.finsky.notification.impl.NotificationReceiver" finsky:exported="false">
+            <intent-filter>
+                <action finsky:name="com.android.vending.NEW_UPDATE_CLICKED" />
+                <action finsky:name="com.android.vending.SUCCESSFULLY_INSTALLED_CLICKED" />
+                <action finsky:name="com.android.vending.SUCCESSFULLY_UPDATED_CLICKED" />
+                <action finsky:name="com.android.vending.SUCCESSFULLY_UPDATED_DELETED" />
+                <action finsky:name="com.android.vending.OUTSTANDING_UPDATE_CLICKED" />
+                <action finsky:name="com.android.vending.NEW_UPDATE_NEED_APPROVAL_CLICKED" />
+                <action finsky:name="com.android.vending.PREREGISTRATION_RELEASED_CLICKED" />
+                <action finsky:name="com.android.vending.DOWNLOAD_NOW_CLICKED" />
+                <action finsky:name="com.android.vending.RICH_USER_NOTIFICATION_CLICKED" />
+                <action finsky:name="com.android.vending.RICH_USER_NOTIFICATION_PRIMARY_ACTION_CLICKED" />
+                <action finsky:name="com.android.vending.RICH_USER_NOTIFICATION_SECONDARY_ACTION_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.hygiene.DailyHygiene$DailyHygieneService" />
+        <service finsky:name="com.google.android.finsky.updatechecker.impl.ReschedulerUsingAlarmManager$CheckWifiAndAutoUpdate" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.updatechecker.impl.ReschedulerUsingJobScheduler$CheckPreconditionsAndAutoUpdateJobService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.services.PlayGearheadService" finsky:permission="com.google.android.finsky.permission.GEARHEAD_SERVICE" finsky:exported="true" />
+        <service finsky:name="com.google.android.finsky.services.PackageUpdateService" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.BIND_PACKAGE_UPDATE_SERVICE" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.services.AdIdListener">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.ads.identifier.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.externalreferrer.ExternalReferrerService" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.zapp.PlayModuleService" finsky:enabled="true" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.BIND_PLAY_MODULE_SERVICE" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.datasync.BrowseDataSyncTaskService" finsky:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.datasync.BrowseDataSyncService" finsky:exported="false" />
+        <service finsky:name="com.google.android.finsky.DfeNotificationManagerImpl$SelfUpdateNotificationTaskService" finsky:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.datasync.CacheAndSyncTaskService" finsky:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.datasync.CacheAndSyncJitterSchedulingService" finsky:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.google.android.finsky.installapi.PlayInstallService" finsky:enabled="true" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.BIND_PLAY_INSTALL_SERVICE" />
+            </intent-filter>
+        </service>
+        <activity finsky:theme="@style/PETheme.StoryActivity.Finsky" finsky:name="com.google.android.finsky.entertainment.PEFinskyStoryActivity" finsky:exported="false" finsky:launchMode="singleInstance" finsky:configChanges="orientation|screenSize" finsky:parentActivityName="com.google.android.finsky.activities.MainActivity" finsky:resizeableActivity="false">
+            <meta-data finsky:name="android.support.PARENT_ACTIVITY" finsky:value="com.google.android.finsky.activities.MainActivity" />
+        </activity>
+        <activity finsky:theme="@style/RestoreDialog" finsky:name="com.google.android.finsky.activities.myapps.RestoreAppsActivity" />
+        <activity finsky:theme="@style/Theme.Loading.Invisible" finsky:label="@string/f" finsky:icon="@mipmap/ephemeral_installer_icon" finsky:name="com.google.android.finsky.instantapps.EphemeralInstallerActivity" finsky:enabled="false" finsky:exported="false" finsky:process=":instant_app_installer" finsky:taskAffinity=":instant_app_installer" finsky:excludeFromRecents="true" finsky:launchMode="singleInstance" finsky:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action finsky:name="android.intent.action.INSTALL_EPHEMERAL_PACKAGE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="file" />
+                <data finsky:mimeType="application/vnd.android.package-archive" />
+            </intent-filter>
+            <intent-filter>
+                <action finsky:name="android.intent.action.INSTALL_INSTANT_APP_PACKAGE" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="file" />
+                <data finsky:mimeType="application/vnd.android.package-archive" />
+            </intent-filter>
+            <meta-data finsky:name="usesIntentExtrasForPrelaunchCheck" finsky:value="true" />
+        </activity>
+        <activity finsky:theme="@style/Theme.QuickInstallEntry" finsky:name="com.google.android.finsky.instantappsquickinstall.InstantAppsInstallEntryActivity" finsky:enabled="false" finsky:exported="true" finsky:visibleToInstantApps="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.action.IA_INSTALL" />
+                <category finsky:name="android.intent.category.DEFAULT" />
+                <data finsky:scheme="market" finsky:host="details" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/Theme.QuickInstallDialog" finsky:name="com.google.android.finsky.instantappsquickinstall.InstantAppsInstallDialogActivity" finsky:exported="false" />
+        <activity finsky:theme="@style/Theme.QuickInstallProgress" finsky:name="com.google.android.finsky.instantappsquickinstall.InstantAppsInstallProgressActivity" finsky:exported="false" />
+        <receiver finsky:name="com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" finsky:enabled="false" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="android.intent.action.PACKAGE_REMOVED" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.instantapps.PhenotypeUpdateReceiver" finsky:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST" finsky:exported="true" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.phenotype.UPDATE" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.instantapps.PhenotypeUpdateService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.InstantAppHygieneService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantappsbackendclient.impl.UpdateContentFilterJob" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.InstantAppsLoggingService" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.InstantAppsSharedPreferencesService" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.AppManagementService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <receiver finsky:name="com.google.android.finsky.instantapps.appmanagement.OptInStateChangedReceiver" finsky:permission="com.google.android.finsky.permission.INSTANT_APP_STATE" finsky:exported="true" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="com.google.android.instantapps.OPT_IN_STATUS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.instantappstossupport.OptInStateChangedReceiver" finsky:permission="com.google.android.finsky.permission.INSTANT_APP_STATE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.instantapps.OPT_IN_STATUS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.instantapps.PackageReplacedReceiver" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <receiver finsky:name="com.google.android.finsky.instantapps.ContentFilterUpdatedReceiver" finsky:enabled="false" finsky:exported="false" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.action.CONTENT_FILTERS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.services.GmsCoreUpdateService" />
+        <receiver finsky:name="com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" finsky:enabled="false" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.android.finsky.instantapps.metrics.UpgradeToInstalledReceiver" finsky:exported="false" finsky:process=":instant_app_installer">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.instantapps.APP_UPGRADE" />
+                <data finsky:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service finsky:name="com.google.android.finsky.instantapps.metrics.AppUpgradeToInstalledService" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.metrics.LogFlushJob" finsky:permission="android.permission.BIND_JOB_SERVICE" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.instantapps.statussync.StatusSyncService" finsky:exported="false" finsky:process=":instant_app_installer" />
+        <service finsky:name="com.google.android.finsky.externalreferrer.GetInstallReferrerService" finsky:permission="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.finsky.BIND_GET_INSTALL_REFERRER_SERVICE" />
+            </intent-filter>
+        </service>
+        <provider finsky:name="com.google.android.finsky.addtohomescreen.AddToHomeScreenSettingProvider" finsky:exported="true" finsky:authorities="com.android.vending.addtohomescreen" />
+        <activity finsky:theme="@style/MainActivityTheme" finsky:name="com.google.android.finsky.unauthenticated.UnauthenticatedMainActivity" />
+        <service finsky:name="com.google.android.gms.peerdownloadmanager.service.PdmTransferIntentOperation" finsky:exported="false" finsky:process=":peerdownloadmanager" />
+        <receiver finsky:name="com.google.android.gms.peerdownloadmanager.service.PdmTransferIntentReceiver" finsky:exported="false" finsky:process=":peerdownloadmanager" />
+        <activity finsky:theme="@style/Theme.AppCompat.Light" finsky:label="@string/w" finsky:name="com.google.android.libraries.social.licenses.LicenseMenuActivity" finsky:exported="true" />
+        <activity finsky:theme="@style/Theme.AppCompat.Light" finsky:label="@string/w" finsky:name="com.google.android.libraries.social.licenses.LicenseActivity" finsky:exported="false" />
+        <activity finsky:theme="@*finsky:style/Theme.Translucent" finsky:name="com.google.android.gms.ads.AdActivity" finsky:exported="false" finsky:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" finsky:exported="false" finsky:excludeFromRecents="true" />
+        <service finsky:name="com.google.android.gms.auth.api.signin.RevocationBoundService" finsky:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" finsky:exported="true" />
+        <activity finsky:theme="@*finsky:style/Theme.Translucent.NoTitleBar" finsky:name="com.google.android.gms.common.api.GoogleApiActivity" finsky:exported="false" />
+        <receiver finsky:name="com.google.android.gms.measurement.AppMeasurementReceiver" finsky:enabled="true" finsky:exported="false" />
+        <service finsky:name="com.google.android.gms.measurement.AppMeasurementService" finsky:enabled="true" finsky:exported="false" />
+        <receiver finsky:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" finsky:permission="com.google.android.c2dm.permission.SEND" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver finsky:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" finsky:exported="false" />
+        <service finsky:name="com.google.firebase.iid.FirebaseInstanceIdService" finsky:exported="true">
+            <intent-filter finsky:priority="-500">
+                <action finsky:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.firebase.jobdispatcher.GooglePlayReceiver" finsky:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" finsky:exported="true">
+            <intent-filter>
+                <action finsky:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service finsky:name="com.squareup.leakcanary.internal.HeapAnalyzerService" finsky:enabled="false" finsky:process=":leakcanary" />
+        <service finsky:name="com.squareup.leakcanary.DisplayLeakService" finsky:enabled="false" finsky:process=":leakcanary" />
+        <activity finsky:theme="@style/leak_canary_LeakCanary_Base" finsky:label="@string/j" finsky:icon="@drawable/leak_canary_icon" finsky:name="com.squareup.leakcanary.internal.DisplayLeakActivity" finsky:enabled="false" finsky:process=":leakcanary" finsky:taskAffinity="com.squareup.leakcanary">
+            <intent-filter>
+                <action finsky:name="android.intent.action.MAIN" />
+                <category finsky:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity finsky:theme="@style/leak_canary_Theme_Transparent" finsky:label="@string/k" finsky:icon="@drawable/leak_canary_icon" finsky:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity" finsky:enabled="false" finsky:process=":leakcanary" finsky:taskAffinity="com.squareup.leakcanary" finsky:excludeFromRecents="true" />
+    </application>
+    <compatible-screens>
+        <screen finsky:screenSize="small" finsky:screenDensity="hdpi" />
+        <screen finsky:screenSize="normal" finsky:screenDensity="hdpi" />
+        <screen finsky:screenSize="large" finsky:screenDensity="hdpi" />
+        <screen finsky:screenSize="xlarge" finsky:screenDensity="hdpi" />
+        <screen finsky:screenSize="small" finsky:screenDensity="xhdpi" />
+        <screen finsky:screenSize="normal" finsky:screenDensity="xhdpi" />
+        <screen finsky:screenSize="large" finsky:screenDensity="xhdpi" />
+        <screen finsky:screenSize="xlarge" finsky:screenDensity="xhdpi" />
+        <screen finsky:screenSize="small" finsky:screenDensity="UNKNOWN_DATA_0x1e0" />
+        <screen finsky:screenSize="normal" finsky:screenDensity="UNKNOWN_DATA_0x1e0" />
+        <screen finsky:screenSize="large" finsky:screenDensity="UNKNOWN_DATA_0x1e0" />
+        <screen finsky:screenSize="xlarge" finsky:screenDensity="UNKNOWN_DATA_0x1e0" />
+    </compatible-screens>
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:foreground="@drawable/play_highlight_overlay_light" android:contentDescription="@string/content_description_screenshot">
+    <com.google.android.finsky.layout.ScreenshotFifeImageView android:id="@id/screenshot_content" android:layout_width="wrap_content" android:layout_height="match_parent" android:adjustViewBounds="true" />
+</FrameLayout>

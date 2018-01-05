@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play സ്റ്റോർ</string>
+    <string name="b">Google Play</string>
+    <string name="c">അംഗീകാരം ആവശ്യമാണ്</string>
+    <string name="d">രക്ഷാകർതൃ നിയന്ത്രണങ്ങൾ</string>
+    <string name="e">പുനരവലോകനങ്ങള്‍</string>
+    <string name="f">ഇൻസ്‌റ്റന്റ് ആപ്പ്</string>
+    <string name="g">അംഗത്തിന്റെ ക്രമീകരണം</string>
+    <string name="h">ഇൻസ്‌റ്റന്‍റ് ആപ്പ് മുൻഗണനകൾ</string>
+    <string name="i">Play സ്റ്റോർ</string>
+    <string name="l">Play പരിരക്ഷ</string>
+    <string name="m">എന്റെ അപ്ലിക്കേഷനുകൾ</string>
+    <string name="n">വാങ്ങൽ ഓപ്ഷനുകൾ</string>
+    <string name="o">പേയ്‌മെന്റ് രീതികൾ</string>
+    <string name="p">ഈ ആപ്പിനുള്ളിൽ നിന്ന്, ലഭ്യമായ ആപ്‌സ് കാണുന്നതിന് ഉപയോക്താവിനെ അനുവദിക്കുന്നു.</string>
+    <string name="q">Google Play ആപ്പ് കണ്ടെത്തൽ സേവനം ആക്സസ്സ് ചെയ്യുക</string>
+    <string name="r">അപ്ലിക്കേഷന്റെ ഉള്ളിൽ നിന്ന് Google Play വഴി ഇനങ്ങൾ വാങ്ങുന്നതിന് ഉപയോക്താവിനെ അനുവദിക്കുന്നു.</string>
+    <string name="s">Google Play ബില്ലിംഗ് സേവനം</string>
+    <string name="t">Google Play-യിൽ നിന്ന് ഈ അപ്ലിക്കേഷനായി നിങ്ങൾക്കൊരു ലൈസൻസ് ലഭിച്ചിട്ടുണ്ടോ എന്ന് പരിശോധിക്കാൻ കഴിയും.</string>
+    <string name="u">Google Play ലൈസൻസ് പരിശോധന</string>
+    <string name="v">ആപ്പ് അനുമതികൾ</string>
+    <string name="w">ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ</string>
+    <string name="x">പ്രാമാണീകരണം ആവശ്യമാണ്</string>
+    <string name="y">കോഡ് റിഡീം ചെയ്യുക</string>
+    <string name="aa">ഇതിനെ റേറ്റുചെയ്യുക!</string>
+    <string name="ba">സമ്മാനം അയയ്‌ക്കുക</string>
+    <string name="ca">ക്രമീകരണം</string>
+    <string name="da">അറിയിപ്പുകൾ</string>
+    <string name="ea">പൂർണ്ണ അക്കൗണ്ട് സജ്ജീകരണം</string>
+    <string name="fa">സജ്ജമാക്കിയതിന് ശേഷം ആപ്പുകൾ ഇൻസ്‌റ്റാൾ ചെയ്യപ്പെടും</string>
+    <string name="ga">കൂടുതൽ ആപ്‌സ് അവലോകനം ചെയ്യുക</string>
+    <string name="ha">Google ഉൽപ്പന്നങ്ങൾ ഉപയോഗിച്ച് പെട്ടെന്നുള്ള ചെക്കൗട്ട് ആസ്വദിക്കുക</string>
+    <string name="ia">പേയ്‌മെന്റ് രീതി ചേർക്കുക</string>
+    <string name="ja">പേയ്മെന്റ് വിവരം സജ്ജമാക്കുക</string>
+    <string name="ka">ഉപകരണത്തിൽ നിന്ന് ആപ്‌സ് പുനഃസ്ഥാപിക്കുക</string>
+    <string name="la">ഏത് ഉപകരണം?</string>
+    <string name="ma">ഫാമിലി പേയ്‌മെന്റ് രീതി തിരഞ്ഞെടുക്കുക</string>
+    <string name="na">തുക തിരഞ്ഞെടുക്കുക</string>
+    <string name="oa">പേയ്‌മെന്റ് രീതി അപ്‌ഡേറ്റുചെയ്യുക</string>
+    <string name="pa">സ്ഥിരീകരിക്കുക, ഇൻസ്റ്റാളുചെയ്യുക</string>
+    <string name="qa">സുരക്ഷാ പ്രശ്നങ്ങൾ ഉണ്ടോയെന്നറിയാൻ സ്കാൻ ചെയ്യുന്നു…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

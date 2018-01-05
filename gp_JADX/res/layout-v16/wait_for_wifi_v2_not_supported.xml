@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="0x106000c" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wait_for_wifi_not_supported_p1" android:fontFamily="sans-serif" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="#616161" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wait_for_wifi_not_supported_p2" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="0x106000c" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wait_for_wifi_not_supported_p3" android:fontFamily="sans-serif" />
+</LinearLayout>

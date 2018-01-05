@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.play.entertainment.story.BackgroundPanelView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/background_panel" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:paddingTop="@dimen/box_large_padding" app:paddingBottom="@dimen/box_vertical_margin" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PETextContainer">
+        <TextView app:id="@id/panel_title" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEPanelTitleText.Panel" />
+        <FrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/image_frame" app:layout_width="UNKNOWN_DATA_0x7f0e0417" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_large_padding" style="@style/PEImageFrame">
+            <com.google.android.libraries.play.entertainment.bitmap.PEImageView app:id="@id/image_media" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/PEImageMedia" />
+        </FrameLayout>
+        <TextView app:id="@id/title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PETitleText.Panel" />
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/broadcaster" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/box_small_padding" style="@style/PEText" />
+    </LinearLayout>
+</com.google.android.libraries.play.entertainment.story.BackgroundPanelView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item finsky:icon="@drawable/ic_menu_translate" finsky:id="@id/translate_button" finsky:visible="false" finsky:showAsAction="always|withText" />
+    <item finsky:id="@id/auto_update_button" finsky:visible="false" finsky:title="@string/allow_auto_updating" finsky:showAsAction="UNKNOWN_DATA_0x0" />
+    <item finsky:id="@id/env_button" finsky:visible="false" finsky:title="@string/debug_environment_action_bar_title" finsky:showAsAction="always" />
+    <item finsky:icon="@drawable/ic_share" finsky:id="@id/share_button" finsky:visible="false" finsky:title="@string/share" finsky:showAsAction="always" />
+    <item finsky:icon="@drawable/ic_settings" finsky:id="@id/notification_settings_button" finsky:visible="false" finsky:title="@string/settings_notifications_section_summary" finsky:showAsAction="always" />
+    <item finsky:icon="@drawable/ic_search_white" finsky:id="@id/search_button" finsky:title="@string/search_hint" finsky:showAsAction="always|collapseActionView" finsky:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@c5810g/first_launch_settings_reminder" android:layout_width="match_parent" android:layout_height="wrap_content" class="android.support.design.internal.SnackbarContentLayout">
+        <TextView android:textAppearance="@c0127i/TextAppearance_Design_Snackbar_Message" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="@dimen/design_snackbar_padding_horizontal" android:paddingTop="@dimen/design_snackbar_padding_vertical" android:paddingRight="@dimen/design_snackbar_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@c5814k/first_launch_settings_reminder" android:layout_weight="1.0" />
+        <Button android:textColor="?attr/colorAccent" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@c5810g/settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal" android:minWidth="48dp" android:text="@c5814k/settings" style="?attr/borderlessButtonStyle" />
+    </LinearLayout>
+</merge>

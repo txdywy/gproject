@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.playcard.FlatCardViewPreregistrableGame xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/play_card" finsky:focusable="true" finsky:nextFocusRight="@id/li_overflow" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:foreground="@drawable/play_highlight_round_overlay_light" finsky:card_supports_subtitle_and_rating="true">
+    <include layout="@layout/flat_card_listing_base_content" />
+    <include layout="@layout/flat_card_preregistrable_game_content" />
+</com.google.android.finsky.playcard.FlatCardViewPreregistrableGame>

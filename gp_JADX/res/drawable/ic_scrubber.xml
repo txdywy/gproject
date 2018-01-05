@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@drawable/ic_scrubber_idle" android:state_hovered="false" />
+    <item android:state_pressed="false" android:drawable="@drawable/ic_scrubber_hover" android:state_hovered="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/ic_scrubber_dragging" android:state_hovered="false" />
+</selector>

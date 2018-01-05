@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item finsky:id="@id/go_to_family_library_settings" finsky:title="@c5814k/settings" finsky:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

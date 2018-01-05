@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/default_settings_title" android:paddingTop="8dp" android:paddingBottom="2dp" style="@style/FamilyVerticalShareSettingSpacing" />
+        <TextView android:textColor="@color/play_fg_secondary" android:id="@id/default_settings_description" android:paddingBottom="8dp" android:lineSpacingExtra="6sp" style="@style/FamilyVerticalShareSettingSpacing" />
+        <RadioGroup android:orientation="vertical" android:paddingLeft="4dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <RadioButton android:id="@id/radio_automatic" android:paddingLeft="20dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" />
+            <RadioButton android:id="@id/radio_manual" android:paddingLeft="20dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:background="@color/family_library_settings_description_background" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <ImageView android:id="@id/default_settings_extra_description_icon" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_margin="8dp" />
+            <TextView android:textSize="14sp" android:textColor="@color/play_fg_secondary" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/default_settings_extra_description" android:paddingLeft="16dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6sp" />
+        </LinearLayout>
+        <View android:background="@color/play_translucent_separator_line" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="24dp" style="@style/FamilyVerticalShareSettingSpacing" />
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/remove_purchases_title" style="@style/FamilyVerticalShareSettingSpacing" />
+        <TextView android:textSize="14sp" android:textColor="@color/play_fg_secondary" android:id="@id/remove_purchases_description" android:lineSpacingExtra="6sp" style="@style/FamilyVerticalShareSettingSpacing" />
+        <com.google.android.finsky.frameworkviews.AccessibleTextView android:textColor="@color/play_family_primary" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/remove_purchases" android:background="@drawable/play_highlight_overlay_light" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/family_remove_purchases" />
+    </LinearLayout>
+</ScrollView>

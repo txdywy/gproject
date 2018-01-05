@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.preregistration.PreregistrationDialogView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:paddingLeft="16dp" finsky:paddingTop="16dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:paddingStart="16dp" finsky:paddingEnd="16dp">
+    <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginBottom="16dp">
+        <include layout="@layout/details_summary_thumbnail" />
+        <LinearLayout finsky:orientation="vertical" finsky:paddingLeft="16dp" finsky:paddingRight="0dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:paddingStart="16dp" finsky:paddingEnd="0dp">
+            <com.google.android.play.layout.PlayTextView finsky:paddingBottom="2dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:text="@string/preregistration_dialog_supertitle" finsky:drawablePadding="4dp" style="@style/Play_DetailsPage_Subtitle" />
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/title_title" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@c6382j/PlayDetailTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView finsky:textAppearance="?unknown_attr_ref: 1010041" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/preregistration_dialog_message" />
+</com.google.android.finsky.preregistration.PreregistrationDialogView>

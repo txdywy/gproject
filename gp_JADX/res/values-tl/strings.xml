@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play Store</string>
+    <string name="b">Google Play</string>
+    <string name="c">Kailangan ang pag-apruba</string>
+    <string name="d">Mga kontrol ng magulang</string>
+    <string name="e">Mga Review</string>
+    <string name="f">Instant na app</string>
+    <string name="g">Mga setting ng miyembro</string>
+    <string name="h">Mga preference sa Instant Apps</string>
+    <string name="i">Play Store</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Aking apps</string>
+    <string name="n">Mga pagpipilian sa pagbili</string>
+    <string name="o">Mga paraan ng pagbabayad</string>
+    <string name="p">Pinapayagan ang mga user na tingnan ang mga available na app mula sa app na ito.</string>
+    <string name="q">I-access ang Google Play App Discovery Service</string>
+    <string name="r">Binibigyang-daan ang user na bumili ng mga item sa pamamagitan ng Google Play mula sa loob ng app na ito.</string>
+    <string name="s">Serbisyo sa pagsingil ng Google Play</string>
+    <string name="t">Makakapagsuri kung mayroon kang lisensya para sa app na ito mula sa Google Play.</string>
+    <string name="u">Pagsusuri sa lisensya ng Google Play</string>
+    <string name="v">Mga pahintulot sa app</string>
+    <string name="w">Mga lisensya ng open source</string>
+    <string name="x">Hilingin ang pagpapatunay</string>
+    <string name="y">Kunin ang iyong code</string>
+    <string name="aa">I-rate ito!</string>
+    <string name="ba">Magpadala ng regalo</string>
+    <string name="ca">Mga Setting</string>
+    <string name="da">Mga Notification</string>
+    <string name="ea">Kumpletuhin ang pag-setup ng account</string>
+    <string name="fa">Mai-install ang mga app kapag natapos na ang pag-set up</string>
+    <string name="ga">Tingnan ang mga karagdagang app</string>
+    <string name="ha">Mag-enjoy sa mabilis na checkout sa mga produkto ng Google</string>
+    <string name="ia">Ibang uri pagbabayad</string>
+    <string name="ja">I-set up ang impormasyon sa pagbabayad</string>
+    <string name="ka">I-restore ang mga app mula sa isang device</string>
+    <string name="la">Aling device?</string>
+    <string name="ma">Piliin ang paraan ng pagbabayad</string>
+    <string name="na">Pumili ng halaga</string>
+    <string name="oa">I-update ang paraan ng pagbabayad</string>
+    <string name="pa">I-verify at i-install</string>
+    <string name="qa">Nagsa-scan para sa mga isyu sa seguridad…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

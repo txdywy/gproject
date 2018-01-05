@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/toolbar" android:background="@c6071d/pe__default_action_bar_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0002" android:elevation="@dimen/play_header_list_floating_elevation" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator" />
+    <include android:visibility="gone" layout="@layout/page_error_indicator_with_notify" />
+    <com.google.android.finsky.layout.play.PlayListView android:scrollbarStyle="outsideOverlay" android:id="@id/my_apps_content_list" android:paddingBottom="@dimen/card_list_vpadding" android:visibility="gone" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/play_main_background" android:divider="0x0" />
+</merge>

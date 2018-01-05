@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Google Play 商店</string>
+    <string name="b">Google Play</string>
+    <string name="c">需要获得批准</string>
+    <string name="d">家长控制</string>
+    <string name="e">评价</string>
+    <string name="f">免安装应用</string>
+    <string name="g">成员设置</string>
+    <string name="h">免安装应用偏好设置</string>
+    <string name="i">Play 商店</string>
+    <string name="l">Play 保护机制</string>
+    <string name="m">我的应用</string>
+    <string name="n">购买选项</string>
+    <string name="o">付款方式</string>
+    <string name="p">允许用户在此应用内查看可用的应用。</string>
+    <string name="q">使用 Google Play App Discovery Service</string>
+    <string name="r">允许用户在此应用中通过 Google Play 购买商品。</string>
+    <string name="s">Google Play 结算服务</string>
+    <string name="t">可检查您是否通过 Google Play 购买了此应用的许可。</string>
+    <string name="u">Google Play 许可检查</string>
+    <string name="v">应用访问授权</string>
+    <string name="w">开放源代码许可</string>
+    <string name="x">何时需验证身份：</string>
+    <string name="y">兑换代码</string>
+    <string name="aa">评分！</string>
+    <string name="ba">发送礼物</string>
+    <string name="ca">设置</string>
+    <string name="da">通知</string>
+    <string name="ea">完成帐号设置</string>
+    <string name="fa">应用将在设置完成后安装</string>
+    <string name="ga">查看其他应用</string>
+    <string name="ha">在各种 Google 产品中畅享快速结帐服务</string>
+    <string name="ia">添加付款方式</string>
+    <string name="ja">设置付款信息</string>
+    <string name="ka">从所选设备恢复应用</string>
+    <string name="la">哪一部设备？</string>
+    <string name="ma">选择家庭付款方式</string>
+    <string name="na">选择金额</string>
+    <string name="oa">更新付款方式</string>
+    <string name="pa">验证并安装</string>
+    <string name="qa">正在扫描安全问题…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

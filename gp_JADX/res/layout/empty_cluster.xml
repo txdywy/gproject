@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.stream.controllers.emptycluster.view.EmptyClusterView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:paddingTop="@dimen/play_cluster_vpadding" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <include layout="@layout/cluster_header" />
+    <com.google.android.play.image.FifeImageView finsky:id="@id/empty_image" finsky:layout_width="wrap_content" finsky:layout_height="UNKNOWN_DATA_0x7f0e04c6" finsky:layout_marginTop="24dp" finsky:scaleType="centerInside" finsky:fixed_bounds="true" />
+    <TextView finsky:id="@aa/empty_text" finsky:paddingTop="4dp" finsky:paddingBottom="64dp" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" style="@c6382j/PlayEmptyTitle" />
+</com.google.android.finsky.stream.controllers.emptycluster.view.EmptyClusterView>

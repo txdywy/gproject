@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/container" app:background="0x106000d" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@id/touch_outside" app:background="#88000000" app:layout_width="match_parent" app:layout_height="match_parent" app:soundEffectsEnabled="false" />
+    <android.support.design.widget.CoordinatorLayout app:id="@id/coordinator" app:background="0x106000d" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+        <FrameLayout app:id="@id/background" app:background="@color/white" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <FrameLayout app:id="@id/design_bottom_sheet" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_behavior="com.google.android.finsky.dialogbuilder.layout.FixedBottomSheetBehavior">
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="0x102000d" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ProgressBar app:layout_width="match_parent" app:layout_height="wrap_content" />
+                <TextView app:id="@c6634c/progress_text" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/light_purchase_dialog_small_height">
+                <FrameLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+                    <com.google.android.finsky.dialogbuilder.layout.ScrollViewWithHeader app:orientation="vertical" app:id="@id/content1" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                    <com.google.android.finsky.dialogbuilder.layout.ScrollViewWithHeader app:orientation="vertical" app:id="@id/content2" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                </FrameLayout>
+                <FrameLayout app:id="@id/footer_placeholder" app:layout_width="match_parent" app:layout_height="wrap_content" />
+            </LinearLayout> />
+        <FrameLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/footer_frame" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <LinearLayout app:orientation="vertical" app:id="@id/footer1" app:layout_width="match_parent" app:layout_height="wrap_content" />
+            <LinearLayout app:orientation="vertical" app:id="@id/footer2" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</FrameLayout>

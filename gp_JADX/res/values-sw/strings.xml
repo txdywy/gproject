@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Duka la Google Play</string>
+    <string name="b">Google Play</string>
+    <string name="c">Uidhinishaji unahitajika</string>
+    <string name="d">Udhibiti wa wazazi</string>
+    <string name="e">Ukaguzi</string>
+    <string name="f">Programu inayofunguka papo hapo</string>
+    <string name="g">Mipangilio ya wanachama</string>
+    <string name="h">Mapendeleo ya Programu Zinazofunguka Papo Hapo</string>
+    <string name="i">Duka la Google Play</string>
+    <string name="l">Play Protect</string>
+    <string name="m">Programu zangu</string>
+    <string name="n">Chaguo za kununua</string>
+    <string name="o">Njia za kulipa</string>
+    <string name="p">Inaruhusu mtumiaji kuangalia programu zilizo katika programu hii.</string>
+    <string name="q">Fikia Huduma ya Utambuzi wa Programu ya Google Play</string>
+    <string name="r">Huruhusu mtumiaji kununua vipengee kupitia Google Play kutoka ndani ya programu hii.</string>
+    <string name="s">Huduma ya utozaji ya Google Play</string>
+    <string name="t">Inaweza kukagua kama una leseni ya programu hii kutoka kwa Google Play.</string>
+    <string name="u">Ukaguzi wa leseni ya Google Play</string>
+    <string name="v">Idhini za programu</string>
+    <string name="w">Leseni za programu huria</string>
+    <string name="x">Inahitaji uthibitisho</string>
+    <string name="y">Tumia msimbo wako</string>
+    <string name="aa">Ikadiri!</string>
+    <string name="ba">Tuma zawadi</string>
+    <string name="ca">Mipangilio</string>
+    <string name="da">Arifa</string>
+    <string name="ea">Kamilisha kufungua akaunti</string>
+    <string name="fa">Itasakinisha programu baada ya kuweka mipangilio</string>
+    <string name="ga">Kagua programu za ziada</string>
+    <string name="ha">Furahia kufanya malipo kwa haraka ukitumia bidhaa za Google</string>
+    <string name="ia">Ongeza njia ya kulipa</string>
+    <string name="ja">Weka maelezo ya malipo</string>
+    <string name="ka">Rejesha programu kutoka kifaa</string>
+    <string name="la">Kifaa kipi?</string>
+    <string name="ma">Chagua njia ya kulipa ya familia</string>
+    <string name="na">Chagua kiwango</string>
+    <string name="oa">Sasisha njia ya kulipa</string>
+    <string name="pa">Thibitisha na usakinishe</string>
+    <string name="qa">Inakagua matatizo ya usalama…</string>
+    <string name="languages_for_extraction">,af,am,ar,az,be,bg,bn,ca,cs,da,de,el,en,es,et,eu,fa,fi,fr,gl,gu,hi,hr,hu,hy,id,in,is,it,iw,ja,ka,kk,km,kn,ko,ky,lo,lt,lv,mk,ml,mn,mr,ms,my,nb,ne,nl,pa,pl,pt,ro,ru,si,sk,sl,sq,sr,sv,sw,ta,te,th,tl,tr,uk,ur,uz,vi,zh,zu</string>
+</resources>

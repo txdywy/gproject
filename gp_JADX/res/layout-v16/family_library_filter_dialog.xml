@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <com.google.android.finsky.frameworkviews.MaxWidthLinearLayout finsky:orientation="vertical" finsky:id="@id/family_library_filter_dialog_container" finsky:padding="20dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/finsky_dialog_width" finsky:max_width="@dimen/finsky_dialog_width">
+        <TextView finsky:textSize="20sp" finsky:textColor="@color/play_fg_primary" finsky:id="@id/family_library_filter_dialog_title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:text="@string/family_library_filter_dialog_title" finsky:fontFamily="sans-serif-medium" />
+    </com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>
+</ScrollView>

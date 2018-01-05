@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.ex.photo.views.PhotoView android:id="@aa/photo_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@aa/photo_preview" android:layout_width="UNKNOWN_DATA_0x7f0e0438" android:layout_height="UNKNOWN_DATA_0x7f0e0438" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@aa/photo_preview_image" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e0438" android:layout_height="UNKNOWN_DATA_0x7f0e0438" android:src="@c0592z/default_image" android:scaleType="centerCrop" />
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@aa/indeterminate_progress" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e0438" android:layout_height="wrap_content" android:indeterminate="true" style="?unknown_attr_ref: 1010078" />
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@aa/determinate_progress" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e0438" android:layout_height="wrap_content" android:indeterminate="false" style="?unknown_attr_ref: 1010078" />
+    </FrameLayout>
+    <TextView android:textColor="0x106000b" android:id="@aa/empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@aa/photo_preview" android:layout_centerHorizontal="true" />
+    <include layout="@ac/photo_retry_button" />
+</RelativeLayout>

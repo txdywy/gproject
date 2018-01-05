@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="?attr/uicFormVerticalMargin" android:layout_marginBottom="?attr/uicFormVerticalMargin">
+    <com.google.android.wallet.ui.common.ButtonComponent android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/otp_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="45.0" style="?attr/uicFormButtonStyle" />
+    <com.google.android.wallet.ui.common.FormEditText android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/otp_field" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wallet_uic_spacing_between_otp_field_and_button" android:minHeight="?attr/uicFormItemHeight" android:layout_weight="55.0" android:layout_marginStart="@dimen/wallet_uic_spacing_between_otp_field_and_button" style="?attr/uicFormInputTextAppearance" />
+</LinearLayout>

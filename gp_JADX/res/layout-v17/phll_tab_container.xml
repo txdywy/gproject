@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.headerlist.PlayHeaderListTabContainer xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/play_header_list_tab_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr" android:paddingStart="@dimen/play_header_list_tab_floating_padding" android:paddingEnd="@dimen/play_header_list_tab_floating_padding" />

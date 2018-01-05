@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:orientation="vertical" finsky:background="@drawable/play_highlight_overlay_light" finsky:layout_width="match_parent" finsky:layout_height="match_parent"
+    <LinearLayout finsky:orientation="horizontal" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/voucher_icon" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+        <com.google.android.finsky.layout.play.SingleLineContainer finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:flexibleChildId="@id/voucher_title">
+            <com.google.android.play.layout.PlayTextView finsky:ellipsize="end" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/voucher_title" finsky:paddingLeft="0dp" finsky:paddingRight="12dp" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:maxLines="1" finsky:drawablePadding="8dp" finsky:drawableStart="@drawable/ic_purchase_check" finsky:paddingStart="0dp" finsky:paddingEnd="12dp" />
+            <com.google.android.play.layout.PlayTextView finsky:textStyle="bold" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/voucher_discount" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+        </com.google.android.finsky.layout.play.SingleLineContainer>
+    </LinearLayout>
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/voucher_byline" finsky:paddingLeft="32dp" finsky:paddingRight="0dp" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:paddingStart="32dp" finsky:paddingEnd="0dp" />
+</LinearLayout>

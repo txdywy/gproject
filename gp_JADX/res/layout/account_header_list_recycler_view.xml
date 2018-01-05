@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:background="@color/white" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+    <com.google.android.finsky.recyclerview.PlayRecyclerView finsky:id="@id/recycler_view" finsky:layout_width="match_parent" finsky:layout_height="match_parent" />
+    <TextView finsky:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/no_results_view" finsky:visibility="gone" style="@style/AccountRowTitle" />
+    <ScrollView finsky:id="@id/empty_state_view" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <LinearLayout finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="vertical" finsky:paddingTop="@dimen/subscription_center_empty_view_padding_top" finsky:paddingBottom="@dimen/subscription_center_empty_view_padding_bottom" finsky:layout_width="UNKNOWN_DATA_0x7f0e05cc" finsky:layout_height="wrap_content">
+            <com.caverock.androidsvg.SVGImageView finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:layout_width="UNKNOWN_DATA_0x7f0e05c8" finsky:layout_height="UNKNOWN_DATA_0x7f0e05c8" finsky:scaleType="center" finsky:contentDescription="0x0" finsky:svg="@raw/subscriptions_center_empty_background" />
+            <TextView finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="@dimen/subscription_center_empty_title_margin_top" finsky:text="@string/subscriptions_center_empty_title" style="@style/SubscriptionsCenterEmptyTitle" />
+            <TextView finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginTop="@dimen/subscription_center_empty_description_margin_top" finsky:text="@string/subscriptions_center_empty_description" style="@style/SubscriptionsCenterEmptyDescription" />
+            <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/explore_button" finsky:layout_marginTop="@dimen/subscription_center_empty_button_margin_top" style="@style/Play_Purchase_ActionButton" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

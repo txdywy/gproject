@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailsmodules.modules.secondaryactions.view.SecondaryActionsModuleView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/play_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.finsky.frameworkviews.AccessibleLinearLayout android:id="@id/gift_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gift_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_gift" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.frameworkviews.AccessibleLinearLayout>
+    <com.google.android.finsky.frameworkviews.AccessibleLinearLayout android:id="@id/wishlist_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout android:id="@id/wishlist_button_frame" style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wishlist_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_wish_off" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_wishlist" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.frameworkviews.AccessibleLinearLayout>
+    <com.google.android.finsky.frameworkviews.AccessibleLinearLayout android:id="@id/share_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_share" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.frameworkviews.AccessibleLinearLayout>
+</com.google.android.finsky.detailsmodules.modules.secondaryactions.view.SecondaryActionsModuleView>

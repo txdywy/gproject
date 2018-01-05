@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@c6619c/wallet_uic_circular_button_pressed" />
+            <padding android:left="@dimen/wallet_uic_circular_button_padding" android:top="@dimen/wallet_uic_circular_button_padding" android:right="@dimen/wallet_uic_circular_button_padding" android:bottom="@dimen/wallet_uic_circular_button_padding" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@c6619c/wallet_uic_circular_button_normal" />
+            <padding android:left="@dimen/wallet_uic_circular_button_padding" android:top="@dimen/wallet_uic_circular_button_padding" android:right="@dimen/wallet_uic_circular_button_padding" android:bottom="@dimen/wallet_uic_circular_button_padding" />
+        </shape>
+    </item>
+</selector>

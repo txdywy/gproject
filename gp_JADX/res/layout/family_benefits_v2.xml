@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:background="@color/white" finsky:padding="@dimen/family_benefit_v2_content_padding" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <TextView finsky:textSize="@dimen/content_entry_large_size" finsky:textColor="@color/play_fg_primary" finsky:id="@id/title" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+    <LinearLayout finsky:orientation="vertical" finsky:id="@id/benefits_list" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" />
+    <com.google.android.finsky.frameworkviews.MaxWidthLinearLayout finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:orientation="horizontal" finsky:paddingTop="@dimen/family_benefit_v2_button_padding_top" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:max_width="410dp">
+        <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/explore_button" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="UNKNOWN_DATA_0x2401" finsky:layout_margin="6dp" finsky:layout_weight="1.0" finsky:action_style="1" />
+        <com.google.android.finsky.frameworkviews.PlayActionButtonV2 finsky:id="@id/start_trial_button" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="UNKNOWN_DATA_0x2401" finsky:layout_margin="6dp" finsky:layout_weight="1.0" />
+    </com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>
+</LinearLayout>

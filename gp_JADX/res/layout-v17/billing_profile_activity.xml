@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:paddingBottom="12dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_tall_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header" />
+    <FrameLayout finsky:id="@id/content_frame" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+        <include finsky:id="@id/placeholder_loading" finsky:visibility="gone" layout="@layout/page_loading_indicator" />
+        <include finsky:id="@id/placeholder_error" finsky:visibility="gone" layout="@layout/page_error_indicator" />
+    </FrameLayout>
+    <ImageView finsky:id="@id/logo" finsky:visibility="gone" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" finsky:layout_marginLeft="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:layout_marginTop="16dp" finsky:layout_marginRight="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:layout_marginBottom="4dp" finsky:src="@drawable/logo_googleplay" finsky:layout_marginStart="@dimen/light_purchase_dialog_footer_left_right_padding" finsky:layout_marginEnd="@dimen/light_purchase_dialog_footer_left_right_padding" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

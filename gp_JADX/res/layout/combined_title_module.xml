@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.CombinedTitleModuleLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="horizontal" finsky:id="@id/details_title_combined" finsky:background="@color/white" finsky:clipToPadding="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <include layout="@layout/details_summary_thumbnail" />
+    <com.google.android.finsky.frameworkviews.HorizontalSeparatorContainer finsky:orientation="vertical" finsky:id="@id/secondary_stack" finsky:clipToPadding="false" finsky:layout_width="UNKNOWN_DATA_0x1" finsky:layout_height="wrap_content" finsky:layout_weight="1.0" finsky:separator_inset="@dimen/details_new_content_margin">
+        <com.google.android.finsky.layout.DetailsSummary finsky:id="@id/item_details_panel" finsky:clipToPadding="false" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+            <View finsky:id="@id/title_background" finsky:background="@color/play_white" finsky:layout_width="wrap_content" finsky:layout_height="wrap_content" />
+            <include layout="@layout/details_summary_content" />
+        </com.google.android.finsky.layout.DetailsSummary>
+        <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_marginLeft="@dimen/details_new_content_margin" finsky:layout_marginRight="@dimen/details_new_content_margin" layout="@layout/warning_message_module" />
+        <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/top_chart_ranking_info" />
+        <include finsky:layout_width="match_parent" finsky:layout_height="wrap_content" layout="@layout/discovery_bar" />
+    </com.google.android.finsky.frameworkviews.HorizontalSeparatorContainer>
+</com.google.android.finsky.detailspage.CombinedTitleModuleLayout>

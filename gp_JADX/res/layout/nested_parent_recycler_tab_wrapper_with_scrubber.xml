@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/list_tab_wrapper" finsky:layout_width="match_parent" finsky:layout_height="match_parent"
+    <FrameLayout finsky:id="@id/data_view" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+        <com.google.android.finsky.nestedrecyclerviews.NestedParentRecyclerView finsky:id="@id/tab_recycler_view" finsky:paddingBottom="@dimen/nested_parent_recycler_view_padding_bottom" finsky:visibility="gone" finsky:fadingEdgeLength="0dp" finsky:clipToPadding="false" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:cacheColorHint="@color/play_main_background" finsky:overScrollMode="never" />
+        <include finsky:layout_width="match_parent" finsky:layout_height="match_parent" layout="@layout/no_results_view" />
+        <com.google.android.finsky.fastscroll.ScrubberView finsky:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/scrubber_view" finsky:layout_width="UNKNOWN_DATA_0x7f0e01bc" finsky:layout_height="match_parent" finsky:fastScrollModel="0" />
+    </FrameLayout>
+    <include layout="@layout/list_loading_indicator" />
+    <include finsky:visibility="gone" layout="@layout/page_error_indicator" />
+    <include finsky:visibility="gone" layout="@layout/page_error_indicator_with_notify" />
+</FrameLayout>

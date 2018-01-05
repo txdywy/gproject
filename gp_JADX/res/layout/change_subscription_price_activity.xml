@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:orientation="vertical" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header" />
+    <FrameLayout finsky:id="@id/loading_frame" finsky:visibility="gone" finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x1" finsky:layout_weight="1.0">
+        <include layout="@layout/page_loading_indicator" />
+    </FrameLayout>
+    <LinearLayout finsky:orientation="horizontal" finsky:id="@id/thumbnail_section" finsky:paddingTop="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayCardThumbnail finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/li_thumbnail_frame" finsky:layout_width="UNKNOWN_DATA_0x3c01" finsky:layout_height="UNKNOWN_DATA_0x3c01" finsky:app_thumbnail_padding="0dp">
+            <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+        </com.google.android.play.layout.PlayCardThumbnail>
+        <LinearLayout finsky:orientation="vertical" finsky:id="@id/developer_section" finsky:layout_width="match_parent" finsky:layout_height="match_parent">
+            <TextView finsky:textSize="16sp" finsky:textStyle="bold" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/thumbnail_title" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:layout_weight="1.0" />
+            <TextView finsky:textSize="15sp" finsky:gravity="top|bottom|center_vertical|fill_vertical|center|fill" finsky:id="@id/thumbnail_subtitle" finsky:layout_width="match_parent" finsky:layout_height="match_parent" finsky:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView finsky:textSize="17sp" finsky:id="@id/body_html_text_view" finsky:paddingLeft="16dp" finsky:paddingTop="16dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_weight="1.0" />
+    <include layout="@layout/light_purchase_button_bar" />
+</com.google.android.finsky.frameworkviews.MaxWidthLinearLayout>

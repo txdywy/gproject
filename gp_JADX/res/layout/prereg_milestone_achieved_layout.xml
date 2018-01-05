@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/prereg_milestone_rewards_item_vertical_padding" android:paddingBottom="@dimen/prereg_milestone_rewards_item_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/progress_circle_achieved" android:layout_width="UNKNOWN_DATA_0x7f0e0541" android:layout_height="UNKNOWN_DATA_0x7f0e0541" android:src="@drawable/ic_check_badge_big" android:layout_centerVertical="true" />
+</RelativeLayout>

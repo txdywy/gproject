@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" finsky:id="@id/user_review_header" finsky:layout_width="match_parent" finsky:layout_height="wrap_content">
+    <ImageView finsky:layout_width="match_parent" finsky:layout_height="UNKNOWN_DATA_0x4001" finsky:layout_marginTop="32dp" finsky:src="@drawable/bg_banner_dialog" finsky:scaleType="centerCrop" />
+    <com.google.android.play.image.FifeImageView finsky:id="@id/user_profile_image" finsky:layout_width="UNKNOWN_DATA_0x4001" finsky:layout_height="UNKNOWN_DATA_0x4001" finsky:scaleType="fitStart" finsky:layout_centerHorizontal="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="@color/play_white" finsky:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" finsky:id="@id/review_by" finsky:paddingLeft="16dp" finsky:paddingTop="4dp" finsky:paddingRight="16dp" finsky:layout_width="match_parent" finsky:layout_height="wrap_content" finsky:layout_below="@id/user_profile_image" finsky:layout_centerHorizontal="true" finsky:paddingStart="16dp" finsky:paddingEnd="16dp" />
+</RelativeLayout>
